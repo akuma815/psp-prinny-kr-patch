@@ -1,0 +1,463 @@
+{
+  "date": "2026-10-16",
+  "tested_source_commit": "0c598032b8dd5198c6b97bc95050384bd35d4c6f",
+  "environment": {
+    "python": "3.12.10",
+    "Pillow": "12.3.0",
+    "xdelta3": "3.2.0 Windows x64"
+  },
+  "fresh_remote_clone": true,
+  "release_automatically_downloaded": true,
+  "source_manifest_files_verified": 306,
+  "released_apply_main_ps1": true,
+  "released_apply_dlc_ps1": true,
+  "unit_tests_passed": 12,
+  "candidate_dlc_check": {
+    "candidate_dlc_source_spelling_applied": true,
+    "changed_bytes_vs_frozen": 17,
+    "sha256": "0c3e10e47ba0206133aba1cc8dec96e56f3bac30f77a515824d43fedc1b7309c"
+  },
+  "rebuild": {
+    "schema_version": 1,
+    "profile": "frozen_v2.3",
+    "iso_sha256": "ae53bc4b960b263a362756e801c21da7224ce3dd735d2da5882c04a0248622ac",
+    "iso_frozen_equal": true,
+    "dlc": [
+      {
+        "name": "DL0000.EDAT",
+        "sha256": "2a2fb6a26ad40aa7ef2bfd46795657416e4d45723f7b04b3a30e76e715b83739",
+        "frozen_equal": true
+      },
+      {
+        "name": "DL0001.EDAT",
+        "sha256": "4d3f0b113670c532cab6233c08309b000a34622673730cfd1b8d12dc6e503ccc",
+        "frozen_equal": true
+      },
+      {
+        "name": "DL0002.EDAT",
+        "sha256": "fb6b75f3f60da7233eea63a229512a0762e3b789c7204c5e22d0d837677435ae",
+        "frozen_equal": true
+      }
+    ],
+    "originals_unchanged": true,
+    "logical_iso_files": [
+      {
+        "path": "/PSP_GAME/ICON0.PNG",
+        "sha256": "ca390450828a54de45d785c7cbbc1d0030df2beedc52d95946b44ab4d01d3214",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/PARAM.SFO",
+        "sha256": "49b595dfa6011b6232bc7667ba33203a0186f99926125ced457f0fae042636f5",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/PIC0.PNG",
+        "sha256": "febb6fb669039cbf8b398039772c2691fa185f77764db7c1a85e82197cb904a8",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/PIC1.PNG",
+        "sha256": "49d8bc27f00b98b2e31a0110b6a514806a5fb4f47bc56315c0c804734a6d4e3c",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/SYSDIR/BOOT.BIN",
+        "sha256": "ef22c8f807007deef7393542e9e327e02cc77bb39a6664f10e852b89272324c5",
+        "source_generated": true
+      },
+      {
+        "path": "/PSP_GAME/SYSDIR/EBOOT.BIN",
+        "sha256": "ef22c8f807007deef7393542e9e327e02cc77bb39a6664f10e852b89272324c5",
+        "source_generated": true
+      },
+      {
+        "path": "/PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+        "sha256": "0196282bdea5654ee7847574eeb3748421843b616412144b28bfebc5271f8332",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/SYSDIR/UPDATE/EBOOT.BIN",
+        "sha256": "63b79dfee959c3f9d0e3002871e0a551d2093d43861b849633b4c3689164dfdb",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/SYSDIR/UPDATE/PARAM.SFO",
+        "sha256": "1036d9c1a14f4415a55d6e39a2b632127b4d388964ca608ac42956481bdb0259",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/USRDIR/ANIME.DAT",
+        "sha256": "785dab2ca4dc00ded4f8a9ea238f5a7982814b4ab0e8c313f5618c19eef1e3c7",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/USRDIR/BG.DAT",
+        "sha256": "1e7cce5da883155f0ed68949839d0618ebd1e8a9e052ceee8045e526c1194562",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/USRDIR/SCRIPT.DAT",
+        "sha256": "5fce5d6ccb34093585204f1901c48a9dddb497ea4e162d4b1e839c350bff637c",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/USRDIR/SOUND.DAT",
+        "sha256": "952ad31a8a032cf317fb178de0872921ca9c1994e9ea8916717953c95f0eab83",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/USRDIR/STAGE.DAT",
+        "sha256": "0f2d45cac1d4e84cb9d20e59e4309a8afeb526b1a26fb5b93e0aa4267e8fe63e",
+        "source_generated": false
+      },
+      {
+        "path": "/PSP_GAME/USRDIR/SYSTEM.DAT",
+        "sha256": "36cb62eef4bbfeed4f147e1696ba0262bfefce2d58b449d6693179d208f1905f",
+        "source_generated": true
+      },
+      {
+        "path": "/UMD_DATA.BIN",
+        "sha256": "28df5362c1d944c656c6a5a9e1984ac35aca672361d2ca480b4eb3f540911943",
+        "source_generated": false
+      }
+    ],
+    "param_pbp_unchanged_sha256": "b4d52c1fd59d46ae9a9f6b0d4a01dbb95f79d51e78fe7901d6a3e8051fb62b16",
+    "expected_iso_write_ranges": [
+      {
+        "offset": 49258,
+        "end": 49266
+      },
+      {
+        "offset": 49314,
+        "end": 49322
+      },
+      {
+        "offset": 51306,
+        "end": 51314
+      },
+      {
+        "offset": 51362,
+        "end": 51370
+      },
+      {
+        "offset": 51530,
+        "end": 51538
+      },
+      {
+        "offset": 51586,
+        "end": 51594
+      },
+      {
+        "offset": 65536,
+        "end": 1193920
+      },
+      {
+        "offset": 291110912,
+        "end": 446758208
+      },
+      {
+        "offset": 446758912,
+        "end": 450886219
+      },
+      {
+        "offset": 450887680,
+        "end": 478715296
+      },
+      {
+        "offset": 478740480,
+        "end": 499313680
+      },
+      {
+        "offset": 499318784,
+        "end": 500446820
+      }
+    ],
+    "author_images_rgba_verified": [
+      {
+        "filename": "001_BG.DAT_bg9802.txp.png",
+        "rgba_sha256": "b15924161f0cc03deeb55ac47d5365385d9d2ff9d73e1b8c5667e3a741f33ab7"
+      },
+      {
+        "filename": "002_BG.DAT_bg9801.txp.png",
+        "rgba_sha256": "4ecd126717def9773a3f6833cc1f2f2e71df8f1c96c9b280a54f5f58610f9741"
+      },
+      {
+        "filename": "003_BG.DAT_bg9803.txp.png",
+        "rgba_sha256": "ca008f414c3dede9ac6194516e4fc519858fd03aa634a03e998c4a2320e21112"
+      },
+      {
+        "filename": "004_start.dat_system1.txp.png",
+        "rgba_sha256": "c4013098c13f54e87a495558bf763c7073f7c92ffbbf10c77625775642a0c7a7"
+      },
+      {
+        "filename": "005_ANIME.DAT_anime91.dat_record-0_texture-1.png",
+        "rgba_sha256": "b96f6c7a703f5b4f976ca7c94ea8d06b4d4d12ff7ad9eb7f86814b35794364eb"
+      },
+      {
+        "filename": "006_ANIME.DAT_anime91.dat_record-0_texture-3.png",
+        "rgba_sha256": "932003d994f2cde41a423096100db2b9dae9402e450ee6ace0d9d9a005f34952"
+      },
+      {
+        "filename": "007_ANIME.DAT_anime20.dat_record-14_texture-0.png",
+        "rgba_sha256": "ba88c4ccfbe8e1ef184d12da5055a3e320093a4c410f449a5ecd769fdaede03c"
+      },
+      {
+        "filename": "008_ANIME.DAT_anime92.dat_record-0_texture-0.png",
+        "rgba_sha256": "b2fc8580de3851b66dd90f337366266a7596eaa1fe89094936f3192fa28129cd"
+      },
+      {
+        "filename": "009_ANIME.DAT_anime92.dat_record-0_texture-1.png",
+        "rgba_sha256": "ab50bbb7e0f7030d0a485e2272110e095422eea69a91445a34b714f15fca0c5d"
+      },
+      {
+        "filename": "010_ANIME.DAT_anime92.dat_record-0_texture-2.png",
+        "rgba_sha256": "c34a3ef5a237db1127cf66e9f94b7c8b8533d742aa3f90a30f0fb4d528351a85"
+      },
+      {
+        "filename": "011_ANIME.DAT_anime92.dat_record-0_texture-3.png",
+        "rgba_sha256": "2086e2f37b7b23f091226028309986afdcdcc650c8768f484cfecb7e1c4df2dd"
+      },
+      {
+        "filename": "012_ANIME.DAT_anime92.dat_record-0_texture-4.png",
+        "rgba_sha256": "50bc7f662890a531197d3f45e9e89aefcdd54de2ba53a569cfb3fda44bf24161"
+      },
+      {
+        "filename": "013_ANIME.DAT_anime92.dat_record-0_texture-5.png",
+        "rgba_sha256": "9179414fb28da7bdbbab8ac1fca98932df8e9a553633d6aa8cdffdd4cd950443"
+      },
+      {
+        "filename": "014_ANIME.DAT_anime92.dat_record-1_texture-10.png",
+        "rgba_sha256": "167b997d4f8c176fee5e5ff77e9ea207c8a64c051d5bc91965e5636365a6f7f5"
+      },
+      {
+        "filename": "015_ANIME.DAT_anime92.dat_record-1_texture-11.png",
+        "rgba_sha256": "1345264ddc0fef491428a0bb2ce6befca68aea557aef6e9c0227305bce0c355a"
+      },
+      {
+        "filename": "016_ANIME.DAT_anime92.dat_record-1_texture-12.png",
+        "rgba_sha256": "95e2105152c0fbf1d161eccdb23442c0dae9b9fde6a24836b0bcfb9fcbb3422e"
+      },
+      {
+        "filename": "017_ANIME.DAT_anime92.dat_record-1_texture-13.png",
+        "rgba_sha256": "cbad65ce8895ca21e9f4bbf612e3e515319fbd9a996460d8470e1fb25e6a1e87"
+      },
+      {
+        "filename": "018_ANIME.DAT_anime92.dat_record-1_texture-14.png",
+        "rgba_sha256": "d37622a1952eee924454fd838fab35753957229ff2faf6995166155319fd4be7"
+      },
+      {
+        "filename": "019_ANIME.DAT_anime92.dat_record-1_texture-15.png",
+        "rgba_sha256": "2ec15ee813b40723846a8d0f3b07fd30b9d5a65cfa0eb04333ff7a00cd959f26"
+      },
+      {
+        "filename": "020_ANIME.DAT_anime92.dat_record-1_texture-16.png",
+        "rgba_sha256": "0871185fe362317ede00abedeb2742e33e03e1369b1a4303ee57fa2d49a67e9c"
+      },
+      {
+        "filename": "021_ANIME.DAT_anime92.dat_record-1_texture-17.png",
+        "rgba_sha256": "d992d62cc2347ba64e2543d3ddb63b2287b8f0339a808309c791b8734754d41d"
+      },
+      {
+        "filename": "022_ANIME.DAT_anime92.dat_record-1_texture-18.png",
+        "rgba_sha256": "5a8680e48839639bfb070018c33eb11508c3889948f3ed89201da8615ffe3e65"
+      },
+      {
+        "filename": "023_ANIME.DAT_anime92.dat_record-1_texture-19.png",
+        "rgba_sha256": "d6a3a3905eecff240a1fb0292caeec8afd0b2e45006df4ed989565037653bd28"
+      },
+      {
+        "filename": "024_ANIME.DAT_anime92.dat_record-1_texture-20.png",
+        "rgba_sha256": "d41a91b5b15eeafc35166a8920c3e5a5e4188d23196f01b71db5f7a092d367fc"
+      },
+      {
+        "filename": "025_ANIME.DAT_anime92.dat_record-1_texture-21.png",
+        "rgba_sha256": "76b01a864ffa462443dca8c17b036ae75455802dbb8d5ec6eed55978ba5c8b0f"
+      },
+      {
+        "filename": "026_ANIME.DAT_anime92.dat_record-1_texture-22.png",
+        "rgba_sha256": "e2ed5f4103880aaa3ee31de9ca260f3101b2c905bf3bdbcac8f579e5bbbf4ad5"
+      },
+      {
+        "filename": "027_ANIME.DAT_anime92.dat_record-1_texture-23.png",
+        "rgba_sha256": "8a86c3147185b5e62db285510ad0b89e7c9b894b5f25c2440a353a73df30232b"
+      },
+      {
+        "filename": "028_ANIME.DAT_anime96.dat_record-0_texture-0.png",
+        "rgba_sha256": "e54b4ca71da86dd6d044a1613b1e6b370dcaa8365902695e28d9c46642670bdc"
+      },
+      {
+        "filename": "029_ANIME.DAT_anime12.dat_record-0_texture-0.png",
+        "rgba_sha256": "4456d73c60b21e88306fc724cc086e226767bc61d66ba53871c02c91ed606cdf"
+      },
+      {
+        "filename": "030_ANIME.DAT_anime12.dat_record-0_texture-1.png",
+        "rgba_sha256": "72f499dd6daba1710a3296672e325be93024f6fa7411fb65d4a3271ab76cfae0"
+      },
+      {
+        "filename": "031_ANIME.DAT_anime12.dat_record-0_texture-2.png",
+        "rgba_sha256": "8dcb78ad4a391b143c7be8a165b078f4955d2f24417f8db0d97764e8e5b7b9cd"
+      },
+      {
+        "filename": "032_ANIME.DAT_anime12.dat_record-0_texture-3.png",
+        "rgba_sha256": "3b44d6aee49e8ac6280c5170d35183e93af7c4b67bfd0a09b34aef69d1994636"
+      },
+      {
+        "filename": "033_ANIME.DAT_anime90.dat_record-2_texture-0.png",
+        "rgba_sha256": "09517edb243fd3fcc5a0464053140f8e30134e6f9f76364d278885b00cc22169"
+      },
+      {
+        "filename": "034_ANIME.DAT_anime90.dat_record-3_texture-0.png",
+        "rgba_sha256": "b2fc8580de3851b66dd90f337366266a7596eaa1fe89094936f3192fa28129cd"
+      },
+      {
+        "filename": "035_ANIME.DAT_anime90.dat_record-3_texture-1.png",
+        "rgba_sha256": "ab50bbb7e0f7030d0a485e2272110e095422eea69a91445a34b714f15fca0c5d"
+      },
+      {
+        "filename": "036_ANIME.DAT_anime90.dat_record-3_texture-2.png",
+        "rgba_sha256": "c34a3ef5a237db1127cf66e9f94b7c8b8533d742aa3f90a30f0fb4d528351a85"
+      },
+      {
+        "filename": "037_ANIME.DAT_anime90.dat_record-3_texture-3.png",
+        "rgba_sha256": "2086e2f37b7b23f091226028309986afdcdcc650c8768f484cfecb7e1c4df2dd"
+      },
+      {
+        "filename": "038_ANIME.DAT_anime90.dat_record-3_texture-4.png",
+        "rgba_sha256": "50bc7f662890a531197d3f45e9e89aefcdd54de2ba53a569cfb3fda44bf24161"
+      },
+      {
+        "filename": "039_ANIME.DAT_anime90.dat_record-3_texture-5.png",
+        "rgba_sha256": "9179414fb28da7bdbbab8ac1fca98932df8e9a553633d6aa8cdffdd4cd950443"
+      },
+      {
+        "filename": "040_ANIME.DAT_anime93.dat_record-1_texture-0.png",
+        "rgba_sha256": "b2fc8580de3851b66dd90f337366266a7596eaa1fe89094936f3192fa28129cd"
+      },
+      {
+        "filename": "041_ANIME.DAT_anime93.dat_record-1_texture-1.png",
+        "rgba_sha256": "ab50bbb7e0f7030d0a485e2272110e095422eea69a91445a34b714f15fca0c5d"
+      },
+      {
+        "filename": "042_ANIME.DAT_anime93.dat_record-1_texture-2.png",
+        "rgba_sha256": "c34a3ef5a237db1127cf66e9f94b7c8b8533d742aa3f90a30f0fb4d528351a85"
+      },
+      {
+        "filename": "043_ANIME.DAT_anime93.dat_record-1_texture-3.png",
+        "rgba_sha256": "2086e2f37b7b23f091226028309986afdcdcc650c8768f484cfecb7e1c4df2dd"
+      },
+      {
+        "filename": "044_ANIME.DAT_anime93.dat_record-1_texture-4.png",
+        "rgba_sha256": "50bc7f662890a531197d3f45e9e89aefcdd54de2ba53a569cfb3fda44bf24161"
+      },
+      {
+        "filename": "045_ANIME.DAT_anime93.dat_record-1_texture-5.png",
+        "rgba_sha256": "9179414fb28da7bdbbab8ac1fca98932df8e9a553633d6aa8cdffdd4cd950443"
+      },
+      {
+        "filename": "046_ANIME.DAT_anime93.dat_record-2_texture-10.png",
+        "rgba_sha256": "167b997d4f8c176fee5e5ff77e9ea207c8a64c051d5bc91965e5636365a6f7f5"
+      },
+      {
+        "filename": "047_ANIME.DAT_anime93.dat_record-2_texture-11.png",
+        "rgba_sha256": "1345264ddc0fef491428a0bb2ce6befca68aea557aef6e9c0227305bce0c355a"
+      },
+      {
+        "filename": "048_ANIME.DAT_anime93.dat_record-2_texture-12.png",
+        "rgba_sha256": "95e2105152c0fbf1d161eccdb23442c0dae9b9fde6a24836b0bcfb9fcbb3422e"
+      },
+      {
+        "filename": "049_ANIME.DAT_anime93.dat_record-2_texture-13.png",
+        "rgba_sha256": "cbad65ce8895ca21e9f4bbf612e3e515319fbd9a996460d8470e1fb25e6a1e87"
+      },
+      {
+        "filename": "050_ANIME.DAT_anime93.dat_record-2_texture-14.png",
+        "rgba_sha256": "d37622a1952eee924454fd838fab35753957229ff2faf6995166155319fd4be7"
+      },
+      {
+        "filename": "051_ANIME.DAT_anime93.dat_record-2_texture-15.png",
+        "rgba_sha256": "2ec15ee813b40723846a8d0f3b07fd30b9d5a65cfa0eb04333ff7a00cd959f26"
+      },
+      {
+        "filename": "052_ANIME.DAT_anime93.dat_record-2_texture-16.png",
+        "rgba_sha256": "0871185fe362317ede00abedeb2742e33e03e1369b1a4303ee57fa2d49a67e9c"
+      },
+      {
+        "filename": "053_ANIME.DAT_anime93.dat_record-2_texture-17.png",
+        "rgba_sha256": "d992d62cc2347ba64e2543d3ddb63b2287b8f0339a808309c791b8734754d41d"
+      },
+      {
+        "filename": "054_ANIME.DAT_anime93.dat_record-2_texture-18.png",
+        "rgba_sha256": "5a8680e48839639bfb070018c33eb11508c3889948f3ed89201da8615ffe3e65"
+      },
+      {
+        "filename": "055_ANIME.DAT_anime93.dat_record-2_texture-19.png",
+        "rgba_sha256": "d6a3a3905eecff240a1fb0292caeec8afd0b2e45006df4ed989565037653bd28"
+      },
+      {
+        "filename": "056_ANIME.DAT_anime93.dat_record-2_texture-20.png",
+        "rgba_sha256": "d41a91b5b15eeafc35166a8920c3e5a5e4188d23196f01b71db5f7a092d367fc"
+      },
+      {
+        "filename": "057_ANIME.DAT_anime93.dat_record-2_texture-21.png",
+        "rgba_sha256": "76b01a864ffa462443dca8c17b036ae75455802dbb8d5ec6eed55978ba5c8b0f"
+      },
+      {
+        "filename": "058_ANIME.DAT_anime93.dat_record-2_texture-22.png",
+        "rgba_sha256": "e2ed5f4103880aaa3ee31de9ca260f3101b2c905bf3bdbcac8f579e5bbbf4ad5"
+      },
+      {
+        "filename": "059_ANIME.DAT_anime93.dat_record-2_texture-23.png",
+        "rgba_sha256": "8a86c3147185b5e62db285510ad0b89e7c9b894b5f25c2440a353a73df30232b"
+      },
+      {
+        "filename": "060_ANIME.DAT_anime94.dat_record-0_texture-0.png",
+        "rgba_sha256": "e54b4ca71da86dd6d044a1613b1e6b370dcaa8365902695e28d9c46642670bdc"
+      },
+      {
+        "filename": "061_start.dat_anime00.dat_record-73_texture-0.png",
+        "rgba_sha256": "d449ac6ee392994470232274842602a454b09ec196ec6dc07d52ae51688c3c52"
+      },
+      {
+        "filename": "062_start.dat_anime00.dat_record-78_texture-0.png",
+        "rgba_sha256": "e37a5e2bca332dc794710d6cfecac52946a5cde6c6d516018b6659417f56ca0f"
+      },
+      {
+        "filename": "063_start.dat_anime00.dat_record-82_texture-0.png",
+        "rgba_sha256": "c2eda83d8b4725e41d07d550fa238bab9c8c9f3f4742ad1edb00da33ed920316"
+      },
+      {
+        "filename": "064_start.dat_anime00.dat_record-84_texture-0.png",
+        "rgba_sha256": "2387319731576aee37d19858bf75c8b3e537c7ba6a79e4af32d5ef4c184e6936"
+      },
+      {
+        "filename": "065_start.dat_anime00.dat_record-84_texture-1.png",
+        "rgba_sha256": "d31c87642cdf943aaa8aca11cd6fba110b69e73512d500f551921b8a7bf78e27"
+      },
+      {
+        "filename": "066_start.dat_anime00.dat_record-87_texture-0.png",
+        "rgba_sha256": "ffe732421d6d9248316d5b01e9158c7a742b95aff98e861784544b9b3f481db5"
+      },
+      {
+        "filename": "067_start.dat_number.txp.png",
+        "rgba_sha256": "3e3869bc6baee84135eed9fe1f76c04ec086492b436f9668e81f808cbaa80e58"
+      }
+    ],
+    "font_sha256": "f6682e2027b1a382d3e01546f7a7115cb26cc1245ded6b839686a069abc743b0",
+    "pinned_release_zip_sha256": "59cdf7c4d2f5545bd8a6c6a7cfeb7e1ddffbe7b23207d31ebc4c36d0c601b348",
+    "source_generated": [
+      "BOOT/EBOOT",
+      "Demo00",
+      "13 start text/font/table members including Demo00",
+      "DLC DDEM/DSTI"
+    ],
+    "frozen_graphics": [
+      "ANIME.DAT",
+      "BG.DAT",
+      "STAGE.DAT",
+      "start.dat/anime00.dat",
+      "start.dat/number.txp"
+    ],
+    "runtime_qa_performed": false
+  }
+}
