@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>프리니 이미지 한글화 검수 갤러리</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">PRINNY KOREAN PATCH</p>
+      <h1>이미지 한글화 검수 갤러리</h1>
+      <p class="subtitle">ISO 실행 없이 원본과 초벌 번역 텍스처를 비교합니다.</p>
+    </div>
+    <div class="top-actions">
+      <button id="exportButton" class="button primary">검수 결과 내보내기</button>
+      <button id="resetButton" class="button ghost">표시 설정 초기화</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="summary" class="summary" aria-label="작업 현황"></section>
+    <section class="toolbar" aria-label="검색과 필터">
+      <label class="search"><span>검색</span><input id="searchInput" type="search" placeholder="파일명, 자산 ID, 분류 검색"></label>
+      <label><span>교체 상태</span><select id="bindFilter"><option value="all">전체</option><option value="installed_or_aliased">PPSSPP 적용 가능</option><option value="staged_until_dump">덤프 대기</option></select></label>
+      <label><span>검수 상태</span><select id="reviewFilter"><option value="all">전체</option><option value="pending">미검수</option><option value="approved">승인</option><option value="needs_fix">수정 필요</option></select></label>
+      <label><span>분류</span><select id="groupFilter"><option value="all">전체</option></select></label>
+      <label><span>비교 방식</span><select id="viewMode"><option value="side">나란히</option><option value="translated">번역만</option><option value="original">원본만</option></select></label>
+      <label><span>배율</span><select id="zoomMode"><option value="fit">맞춤</option><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+      <label class="check"><input id="duplicateOnly" type="checkbox"><span>중복 번역만</span></label>
+      <label class="check"><input id="pixelatedToggle" type="checkbox" checked><span>픽셀 선명하게</span></label>
+    </section>
+
+    <div class="results-line"><strong id="resultCount">0개</strong><span>이미지를 누르면 겹쳐서 확대 비교할 수 있습니다.</span></div>
+    <section id="gallery" class="gallery" aria-live="polite"></section>
+    <p id="emptyState" class="empty" hidden>조건에 맞는 이미지가 없습니다.</p>
+  </main>
+
+  <dialog id="compareDialog">
+    <div class="dialog-head">
+      <div><p id="dialogGroup" class="eyebrow"></p><h2 id="dialogTitle"></h2><code id="dialogAsset"></code></div>
+      <button id="closeDialog" class="button ghost" aria-label="닫기">닫기</button>
+    </div>
+    <div class="dialog-tools">
+      <label>원본 투명도 <input id="overlayRange" type="range" min="0" max="100" value="50"></label>
+      <button id="dialogOriginal" class="button ghost">원본</button>
+      <button id="dialogHalf" class="button ghost">반반</button>
+      <button id="dialogTranslated" class="button ghost">번역</button>
+    </div>
+    <div id="compareStage" class="compare-stage pixelated">
+      <img id="dialogTranslatedImage" alt="번역 이미지">
+      <img id="dialogOriginalImage" alt="원본 이미지">
+    </div>
+  </dialog>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "format": "Prinny LuckyDoll.dat fixed-record string table",
+  "source": "G:\\Downloads\\Korean Traslate Project\\Games\\Prinny - Ore ga Shujinkou de Iinsuka\\extracted\\PSP_GAME\\USRDIR\\SYSTEM.DAT",
+  "source_sha256": "8528992fca329cd9fedccdd129ddfa7f72654e704e85a232560ca126df357b5a",
+  "source_size": 8176,
+  "record_count": 120,
+  "record_offset": 4,
+  "record_stride": 68,
+  "text_offset_in_record": 2,
+  "text_slot_size": 66,
+  "max_payload_bytes": 65,
+  "footer_hex": "000000000000000000000000",
+  "translation_csv": "G:\\Downloads\\Korean Traslate Project\\Games\\Prinny - Ore ga Shujinkou de Iinsuka\\workspace\\text\\translation\\lucky_doll.csv",
+  "row_count": 120,
+  "unique_source_count": 40
+}

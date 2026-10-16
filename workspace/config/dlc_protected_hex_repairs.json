@@ -1,0 +1,23 @@
+[
+  {
+    "file": "dl0000_ddem.csv",
+    "record_id": "0x5620",
+    "field": "speaker_bytes",
+    "before": "8.34784E+11",
+    "restored": "834783678369"
+  },
+  {
+    "file": "dl0000_ddem.csv",
+    "record_id": "0x5626",
+    "field": "speaker_bytes",
+    "before": "8.34784E+11",
+    "restored": "834783678369"
+  },
+  {
+    "file": "dl0000_ddem.csv",
+    "record_id": "0x5626",
+    "field": "line_2_bytes",
+    "before": "8.34584E+27",
+    "restored": "8345837483748374816381638142"
+  }
+]

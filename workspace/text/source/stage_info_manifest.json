@@ -1,0 +1,2400 @@
+{
+  "format": "Prinny StageInfo00.dat fixed-slot table",
+  "source": "G:\\Downloads\\Korean Traslate Project\\Games\\Prinny - Ore ga Shujinkou de Iinsuka\\work\\system\\start_assets_survey\\StageInfo00.dat",
+  "source_sha256": "96473f7b75e3da3676c43f8332518a7722e8cbc968c98436a0e9aeae608720e0",
+  "source_size": 7376,
+  "record_count": 20,
+  "record_offset": 4,
+  "record_stride": 368,
+  "slot_count_per_record": 11,
+  "slot_size": 33,
+  "max_payload_bytes": 32,
+  "record_tail_size": 3,
+  "footer_hex": "000000000000000000000000",
+  "translation_csv": "G:\\Downloads\\Korean Traslate Project\\Games\\Prinny - Ore ga Shujinkou de Iinsuka\\workspace\\text\\translation\\stage_info.csv",
+  "row_count": 220,
+  "nonempty_slot_count": 188,
+  "empty_slot_count": 32,
+  "records": [
+    {
+      "record_index": 1,
+      "record_id": 0,
+      "offset": 4,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-01-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 6,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "835f837e815b",
+          "ja": "ダミー"
+        },
+        {
+          "entry_id": "stage-01-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 39,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "835f837e815b8366815b835e",
+          "ja": "ダミーデータ"
+        },
+        {
+          "entry_id": "stage-01-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 72,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 105,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 138,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 171,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 204,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 237,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 270,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 303,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-01-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 336,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 2,
+      "record_id": 1,
+      "offset": 372,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-02-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 374,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81409682959791908cb4",
+          "ja": "　魔風草原"
+        },
+        {
+          "entry_id": "stage-02-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 407,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81758376838a836a815b82cc8b92935f817682cc966b",
+          "ja": "「プリニーの拠点」の北"
+        },
+        {
+          "entry_id": "stage-02-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 440,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c988ca927582b782e9814191908cb4926e91d18142",
+          "ja": "に位置する、草原地帯。"
+        },
+        {
+          "entry_id": "stage-02-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 473,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8349815b835c83688362834e835882c88d5c90ac82cc",
+          "ja": "オーソドックスな構成の"
+        },
+        {
+          "entry_id": "stage-02-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 506,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588365815b835782be82aa814196e982c982c882e9",
+          "ja": "ステージだが、夜になる"
+        },
+        {
+          "entry_id": "stage-02-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 539,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c688ea95cf82b582c48d8293ef88d5937882cc8358",
+          "ja": "と一変して高難易度のス"
+        },
+        {
+          "entry_id": "stage-02-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 572,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8365815b835782c6976c95cf82ed82e882b782e98142",
+          "ja": "テージと様変わりする。"
+        },
+        {
+          "entry_id": "stage-02-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 605,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "97cc8ee582cd834f838b83818349815b834b82c6",
+          "ja": "領主はグルメオーガと"
+        },
+        {
+          "entry_id": "stage-02-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 638,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8cc482ce82ea82e991e590488abf82cc968295a88142",
+          "ja": "呼ばれる大食漢の魔物。"
+        },
+        {
+          "entry_id": "stage-02-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 671,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-02-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 704,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 3,
+      "record_id": 2,
+      "offset": 740,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-03-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 742,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81408f9182cc91e5905897d1",
+          "ja": "　書の大森林"
+        },
+        {
+          "entry_id": "stage-03-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 775,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "91e5905897d182cc899c905b82ad82cd814196828a45",
+          "ja": "大森林の奥深くは、魔界"
+        },
+        {
+          "entry_id": "stage-03-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 808,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "928682cc926d8eaf82aa8f5782dc82e8967b82c982c8",
+          "ja": "中の知識が集まり本にな"
+        },
+        {
+          "entry_id": "stage-03-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 841,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82e982c682a282ed82ea82e9814282dc82bd81419058",
+          "ja": "るといわれる。また、森"
+        },
+        {
+          "entry_id": "stage-03-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 874,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c98f5a82de968295a882bd82bf82cc8a79898082c6",
+          "ja": "に住む魔物たちの楽園と"
+        },
+        {
+          "entry_id": "stage-03-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 907,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "89bb82b582c482a882e88141904e93fc8ed282cc8d73",
+          "ja": "化しており、侵入者の行"
+        },
+        {
+          "entry_id": "stage-03-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 940,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82ad8ee882f082cd82ce82de8142",
+          "ja": "く手をはばむ。"
+        },
+        {
+          "entry_id": "stage-03-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 973,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b182cc926e88e682f08e78947a82b582c482a282e9",
+          "ja": "この地域を支配している"
+        },
+        {
+          "entry_id": "stage-03-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 1006,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc82cd814191a782cc8d8782c182bd98418c67",
+          "ja": "のは、息の合った連携"
+        },
+        {
+          "entry_id": "stage-03-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 1039,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8d558c8282f093be88d382c682b782e98141916f8e71",
+          "ja": "攻撃を得意とする、双子"
+        },
+        {
+          "entry_id": "stage-03-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 1072,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc968296408c958e6d82c582a082e98142",
+          "ja": "の魔法剣士である。"
+        }
+      ]
+    },
+    {
+      "record_index": 4,
+      "record_id": 3,
+      "offset": 1108,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-04-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 1110,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81408e80905f82cc8f888c599383",
+          "ja": "　死神の処刑塔"
+        },
+        {
+          "entry_id": "stage-04-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 1143,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a982c282c4814194bd8b748ed282cc8f888c5982aa",
+          "ja": "かつて、反逆者の処刑が"
+        },
+        {
+          "entry_id": "stage-04-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 1176,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8d7382ed82ea82c482a282bd8f888c59938382c582a0",
+          "ja": "行われていた処刑塔であ"
+        },
+        {
+          "entry_id": "stage-04-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 1209,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82e881418da182c582e08e808ed282cc8985944f82aa",
+          "ja": "り、今でも死者の怨念が"
+        },
+        {
+          "entry_id": "stage-04-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 1242,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "9c669c7282a282c282c382af82c482a282e98142",
+          "ja": "彷徨いつづけている。"
+        },
+        {
+          "entry_id": "stage-04-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 1275,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "915391cc934982c98d8292e18db782aa8c8382b582a2",
+          "ja": "全体的に高低差が激しい"
+        },
+        {
+          "entry_id": "stage-04-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 1308,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588365815b83578d5c90ac82c982c882c182c4",
+          "ja": "ステージ構成になって"
+        },
+        {
+          "entry_id": "stage-04-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 1341,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a282e982bd82df814191ab8fea82aa957388c092e8",
+          "ja": "いるため、足場が不安定"
+        },
+        {
+          "entry_id": "stage-04-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 1374,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c5814194f18fed82c993ef88d5937882aa8d8282ad",
+          "ja": "で、非常に難易度が高く"
+        },
+        {
+          "entry_id": "stage-04-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 1407,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c882c182c482a282e98142",
+          "ja": "なっている。"
+        },
+        {
+          "entry_id": "stage-04-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 1440,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 5,
+      "record_id": 4,
+      "offset": 1476,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-05-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 1478,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814096828a4382cc8341838a8341",
+          "ja": "　魔海のアリア"
+        },
+        {
+          "entry_id": "stage-05-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 1511,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "96828a4382cc977982a98fe38bf382c9958282a982d4",
+          "ja": "魔海の遥か上空に浮かぶ"
+        },
+        {
+          "entry_id": "stage-05-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 1544,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8bf392869371948e8fea8341838a83418142",
+          "ja": "空中賭博場アリア。"
+        },
+        {
+          "entry_id": "stage-05-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 1577,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588365815b835782cd8e9e8ad491d182c982e682c1",
+          "ja": "ステージは時間帯によっ"
+        },
+        {
+          "entry_id": "stage-05-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 1610,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c49085967682b782e988d781418d5597aa82b782e9",
+          "ja": "て水没する為、攻略する"
+        },
+        {
+          "entry_id": "stage-05-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 1643,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8e9e8ad491d182cd8b4382f082c282af82bd82a28142",
+          "ja": "時間帯は気をつけたい。"
+        },
+        {
+          "entry_id": "stage-05-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 1676,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82dc82bd81419371948e8fea82cc8349815b8369815b",
+          "ja": "また、賭博場のオーナー"
+        },
+        {
+          "entry_id": "stage-05-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 1709,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c582a082e9836f834e8360815b82aa8cd982c182bd",
+          "ja": "であるバクチーが雇った"
+        },
+        {
+          "entry_id": "stage-05-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 1742,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "97709053965f82cd814196d28ed282bc82eb82a282cc",
+          "ja": "用心棒は、猛者ぞろいの"
+        },
+        {
+          "entry_id": "stage-05-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 1775,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "88d7814196fb92668bd695a882c582a082e98142",
+          "ja": "為、油断禁物である。"
+        },
+        {
+          "entry_id": "stage-05-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 1808,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 6,
+      "record_id": 5,
+      "offset": 1844,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-06-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 1846,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8140976e8ae290af82cc94458dd4",
+          "ja": "　溶岩星の忍砦"
+        },
+        {
+          "entry_id": "stage-06-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 1879,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "944582cc8ed282aa8f5a82dc82a4976e8ae290af82cc",
+          "ja": "忍の者が住まう溶岩星の"
+        },
+        {
+          "entry_id": "stage-06-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 1912,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8dd48142944582cc93aa97cc82c582a082e9",
+          "ja": "砦。忍の頭領である"
+        },
+        {
+          "entry_id": "stage-06-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 1945,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82ad836d88ea817590af8965817682aa8ea182df82c4",
+          "ja": "くノ一「星影」が治めて"
+        },
+        {
+          "entry_id": "stage-06-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 1978,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a282e9814282dc82bd814182b182b182cd",
+          "ja": "いる。また、ここは"
+        },
+        {
+          "entry_id": "stage-06-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 2011,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "89ce898a97b4838a815b835683838393838d839382cc",
+          "ja": "火炎龍リーシャンロンの"
+        },
+        {
+          "entry_id": "stage-06-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 2044,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cb82ae82e782c682e08cbe82ed82ea82c482a882e8",
+          "ja": "ねぐらとも言われており"
+        },
+        {
+          "entry_id": "stage-06-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 2077,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "90698d7382b782e98e9e8ad491d182c982e682c182c4",
+          "ja": "進行する時間帯によって"
+        },
+        {
+          "entry_id": "stage-06-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 2110,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cd814190ed93ac82cd94f082af82e782ea82c882a2",
+          "ja": "は、戦闘は避けられない"
+        },
+        {
+          "entry_id": "stage-06-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 2143,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82be82eb82a48142",
+          "ja": "だろう。"
+        },
+        {
+          "entry_id": "stage-06-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 2176,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 7,
+      "record_id": 6,
+      "offset": 2212,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-07-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 2214,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81408382815b837591e597768dc7",
+          "ja": "　モーブ大要塞"
+        },
+        {
+          "entry_id": "stage-07-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 2247,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8382815b837595ba82aa8f5a82de91e597768dc78142",
+          "ja": "モーブ兵が住む大要塞。"
+        },
+        {
+          "entry_id": "stage-07-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 2280,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "90698d73838b815b836782aa95a1909491b68ddd",
+          "ja": "進行ルートが複数存在"
+        },
+        {
+          "entry_id": "stage-07-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 2313,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b782e982e282c182a982a282c883588365815b8357",
+          "ja": "するやっかいなステージ"
+        },
+        {
+          "entry_id": "stage-07-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 2346,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c582e082a082e98142",
+          "ja": "でもある。"
+        },
+        {
+          "entry_id": "stage-07-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 2379,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "905b96e982c982c882e982c68d8293ef88d5937882cc",
+          "ja": "深夜になると高難易度の"
+        },
+        {
+          "entry_id": "stage-07-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 2412,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588365815b835782c682c882e982bd82df",
+          "ja": "ステージとなるため"
+        },
+        {
+          "entry_id": "stage-07-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 2445,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c582ab82e982be82af918182a28e9e8ad491d182c9",
+          "ja": "できるだけ早い時間帯に"
+        },
+        {
+          "entry_id": "stage-07-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 2478,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8d5597aa82b782e982c697c782a282be82eb82a48142",
+          "ja": "攻略すると良いだろう。"
+        },
+        {
+          "entry_id": "stage-07-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 2511,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-07-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 2544,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 8,
+      "record_id": 7,
+      "offset": 2580,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-08-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 2582,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814090e5906c82cc8dd59264",
+          "ja": "　仙人の祭壇"
+        },
+        {
+          "entry_id": "stage-08-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 2615,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "96a190e5906c82aa8f5a82de82c682a282a497ec95f4",
+          "ja": "味仙人が住むという霊峰"
+        },
+        {
+          "entry_id": "stage-08-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 2648,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc8e5292b882c982a082e98dd592648142",
+          "ja": "の山頂にある祭壇。"
+        },
+        {
+          "entry_id": "stage-08-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 2681,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "96a190e5906c82b182c68175837d8358835e815b8145",
+          "ja": "味仙人こと「マスター・"
+        },
+        {
+          "entry_id": "stage-08-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 2714,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "836881458358837083438358817682cc8ee882c982a9",
+          "ja": "ド・スパイス」の手にか"
+        },
+        {
+          "entry_id": "stage-08-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 2747,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a982ea82ce814182c782f182c88dde97bf82c582e0",
+          "ja": "かれば、どんな材料でも"
+        },
+        {
+          "entry_id": "stage-08-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 2780,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8b868bc982cc83588343815b836382c98f6f978882e9",
+          "ja": "究極のスイーツに出来る"
+        },
+        {
+          "entry_id": "stage-08-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 2813,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c682a282a482aa816381638142",
+          "ja": "というが……。"
+        },
+        {
+          "entry_id": "stage-08-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 2846,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-08-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 2879,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-08-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 2912,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 9,
+      "record_id": 8,
+      "offset": 2948,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-09-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 2950,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81408d958dbb82cc89d98e718dbb9499",
+          "ja": "　黒砂の菓子砂漠"
+        },
+        {
+          "entry_id": "stage-09-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 2983,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588343815b836382f08dec82e982bd82df82c98c87",
+          "ja": "スイーツを作るために欠"
+        },
+        {
+          "entry_id": "stage-09-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 3016,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a982b982c882a2908582f0926a8edd82aa91e597ca",
+          "ja": "かせない水を男爵が大量"
+        },
+        {
+          "entry_id": "stage-09-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 3049,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c99798977082b582bd88d782c981418dbb949989bb",
+          "ja": "に利用した為に、砂漠化"
+        },
+        {
+          "entry_id": "stage-09-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 3082,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b582bd926e88e681428dc58bdf82cd83668355815b",
+          "ja": "した地域。最近はデザー"
+        },
+        {
+          "entry_id": "stage-09-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 3115,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8367836f8343834c8393834f82c68cc482ce82ea82e9",
+          "ja": "トバイキングと呼ばれる"
+        },
+        {
+          "entry_id": "stage-09-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 3148,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8dbb949982cc8a4391af82aa8f6f967682b782e982c6",
+          "ja": "砂漠の海賊が出没すると"
+        },
+        {
+          "entry_id": "stage-09-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 3181,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc895c82aa82a082e982cc82c58141",
+          "ja": "の噂があるので、"
+        },
+        {
+          "entry_id": "stage-09-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 3214,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "928d88d382aa954b977682be8142",
+          "ja": "注意が必要だ。"
+        },
+        {
+          "entry_id": "stage-09-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 3247,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-09-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 3280,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 10,
+      "record_id": 9,
+      "offset": 3316,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-10-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 3318,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814083588343815b83638370838c8358",
+          "ja": "　スイーツパレス"
+        },
+        {
+          "entry_id": "stage-10-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 3351,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588343815b8363926a8edd82cc8b8f8fe98142",
+          "ja": "スイーツ男爵の居城。"
+        },
+        {
+          "entry_id": "stage-10-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 3384,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8b868bc982cc83588343815b836382f08b8182df82c4",
+          "ja": "究極のスイーツを求めて"
+        },
+        {
+          "entry_id": "stage-10-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 3417,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8a65926e82a982e78ec097cd8ed282bd82bf82aa",
+          "ja": "各地から実力者たちが"
+        },
+        {
+          "entry_id": "stage-10-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 3450,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8f5782dc82c182c482a282e982c682a282a4895c82aa",
+          "ja": "集まっているという噂が"
+        },
+        {
+          "entry_id": "stage-10-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 3483,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a082e98142",
+          "ja": "ある。"
+        },
+        {
+          "entry_id": "stage-10-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 3516,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588365815b835782bb82cc82e082cc82cc",
+          "ja": "ステージそのものの"
+        },
+        {
+          "entry_id": "stage-10-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 3549,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "93ef88d5937882cd82bb82ea82d982c78d8282ad82c8",
+          "ja": "難易度はそれほど高くな"
+        },
+        {
+          "entry_id": "stage-10-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 3582,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a282aa928d88d382aa954b977682be82eb82a48142",
+          "ja": "いが注意が必要だろう。"
+        },
+        {
+          "entry_id": "stage-10-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 3615,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-10-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 3648,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 11,
+      "record_id": 10,
+      "offset": 3684,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-11-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 3686,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814083588343815b8363834b815b83668393",
+          "ja": "　スイーツガーデン"
+        },
+        {
+          "entry_id": "stage-11-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 3719,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588343815b8363926a8edd82cc8ca48b868f8a82c9",
+          "ja": "スイーツ男爵の研究所に"
+        },
+        {
+          "entry_id": "stage-11-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 3752,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b582c481418d8282a293ef88d5937882f08cd682e9",
+          "ja": "して、高い難易度を誇る"
+        },
+        {
+          "entry_id": "stage-11-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 3785,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8dc58f4983588365815b83578142",
+          "ja": "最終ステージ。"
+        },
+        {
+          "entry_id": "stage-11-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 3818,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8376838a836a815b91e082aa915396c582b782e9914f",
+          "ja": "プリニー隊が全滅する前"
+        },
+        {
+          "entry_id": "stage-11-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 3851,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c981418e9f8cb382cc8bb78ad482c591d282bf959a",
+          "ja": "に、次元の狭間で待ち伏"
+        },
+        {
+          "entry_id": "stage-11-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 3884,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b982e9926a8edd82a982e783588343815b836382f0",
+          "ja": "せる男爵からスイーツを"
+        },
+        {
+          "entry_id": "stage-11-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 3917,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "92448ad282b596b38e968b418ad282b982e681498149",
+          "ja": "奪還し無事帰還せよ！！"
+        },
+        {
+          "entry_id": "stage-11-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 3950,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-11-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 3983,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-11-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 4016,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 12,
+      "record_id": 21,
+      "offset": 4052,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-12-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 4054,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814091e688ea986281778ee5906c8cf682cd81488178",
+          "ja": "　第一話『主人公は？』"
+        },
+        {
+          "entry_id": "stage-12-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 4087,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8376838a836a815b924282aa81418b868bc982cc8358",
+          "ja": "プリニー達が、究極のス"
+        },
+        {
+          "entry_id": "stage-12-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 4120,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8343815b836382f0925482b582c496828a4582f0",
+          "ja": "イーツを探して魔界を"
+        },
+        {
+          "entry_id": "stage-12-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 4153,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8bec82af89f182c182c482a282e982c682ab8141",
+          "ja": "駆け回っているとき、"
+        },
+        {
+          "entry_id": "stage-12-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 4186,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82bb82cc88d995cf82cd96828a4582cc95d08bf782c5",
+          "ja": "その異変は魔界の片隅で"
+        },
+        {
+          "entry_id": "stage-12-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 4219,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8b4e82b182c182c482a282bd8142",
+          "ja": "起こっていた。"
+        },
+        {
+          "entry_id": "stage-12-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 4252,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "906c8ad48a4582a982e796828a4582c982e282c182c4",
+          "ja": "人間界から魔界にやって"
+        },
+        {
+          "entry_id": "stage-12-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 4285,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82ab82bd88ea906c82cc8fad8f978142",
+          "ja": "きた一人の少女。"
+        },
+        {
+          "entry_id": "stage-12-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 4318,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "934782a996a195fb82a98ee5906c8cf682a98148",
+          "ja": "敵か味方か主人公か？"
+        },
+        {
+          "entry_id": "stage-12-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 4351,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82bb82cc8fad8f9782cc96bc82cd8163816381498148",
+          "ja": "その少女の名は……！？"
+        },
+        {
+          "entry_id": "stage-12-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 4384,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 13,
+      "record_id": 22,
+      "offset": 4420,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-13-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 4422,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814091e693f19862817796828a4582c882f182c48178",
+          "ja": "　第二話『魔界なんて』"
+        },
+        {
+          "entry_id": "stage-13-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 4455,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "906c8ad48a4582a982e782e282c182c482ab82bd",
+          "ja": "人間界からやってきた"
+        },
+        {
+          "entry_id": "stage-13-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 4488,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8fad8f9782cc96bc82cd83418354834d8142",
+          "ja": "少女の名はアサギ。"
+        },
+        {
+          "entry_id": "stage-13-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 4521,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8ee5906c8cf682c982c882ea82e982c68aa888e182a2",
+          "ja": "主人公になれると勘違い"
+        },
+        {
+          "entry_id": "stage-13-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 4554,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b582c496828a4582c982e282c182c482ab82bd",
+          "ja": "して魔界にやってきた"
+        },
+        {
+          "entry_id": "stage-13-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 4587,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "94de8f9782f091d282bf8ef382af82c482a282bd82cc",
+          "ja": "彼女を待ち受けていたの"
+        },
+        {
+          "entry_id": "stage-13-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 4620,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cd8c8c82c98b5182a682bd96ec8f62924282be82c1",
+          "ja": "は血に飢えた野獣達だっ"
+        },
+        {
+          "entry_id": "stage-13-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 4653,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82bd814981488da182b182b182c989d897ed82c882e9",
+          "ja": "た！？今ここに華麗なる"
+        },
+        {
+          "entry_id": "stage-13-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 4686,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "94fc8fad8f9782c6814188ab968282cc917390e282c8",
+          "ja": "美少女と、悪魔の壮絶な"
+        },
+        {
+          "entry_id": "stage-13-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 4719,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82e990ed82a282cc82678268826182748273826082aa",
+          "ja": "る戦いのＨＩＢＵＴＡが"
+        },
+        {
+          "entry_id": "stage-13-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 4752,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "90d882c182c4978e82c682b382ea82bd8142",
+          "ja": "切って落とされた。"
+        }
+      ]
+    },
+    {
+      "record_index": 14,
+      "record_id": 23,
+      "offset": 4788,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-14-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 4790,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814091e68e4f98628177945982dd918a926b8eba8178",
+          "ja": "　第三話『悩み相談室』"
+        },
+        {
+          "entry_id": "stage-14-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 4823,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "934782f0926d82e881418cc882f0926d82ea82ce",
+          "ja": "敵を知り、己を知れば"
+        },
+        {
+          "entry_id": "stage-14-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 4856,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8250824f824f90ed8aeb82a482a982e782b88142",
+          "ja": "１００戦危うからず。"
+        },
+        {
+          "entry_id": "stage-14-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 4889,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "88ab968282c682cc90ed82a282c98f9f979882b782e9",
+          "ja": "悪魔との戦いに勝利する"
+        },
+        {
+          "entry_id": "stage-14-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 4922,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c982cd814188ab968282f0979d89f082b782e9",
+          "ja": "には、悪魔を理解する"
+        },
+        {
+          "entry_id": "stage-14-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 4955,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "954b977682aa82a082e982c694bb926682b582bd",
+          "ja": "必要があると判断した"
+        },
+        {
+          "entry_id": "stage-14-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 4988,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83418354834d81428d7282dd82ab82c182bd96828a45",
+          "ja": "アサギ。荒みきった魔界"
+        },
+        {
+          "entry_id": "stage-14-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 5021,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c990e2965d82b782e98fad8f9782aa8ca982bd82e0",
+          "ja": "に絶望する少女が見たも"
+        },
+        {
+          "entry_id": "stage-14-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 5054,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc82cd81498148",
+          "ja": "のは！？"
+        },
+        {
+          "entry_id": "stage-14-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 5087,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81758341835e8356816381638141",
+          "ja": "「アタシ……、"
+        },
+        {
+          "entry_id": "stage-14-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 5120,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814082a082ab82e782df82c882a282c1814981498176",
+          "ja": "　あきらめないっ！！」"
+        }
+      ]
+    },
+    {
+      "record_index": 15,
+      "record_id": 24,
+      "offset": 5156,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-15-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 5158,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814091e68e6c9862817791ab82e882c882a281488178",
+          "ja": "　第四話『足りない？』"
+        },
+        {
+          "entry_id": "stage-15-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 5191,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8ee5906c8cf682cc8dc082f08ee882c993fc82ea82e9",
+          "ja": "主人公の座を手に入れる"
+        },
+        {
+          "entry_id": "stage-15-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 5224,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c982cd81418ca097cd82aa954b977682c694bb9266",
+          "ja": "には、権力が必要と判断"
+        },
+        {
+          "entry_id": "stage-15-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 5257,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b582bd83418354834d814282dc82b882cd926e94d5",
+          "ja": "したアサギ。まずは地盤"
+        },
+        {
+          "entry_id": "stage-15-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 5290,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8cc582df82aa82c482e7926e93b982c9974c8ca08ed2",
+          "ja": "固めがてら地道に有権者"
+        },
+        {
+          "entry_id": "stage-15-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 5323,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc8e788e9d8f5782df82f08e6e82df82e98142",
+          "ja": "の支持集めを始める。"
+        },
+        {
+          "entry_id": "stage-15-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 5356,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "89ef8d8781418d75898989ef814183418354834d82cc",
+          "ja": "会合、講演会、アサギの"
+        },
+        {
+          "entry_id": "stage-15-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 5389,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8c7689e682cd90ac8cf782b782e982cc82a98148",
+          "ja": "計画は成功するのか？"
+        },
+        {
+          "entry_id": "stage-15-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 5422,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82bb82cc89ca82c482c982bd82c782e8928582a282bd",
+          "ja": "その果てにたどり着いた"
+        },
+        {
+          "entry_id": "stage-15-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 5455,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8382836d82c682cd81498148",
+          "ja": "モノとは！？"
+        },
+        {
+          "entry_id": "stage-15-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 5488,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "817590b482ab88ea955b82f081498176",
+          "ja": "「清き一票を！」"
+        }
+      ]
+    },
+    {
+      "record_index": 16,
+      "record_id": 25,
+      "offset": 5524,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-16-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 5526,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814091e68cdc986281778bc982df82b58ed28178",
+          "ja": "　第五話『極めし者』"
+        },
+        {
+          "entry_id": "stage-16-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 5559,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "926e93b982c8838c8378838b83418362837682b182bb",
+          "ja": "地道なレベルアップこそ"
+        },
+        {
+          "entry_id": "stage-16-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 5592,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82aa8ee5906c8cf682d682cc93b982f08a4a82ad82c6",
+          "ja": "が主人公への道を開くと"
+        },
+        {
+          "entry_id": "stage-16-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 5625,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "904d82b682c4838c8378838b83418362837682c98bce",
+          "ja": "信じてレベルアップに勤"
+        },
+        {
+          "entry_id": "stage-16-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 5658,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b582de83418354834d8142894a82cc93fa82e09597",
+          "ja": "しむアサギ。雨の日も風"
+        },
+        {
+          "entry_id": "stage-16-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 5691,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc93fa82e0979282cc93fa82e08141905182e98ad4",
+          "ja": "の日も嵐の日も、寝る間"
+        },
+        {
+          "entry_id": "stage-16-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 5724,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82f090c982b582dc82b8926282a682c9926282a682ca",
+          "ja": "を惜しまず鍛えに鍛えぬ"
+        },
+        {
+          "entry_id": "stage-16-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 5757,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a282bd82bb82cc90e682c982cd81498148",
+          "ja": "いたその先には！？"
+        },
+        {
+          "entry_id": "stage-16-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 5790,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82e282e882b182dd82f08bc982df82b58ed281638163",
+          "ja": "やりこみを極めし者……"
+        },
+        {
+          "entry_id": "stage-16-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 5823,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83418354834d82aa8ca982bd82e082cc82c682cd8148",
+          "ja": "アサギが見たものとは？"
+        },
+        {
+          "entry_id": "stage-16-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 5856,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 17,
+      "record_id": 26,
+      "offset": 5892,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-17-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 5894,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814091e6985a9862817796d295d78bad814981488178",
+          "ja": "　第六話『猛勉強！？』"
+        },
+        {
+          "entry_id": "stage-17-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 5927,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8341835e835682c991ab82e882c882a282e082cc82cd",
+          "ja": "アタシに足りないものは"
+        },
+        {
+          "entry_id": "stage-17-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 5960,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "88ea91cc89bd82c882cc8149814883418354834d82cd",
+          "ja": "一体何なの！？アサギは"
+        },
+        {
+          "entry_id": "stage-17-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 5993,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82bb82cc8b5e96e282f089f08c8882b782e988d782c9",
+          "ja": "その疑問を解決する為に"
+        },
+        {
+          "entry_id": "stage-17-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 6026,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82b182cc90a282cc82a082e882c682a082e782e482e9",
+          "ja": "この世のありとあらゆる"
+        },
+        {
+          "entry_id": "stage-17-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 6059,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8351815b838082f08ca48b8682b782e98142",
+          "ja": "ゲームを研究する。"
+        },
+        {
+          "entry_id": "stage-17-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 6092,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "909490e782c982e08b7982d48351815b838082f0",
+          "ja": "数千にも及ぶゲームを"
+        },
+        {
+          "entry_id": "stage-17-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 6125,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8376838c834382b582bd969682c983418354834d82aa",
+          "ja": "プレイした末にアサギが"
+        },
+        {
+          "entry_id": "stage-17-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 6158,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "924882e882c282a282bd8c8b985f82c682cd8148",
+          "ja": "辿りついた結論とは？"
+        },
+        {
+          "entry_id": "stage-17-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 6191,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "817583418354834d816381638141",
+          "ja": "「アサギ……、"
+        },
+        {
+          "entry_id": "stage-17-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 6224,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814082aa82f182ce82e882dc82b7814981498176",
+          "ja": "　がんばります！！」"
+        }
+      ]
+    },
+    {
+      "record_index": 18,
+      "record_id": 27,
+      "offset": 6260,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-18-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 6262,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "81408dc58f49986281778969899382c882ea81498178",
+          "ja": "　最終話『永遠なれ！』"
+        },
+        {
+          "entry_id": "stage-18-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 6295,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8bea93ef82cc9696814182c282a282c98a4a8ae182b5",
+          "ja": "苦難の末、ついに開眼し"
+        },
+        {
+          "entry_id": "stage-18-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 6328,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82bd83418354834d82cc8eb7944f82c681418376838a",
+          "ja": "たアサギの執念と、プリ"
+        },
+        {
+          "entry_id": "stage-18-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 6361,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "836a815b82aa8c8382b582ad8c8393cb82b782e98142",
+          "ja": "ニーが激しく激突する。"
+        },
+        {
+          "entry_id": "stage-18-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 6394,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "915382c482f08ecc82c482bd8f9782c6",
+          "ja": "全てを捨てた女と"
+        },
+        {
+          "entry_id": "stage-18-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 6427,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "969c944e814189ba82c182cf82cc8376838a836a815b",
+          "ja": "万年、下っぱのプリニー"
+        },
+        {
+          "entry_id": "stage-18-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 6460,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82cc90ed82a282cc89ca82c482c982cd90a68e5382c8",
+          "ja": "の戦いの果てには凄惨な"
+        },
+        {
+          "entry_id": "stage-18-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 6493,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8c8b969682aa91d282c182c482a282bd81498148",
+          "ja": "結末が待っていた！？"
+        },
+        {
+          "entry_id": "stage-18-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 6526,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "94de82e782cc96be93fa82cd82c782c182bf82be8142",
+          "ja": "彼らの明日はどっちだ。"
+        },
+        {
+          "entry_id": "stage-18-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 6559,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c282a282c993b081588aae8c8b8142",
+          "ja": "ついに堂々完結。"
+        },
+        {
+          "entry_id": "stage-18-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 6592,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "817783418354834d83748348815b8347836f815b8178",
+          "ja": "『アサギフォーエバー』"
+        }
+      ]
+    },
+    {
+      "record_index": 19,
+      "record_id": 50,
+      "offset": 6628,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-19-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 6630,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "814097fb959082cc9383",
+          "ja": "　練武の塔"
+        },
+        {
+          "entry_id": "stage-19-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 6663,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a982c282c48bad91e582c897cd82f08e9d82c182bd",
+          "ja": "かつて強大な力を持った"
+        },
+        {
+          "entry_id": "stage-19-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 6696,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "968289a482aa8daa8fe982c982b582c482a282bd82c6",
+          "ja": "魔王が根城にしていたと"
+        },
+        {
+          "entry_id": "stage-19-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 6729,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82a282ed82ea82c482a282e995d38bab82cc93838142",
+          "ja": "いわれている辺境の塔。"
+        },
+        {
+          "entry_id": "stage-19-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 6762,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82bb82cc968289a482aa96c582d182bd8da182cd",
+          "ja": "その魔王が滅びた今は"
+        },
+        {
+          "entry_id": "stage-19-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 6795,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8f438d738ed2924282aa82a882cc82aa8ec097cd82f0",
+          "ja": "修行者達がおのが実力を"
+        },
+        {
+          "entry_id": "stage-19-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 6828,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8e8e82b5968182ad81418f4397fb82cc8fea82c6",
+          "ja": "試し磨く、修練の場と"
+        },
+        {
+          "entry_id": "stage-19-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 6861,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82c882c182c482a282e98dc58ba58dc588ab82cc",
+          "ja": "なっている最凶最悪の"
+        },
+        {
+          "entry_id": "stage-19-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 6894,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "83588365815b83578142",
+          "ja": "ステージ。"
+        },
+        {
+          "entry_id": "stage-19-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 6927,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "93ef88d5937882cd91aa92e89573945c8142",
+          "ja": "難易度は測定不能。"
+        },
+        {
+          "entry_id": "stage-19-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 6960,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    },
+    {
+      "record_index": 20,
+      "record_id": 60,
+      "offset": 6996,
+      "stride": 368,
+      "tail_hex": "000000",
+      "slots": [
+        {
+          "entry_id": "stage-20-title",
+          "slot_index": 0,
+          "kind": "title",
+          "offset": 6998,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "8140835f83458393838d815b836883588365815b8357",
+          "ja": "　ダウンロードステージ"
+        },
+        {
+          "entry_id": "stage-20-line-01",
+          "slot_index": 1,
+          "kind": "line",
+          "offset": 7031,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "835f83458393838d815b836882b582c482ab82bd",
+          "ja": "ダウンロードしてきた"
+        },
+        {
+          "entry_id": "stage-20-line-02",
+          "slot_index": 2,
+          "kind": "line",
+          "offset": 7064,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "92c789c183588365815b835782cd814182b182b182a9",
+          "ja": "追加ステージは、ここか"
+        },
+        {
+          "entry_id": "stage-20-line-03",
+          "slot_index": 3,
+          "kind": "line",
+          "offset": 7097,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82e7838d815b836882b582c4975682d482b182c6",
+          "ja": "らロードして遊ぶこと"
+        },
+        {
+          "entry_id": "stage-20-line-04",
+          "slot_index": 4,
+          "kind": "line",
+          "offset": 7130,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82aa82c582ab82dc82b78142",
+          "ja": "ができます。"
+        },
+        {
+          "entry_id": "stage-20-line-05",
+          "slot_index": 5,
+          "kind": "line",
+          "offset": 7163,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "92c789c183588365815b835782c982cd96b38f9e82cc",
+          "ja": "追加ステージには無償の"
+        },
+        {
+          "entry_id": "stage-20-line-06",
+          "slot_index": 6,
+          "kind": "line",
+          "offset": 7196,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "82e082cc82e082a082e882dc82b782cc82c590a594f1",
+          "ja": "ものもありますので是非"
+        },
+        {
+          "entry_id": "stage-20-line-07",
+          "slot_index": 7,
+          "kind": "line",
+          "offset": 7229,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "975682f182c582dd82c482ad82be82b382a28142",
+          "ja": "遊んでみてください。"
+        },
+        {
+          "entry_id": "stage-20-line-08",
+          "slot_index": 8,
+          "kind": "line",
+          "offset": 7262,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-20-line-09",
+          "slot_index": 9,
+          "kind": "line",
+          "offset": 7295,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        },
+        {
+          "entry_id": "stage-20-line-10",
+          "slot_index": 10,
+          "kind": "line",
+          "offset": 7328,
+          "size": 33,
+          "max_payload_bytes": 32,
+          "source_bytes": "",
+          "ja": ""
+        }
+      ]
+    }
+  ]
+}
