@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_108_hub_snow_tower_protagonist",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "bd4755a11bf449ca900030026b17ce43f9a55af63e18b10ab93ffedc0eacf81c",
+  "context": {
+    "scene": "마계 성 거점: 눈의 탑·주인공 자격 대화",
+    "evidence": [
+      "정적 소비 감사 후 보호 병합"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0A8C",
+      "protected_snapshot": {
+        "record_id": 2700,
+        "raw_hex": "8c0a04006500c88376838a8350839300000000000000000082a082cc8f9782cc8e71814182c882c982e482a682a082f182c882c996828a4582f0008c9982a48362835882a982cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリケン",
+          "lines": [
+            "あの女の子、なにゆえあんなに魔界を",
+            "嫌うッスかね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리켄",
+        "lines": [
+          "그 여자애는 왜 그렇게",
+          "마계를 싫어하는 검까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A8E",
+      "protected_snapshot": {
+        "record_id": 2702,
+        "raw_hex": "8e0a040037ffc88376838a836a815b00000000000000000082bb82a482c682a482c88da682dd82aa82a082e9976c8e71836283588142000000000082e682c182db82c78d9382a296da82c9919882c182bd82f18362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そうとうな恨みがある様子ッス。",
+            "よっぽど酷い目に遭ったんッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "상당히 원한이 있는 모양임다.",
+          "정말 끔찍한 일을 당했나 봄다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A90",
+      "protected_snapshot": {
+        "record_id": 2704,
+        "raw_hex": "900a04006500c98376838a835f838b834e00000000000000968295a882aa90e182cc938382c98f5782dc82c182c482e98362835882e68142000000906c8ad482cc8f9782cc8e7196da939682c48362835882a982cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリダルク",
+          "lines": [
+            "魔物が雪の塔に集まってるッスよ。",
+            "人間の女の子目当てッスかね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리다르크",
+        "lines": [
+          "마물이 눈의 탑에 모였슴다.",
+          "인간 여자애가 목표임까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A92",
+      "protected_snapshot": {
+        "record_id": 2706,
+        "raw_hex": "920a040037ffc88376838a836a815b00000000000000000096828a4582c982cd82bd82dc82c997458ed282aa978882e98362835882aa81410000008ee5906c8cf682c982c882e882bd82a28f9782cc8e7182c682cd8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "魔界にはたまに勇者が来るッスが、",
+            "主人公になりたい女の子とは……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "마계엔 가끔 용사가 오지만",
+          "주인공 되고픈 여자애라니…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A94",
+      "protected_snapshot": {
+        "record_id": 2708,
+        "raw_hex": "940a03006500c98376838a835f838b834e000000000000008ec082cd8349838c82e0906c8ad48e9e91e382cd0000000000000000000000000000008f9782cc8e7182be82c182bd8362835882e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリダルク",
+          "lines": [
+            "実はオレも人間時代は",
+            "女の子だったッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리다르크",
+        "lines": [
+          "사실 나도 인간일 때는",
+          "여자였슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A96",
+      "protected_snapshot": {
+        "record_id": 2710,
+        "raw_hex": "960a030037ffc88376838a836a815b00000000000000000082c782f182c88ddf82c58376838a836a815b82c900000000000000000000000000000082c882c182bd8362835882a981420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どんな罪でプリニーに",
+            "なったッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무슨 죄로 프리니가",
+          "된 검까.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A98",
+      "protected_snapshot": {
+        "record_id": 2712,
+        "raw_hex": "980a03006500c98376838a835f838b834e0000000000000082a882bb82e782ad89c288a482b782ac82bd82cc82aa000000000000000000000000008349838c82cc8ddf8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリダルク",
+          "lines": [
+            "おそらく可愛すぎたのが",
+            "オレの罪ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리다르크",
+        "lines": [
+          "아마 너무 귀여웠던 게",
+          "내 죄임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A9A",
+      "protected_snapshot": {
+        "record_id": 2714,
+        "raw_hex": "9a0a030032ffc88376838a836a815b00000000000000000082bb82cc8d6c82a682bb82cc82e082cc82aa00000000000000000000000000000000008ddf82c182db82a2835882cb81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "その考えそのものが",
+            "罪っぽいスね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그 생각 자체가",
+          "죄 같은데 말임다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A9C",
+      "protected_snapshot": {
+        "record_id": 2716,
+        "raw_hex": "9c0a04006500c98376838a836a834e8358000000000000008ee5906c8cf682cd82c882eb82a482c68e7682c182c482c882ea82e982e082cc00000082b682e182c882a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニクス",
+          "lines": [
+            "主人公はなろうと思ってなれるもの",
+            "じゃないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리닉스",
+        "lines": [
+          "주인공은 되고 싶다고",
+          "될 수 있는 게 아님다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A9E",
+      "protected_snapshot": {
+        "record_id": 2718,
+        "raw_hex": "9e0a040037ffc88376838a836a815b00000000000000000082bb82a48362835882e682cb8163816382c582e08141967b939682c98349838c00000082bd82bf82aa8ee5906c8cf682c597c782a982c182bd82f18362835882a982cb8148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そうッスよね……でも、本当にオレ",
+            "たちが主人公で良かったんッスかね？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그렇슴다만……정말 우리가",
+          "주인공이어도 괜찮았슴까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

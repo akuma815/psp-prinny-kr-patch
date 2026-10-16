@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "supported_revision": "ULJS00150 1.01",
+  "inputs": {
+    "start.dat": {
+      "size": 9030752,
+      "sha256": "e2e9870cc4b62db0ee08ba1cbb1958bfdfa172a4df589288c01fde89c6befd41"
+    },
+    "BOOT.BIN": {
+      "size": 1128036,
+      "sha256": "3220c559596cc9e91db868284157622406110faa5e8c044c3824c8a138088415"
+    },
+    "font.fnt": {
+      "size": 23232,
+      "sha256": "8492b5959423c4488d1c63650b3873cdfc33ed1b15874652a9966ddc17575a6e"
+    }
+  },
+  "candidate_start_entries": [
+    "Character00.dat",
+    "Shot.dat",
+    "WindowPos.dat",
+    "StageInfo00.dat",
+    "PictureBook.dat",
+    "PictureBookAnime",
+    "Honor.dat",
+    "Collection.dat",
+    "LuckyDoll.dat",
+    "LuckyItem.dat",
+    "ClearTime00.dat",
+    "BonusItem.dat"
+  ],
+  "scanner": {
+    "minimum_strong_japanese": 2,
+    "minimum_strong_ratio": 0.35,
+    "maximum_run_bytes": 256,
+    "examples_per_source": 5
+  },
+  "boot_scanner": {
+    "minimum_strong_japanese": 5,
+    "minimum_strong_ratio": 0.7,
+    "maximum_run_bytes": 256,
+    "require_nul_boundaries": true,
+    "exclude_utf8_japanese": true
+  }
+}

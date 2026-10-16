@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_049_hoshikage_dragon",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2b60aba816e4353e380462c20c6e1f22d22c671170ed1a6a2b35e0264639fcb7",
+  "context": {
+    "scene": "잠든 리샹롱을 깨운 프리니와 호시카게의 추격·드래곤 코털 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x17070..0x17761의 연속 11개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 11/11 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2FA8",
+      "protected_snapshot": {
+        "record_id": 12200,
+        "raw_hex": "a82f030032ffc88376838a836a815b00000000000000000081638163905182c482e98362835882a981480000000000000000000000000000000000905182c482e98362835882e682cb8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……寝てるッスか？",
+            "寝てるッスよね？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……주무심까?",
+          "주무시는 거 맞슴까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "잠든 리샹롱이 정말 자는지 확인하는 프리니의 조심스러운 질문.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FAA",
+      "protected_snapshot": {
+        "record_id": 12202,
+        "raw_hex": "aa2f020032ffc88376838a836a815b00000000000000000082bb815b82c182c6814182bb815b82c182c6816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そーっと、そーっと……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "살금살금, 살금살금…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "잠든 리샹롱 곁에서 소리를 죽여 움직이는 프리니의 독백.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FAC",
+      "protected_snapshot": {
+        "record_id": 12204,
+        "raw_hex": "ac2f030036ffc88376838a836a815b00000000000000000082a082ed82ed82ed82ed8b4e82ab82bd8362835881490000000000000000000000000082a882a882a882a88ee8814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あわわわわ起きたッス！",
+            "おおおお手！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "으아아아, 깼슴다!",
+          "소소소손!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "리샹롱이 깨어나 손을 내밀자 당황하는 프리니의 말더듬을 보존.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FAE",
+      "protected_snapshot": {
+        "record_id": 12206,
+        "raw_hex": "ae2f05000000ca838a815b835683838393838d839300000082ae82a882a782a782a782f1814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "リーシャンロン",
+          "lines": [
+            "ぐおぉぉぉん！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "리샹롱",
+        "lines": [
+          "크오오오옹!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "잠에서 깬 드래곤 리샹롱의 포효를 자연스러운 한국어 의성어로 옮김.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FB0",
+      "protected_snapshot": {
+        "record_id": 12208,
+        "raw_hex": "b02f030086fac890af89650000000000000000000000000082d382ed829f816082a08142000000000000000000000000000000000000000000000089bd82cc919b82ac8366815b8358834a815b81480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ふわぁ～あ。",
+            "何の騒ぎデースカー？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "하아암~.",
+          "무슨 소란이에~요?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "잠에서 깨 하품하며 상황을 묻는 호시카게의 늘인 외국인풍 말투.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FB2",
+      "protected_snapshot": {
+        "record_id": 12210,
+        "raw_hex": "b22f030081fac890af896500000000000000000000000000924e82aa82e282c182bd836c8149814800000000000000000000000000000000000000836e8389834c838a82e082cc8366815b835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1407,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "誰がやったネ！？",
+            "ハラキリものデース！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "누가 그랬어~요!?",
+          "할복감이에~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "리샹롱을 다치게 한 범인을 추궁하며 ハラキリ를 문화어 '할복'으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "cultural_localization_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FB4",
+      "protected_snapshot": {
+        "record_id": 12212,
+        "raw_hex": "b42f030081fac890af896500000000000000000000000000838f835e835682cc8379836283678f9d957482af82bd000000000000000000000000008ddf82cd8f6482a28388814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1407,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ワタシのペット傷付けた",
+            "罪は重いヨ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "내 애완동물을 다치게 한",
+          "죄는 무거워~요!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "리샹롱을 애완동물로 부르며 범인의 죄를 강조하는 호시카게 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FB6",
+      "protected_snapshot": {
+        "record_id": 12214,
+        "raw_hex": "b62f0300cd00c88376838a836a815b00000000000000000082cd814194c6906c82cd82a082c182bf82c9000000000000000000000000000000000082a282c182bd83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "は、犯人はあっちに",
+            "いったッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "바, 범인은 저쪽으로",
+          "갔슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "책임을 피하려 범인이 달아났다고 둘러대는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FB8",
+      "protected_snapshot": {
+        "record_id": 12216,
+        "raw_hex": "b82f0b007a05c890af8965000000000000000000000000008376838a836a815b82c9838a815b82bf82e182f182aa0000000000000000000000000082e282e782ea82e982ed82af82c882a283668358836c814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 11,
+          "reserved_3": 0,
+          "face_asset_signed": 1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "プリニーにリーちゃんが",
+            "やられるわけないデスネ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "프리니가 리짱을",
+          "이길 리 없지~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "リーちゃん을 리샹롱의 애칭 '리짱'으로 보존한 호시카게의 납득 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "name_rendering_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FBA",
+      "protected_snapshot": {
+        "record_id": 12218,
+        "raw_hex": "ba2f06007f05c890af89650000000000000000000000000094c6906c82cd82d482c18e4582b58366815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 1407,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "犯人はぶっ殺しデース！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "범인은 죽여 버려~요!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "범인을 추격하며 살벌하게 외치는 호시카게의 코믹한 과격 어조.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FBC",
+      "protected_snapshot": {
+        "record_id": 12220,
+        "raw_hex": "bc2f110000000000000000000000000000000000000000008376838a836a815b82cd814182bb82b182e782c9978e82bf82c482a282bd00000000008175836883898353839382cc954096d1817600000000000000000000000000000000008163816382f08ca982c282af82bd814900000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、そこらに落ちていた",
+            "「ドラゴンの鼻毛」",
+            "……を見つけた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 근처에 떨어진",
+          "「드래곤 코털」",
+          "……을 발견했다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "ドラゴンの鼻毛를 획득 아이템명 '드래곤 코털'로 현지화한 시스템 문구 초벌.",
+        "flags": ["draft", "deferred_review", "item_name_review"]
+      }
+    }
+  ]
+}

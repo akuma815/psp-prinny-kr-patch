@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_057a_etna_flavor_sage_fit",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "5a26111e53b13354ca4ebc05b3a85ed0a27ae01d3e26d8babe939bd1f0b0de09",
+  "context": {
+    "scene": "마스터 드 스파이스 소개 대사 고정 슬롯 수정",
+    "evidence": [
+      "배치 057의 demo00/32D0 두 번째 줄 36/34바이트 초과",
+      "고유명과 가능 의미를 보존한 축약 후 보호 병합·고정 슬롯 재검증"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/32D0",
+      "protected_snapshot": {
+        "record_id": 13008,
+        "raw_hex": "d03204006700c98376838a836a815b91e00000000000000088c593e78e5282cc837d8358835e815b814583688145835883708343835882c182c40096a190e5906c82aa8dec82ea82e982bb82a48362835882e6815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "闇鍋山のマスター・ド・スパイスって",
+            "味仙人が作れるそうッスよー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "어둠전골산의 맛선인,",
+          "마스터 드 스파이스가 만들 수 있담다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "闇鍋山과 味仙人, マスター・ド・スパイス를 고유 지명·호칭·인명으로 초벌한 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "proper_name_review",
+          "speaker_style_applied"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "어둠전골산의 맛선인,",
+          "마스터 드 스파이스라면 가능함다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "闇鍋山과 味仙人, マスター・ド・スパイス를 고유 지명·호칭·인명으로 초벌한 대사. 배치 057의 36/34바이트 초과를 의미 보존 축약.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "proper_name_review",
+          "speaker_style_applied",
+          "fixed_slot_fit_corrected"
+        ]
+      }
+    }
+  ]
+}

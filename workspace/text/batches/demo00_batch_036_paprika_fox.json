@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_036_paprika_fox",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "83f525c5019c890bc38e77a3d0903e0341669bf909e4c24f45c81b4a560e9216",
+  "context": {
+    "scene": "파프리카의 여우 말버릇 노출과 스위츠 남작 공장 취업 사연",
+    "evidence": [
+      "demo.nsf logical offsets 0x10B98..0x111E1의 연속 16개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 16/16 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2B8E",
+      "protected_snapshot": {
+        "record_id": 11150,
+        "raw_hex": "8e2b0e000000c881488148814881480000000000000000008b7d82aa82c982e182ab82e182c982e1815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 14,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "急がにゃきゃにゃー。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "서둘러야 한다냥~.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "정체 공개 전 화자명을 보호하고 急がにゃきゃ의 고양이 말장난을 냥 어미로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_identity_protected", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B90",
+      "protected_snapshot": {
+        "record_id": 11152,
+        "raw_hex": "902b0100bf02c883708376838a834a00000000000000000092c982a28352839382c18149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 703,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "痛いコンっ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "아프다콩!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "여우 울음 コン이 무심코 튀어나온 파프리카의 말버릇을 콩으로 음역한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B92",
+      "protected_snapshot": {
+        "record_id": 11154,
+        "raw_hex": "922b030037ffc88376838a836a815b000000000000000000816381638352839381480000000000000000000000000000000000000000000000000082a082f182bd8141834c8363836c82c1835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……コン？",
+            "あんた、キツネっスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……콩?",
+          "너, 여우임까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "콩 말버릇을 듣고 여우인지 묻는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B94",
+      "protected_snapshot": {
+        "record_id": 11156,
+        "raw_hex": "942b0300be02c883708376838a834a00000000000000000082bf814188e182a483528393814982b682e182c882ad82c400000000000000000000008163816382c982e18149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "ち、違うコン！じゃなくて",
+            "……にゃ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "아, 아니콩! 아니",
+          "……냥!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "여우 말버릇을 부정하다 고양이 냥으로 고쳐 말하는 파프리카 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B96",
+      "protected_snapshot": {
+        "record_id": 11158,
+        "raw_hex": "962b030032ffc88376838a836a815b0000000000000000008163816382e282c182cf82e80000000000000000000000000000000000000000000000834c8363836c82c1835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……やっぱり",
+            "キツネっスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……역시",
+          "여우임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "말버릇으로 정체를 확신하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B98",
+      "protected_snapshot": {
+        "record_id": 11160,
+        "raw_hex": "982b0400c102c883708376838a834a00000000000000000082bb82ea88c88fe381418345836082cc82b182c6834c8363836c82c182c400000000008cbe82a482f182b682e182c882a28352839381490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 705,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "それ以上、ウチのことキツネって",
+            "言うんじゃないコン！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "더 이상 나보고 여우라고",
+          "하지 마라콩!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "여우임을 부정하면서 다시 콩 말버릇을 쓰는 파프리카 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B9A",
+      "protected_snapshot": {
+        "record_id": 11162,
+        "raw_hex": "9a2b0300c102c883708376838a834a0000000000000000008163816382b682e182c882ad82c481410000000000000000000000000000000000000082c982e182a081608149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 705,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "……じゃなくて、",
+            "にゃあ～！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "……아니,",
+          "냐앙~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "실수를 깨닫고 고양이 울음으로 고치는 파프리카 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B9C",
+      "protected_snapshot": {
+        "record_id": 11164,
+        "raw_hex": "9c2b110000000000000000000000000000000000000000008376838a836a815b82cd814183708376838a834a82cc8e9d82c182c482a282bd000000817596828bea835683468343834e8176000000000000000000000000000000000000008163816382f082a282bd82be82a282bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、パプリカの持っていた",
+            "「魔苦シェイク」",
+            "……をいただいた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 파프리카가 지녔던",
+          "「마고 셰이크」",
+          "……를 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "魔苦シェイク의 악마식 패러디 표기를 마고 셰이크로 음독한 아이템 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B9E",
+      "protected_snapshot": {
+        "record_id": 11166,
+        "raw_hex": "9e2b0400c402c883708376838a834a00000000000000000082a88e4082b582cc82c682a882e881418345836082cd82cb82b182c993b282ea82e90089c288a3917a82c8834c8363836c82c196ba82c982e1816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 708,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "お察しのとおり、ウチはねこに憧れる",
+            "可哀想なキツネっ娘にゃ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "짐작대로, 난 고양이를 동경하는",
+          "불쌍한 여우 소녀다냥…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고양이를 동경하는 여우 소녀라는 파프리카의 자기소개 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BA0",
+      "protected_snapshot": {
+        "record_id": 11168,
+        "raw_hex": "a02b040032ffc88376838a836a815b00000000000000000082a282e28141000000000000000000000000000000000000000000000000000000000082bf82c182c682e08e4082b982c882a282f18362835882af82c78163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、",
+            "ちっとも察せないんッスけど……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아니,",
+          "전혀 짐작 못 했슴다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "전혀 알아채지 못했다고 반박하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BA2",
+      "protected_snapshot": {
+        "record_id": 11170,
+        "raw_hex": "a22b0300c202c883708376838a834a00000000000000000082bd82dc82c982c282a2926e82aa00000000000000000000000000000000000000000082c582c482b582dc82a482c982e18163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 706,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "たまについ地が",
+            "でてしまうにゃ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "가끔 본성이",
+          "튀어나온다냥…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "가끔 여우 말버릇이 나온다는 파프리카의 냥체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BA4",
+      "protected_snapshot": {
+        "record_id": 11172,
+        "raw_hex": "a42b0400c202c883708376838a834a0000000000000000008163816382a082b182aa82ea82cc83588343815b8363926a8edd82cc0000000000000083588343815b83638d488fea82c593ad82ab82bd82a982c182bd82c982e181420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 706,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "……あこがれのスイーツ男爵の",
+            "スイーツ工場で働きたかったにゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "……동경하던 스위츠 남작의",
+          "디저트 공장에서 일하고 싶었다냥.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작의 공장에서 일하고 싶었다는 파프리카 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BA6",
+      "protected_snapshot": {
+        "record_id": 11174,
+        "raw_hex": "a62b0400c202c883708376838a834a00000000000000000082c582e0834c8363836c82b682e1835f838182c182c48cbe82ed82ea82bd82a982e700944c82c982c882e882ab82c182c482dd82bd82c982e1814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 706,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "でもキツネじゃダメって言われたから",
+            "猫になりきってみたにゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "하지만 여우는 안 된다고 해서",
+          "고양이인 척해 봤다냥.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "채용 조건 때문에 고양이 행세를 했다는 파프리카 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BA8",
+      "protected_snapshot": {
+        "record_id": 11176,
+        "raw_hex": "a82b030037ffc88376838a836a815b00000000000000000082bb82f182c882c982bb82cc8d488fea82c5000000000000000000000000000000000093ad82ab82bd82a982c182bd8362835882a981420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そんなにその工場で",
+            "働きたかったッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그렇게 그 공장에서",
+          "일하고 싶었슴까.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "그 공장에 취업하려 한 이유를 묻는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BAA",
+      "protected_snapshot": {
+        "record_id": 11178,
+        "raw_hex": "aa2b0400bd02c883708376838a834a00000000000000000083588343815b8363926a8edd82cc83588343815b836382cd8a6995ca82be82b58141008d488fea82cd82c282dc82dd904882a282b595fa91e882e782b582a282c982e18149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "スイーツ男爵のスイーツは格別だし、",
+            "工場はつまみ食いし放題らしいにゃ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "남작의 디저트는 각별하고,",
+          "공장에선 맘껏 집어먹는다냥!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작의 디저트와 공장 내 시식 자유를 말하는 파프리카 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BAC",
+      "protected_snapshot": {
+        "record_id": 11180,
+        "raw_hex": "ac2b0400d100c88376838a836a815b00000000000000000082c882f182c2815b82a482e782e282dc82b582a290458fea8362835882a981420000008349838c82e782e0935d904582b582bd82a283628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 209,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なんつーうらやましい職場ッスか。",
+            "オレらも転職したいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "엄청 부러운 직장임다.",
+          "우리도 이직하고 싶슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "마음껏 먹을 수 있는 공장을 부러워하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

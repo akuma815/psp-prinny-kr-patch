@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_020_rebellion_aftermath",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "42621afafa2e3bb34b9b9ac87477373c72be18a52af86481c3ef0b43c26aeb9c",
+  "context": {
+    "scene": "프리니거 X 격파 뒤 임금 요구와 에트나의 수리 심부름 강요",
+    "evidence": [
+      "demo.nsf logical offsets 0x22D0E/0x22D3B/0x22D7E/0x22DE1/0x22E2B/0x22E58/0x22E8E/0x22ED1/0x22F38/0x22F82/0x2301E/0x230AA/0x23112/0x2315C",
+      "BOOT dispatcher block-local stepping: target 14/14 proven, selected block 1/1 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0F1C",
+      "protected_snapshot": {
+        "record_id": 3868,
+        "raw_hex": "1c0f0400ce00c88376838a836a815b0000000000000000008163816382a981418f9f82c182bd83628358814200000000000000000000000000000082c282a282c98349838c924282aa905e82cc8ee5906c8cf68362835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……か、勝ったッス。",
+            "ついにオレ達が真の主人公ッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……이, 이겼슴다.",
+          "드디어 저희가 진짜 주인공임까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니거 X를 이기고 자신들이 진정한 주인공이 됐는지 기대하는 프리니의 말을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F1E",
+      "protected_snapshot": {
+        "record_id": 3870,
+        "raw_hex": "1e0f0300a2fdc8834783678369000000000000000000000082a0815b82e082a481410000000000000000000000000000000000000000000000000082c782a482b582c482ad82ea82f182cc82e681490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "あーもう、",
+            "どうしてくれんのよ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "아~ 정말,",
+          "어쩔 셈이야!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니거 X가 망가진 데 화가 난 에트나의 짜증을 자연스러운 반말로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F20",
+      "protected_snapshot": {
+        "record_id": 3872,
+        "raw_hex": "200f0300a2fdc8834783678369000000000000000000000082a082bd82b582cc8376838a836a834b815b827782aa0000000000000000000000000089f382ea82bf82e182c182bd82b682e182f181490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "あたしのプリニガーＸが",
+            "壊れちゃったじゃん！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "내 프리니거 X가",
+          "망가졌잖아!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "망가진 프리니거 X를 두고 화내는 에트나의 대사. 고유명 최종 결정 전까지 기존 검토 항목을 적용한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F22",
+      "protected_snapshot": {
+        "record_id": 3874,
+        "raw_hex": "220f0400ce00c88376838a836a815b0000000000000000008163816382e2814182e282a2814283478141834783678369976c81638163814200000082a282e2814183478367836982c18358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……や、やい。エ、エトナ様……。",
+            "いや、エトナっス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……어, 어이. 에, 에트나 님…….",
+          "아니, 에트나!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승리감에 에트나의 존칭을 떼려다 머뭇거리는 프리니의 태도 변화를 보존한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F24",
+      "protected_snapshot": {
+        "record_id": 3876,
+        "raw_hex": "240f0400ce00c88376838a836a815b0000000000000000008163816397888c8e82a982e78b8b97bf82f082bf82e182f182c68cbb8be095a582a20082c982b782e983628358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……来月から給料をちゃんと現金払い",
+            "にするッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……다음 달부터 월급은",
+          "제대로 현금으로 줌다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "다음 달부터 급여를 현금으로 지급하라고 요구하는 프리니의 말을 캐릭터 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F26",
+      "protected_snapshot": {
+        "record_id": 3878,
+        "raw_hex": "260f0400ce00c88376838a836a815b00000000000000000083548393837d95a582a282cd82a082f182dc82e883628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "サンマ払いはあんまりッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "꽁치로 주는 건 사양임다.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "サンマ払い를 월급을 꽁치로 대신 지급하는 관행으로 해석해 '꽁치로 주는 건 사양'으로 옮긴 초벌. 세계관 농담의 어감을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "expression_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F28",
+      "protected_snapshot": {
+        "record_id": 3880,
+        "raw_hex": "280f0300a0fdc8834783678369000000000000000000000082bf82e582c182c681410000000000000000000000000000000000000000000000000082bb82b182cc8376838a836a815b8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ちょっと、",
+            "そこのプリニー……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "잠깐,",
+          "거기 프리니…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "임금 요구를 무시하고 특정 프리니를 부르는 에트나의 위압적인 호명을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F2A",
+      "protected_snapshot": {
+        "record_id": 3882,
+        "raw_hex": "2a0f0400a2fdc8834783678369000000000000000000000083768389838289ae82a282c182c48f758ad490da92858ddc82c6000000000000000000837c838a8370836582a982c182c482ab82c881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "プラモ屋いって瞬間接着剤と",
+            "ポリパテかってきな！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "모형 가게 가서 순간접착제랑",
+          "폴리퍼티 사 와!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "プラモ屋와 ポリパテ를 각각 모형 가게와 폴리퍼티로 옮긴 초벌. 프라모델 용어와 표기를 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F2C",
+      "protected_snapshot": {
+        "record_id": 3884,
+        "raw_hex": "2c0f0100ce00c88376838a836a815b00000000000000000082d681480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "へ？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "네?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 수리 재료 심부름 명령을 이해하지 못한 프리니의 짧은 반응을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F2E",
+      "protected_snapshot": {
+        "record_id": 3886,
+        "raw_hex": "2e0f0400cc00c88376838a836a815b00000000000000000082a2814182a282e281418349838c924282aa8f9f82c182bd82f18362835882a982e70082b681418ea995aa82c582a282c182bd82e782c782a48362835882a9814881480000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "い、いや、オレ達が勝ったんッスから",
+            "じ、自分でいったらどうッスか？？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아, 아니, 저희가 이겼으니까",
+          "직, 직접 가면 어떻슴까??",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승자인 자신들 대신 에트나가 직접 가라고 조심스럽게 항변하는 프리니의 말을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F30",
+      "protected_snapshot": {
+        "record_id": 3888,
+        "raw_hex": "300f0700a1fdc8834783678369000000000000000000000082b382c182b382c682a282c182c482b182a2000000000000000000000000000000000082c282c182c482f182be82eb815b82aa814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": -607,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "さっさといってこい",
+            "つってんだろーが！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "얼른 다녀오라고",
+          "했잖아!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "항변을 묵살하고 즉시 다녀오라고 소리치는 에트나의 위압적인 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F32",
+      "protected_snapshot": {
+        "record_id": 3890,
+        "raw_hex": "320f0200ca00c88376838a836a815b00000000000000000082cd814182cd82a282a182a182a1815b8362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "は、はいぃぃぃーッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "네, 네에에~임다!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "はいぃぃぃーッス의 길게 늘인 복종 응답을 '네에에~임다'로 옮긴 초벌. 자연스러운 프리니 감탄형을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "expression_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F34",
+      "protected_snapshot": {
+        "record_id": 3892,
+        "raw_hex": "340f0400ce00c88376838a836a815b00000000000000000082a082ea815b81488349838c924282aa8f9f82c182bd82cd82b881638163814200000082a082ea815b81488362835881498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あれー？オレ達が勝ったはず……。",
+            "あれー？ッス！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어라~? 저희가 이겼을 텐데…….",
+          "어라~? 이상함다!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승리했는데도 계속 부려 먹히는 상황을 이해하지 못하는 프리니의 혼란을 자연스럽게 보강한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F36",
+      "protected_snapshot": {
+        "record_id": 3894,
+        "raw_hex": "360f0400d100c88376838a836a815b0000000000000000008349838c924282c182c482e282c182cf82e8814188ea90b682b182ab8e6782ed00000082ea82e9895e96bd82c882f18362835882a982cb8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 209,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレ達ってやっぱり、一生こき使わ",
+            "れる運命なんッスかね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저희는 역시 평생 부려 먹힐",
+          "운명임까……?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신들이 평생 혹사당할 운명인지 체념하는 프리니의 결론을 임까 활용으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_001_difficulty",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "32c07ebe845ed022a50b12b72065293e36f88114e80c9ea3e68369767cdb3ce2",
+  "context": {
+    "scene": "난이도 선택 화면의 두 설명 패널",
+    "evidence": [
+      "2026-07-17 사용자 PPSSPP 화면 확인",
+      "Demo00 레코드 0x005A/0x005B 원문과 화면 문구 일치"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/005A",
+      "protected_snapshot": {
+        "record_id": 90,
+        "raw_hex": "5a0002000000c88376838a836a815b00000000000000000082e282e882b282bd82a6836f83628360838a82cc00000000000000000000000000000088ab96828cfc82af93ef88d593788362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "やりごたえバッチリの",
+            "悪魔向け難易度ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "도전하는 맛이 확실한",
+          "악마용 난이도임다.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "화면 문맥 확인 및 독립 의미 검토 완료. プリニー의 ～ッス 말투는 사용자 승인에 따라 '임다'로 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "screen_context_verified",
+          "speaker_style_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/005B",
+      "protected_snapshot": {
+        "record_id": 91,
+        "raw_hex": "5b0002000000c88376838a836a815b000000000000000000834983588358838182cc93ef88d59378836283588142000000000000000000000000008f8982df82c482cc906c82cd82b182c182bf83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オススメの難易度ッス。",
+            "初めての人はこっちッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "추천 난이도임다.",
+          "처음이라면 이쪽임다.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "화면 문맥 확인 및 독립 의미 검토 완료. プリニー의 ～ッス 말투는 사용자 승인에 따라 '임다'로 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "screen_context_verified",
+          "speaker_style_approved"
+        ]
+      }
+    }
+  ]
+}

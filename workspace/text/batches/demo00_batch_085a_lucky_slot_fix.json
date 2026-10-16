@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_085a_lucky_slot_fix",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "a3b9e9cdb5b97696146794f3a57a9a0c3a2856f9ec74675c21481ec619ea29fa",
+  "context": {
+    "scene": "라키 돌 생태 설명 슬롯 교정",
+    "evidence": [
+      "085 최초 병합에서 0265 첫 줄 35/34, 0269 둘째 줄 37/34바이트 초과"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0265",
+      "protected_snapshot": {
+        "record_id": 613,
+        "raw_hex": "65021100000000000000000000000000000000000000000082b182bf82e782c982cd814183898362834c815b8368815b838b82cc82e682a482c8008352838c834e835e815b82cd82a882e782b8000000000000000000000000000000000094f18fed82c98c9982ed82ea82c482a282dc82b7814200000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "こちらには、ラッキードールのような",
+            "コレクターはおらず",
+            "非常に嫌われています。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "이쪽은 라키 돌과 달리 수집가가 없고",
+          "매우 미움받습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "좀비 돌은 수집가도 없고",
+          "매우 미움받습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0269",
+      "protected_snapshot": {
+        "record_id": 617,
+        "raw_hex": "69021100000000000000000000000000000000000000000083898362834c815b8368815b838b82cd8ee582c9926e928682c500000000000000000096b082c182c482a282dc82b782aa81418fd58c8282f08ab4926d82b782e982c6000000926e8fe382c994f282d18f6f82b582c482ad82e9816381630000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ラッキードールは主に地中で",
+            "眠っていますが、衝撃を感知すると",
+            "地上に飛び出してくる……"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "라키 돌은 주로 땅속에서 자지만",
+          "충격을 느끼면 지상으로 튀어나온다……",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "라키 돌은 주로 땅속에서 자지만",
+          "충격을 느끼면 땅 위로 나온다……",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    }
+  ]
+}

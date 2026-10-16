@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_031_dragon_food",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "062e72a5a7e772a0a0891875c548b5ae5481774c9fd04bf893d0b73d17c4778b",
+  "context": {
+    "scene": "호시카게가 리샹롱과 놀도록 프리니를 훈련시킨 뒤 드래곤 사료 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0xE653..0xEE4C의 연속 14개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 14/14 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/29CC",
+      "protected_snapshot": {
+        "record_id": 10700,
+        "raw_hex": "cc29030083fac890af896500000000000000000000000000838a815b835683838393838d839381608141000000000000000000000000000000000082d9815b82e78347835482e282e98366815b83588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "リーシャンロン～、",
+            "ほーらエサやるデース。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "리샹롱~",
+          "자, 먹이 줄게~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "기존 호시카게·리샹롱 표기와 외국인풍 늘임 문체를 재사용한 먹이 주기 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29CE",
+      "protected_snapshot": {
+        "record_id": 10702,
+        "raw_hex": "ce29010087fac890af8965000000000000000000000000008163816382a88ee882c18149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "……お手っ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "……손!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "리샹롱에게 반려동물 동작인 손을 명령하는 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29D0",
+      "protected_snapshot": {
+        "record_id": 10704,
+        "raw_hex": "d029030036ffc88376838a836a815b00000000000000000082ed82ed82c1814100000000000000000000000000000000000000000000000000000082c882f18362835882a9814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "わわっ、",
+            "なんッスか！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "와왓,",
+          "뭠까!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑자기 리샹롱에게 공격받아 놀라는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/29D2",
+      "protected_snapshot": {
+        "record_id": 10706,
+        "raw_hex": "d229030083fac890af8965000000000000000000000000009053947a82c882a2836c815b814200000000000000000000000000000000000000000082b682e182ea82c482e982be82af8366815b83588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "心配ないネー。",
+            "じゃれてるだけデース。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "걱정 마~요.",
+          "장난치는 것뿐이에~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "리샹롱의 공격을 장난으로 치부하는 호시카게의 외국인풍 늘임 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29D4",
+      "protected_snapshot": {
+        "record_id": 10708,
+        "raw_hex": "d429030083fac890af8965000000000000000000000000008384836f834a838f8343834382b682e182c882a200000000000000000000000000000083668358834a815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ヤバカワイイじゃない",
+            "デスカー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "위험할 만큼 귀엽잖아~요.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ヤバカワイイ를 실제 위험과 매우 귀엽다는 속어 의미가 함께 드러나는 위험할 만큼 귀엽다로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29D6",
+      "protected_snapshot": {
+        "record_id": 10710,
+        "raw_hex": "d629010087fac890af89650000000000000000000000000082d982c18149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ほっ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "홋!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "호시카게의 짧은 동작 기합 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29D8",
+      "protected_snapshot": {
+        "record_id": 10712,
+        "raw_hex": "d829030086fac890af89650000000000000000000000000082d382a482c181410000000000000000000000000000000000000000000000000000008aeb82c882a982c182bd8366815b8358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ふうっ、",
+            "危なかったデース！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "후우,",
+          "위험했어~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "리샹롱의 공격을 피하고 안도하는 호시카게의 외국인풍 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29DA",
+      "protected_snapshot": {
+        "record_id": 10714,
+        "raw_hex": "da29040033ffc88376838a836a815b00000000000000000082ba81419153915282c882c282a282c482e982e682a482c982cd0000000000000000008ca982a682c882a28362835882e68149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ぜ、全然なついてるようには",
+            "見えないッスよ！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저, 전혀 따르는 것처럼은",
+          "안 보임다만!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "리샹롱이 길들었다는 호시카게의 인식을 부정하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/29DC",
+      "protected_snapshot": {
+        "record_id": 10716,
+        "raw_hex": "dc2904007f05c890af896500000000000000000000000000836d8393836d8393814981408386815b82cd8175838f817682cc905382aa00000000009153915295aa82a982c182c482c882a2836c81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1407,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ノンノン！　ユーは「ワ」の心が",
+            "全然分かってないネ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "노노! 당신은 「와」의 마음을",
+          "전혀 모르네~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ノンノン과 ワ의 마음이라는 외국인·일본문화 농담을 음역과 인용부호로 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29DE",
+      "protected_snapshot": {
+        "record_id": 10718,
+        "raw_hex": "de29010032ffc88376838a836a815b00000000000000000082d681480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "へ？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "네?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "호시카게의 논리에 어리둥절한 프리니의 짧은 반문 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/29E0",
+      "protected_snapshot": {
+        "record_id": 10720,
+        "raw_hex": "e02904007c05c890af8965000000000000000000000000008386815b82e0838a815b835683838393838d839382c6975682d782e982e682a482c900838f835e835682aa926282a682c482a082b0837d815b835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1404,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ユーもリーシャンロンと遊べるように",
+            "ワタシが鍛えてあげマース！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "당신도 리샹롱과 놀 수 있게",
+          "내가 단련해 주겠어~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 리샹롱의 놀이 상대로 단련하겠다는 호시카게의 외국인풍 선언 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29E2",
+      "protected_snapshot": {
+        "record_id": 10722,
+        "raw_hex": "e22904007905c890af89650000000000000000000000000088d38a4f82c68daa90ab82a082e983668358836c815b814200000000000000000000008376838a836a815b82be82c682c882df82c482dc82b582bd815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "意外と根性あるデスネー。",
+            "プリニーだとなめてましたー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "의외로 근성이 있네~요.",
+          "프리니라고 얕봤어~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈련을 버틴 프리니의 근성을 인정하는 호시카게의 외국인풍 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29E4",
+      "protected_snapshot": {
+        "record_id": 10724,
+        "raw_hex": "e429110000000000000000000000000000000000000000008376838a836a815b82cd838a815b835683838393838d839382cc8347835400000000008175836883898353839382dc82c182b582ae82e78176000000000000000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーはリーシャンロンのエサ",
+            "「ドラゴンまっしぐら」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 리샹롱의 먹이",
+          "「드래곤 돌진」",
+          "……을 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "ドラゴンまっしぐら를 먹이에 곧장 달려드는 상품명 농담이 짧게 드러나는 드래곤 돌진으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29E6",
+      "protected_snapshot": {
+        "record_id": 10726,
+        "raw_hex": "e629030037ffc88376838a836a815b00000000000000000082b182cc8347835482cd0000000000000000000000000000000000000000000000000082e082e782c182c48d7382ad8362835882e6815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "このエサは",
+            "もらって行くッスよー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이 먹이는",
+          "가져가겠슴다~.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "리샹롱의 먹이를 궁극의 디저트 재료로 챙기는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

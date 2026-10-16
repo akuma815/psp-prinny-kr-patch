@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_017_ultimate_dessert_reveal",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "47f656f0bd6016e88928db3c9a4af37af8b51d1302c22bbc9693ea9a9bf60283",
+  "context": {
+    "scene": "궁극의 디저트 전달과 악취 나는 결과물에 대한 에트나의 분노",
+    "evidence": [
+      "demo.nsf logical offsets 0x219B8/0x21BE6/0x21C2C/0x21C9F/0x21D41/0x21D94/0x21DC1/0x21EA8/0x21F84",
+      "BOOT dispatcher block-local stepping: static targets 9/9 proven, selected block 1/1 completed; demo00/0EE0 has no static candidate and remains consumer-review-required"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0ED8",
+      "protected_snapshot": {
+        "record_id": 3800,
+        "raw_hex": "d80e02006700c88376838a836a815b000000000000000000834783678369976c815b82c1814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様ーっ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님~!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 가져와 에트나를 크게 부르는 프리니의 외침을 승인 존칭으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EDA",
+      "protected_snapshot": {
+        "record_id": 3802,
+        "raw_hex": "da0e04006700c88376838a836a815b0000000000000000008b868bc982cc83588343815b83638e9d82c182c482ab82bd836283588149814900000082c882f182c682a98ad482c98d8782c182bd83628358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "究極のスイーツ持ってきたッス！！",
+            "なんとか間に合ったッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "궁극의 디저트 가져왔슴다!!",
+          "어떻게든 시간 맞췄슴다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 제한 시간 안에 가져왔다는 보고를 승인 용어와 프리니 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EDC",
+      "protected_snapshot": {
+        "record_id": 3804,
+        "raw_hex": "dc0e0400a4fdc88347836783690000000000000000000000967b939682c98e9d82c182c4978882e982c682cd82cb8142000000000000000000000083418393835e82bd82bf814188d38a4f82c682e282e982b682e182f1814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "本当に持って来るとはね。",
+            "アンタたち、意外とやるじゃん。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "정말 가져올 줄이야.",
+          "너희, 의외로 제법이잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "성공을 예상하지 못했던 에트나가 프리니들을 뜻밖에 칭찬하는 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EDE",
+      "protected_snapshot": {
+        "record_id": 3806,
+        "raw_hex": "de0e03006500c88376838a836a815b00000000000000000082a482a283628358814982c782a482bc8e7682a491b695aa0000000000000000000000904882c182c482ad82be82b382a28362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ういッス！どうぞ思う存分",
+            "食ってくださいッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "옛슴다! 부디 마음껏",
+          "드셔 주십쇼!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ういッス의 힘찬 응답을 '옛슴다', 思う存分食ってください를 거친 높임말 '마음껏 드셔 주십쇼'로 옮긴 초벌. 캐릭터 어조를 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "expression_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EE0",
+      "protected_snapshot": {
+        "record_id": 3808,
+        "raw_hex": "e00e0300a6fdc883478367836900000000000000000000008163816381638163816381638163816382ad82b382a28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "……………………くさい。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "…………냄새나.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트에서 악취가 난다는 에트나의 첫 반응을 유지했다. 정적 NSF 후보가 없어 최종 소비자 감사 대상이다.",
+        "flags": ["draft", "deferred_review", "consumer_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EE2",
+      "protected_snapshot": {
+        "record_id": 3810,
+        "raw_hex": "e20e0400a6fdc883478367836900000000000000000000008163816381638163816381638163816382c882c982b182ea814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "……………………なにこれ。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "…………뭐야, 이거.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체불명의 결과물에 당황한 에트나의 반응을 그대로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EE4",
+      "protected_snapshot": {
+        "record_id": 3812,
+        "raw_hex": "e40e01006a00c88376838a836a815b000000000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 반응을 지켜보는 프리니의 침묵을 보존한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EE6",
+      "protected_snapshot": {
+        "record_id": 3814,
+        "raw_hex": "e60e0400a6fdc8834783678369000000000000000000000082a08160814182b182ea82aa8b868bc982cc83588343815b836381480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "あ～、これが究極のスイーツ？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "아~ 이게 궁극의 디저트?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "악취 나는 물건이 궁극의 디저트냐고 확인하는 에트나의 불신을 승인 용어로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EE8",
+      "protected_snapshot": {
+        "record_id": 3816,
+        "raw_hex": "e80e0700a1fdc8834783678369000000000000000000000082b182f182c8838283938bf282a682e982a9815b81498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": -607,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "こんなモン喰えるかー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "이딴 걸 먹을 수 있겠냐~!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "결과물을 먹을 수 없다며 폭발하는 에트나의 거친 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EEA",
+      "protected_snapshot": {
+        "record_id": 3818,
+        "raw_hex": "ea0e01006a00c88376838a836a815b000000000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 분노 뒤 이어지는 프리니의 침묵을 보존한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    }
+  ]
+}

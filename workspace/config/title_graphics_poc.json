@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "gate_id": "POC-TITLE-GRAPHICS-007-FINAL",
+  "source": {
+    "start_sha256": "ac6fc29ebb122f99e4d8035f902fda39ff2b2f8d2dfd29f8b5da5278c0c9114b",
+    "entry_name": "anime00.dat",
+    "entry_sha256": "deffb004f010c29b3575f8ed5ff801420366c0d952a54989186c8faface0fd73",
+    "record_index": 78,
+    "record_offset": "0x46D0B0",
+    "record_size": 143120,
+    "texture_index": 0,
+    "texture_sha256": "29299ff4a8504dd5859352baefd4f9e43d9d0e64a4186c410b7e81f404297b97",
+    "width": 512,
+    "height": 512,
+    "bits_per_pixel": 4,
+    "swizzled": 1
+  },
+  "palette_indices": {
+    "transparent": 0,
+    "outline": 7,
+    "white_opaque": 15
+  },
+  "blocks": [
+    {"id": "gfx/title/subtitle", "original": "～オレが主人公でイイんスか？～", "translation": "~제가 주인공해도 되겠슴까?~", "bounds": [4, 128, 288, 160], "font_size": 14, "stroke": 1, "live_outline_color": [32, 24, 40], "live_outline_alpha": 144, "outline_alpha_indices": [9, 10, 11], "fill_index": 15, "fill_alpha_indices": [11, 12, 13, 14, 15], "font_style": "regular"},
+    {"id": "gfx/title/name-0", "original": "プ", "translation": "프", "bounds": [255, 174, 318, 225], "clear_bounds": [255, 166, 318, 225], "font_size": 48, "normalize_box": [28, 28], "alignment_anchor": "top-of-ㅍ", "anchor_target_y": 181, "allow_overflow": true, "offset_x": 0, "offset_y": -5, "stroke": 1, "outline_alpha_indices": [7, 8, 9, 10, 11], "fill_index": 15, "fill_alpha_indices": [9, 10, 11, 12, 13, 14, 15], "angle": 18.0, "font_style": "bold"},
+    {"id": "gfx/title/name-1", "original": "リ", "translation": "리", "bounds": [315, 162, 376, 207], "clear_bounds": [315, 159, 376, 207], "font_size": 48, "normalize_box": [28, 28], "alignment_anchor": "top-of-ㅣ", "anchor_target_y": 161, "allow_overflow": true, "offset_x": 0, "offset_y": -6, "stroke": 1, "outline_alpha_indices": [7, 8, 9, 10, 11], "fill_index": 15, "fill_alpha_indices": [9, 10, 11, 12, 13, 14, 15], "angle": 21.0, "font_style": "bold"},
+    {"id": "gfx/title/name-2", "original": "ニ", "translation": "니", "bounds": [374, 154, 416, 205], "clear_bounds": [374, 154, 422, 205], "font_size": 48, "normalize_box": [28, 28], "alignment_anchor": "top-of-ㅣ", "anchor_target_y": 159, "allow_overflow": true, "offset_x": 0, "offset_y": -4, "stroke": 1, "outline_alpha_indices": [7, 8, 9, 10, 11], "fill_index": 15, "fill_alpha_indices": [9, 10, 11, 12, 13, 14, 15], "angle": 21.0, "font_style": "bold"},
+    {"id": "gfx/title/name-3", "original": "ー", "translation": "", "bounds": [422, 152, 466, 192], "font_size": 48, "normalize_box": [28, 28], "offset_x": 0, "offset_y": 0, "stroke": 1, "outline_alpha_indices": [7, 8, 9, 10, 11], "fill_index": 15, "fill_alpha_indices": [9, 10, 11, 12, 13, 14, 15], "angle": 15.0, "font_style": "bold"},
+    {"id": "gfx/title/menu-start", "original": "はじめから", "translation": "처음부터", "bounds": [278, 238, 363, 264], "font_size": 18, "stroke": 1, "outline_alpha_indices": [1, 2, 3, 4, 5], "fill_index": 15, "binary": true, "binary_threshold": 128, "font_style": "regular"},
+    {"id": "gfx/title/menu-continue", "original": "つづきから", "translation": "이어하기", "bounds": [278, 263, 363, 289], "font_size": 18, "stroke": 1, "outline_alpha_indices": [1, 2, 3, 4, 5], "fill_index": 15, "binary": true, "binary_threshold": 128, "font_style": "regular"},
+    {"id": "gfx/title/menu-settings", "original": "設定", "translation": "설정", "bounds": [299, 286, 345, 312], "font_size": 18, "stroke": 1, "outline_alpha_indices": [1, 2, 3, 4, 5], "fill_index": 15, "binary": true, "binary_threshold": 128, "font_style": "regular"},
+    {"id": "gfx/title/menu-load", "original": "データロード", "translation": "데이터 로드", "bounds": [408, 108, 503, 135], "font_size": 15, "stroke": 1, "outline_alpha_indices": [1, 2, 3, 4, 5], "fill_index": 14, "binary": true, "binary_threshold": 128, "font_style": "regular"},
+    {"id": "gfx/title/menu-transfer", "original": "データ交換", "translation": "데이터 교환", "bounds": [410, 135, 501, 160], "font_size": 15, "stroke": 1, "outline_alpha_indices": [1, 2, 3, 4, 5], "fill_index": 14, "binary": true, "binary_threshold": 128, "font_style": "regular"}
+  ]
+}

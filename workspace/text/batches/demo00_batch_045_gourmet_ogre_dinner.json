@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_045_gourmet_ogre_dinner",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "67cc62c70f8f8b1d05f9a3ffff51cc43827cc446338c9d41f0e42858d256bfd6",
+  "context": {
+    "scene": "미식 오거의 저녁 식사 위협과 이름 없는 마물 비료절임 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x15056..0x15596의 연속 16개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 16/16 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2EE0",
+      "protected_snapshot": {
+        "record_id": 12000,
+        "raw_hex": "e02e01006d07c9834f838b83818349815b834b000000000095b782a282bd82c781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1901,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "聞いたど。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "들었구먼.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 부대의 소문을 들었다는 미식 오거의 승인된 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EE2",
+      "protected_snapshot": {
+        "record_id": 12002,
+        "raw_hex": "e22e04006d07c9834f838b83818349815b834b000000000092a982a982e782a082bf82b182bf8d7282b589f182c182c482e90000000000000000008376838a836a815b82cd82a8914f82bd82bf82b882e7814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1901,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "朝からあちこち荒し回ってる",
+            "プリニーはお前たちずら？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "아침부터 여기저기 휘젓고 다닌",
+          "프리니가 너희구먼?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아침부터 마계를 휘젓고 다닌 프리니가 주인공들인지 확인하는 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EE4",
+      "protected_snapshot": {
+        "record_id": 12004,
+        "raw_hex": "e42e030035ffc88376838a836a815b0000000000000000008349838c82bd82bf82b782c182a982e8974c96bc906c0000000000000000000000000082dd82bd82a28362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレたちすっかり有名人",
+            "みたいッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우리 완전히 유명인이",
+          "된 모양임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신들이 유명해진 것 같다고 반응하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EE6",
+      "protected_snapshot": {
+        "record_id": 12006,
+        "raw_hex": "e62e03007107c9834f838b83818349815b834b000000000082e682b581418da193fa82cc975b94d182cd000000000000000000000000000000000082a8914f82bd82bf82c982b782e982c7814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1905,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "よし、今日の夕飯は",
+            "お前たちにするど！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "좋아, 오늘 저녁은",
+          "너희로 정하겠구먼!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들을 오늘 저녁거리로 삼겠다는 미식 오거의 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EE8",
+      "protected_snapshot": {
+        "record_id": 12008,
+        "raw_hex": "e82e040036ffc88376838a836a815b00000000000000000082cd829f814982c882f182c582bb82a482c882e98362835882a981498148000000000094fc96a182b582ad82c882a283628358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "はぁ！なんでそうなるッスか！？",
+            "美味しくないッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "헉! 왜 그렇게 됨까!?",
+          "우린 맛도 없슴다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "저녁거리로 지목된 이유를 묻고 맛이 없다고 항변하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EEA",
+      "protected_snapshot": {
+        "record_id": 12010,
+        "raw_hex": "ea2e03007007c9834f838b83818349815b834b000000000083498381834782e7814196be93fa82cc92a982c982cd0000000000000000000000000082a882c582cc94a882cc94ec82e282b582b882e782e6814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "オメエら、明日の朝には",
+            "おでの畑の肥やしずらよ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "너희는 내일 아침이면",
+          "내 밭의 거름이 될 거구먼!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들을 먹고 밭의 거름으로 만들겠다는 미식 오거의 구먼체 위협 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EEC",
+      "protected_snapshot": {
+        "record_id": 12012,
+        "raw_hex": "ec2e03006f07c9834f838b83818349815b834b000000000082b182ea82f082e282e982a982e70000000000000000000000000000000000000000008aa895d982b582c482ad82ea82b882e7814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1903,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "これをやるから",
+            "勘弁してくれずら。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "이걸 줄 테니",
+          "봐주게나.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "패배 뒤 물건을 건네며 용서를 구하는 미식 오거 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EEE",
+      "protected_snapshot": {
+        "record_id": 12014,
+        "raw_hex": "ee2e110000000000000000000000000000000000000000008376838a836a815b82cd8141834f838b83818349815b834b82cc975b90480000000000817596bc82e096b382ab968295a882cc94ec82e282b592d082af8176000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、グルメオーガの夕食",
+            "「名も無き魔物の肥やし漬け」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 미식 오거의 저녁",
+          "「이름 없는 마물의 거름절임」을",
+          "……손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "名も無き魔物の肥やし漬け를 이름 없는 마물의 거름절임으로 옮긴 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EF0",
+      "protected_snapshot": {
+        "record_id": 12016,
+        "raw_hex": "f02e03006d07c9834f838b83818349815b834b000000000082bb82ea82cd814100000000000000000000000000000000000000000000000000000082a882c582cc91e58d4495a882b882e7814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1901,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "それは、",
+            "おでの大好物ずら。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "그건",
+          "내가 제일 좋아하구먼.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "건넨 거름절임이 자기 별미라고 밝히는 미식 오거의 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EF2",
+      "protected_snapshot": {
+        "record_id": 12018,
+        "raw_hex": "f22e04007107c9834f838b83818349815b834b0000000000894282b596a182cc835d839383728f6082aa82a682e08cbe82ed82ea82ca0000000000836e815b8382836a815b82f0917482c582e982c78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1905,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "隠し味のゾンビ汁がえも言われぬ",
+            "ハーモニーを奏でるど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "비법 재료 좀비즙이 형언 못 할",
+          "조화를 이루는구먼.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "숨은 맛인 좀비 국물을 좀비즙으로 옮기고 음식 하모니를 자연스럽게 현지화한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EF4",
+      "protected_snapshot": {
+        "record_id": 12020,
+        "raw_hex": "f42e020032ffc88376838a836a815b000000000000000000835d839383728f6082c182c4816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ゾンビ汁って……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "좀비즙이라니…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "거름절임에 좀비즙이 들었다는 말에 질색하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EF6",
+      "protected_snapshot": {
+        "record_id": 12022,
+        "raw_hex": "f62e030037ffc88376838a836a815b0000000000000000008163816382dc81418b43957482a982ea82c882ab82e10000000000000000000000000082a282a28362835882e682cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……ま、気付かれなきゃ",
+            "いいッスよね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……뭐, 들키지만 않으면",
+          "됨다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나에게 재료 정체를 들키지 않으면 된다고 타협하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EF8",
+      "protected_snapshot": {
+        "record_id": 12024,
+        "raw_hex": "f82e03007007c9834f838b83818349815b834b0000000000838083808380814182e282c182cf82e882a882df82a682e7000000000000000000000096b390d3944382be82c7814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "ムムム、やっぱりおめえら",
+            "無責任だど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "음, 역시 너희는",
+          "무책임하구먼.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료 정체를 숨기려는 프리니들을 무책임하다고 평하는 미식 오거 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EFA",
+      "protected_snapshot": {
+        "record_id": 12026,
+        "raw_hex": "fa2e03007007c9834f838b83818349815b834b000000000094a895fa82c182c493a682b082bd82a882c582cc0000000000000000000000000000008376838a836a815b82c693af82b682b882e781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "畑放って逃げたおでの",
+            "プリニーと同じずら。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "밭을 버리고 도망간 내",
+          "프리니들과 똑같구먼.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자기 밭에서 달아난 프리니들과 주인공들을 비교하는 미식 오거 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EFC",
+      "protected_snapshot": {
+        "record_id": 12028,
+        "raw_hex": "fc2e03007007c9834f838b83818349815b834b000000000082a282c182bd82a28384836382e782cd0000000000000000000000000000000000000082c782b182d68fc182a682bd82b882e7816381638148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "いったいヤツらは",
+            "どこへ消えたずら……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "도대체 녀석들은",
+          "어디로 사라졌는지…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "탈주한 프리니들의 행방을 궁금해하는 미식 오거의 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2EFE",
+      "protected_snapshot": {
+        "record_id": 12030,
+        "raw_hex": "fe2e040037ffc88376838a836a815b00000000000000000082c782c182a9814182a282a290458fea82c582e08ca982c282af82bd82f182b682e10082c882a28362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どっか、いい職場でも見つけたんじゃ",
+            "ないッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어디 좋은 직장이라도 찾은 거",
+          "아님까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "탈주 프리니들이 더 좋은 직장을 찾았을 것이라 추측하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

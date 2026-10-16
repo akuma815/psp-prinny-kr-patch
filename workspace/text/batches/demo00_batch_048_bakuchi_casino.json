@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_048_bakuchi_casino",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "ca0435cd1d17f60c36df969100647759924bc492c60d26aa64b26475ba7ae7fa",
+  "context": {
+    "scene": "바쿠치의 에트나 빚 독촉과 카지노 경품·아토믹 코어 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x1696E..0x16F37의 연속 15개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 15/15 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2F76",
+      "protected_snapshot": {
+        "record_id": 12150,
+        "raw_hex": "762f0400a506c8836f834e8360815b00000000000000000091d282c182c482bd82ba815b814282a8914f82e781419682905f83478367836982cc008376838a836a815b82be82c182c482c8814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "待ってたぜー。お前ら、魔神エトナの",
+            "プリニーだってな？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "기다렸다. 너희 마신 에트나의",
+          "프리니라며?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 프리니 부대를 기다리고 있었다는 바쿠치 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F78",
+      "protected_snapshot": {
+        "record_id": 12152,
+        "raw_hex": "782f040037ffc88376838a836a815b00000000000000000082dc82a0814182bb82a48362835882cb81428349838c82bd82bf82c98ee882f000000082be82b582bd82e7834783678369976c82aa96d982c182c482c882a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "まあ、そうッスね。オレたちに手を",
+            "だしたらエトナ様が黙ってないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 그렇슴다. 우릴 건드리면",
+          "에트나 님이 가만 안 있슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 위세를 빌려 바쿠치를 위협하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F7A",
+      "protected_snapshot": {
+        "record_id": 12154,
+        "raw_hex": "7a2f0c0035ffc88376838a836a815b0000000000000000008da193fa82cd8de182a682c482e983628358814200000000000000000000000000000089e482c882aa82e783698343835882c8836e8362835e838a82c18358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 12,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "今日は冴えてるッス。",
+            "我ながらナイスなハッタリっス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "오늘 감이 좋슴다.",
+          "내 생각에도 멋진 허풍임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 보복을 내세운 허풍에 스스로 만족하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F7C",
+      "protected_snapshot": {
+        "record_id": 12156,
+        "raw_hex": "7c2f0300a806c8836f834e8360815b0000000000000000008384836382cc8363835082aa8250824f89ad8377838b0000000000000000000000000097ad82dc82c182c482e982f182be8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "ヤツのツケが１０億ヘル",
+            "溜まってるんだ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "그 녀석 외상값이 10억 헬",
+          "쌓여 있어.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "エトナ를 그 녀석으로 받고 ツケ를 외상값, 통화를 승인 표기 헬로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "referent_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F7D",
+      "protected_snapshot": {
+        "record_id": 12157,
+        "raw_hex": "7d2f0300a806c8836f834e8360815b0000000000000000008ed88be082cc834a835e82c98349838c976c82cc82c682b1000000000000000000000082c9978882c482e082e782a482ba8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "借金のカタにオレ様のとこ",
+            "に来てもらうぜ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "빚 대신 내게",
+          "와 줘야겠다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 빚 대신 프리니들을 담보로 데려가겠다는 바쿠치 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F7E",
+      "protected_snapshot": {
+        "record_id": 12158,
+        "raw_hex": "7e2f020036ffc88376838a836a815b00000000000000000082c782d082e1815b83628358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どひゃーッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뜨헉~임다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 거액 외상과 담보 요구에 놀라는 프리니 감탄 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F80",
+      "protected_snapshot": {
+        "record_id": 12160,
+        "raw_hex": "802f040031ffc88376838a836a815b00000000000000000082bb814182bb82f182c882cc92bc90da834783678369976c82c98cbe82a483628358008f9f8ee882c9935d904582b582bd82e7926e8d9682f08ca982e98362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そ、そんなの直接エトナ様に言うッス",
+            "勝手に転職したら地獄を見るッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그건 에트나 님께 직접 말하십쇼.",
+          "맘대로 이직하면 지옥을 봄다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "빚은 에트나에게 직접 요구하고 무단 이직은 위험하다고 항변하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F82",
+      "protected_snapshot": {
+        "record_id": 12162,
+        "raw_hex": "822f0300a506c8836f834e8360815b000000000000000000935d904582a3814882be82ea82e08cd982a4000000000000000000000000000000000082c882f182c48cbe82c182c482c882a282ba81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "転職ぅ？だれも雇う",
+            "なんて言ってないぜ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "이직? 누가 고용한다고",
+          "했냐.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들을 고용할 생각이 아니라고 정정하는 바쿠치 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F84",
+      "protected_snapshot": {
+        "record_id": 12164,
+        "raw_hex": "842f0300a506c8836f834e8360815b00000000000000000082a8914f82e782f0834a8357836d82cc8c69956982c90000000000000000000000000082b582c482e282e982c182c482f182be82e681490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "お前らをカジノの景品に",
+            "してやるってんだよ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "너희를 카지노 경품으로",
+          "쓰겠단 거다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 부대를 카지노 경품으로 삼겠다는 바쿠치 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F86",
+      "protected_snapshot": {
+        "record_id": 12166,
+        "raw_hex": "862f0300a506c8836f834e8360815b0000000000000000008acf944f82b582c881490000000000000000000000000000000000000000000000000082b182cc97709053965f82cd8bad82a282ba82a58149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "観念しな！",
+            "この用心棒は強いぜぇ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "각오해!",
+          "이 경호원은 강하다고!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "카지노 경호 로봇의 강함을 자신하는 바쿠치 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F88",
+      "protected_snapshot": {
+        "record_id": 12168,
+        "raw_hex": "882f070059f9c8836f834e8360815b000000000000000000834a8382815b839381410000000000000000000000000000000000000000000000000083548343834e838d815b836283768358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": -1703,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "カモーン、",
+            "サイクローップス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "컴온,",
+          "사이클롭~스!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사이클롭스 계열 경비 로봇 サイクロプス를 사이클롭스로 옮기고 원문의 늘임을 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F8A",
+      "protected_snapshot": {
+        "record_id": 12170,
+        "raw_hex": "8a2f0400a606c8836f834e8360815b00000000000000000082a082a082a0816381638349838c976c82cc8c7894f5838d837b82aa816381638142008d8282a282f182be82bc814182b182ea816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "あああ……オレ様の警備ロボが……。",
+            "高いんだぞ、これ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "아아……내 경비 로봇이…….",
+          "이거 비싸단 말이야…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "비싼 경비 로봇이 파괴돼 낙담하는 바쿠치 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F8C",
+      "protected_snapshot": {
+        "record_id": 12172,
+        "raw_hex": "8c2f110000000000000000000000000000000000000000008376838a836a815b82cd814183548343834e838d8376835882cc8e638a5b82a982e700817583418367837e8362834e83528341817600000000000000000000000000000000008163816382f08f4582c182bd8149000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、サイクロプスの残骸から",
+            "「アトミックコア」",
+            "……を拾った！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 사이클롭스의 잔해에서",
+          "「아토믹 코어」를",
+          "……주웠다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "サイクロプス와 アトミックコア를 사이클롭스와 아토믹 코어로 옮긴 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F8E",
+      "protected_snapshot": {
+        "record_id": 12174,
+        "raw_hex": "8e2f0400a806c8836f834e8360815b00000000000000000082bf82ad82b582e582a481418b4d8f6482c982c882c182bd8376838a836a815b00000082c882e78c69956982c997c782a282c68e7682c182bd82cc82c982e6814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "ちくしょう、貴重になったプリニー",
+            "なら景品に良いと思ったのによ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "젠장, 귀해진 프리니라면",
+          "경품으로 좋을 줄 알았는데!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "희귀해진 프리니를 경품으로 쓰려던 계획이 실패해 분해하는 바쿠치 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F90",
+      "protected_snapshot": {
+        "record_id": 12176,
+        "raw_hex": "902f040035ffc88376838a836a815b000000000000000000816381638b4d8f64814882c682a482c682a48349838c82bd82bf82cc000000000000008e9e91e382aa978882bd8362835882a9814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……貴重？とうとうオレたちの",
+            "時代が来たッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……귀해졌다고? 드디어 우리의",
+          "시대가 온 검까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 귀해졌다는 말에 자기들의 시대가 왔다고 착각하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

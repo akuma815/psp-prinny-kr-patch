@@ -1,0 +1,1364 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_075_asagi_protagonist",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "5d3e9c2f78ad672fd72e5d4503de5decd2bcc61f49002bf3a3dcf0e9195a402c",
+  "context": {
+    "scene": "아사기의 주인공 오해와 엑스트라의 눈물",
+    "evidence": [
+      "BOOT 디스패처 정적 참조 28/28, 선택 블록 2/2 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/7530",
+      "protected_snapshot": {
+        "record_id": 30000,
+        "raw_hex": "30751000000000000000000000000000000000000000000082a082a0814182c782ea82be82af91d282bf965d82f182be82b182c682a9814200000082b182ea82aa944f8ae882cc81418e8482cc8351815b838081638163814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 16,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ああ、どれだけ待ち望んだことか。",
+            "これが念願の、私のゲーム……！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "아아, 얼마나 기다렸던가.",
+          "이게 꿈에 그리던 내 게임……!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "아사기의 주인공 게임 염원을 드러내는 독백.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7532",
+      "protected_snapshot": {
+        "record_id": 30002,
+        "raw_hex": "32750f000000000000000000000000000000000000000000815c815c82cd82c181418e9e8ad482cb8142000000000000000000000000000000000083418354834d81418d7382ab82dc82b7816381638149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 15,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "――はっ、時間ね。",
+            "アサギ、行きます……！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "……헉, 시간이야.",
+          "아사기, 출동합니다……!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "정체를 밝히며 등장하는 아사기의 독백.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7534",
+      "protected_snapshot": {
+        "record_id": 30004,
+        "raw_hex": "347503003301c883418354834d000000000000000000000082b3829f82c4814182c782cc83588343815b836382f00000000000000000000000000092b882b182a482a982b582e781480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 307,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "さぁて、どのスイーツを",
+            "頂こうかしら？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "자, 어떤 디저트를",
+          "먹어 볼까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠를 사냥감처럼 고르는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7536",
+      "protected_snapshot": {
+        "record_id": 30006,
+        "raw_hex": "367503002d01c883418354834d000000000000000000000082a082c882bd82cd83558352834c8383838982cb814800000000000000000000000000837b8358834c8383838982cd82c782b1814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "あなたはザコキャラね？",
+            "ボスキャラはどこ？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "넌 잡몹 캐릭터지?",
+          "보스 캐릭터는 어디야?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 잡몹으로 오인하는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7538",
+      "protected_snapshot": {
+        "record_id": 30008,
+        "raw_hex": "387504003801c883418354834d000000000000000000000082b182cc83588343815b8363836e8393835e815b83418354834d82aa814100000000008ac382ad89d897ed82c9837b83628352837b835282c982b582c482e282e982ed8149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 312,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "このスイーツハンターアサギが、",
+            "甘く華麗にボッコボコにしてやるわ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "이 디저트 헌터 아사기가",
+          "달콤 화려하게 박살 내 주겠어!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "スイーツハンターアサギ를 디저트 헌터 아사기로 옮긴 자기소개.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/753A",
+      "protected_snapshot": {
+        "record_id": 30010,
+        "raw_hex": "3a75030037ffc88376838a836a815b00000000000000000082a082cc815b81418da189f182cd8349838c82bd82bf82aa00000000000000000000008ee5906c8cf683628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あのー、今回はオレたちが",
+            "主人公ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저기, 이번엔 우리가",
+          "주인공임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "이번 작품의 주인공이 프리니임을 밝히는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/753C",
+      "protected_snapshot": {
+        "record_id": 30012,
+        "raw_hex": "3c7503003b01c883418354834d000000000000000000000082a082c18163816382a082cd816381638142000000000000000000000000000000000082a082cd82cd82cd82cd82cd81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 315,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "あっ……あは……。",
+            "あははははは……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "아…… 아하…….",
+          "아하하하하하…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "주인공이 아니라는 말을 받아들이지 못하는 웃음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/753E",
+      "protected_snapshot": {
+        "record_id": 30014,
+        "raw_hex": "3e7504003901c883418354834d000000000000000000000082bb814182bb82f182c882ed82af82c882a282b682e182c882a28142000000000000008355835282c182c48cbe82c182bd82a982e7937b82c182c482a282e982cc82cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 313,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "そ、そんなわけないじゃない。",
+            "ザコって言ったから怒っているのね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "그, 그럴 리 없잖아.",
+          "잡몹이라 해서 화난 거지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니가 화나서 거짓말한다고 믿는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7540",
+      "protected_snapshot": {
+        "record_id": 30016,
+        "raw_hex": "4075030037ffc88376838a836a815b00000000000000000082a282e28141967b939682c98349838c82bd82bf82aa000000000000000000000000008ee5906c8cf683628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、本当にオレたちが",
+            "主人公ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아니, 정말 우리가",
+          "주인공임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "주인공 사실을 재차 확인하는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7542",
+      "protected_snapshot": {
+        "record_id": 30018,
+        "raw_hex": "427503003601c883418354834d000000000000000000000082b3814182b382c482cd814182a282ab82c882e8000000000000000000000000000000837b8358834c8383838982c182c482ed82af82cb8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 310,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "さ、さては、いきなり",
+            "ボスキャラってわけね？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "서, 설마 갑자기",
+          "보스 캐릭터인 거지?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 보스 캐릭터로 다시 오인하는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7544",
+      "protected_snapshot": {
+        "record_id": 30020,
+        "raw_hex": "447503003801c883418354834d000000000000000000000082b382a08141000000000000000000000000000000000000000000000000000000000082a982a982c182c482ab82c882b382a2814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 312,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "さあ、",
+            "かかってきなさい！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "자,",
+          "덤벼 봐!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니에게 결투를 거는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7546",
+      "protected_snapshot": {
+        "record_id": 30022,
+        "raw_hex": "4675030032ffc88376838a836a815b00000000000000000082c882f182a9814194f18fed82c983658393837082c182c4000000000000000000000082a282e982dd82bd82a28362835882cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なんか、非常にテンパって",
+            "いるみたいッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭔가, 엄청 당황한",
+          "모양임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아사기가 극도로 당황했음을 지적하는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7548",
+      "protected_snapshot": {
+        "record_id": 30024,
+        "raw_hex": "487504003501c883418354834d000000000000000000000082a4814182a482bb81638163814200000000000000000000000000000000000000000082b182f182c88355835282aa8ee5906c8cf681638163814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 309,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "う、うそ……。",
+            "こんなザコが主人公……！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "거, 거짓말…….",
+          "이런 잡몹이 주인공……!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니가 주인공이라는 사실에 충격받는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/754A",
+      "protected_snapshot": {
+        "record_id": 30026,
+        "raw_hex": "4a7504003a01c883418354834d00000000000000000000008e8482cd82dc82bd8141894282b382ea82c482e082a282c882a2000000000000000000894282b5834c83838389814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "私はまた、隠されてもいない",
+            "隠しキャラ？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "난 또 숨기지도 않은",
+          "숨겨진 캐릭터야?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "자신의 반복된 숨겨진 캐릭터 처지를 자조하는 메타 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/754C",
+      "protected_snapshot": {
+        "record_id": 30028,
+        "raw_hex": "4c7504003a01c883418354834d000000000000000000000089d882e082c882af82ea82ce945282a682e082c882a289ba82c1925b82c900000000008ee5906c8cf682cc8dc082f0924482ed82ea82e982c882f182c48163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "華もなければ燃えもない下っ端に",
+            "主人公の座を奪われるなんて……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "화려함도 열정도 없는 졸개에게",
+          "주인공 자리를 뺏기다니…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니에게 주인공 자리를 빼앗겼다고 탄식하는 메타 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/754E",
+      "protected_snapshot": {
+        "record_id": 30030,
+        "raw_hex": "4e7501003a01c883418354834d00000000000000000000008b9682b982cb814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "許せね！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "용서 못 해!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "주인공 자리를 빼앗겼다는 분노.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7550",
+      "protected_snapshot": {
+        "record_id": 30032,
+        "raw_hex": "507503003601c883418354834d000000000000000000000082be82c182c48da189f182cd8e8482aa8ee5906c8cf60000000000000000000000000082be82c182c48cbe82ed82ea82bd82cc82e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 310,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "だって今回は私が主人公",
+            "だって言われたのよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "왜냐면 이번엔 내가 주인공이라고",
+          "들었단 말이야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "이번 작품 주인공 약속을 받았다고 주장하는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7552",
+      "protected_snapshot": {
+        "record_id": 30034,
+        "raw_hex": "5275020037ffc88376838a836a815b00000000000000000082a282c182bd82a2924e82c98362835882a9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いったい誰にッスか。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "대체 누구한테 들었슴까.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "주인공 약속을 한 사람을 묻는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7554",
+      "protected_snapshot": {
+        "record_id": 30036,
+        "raw_hex": "547503003601c883418354834d00000000000000000000008163816392ca82e882b782aa82e882cc000000000000000000000000000000000000008376838d83668385815b8354815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 310,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "……通りすがりの",
+            "プロデューサー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "……지나가던",
+          "프로듀서.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "정체불명의 프로듀서에게 들었다는 메타 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7556",
+      "protected_snapshot": {
+        "record_id": 30038,
+        "raw_hex": "5675030032ffc88376838a836a815b0000000000000000008376838d83668385815b8354815b82c182c40000000000000000000000000000000000924e8362835882a98163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "プロデューサーって",
+            "誰ッスか……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "프로듀서가",
+          "누굼까…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프로듀서라는 존재를 알지 못하는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7558",
+      "protected_snapshot": {
+        "record_id": 30040,
+        "raw_hex": "5875040032ffc88376838a836a815b00000000000000000082a082f182bd81418aaee0f8e97882b382ea82c482e98362835881420000000000000096828a4582b682e193fa8fed928394d18e9683628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あんた、完璧騙されてるッス。",
+            "魔界じゃ日常茶飯事ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "당신, 완전히 속았슴다.",
+          "마계에선 흔한 일임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아사기가 속았음을 단정하는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/755A",
+      "protected_snapshot": {
+        "record_id": 30042,
+        "raw_hex": "5a75020037ffc88376838a836a815b0000000000000000008b4382f082c282af82e982b182c68362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "気をつけることッスね。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "앞으론 조심하십쇼.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "앞으로 사기를 조심하라는 충고.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/755C",
+      "protected_snapshot": {
+        "record_id": 30044,
+        "raw_hex": "5c7504003a01c883418354834d000000000000000000000082bb82f182c882c996828a4582c993e990f582f182c582e98ea995aa82f0816381630088ab968282cc8ea995aa82f08ea9969d82b582bd82a282cc81638163814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "そんなに魔界に馴染んでる自分を……",
+            "悪魔の自分を自慢したいの……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "그렇게 마계에 익숙한 자신을……",
+          "악마인 자신을 자랑하고 싶어……?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니의 적응을 악마성 자랑으로 비트는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/755E",
+      "protected_snapshot": {
+        "record_id": 30046,
+        "raw_hex": "5e75010032ffc88376838a836a815b0000000000000000008163816382d682c181480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……へっ？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……예?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아사기의 논리 비약을 이해하지 못하는 반응.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7560",
+      "protected_snapshot": {
+        "record_id": 30048,
+        "raw_hex": "607504003401c883418354834d0000000000000000000000815c815c82c6814182c682e882a082a682b800000000000000000000000000000000008da189f182cd82b182ea82c58aa895d982b582c482a082b082e98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 308,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "――と、とりあえず",
+            "今回はこれで勘弁してあげる。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "……우, 우선",
+          "이번엔 이쯤에서 봐줄게.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "패배 뒤 물러나며 체면을 세우는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7562",
+      "protected_snapshot": {
+        "record_id": 30050,
+        "raw_hex": "627503002d01c883418354834d00000000000000000000008e9f82c989ef82c182bd82e700000000000000000000000000000000000000000000008a6f82a682c482a282c882b382a28149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "次に会ったら",
+            "覚えていなさい！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "다음에 만나면",
+          "두고 봐!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "다음 만남의 복수를 예고하는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7564",
+      "protected_snapshot": {
+        "record_id": 30052,
+        "raw_hex": "6475030032ffc88376838a836a815b000000000000000000816381638ee5906c8cf682f08af3965d82b782e9906c82cc0000000000000000000000835a838a837482b682e182c882a28362835882cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……主人公を希望する人の",
+            "セリフじゃないッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……주인공이 되고 싶다는 사람의",
+          "대사 같진 않슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "전형적인 악역 퇴장 대사를 비꼬는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7566",
+      "protected_snapshot": {
+        "record_id": 30054,
+        "raw_hex": "6675110000000000000000000000000000000000000000008376838a836a815b82cd814183418354834d82aa978e82c682b582bd0000000000000081758347834c83588367838982cc97dc817600000000000000000000000000000000008163816382f082b182c182bb82e88f4582c182bd814200000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、アサギが落とした",
+            "「エキストラの涙」",
+            "……をこっそり拾った。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 아사기가 떨어뜨린",
+          "「엑스트라의 눈물」을",
+          "……몰래 주웠다."
+        ],
+        "status": "needs_human_review",
+        "notes": "エキストラの涙를 엑스트라의 눈물로 옮긴 아이템 획득문.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_062_natsu_meg_weapon",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "047f4ba2a79a177ecea07f87eff07da50d6598c26de4f0bcb9b5e0738f3014e5",
+  "context": {
+    "scene": "나츠와 메그의 궁극 디저트 최종병기 오해",
+    "evidence": [
+      "demo.nsf logical offsets 0x1E332..0x1E41B의 목표 호출 4/4; BOOT dispatcher 선택 블록 포함 통합 감사 6/6 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/33F4",
+      "protected_snapshot": {
+        "record_id": 13300,
+        "raw_hex": "f43304008803c8836983630000000000000000000000000095b782a282bd82e681428b868bc982cc83588343815b836382c182c48141000000000082b782b282a295908aed82c882f182c582b582e58148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 904,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "聞いたよ。究極のスイーツって、",
+            "すごい武器なんでしょ？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "들었어. 궁극의 디저트가",
+          "굉장한 무기라며?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 굉장한 무기로 오해한 나츠의 질문.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33F6",
+      "protected_snapshot": {
+        "record_id": 13302,
+        "raw_hex": "f6330200e903c88381834f000000000000000000000000008dc58f498163816395ba8aed814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1001,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "最終……兵器。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "최종…… 병기.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 최종병기라 단정하는 메그의 짧고 기계적인 문체를 보존함.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33F8",
+      "protected_snapshot": {
+        "record_id": 13304,
+        "raw_hex": "f83304008503c8836983630000000000000000000000000082a082cc8d95944c82f0905882a982e792c782a28f6f82b582bd82a282cc814200000082be82a982e781418e8482bd82bf82aa82a282bd82be82ad82a982e782cb81490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 901,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "あの黒猫を森から追い出したいの。",
+            "だから、私たちがいただくからね！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "검은 고양이를 숲에서 쫓아낼 거야.",
+          "그러니 우리가 가져갈게!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "검은 고양이를 숲에서 몰아내기 위해 궁극의 디저트를 가져가겠다는 나츠 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33FA",
+      "protected_snapshot": {
+        "record_id": 13306,
+        "raw_hex": "fa33040032ffc88376838a836a815b00000000000000000083588343815b836382aa95ba8aed82c182c48aa888e182a282e0000000000000000000907282be82b582a28362835882cb8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "スイーツが兵器って勘違いも",
+            "甚だしいッスね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "디저트를 병기로 착각하다니",
+          "너무 심함다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트를 병기로 오해한 정도가 심하다고 지적하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

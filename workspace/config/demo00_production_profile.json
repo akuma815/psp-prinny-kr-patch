@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "profile_id": "demo00-production-hangul-v1",
+  "supported_revision": "ULJS00150 1.01",
+  "source_font": {
+    "sha256": "f6682e2027b1a382d3e01546f7a7115cb26cc1245ded6b839686a069abc743b0",
+    "family": "Hancom MalangMalang",
+    "style": "Regular",
+    "distribution": "파생 게임용 비트맵만 포함; 원본 TTF 별도 배포 제외"
+  },
+  "inputs": {
+    "font.fnt": {
+      "size": 23232,
+      "sha256": "8492b5959423c4488d1c63650b3873cdfc33ed1b15874652a9966ddc17575a6e"
+    },
+    "font.txp": {
+      "size": 328800,
+      "sha256": "b8f7301307da33a8ef606b55d831bba1b67e4eafa1447084ab4e649d1df6c2d9"
+    },
+    "Demo00.dat": {
+      "size": 207520,
+      "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d"
+    }
+  },
+  "allocation": {
+    "lead_start": "0xF0",
+    "lead_end": "0xF9",
+    "trail_ranges": [
+      [
+        "0x40",
+        "0x7E"
+      ],
+      [
+        "0x80",
+        "0xFC"
+      ]
+    ],
+    "require_original_blank_map_entry": true,
+    "assignment_order": "Unicode codepoint ascending, then CP932 user-defined code ascending"
+  },
+  "target": {
+    "cell_width": 20,
+    "cell_height": 14,
+    "bits_per_pixel": 4,
+    "nibble_order": "low-first",
+    "palette_levels": 8
+  },
+  "raster": {
+    "font_size": 13,
+    "horizontal_scale": 1.4,
+    "placement": "center"
+  },
+  "expected": {
+    "complete_entries": 1523,
+    "excluded_entries": 49,
+    "hangul_syllables": 831,
+    "original_glyphs": 2348,
+    "expanded_glyphs": 2348,
+    "expanded_texture_height": 32872,
+    "reclaim_report_sha256": "c5c442f343a887fdad2bae0e84b874997380924536870174dcb27258a42ecad5"
+  },
+  "containers": {
+    "start.dat": {
+      "size": 9030752,
+      "sha256": "e2e9870cc4b62db0ee08ba1cbb1958bfdfa172a4df589288c01fde89c6befd41",
+      "data_marker": "0x16D0",
+      "entry_count": 182,
+      "replacements": {
+        "font.fnt": "8492b5959423c4488d1c63650b3873cdfc33ed1b15874652a9966ddc17575a6e",
+        "font.txp": "b8f7301307da33a8ef606b55d831bba1b67e4eafa1447084ab4e649d1df6c2d9",
+        "Demo00.dat": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d"
+      }
+    },
+    "SYSTEM.DAT": {
+      "size": 4127307,
+      "sha256": "facf0905f80479952d1a4926ca3530ff2740b8492bf39cb4ba1e2b2ee3339c4e",
+      "alignment": 2048,
+      "entry_count": 7,
+      "replacement_name": "start.lzs",
+      "replacement_source_sha256": "2242dee86aefd0a1ee91a9092ee9525986431027943a544622c5c5e50ab5a58c"
+    },
+    "iso": {
+      "size": 500465664,
+      "sha256": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
+      "parent_path": "/PSP_GAME/USRDIR",
+      "target_name": "SYSTEM.DAT",
+      "target_offset": "0x1AA10000",
+      "target_size": 4127307,
+      "target_sha256": "facf0905f80479952d1a4926ca3530ff2740b8492bf39cb4ba1e2b2ee3339c4e",
+      "replacement_sha256": "7f2d4d86bf5f99ca10adcd36340b7872e0289bc1049693661c15c619e0126e01",
+      "alignment": 2048,
+      "relocated_names": [
+        "SYSTEM.DAT",
+        "ANIME.DAT",
+        "BG.DAT"
+      ]
+    }
+  }
+}

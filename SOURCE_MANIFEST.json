@@ -1,0 +1,2184 @@
+{
+  "date": "2026-10-16",
+  "project": "프리니 ~제가 주인공해도 되겠슴까?~",
+  "files": [
+    {
+      "path": "docs/HANDOFF_2026-07-26.md",
+      "source": "docs/HANDOFF_2026-07-26.md",
+      "bytes": 74968,
+      "sha256": "7f411580d58d267693be52f7c0068f2a8e6151a3c51496cbe8e58fd9796bd6ff"
+    },
+    {
+      "path": "docs/HANDOFF_2026-07-28.md",
+      "source": "docs/HANDOFF_2026-07-28.md",
+      "bytes": 119806,
+      "sha256": "e642a678dc66ef336c44e1ecbb05d906c4960a8efdd185b7165c2524e2e3cd28"
+    },
+    {
+      "path": "docs/NEW_CHAT_HANDOFF.md",
+      "source": "docs/NEW_CHAT_HANDOFF.md",
+      "bytes": 17597,
+      "sha256": "98ee7113d0f98e7b7019d683e02674749d7cc222ef2debaad5e212eed4d3ee3a"
+    },
+    {
+      "path": "docs/build.md",
+      "source": "docs/build.md",
+      "bytes": 74057,
+      "sha256": "2d1c8f8cda25dbb0395bcdc7a600974f036d5b0e2cf0b166e3f2cb2803aa5b29"
+    },
+    {
+      "path": "docs/decisions.md",
+      "source": "docs/decisions.md",
+      "bytes": 142270,
+      "sha256": "288ac93eecd2dbb81df9d7f5a5018a068e4bc08ea0b282877a34f61429f7fc98"
+    },
+    {
+      "path": "docs/dlc-survey.md",
+      "source": "docs/dlc-survey.md",
+      "bytes": 9620,
+      "sha256": "0084785e22a72ffc2f24de572b242cd0a5d7670863fb135b1a9cdecadefca88d"
+    },
+    {
+      "path": "docs/format.md",
+      "source": "docs/format.md",
+      "bytes": 33366,
+      "sha256": "a6b3e5c71771c4e5286b0bf9ebbc69f9066bc1b8157bb262bc8c83258525dfb9"
+    },
+    {
+      "path": "docs/graphics.md",
+      "source": "docs/graphics.md",
+      "bytes": 40811,
+      "sha256": "1ef88c8073f5bc97a630d339e91bed320da044047c7ea258fc6cd67106549b13"
+    },
+    {
+      "path": "docs/image-review-gallery.md",
+      "source": "docs/image-review-gallery.md",
+      "bytes": 5290,
+      "sha256": "1910f2d35009566f5dfdb0ddf59b46ae7b51dae416133985c9f83871cfb820a2"
+    },
+    {
+      "path": "docs/image-text-review.md",
+      "source": "docs/image-text-review.md",
+      "bytes": 7865,
+      "sha256": "b19279745bb6655d65ed90ff46a36cc4e5d0f1c1fada9f5a23747e5a17c09851"
+    },
+    {
+      "path": "docs/poc.md",
+      "source": "docs/poc.md",
+      "bytes": 34025,
+      "sha256": "1a5710596c3b6175e66190e229b3834060c554d7868cb2ed26d7ce6dc4d3d15d"
+    },
+    {
+      "path": "docs/qa.md",
+      "source": "docs/qa.md",
+      "bytes": 78631,
+      "sha256": "95e6f008fb583b65a0794eeff574a4fbb6fc211dad95398b136aacce55d895d6"
+    },
+    {
+      "path": "docs/review.md",
+      "source": "docs/review.md",
+      "bytes": 13954,
+      "sha256": "e4602272737022e0092e61c11adf29a7b36a871324560ab4214fe2bf18862b1f"
+    },
+    {
+      "path": "docs/stage-gm3-nfg20.md",
+      "source": "docs/stage-gm3-nfg20.md",
+      "bytes": 6956,
+      "sha256": "dabec83094ef37479b7db6a4f68be72541065b0bd424be259f414c07819b9b6b"
+    },
+    {
+      "path": "docs/survey.md",
+      "source": "docs/survey.md",
+      "bytes": 92313,
+      "sha256": "9978251063f77867a9d2d3c2d7142af12d0fc229158c6307aa321b0219171a04"
+    },
+    {
+      "path": "workspace/config/baked_graphics_bulk.json",
+      "source": "workspace/config/baked_graphics_bulk.json",
+      "bytes": 6401,
+      "sha256": "3c3bcbb1adac94829e051a1b76adfc9fec9bec0079ada440f130599a6c1d0657"
+    },
+    {
+      "path": "workspace/config/baseline_manifest.json",
+      "source": "workspace/config/baseline_manifest.json",
+      "bytes": 3689,
+      "sha256": "aef3375a74dea469ede7349dc0dacd6e0820b07a86c683a6e3e1c10e91a6b735"
+    },
+    {
+      "path": "workspace/config/cp932_allocation_profile.json",
+      "source": "workspace/config/cp932_allocation_profile.json",
+      "bytes": 1107,
+      "sha256": "6604ba69cf9755d229e7726a6b41358640955efa64d2e725d112de2cfbef3c5e"
+    },
+    {
+      "path": "workspace/config/demo00_production_profile.json",
+      "source": "workspace/config/demo00_production_profile.json",
+      "bytes": 3073,
+      "sha256": "0ef79fa9a511747079142059049a459c9bc04b3357583ba039cb08e11dc0ffad"
+    },
+    {
+      "path": "workspace/config/dialog_e2e_profile.json",
+      "source": "workspace/config/dialog_e2e_profile.json",
+      "bytes": 4120,
+      "sha256": "109c0dfedfd44c6449a8582e68572da34aa3f6e7b79bc2719622e4770d28d0ca"
+    },
+    {
+      "path": "workspace/config/font_multi_profile.json",
+      "source": "workspace/config/font_multi_profile.json",
+      "bytes": 3120,
+      "sha256": "ec69f674df1974b3423a61a907fb305a2079f4cbb1001832e843324ae882472f"
+    },
+    {
+      "path": "workspace/config/font_profile.json",
+      "source": "workspace/config/font_profile.json",
+      "bytes": 2685,
+      "sha256": "93a80158a44bd29ddd72567a2aba85eb2e5afdfd0332fa0d9cc1c0214f78ece3"
+    },
+    {
+      "path": "workspace/config/requirements-analysis.txt",
+      "source": "workspace/config/requirements-analysis.txt",
+      "bytes": 55,
+      "sha256": "43a7e14afa46d307bae9aeeabd00fc238f83fd17fe589e255e0919bcf0374a9a"
+    },
+    {
+      "path": "workspace/config/test_iso_boot_profile.json",
+      "source": "workspace/config/test_iso_boot_profile.json",
+      "bytes": 543,
+      "sha256": "d85094a3ad79432baecf4fef0000910d4cb59d989343d1bee1b1cb3250659c2f"
+    },
+    {
+      "path": "workspace/config/test_iso_eboot_profile.json",
+      "source": "workspace/config/test_iso_eboot_profile.json",
+      "bytes": 542,
+      "sha256": "4e9ac2d80797bf6ecb56177d476f6741e6e01ce7d6ebce77e51a033dbc6c2e35"
+    },
+    {
+      "path": "workspace/config/test_iso_tutorial_profile.json",
+      "source": "workspace/config/test_iso_tutorial_profile.json",
+      "bytes": 546,
+      "sha256": "f5a0a8c52429ec3a236e1ffc160a8215d1f9a707603d931b7be1f5a4989aef8b"
+    },
+    {
+      "path": "workspace/config/title_graphics_poc.json",
+      "source": "workspace/config/title_graphics_poc.json",
+      "bytes": 4248,
+      "sha256": "e4d512a91453fb9f77353263b1284d6909809810e0b7b27cdfb3b1ff30c83498"
+    },
+    {
+      "path": "workspace/config/tutorial_graphics_poc.json",
+      "source": "workspace/config/tutorial_graphics_poc.json",
+      "bytes": 17298,
+      "sha256": "4546007303b4b95a64ff100a6f8a7c697d3760b701c9a69527a8105fc4774bb1"
+    },
+    {
+      "path": "workspace/config/tutorial_iso_profile.json",
+      "source": "workspace/config/tutorial_iso_profile.json",
+      "bytes": 540,
+      "sha256": "43b35bf5507c585ea16dbb7334a6eb026b63b3d79a24171e6bac2ab7086faaa1"
+    },
+    {
+      "path": "workspace/config/tutorial_live_preview.json",
+      "source": "workspace/config/tutorial_live_preview.json",
+      "bytes": 1124,
+      "sha256": "32ae0fc88181cbb0f7816e5b549ce3406ef4a5ad9273cbc505f1fc7b3d7d2a79"
+    },
+    {
+      "path": "workspace/config/two_line_iso_boot_profile.json",
+      "source": "workspace/config/two_line_iso_boot_profile.json",
+      "bytes": 548,
+      "sha256": "7c3c243f66f6c527076052b8dabe61190a5251270922afa76a48bf4cb3a2554f"
+    },
+    {
+      "path": "workspace/config/two_line_iso_eboot_profile.json",
+      "source": "workspace/config/two_line_iso_eboot_profile.json",
+      "bytes": 547,
+      "sha256": "cc131ff3b81c0c0f407d60a0c2f78fee18814e8d679009749580dea40f53429c"
+    },
+    {
+      "path": "workspace/config/two_line_iso_tutorial_profile.json",
+      "source": "workspace/config/two_line_iso_tutorial_profile.json",
+      "bytes": 551,
+      "sha256": "1252c4f51f7b42290786a2386ebcb1f6e2dfe5d30a9d94b061319f9e67b3b105"
+    },
+    {
+      "path": "workspace/scripts/anime_assets.py",
+      "source": "workspace/scripts/anime_assets.py",
+      "bytes": 6549,
+      "sha256": "2108b04136213faef1f5a6101a2c35c6d2d80a08a79a2cba83c5d3a3911398d5"
+    },
+    {
+      "path": "workspace/scripts/audit_boot_ui_residual.py",
+      "source": "workspace/scripts/audit_boot_ui_residual.py",
+      "bytes": 3437,
+      "sha256": "af5027e2e7e9d0696432cd8347e6999fa788cfd16ae3e0d10c744b78a18e5ec3"
+    },
+    {
+      "path": "workspace/scripts/audit_boot_ui_translation.py",
+      "source": "workspace/scripts/audit_boot_ui_translation.py",
+      "bytes": 5461,
+      "sha256": "c6ad5e0865b722dfd460cc30e24c057e372962ce6dba5bbf811c7c0c52abc07d"
+    },
+    {
+      "path": "workspace/scripts/audit_cp932_allocation.py",
+      "source": "workspace/scripts/audit_cp932_allocation.py",
+      "bytes": 14372,
+      "sha256": "ec138f7cc196e93994f7736ff82f9150f4634a3e77d89c0b180a2eb03901dec7"
+    },
+    {
+      "path": "workspace/scripts/audit_cp932_usage.py",
+      "source": "workspace/scripts/audit_cp932_usage.py",
+      "bytes": 8172,
+      "sha256": "5e35acb3e0885cf34b8c49e9e043a7554e3679b58af99b2668b50083a4a7d564"
+    },
+    {
+      "path": "workspace/scripts/audit_demo00_population.py",
+      "source": "workspace/scripts/audit_demo00_population.py",
+      "bytes": 10074,
+      "sha256": "68213d4a90fcaf074885a2526b538e43ef94607f598062a635bc0e22132d396e"
+    },
+    {
+      "path": "workspace/scripts/audit_demo00_reclaim.py",
+      "source": "workspace/scripts/audit_demo00_reclaim.py",
+      "bytes": 8489,
+      "sha256": "7a1c18cf3b16f3edab644fc8a13225caef2adc1c567d214a9829574bcf7048d5"
+    },
+    {
+      "path": "workspace/scripts/audit_enemy_orphan_key.py",
+      "source": "workspace/scripts/audit_enemy_orphan_key.py",
+      "bytes": 12898,
+      "sha256": "ca237ce57f91949585a340247874bf7089a117f675acaab1ce31a32b715eaa4e"
+    },
+    {
+      "path": "workspace/scripts/audit_settings_render.py",
+      "source": "workspace/scripts/audit_settings_render.py",
+      "bytes": 4529,
+      "sha256": "78810b2dd61afb7e41a34054b89dc9afd0d434658065286fea15c52a7e1ac43d"
+    },
+    {
+      "path": "workspace/scripts/base_talk.py",
+      "source": "workspace/scripts/base_talk.py",
+      "bytes": 4063,
+      "sha256": "c3df4944b01ce42af452f94c048fa28befd11b6a62a041e5e07ca9f9d1db7d32"
+    },
+    {
+      "path": "workspace/scripts/bind_baked_graphics_dumps.py",
+      "source": "workspace/scripts/bind_baked_graphics_dumps.py",
+      "bytes": 6404,
+      "sha256": "7bc92d6c4ffd671e295d785ca44213113f6b427efc0451b297e41fcb98c66524"
+    },
+    {
+      "path": "workspace/scripts/build_baked_graphics_bulk_preview.py",
+      "source": "workspace/scripts/build_baked_graphics_bulk_preview.py",
+      "bytes": 23417,
+      "sha256": "9c2a87c3fd4233b05bcfeb823c3303c0c11d2b8c4cbb40253fa5ded597ecc18f"
+    },
+    {
+      "path": "workspace/scripts/build_baked_graphics_full_preview.py",
+      "source": "workspace/scripts/build_baked_graphics_full_preview.py",
+      "bytes": 21262,
+      "sha256": "66388ab0b011a7a5ffee5d0801234c9ad2fe335a2719317fb9fdd31b93dc5fd4"
+    },
+    {
+      "path": "workspace/scripts/build_base_menu_live_preview.py",
+      "source": "workspace/scripts/build_base_menu_live_preview.py",
+      "bytes": 9420,
+      "sha256": "af2e573c239fdac7cade0858f5cf6d9f8c5827de499c81bcf162c5402121e41a"
+    },
+    {
+      "path": "workspace/scripts/build_boot_ui_exact_length_control.py",
+      "source": "workspace/scripts/build_boot_ui_exact_length_control.py",
+      "bytes": 4962,
+      "sha256": "4f4864af279dd608ad2ccb81f82e6b99f3e0cf25bb35ec318db4cd2e9c44d9bb"
+    },
+    {
+      "path": "workspace/scripts/build_boot_ui_runtime_patch.py",
+      "source": "workspace/scripts/build_boot_ui_runtime_patch.py",
+      "bytes": 9269,
+      "sha256": "deb42d2fa1140763bd72532a0d240e7233101d05d45995e28abd26b4038806ad"
+    },
+    {
+      "path": "workspace/scripts/build_container_control.py",
+      "source": "workspace/scripts/build_container_control.py",
+      "bytes": 3572,
+      "sha256": "ceb925a59df6bbade64658b6edd137fde7241f5ef7e2c1ff4a83e2c4e0810324"
+    },
+    {
+      "path": "workspace/scripts/build_demo00_poc.py",
+      "source": "workspace/scripts/build_demo00_poc.py",
+      "bytes": 7099,
+      "sha256": "ed976eb72404aac5debd5ed3ce1bf8e7861a15dc4d937d8fdb8145fe615f3d12"
+    },
+    {
+      "path": "workspace/scripts/build_demo00_production.py",
+      "source": "workspace/scripts/build_demo00_production.py",
+      "bytes": 19081,
+      "sha256": "c1cff5ff7066de01fab2439be1da5dd441c92070199b6932690046f98555ee85"
+    },
+    {
+      "path": "workspace/scripts/build_demo_skip_timer_live_preview.py",
+      "source": "workspace/scripts/build_demo_skip_timer_live_preview.py",
+      "bytes": 15925,
+      "sha256": "0de635d446cdbfccbe9fa66204f27522e9a03fef9ebee2fcfa7b5083ec8148ad"
+    },
+    {
+      "path": "workspace/scripts/build_dialog_punctuation_spacing_patch.py",
+      "source": "workspace/scripts/build_dialog_punctuation_spacing_patch.py",
+      "bytes": 12098,
+      "sha256": "3ceb665d95651269ab0090e0af61de482d87b063ce3b5f76fccb97d9b0d9aabd"
+    },
+    {
+      "path": "workspace/scripts/build_dialog_space_advance_test.py",
+      "source": "workspace/scripts/build_dialog_space_advance_test.py",
+      "bytes": 8426,
+      "sha256": "c997fe3e1e78b77959f860a027075f43b17232cd62b662ab199146fc8d24fd59"
+    },
+    {
+      "path": "workspace/scripts/build_dialog_typewriter_patch.py",
+      "source": "workspace/scripts/build_dialog_typewriter_patch.py",
+      "bytes": 29959,
+      "sha256": "39ed0028d219f165dd8a1b009ade90a5024c084304a2c32909a60c7a6ada8912"
+    },
+    {
+      "path": "workspace/scripts/build_direct_run.py",
+      "source": "workspace/scripts/build_direct_run.py",
+      "bytes": 31170,
+      "sha256": "586da46dd20e987dee5ebb35ff04d10871181003b9a70f2cb77d61a623d93a76"
+    },
+    {
+      "path": "workspace/scripts/build_dlc_kr.py",
+      "source": "workspace/scripts/build_dlc_kr.py",
+      "bytes": 20683,
+      "sha256": "0c37cf42e6e25d0c3fdff69afafd801a861aecd7618b44ec232a01b06c4decab"
+    },
+    {
+      "path": "workspace/scripts/build_final_iso.py",
+      "source": "workspace/scripts/build_final_iso.py",
+      "bytes": 9212,
+      "sha256": "ac74def6dc00121ba083b40e84a28a154b46b824d4551969e2897e674f46d554"
+    },
+    {
+      "path": "workspace/scripts/build_font_multi_poc.py",
+      "source": "workspace/scripts/build_font_multi_poc.py",
+      "bytes": 7931,
+      "sha256": "db5c4379df5af32ec1dd7cf2170a4cfc1a45bdc3119f6ab82024274f758faf38"
+    },
+    {
+      "path": "workspace/scripts/build_font_poc.py",
+      "source": "workspace/scripts/build_font_poc.py",
+      "bytes": 14765,
+      "sha256": "f7ea30be8d23b757e7201e27ce19328b35a67a7663e73aa657ab187941b8593f"
+    },
+    {
+      "path": "workspace/scripts/build_image_first_pass_review_pack.py",
+      "source": "workspace/scripts/build_image_first_pass_review_pack.py",
+      "bytes": 5197,
+      "sha256": "1fb300c4e649bfc5f387d4409a61db010f4c9b8d1a4107ac9f4bf6252f40b775"
+    },
+    {
+      "path": "workspace/scripts/build_image_review_gallery.py",
+      "source": "workspace/scripts/build_image_review_gallery.py",
+      "bytes": 7244,
+      "sha256": "636ff16544d4182c0b25de8d1019561f8dd5c9b5fa2acb6975718a35130b3db4"
+    },
+    {
+      "path": "workspace/scripts/build_iso_poc.py",
+      "source": "workspace/scripts/build_iso_poc.py",
+      "bytes": 10091,
+      "sha256": "83f42f0913836e9faa74cb54e82e81df147aca2983a3cc38762d0a6f094bc180"
+    },
+    {
+      "path": "workspace/scripts/build_iso_production.py",
+      "source": "workspace/scripts/build_iso_production.py",
+      "bytes": 9648,
+      "sha256": "a8829bf6f0fde0fc0b725920ed4d9109e71b16ececf5e1842fb00505a2032709"
+    },
+    {
+      "path": "workspace/scripts/build_ppsspp_dump_contact_sheet.ps1",
+      "source": "workspace/scripts/build_ppsspp_dump_contact_sheet.ps1",
+      "bytes": 3536,
+      "sha256": "060d7d5bd53503249197e785d34377cb57a6328b270ed97973b84916e39e86f9"
+    },
+    {
+      "path": "workspace/scripts/build_ppsspp_sign_probe.ps1",
+      "source": "workspace/scripts/build_ppsspp_sign_probe.ps1",
+      "bytes": 2011,
+      "sha256": "f6f3d5ed700ce4fad619e50aac44976051537a67300b25611f726000bca3bbe1"
+    },
+    {
+      "path": "workspace/scripts/build_runtime_text_atlas_preview.py",
+      "source": "workspace/scripts/build_runtime_text_atlas_preview.py",
+      "bytes": 12068,
+      "sha256": "006c55db462748e351d6a0e478719b06c7c7c6090e569c46f05540a746e9edc1"
+    },
+    {
+      "path": "workspace/scripts/build_stage_hud_iso_poc.py",
+      "source": "workspace/scripts/build_stage_hud_iso_poc.py",
+      "bytes": 13628,
+      "sha256": "fe234b7a1b71457f9afd6ceca21f7792e3ed9e9ef7a488519d6209c87bf0dd72"
+    },
+    {
+      "path": "workspace/scripts/build_stage_tutorial_sign_live_preview.py",
+      "source": "workspace/scripts/build_stage_tutorial_sign_live_preview.py",
+      "bytes": 6985,
+      "sha256": "01871a4cb0554da434f42cdb4ea93387bfd63d33b64d41cab177556c650bf28b"
+    },
+    {
+      "path": "workspace/scripts/build_stage_world_sign_poc.py",
+      "source": "workspace/scripts/build_stage_world_sign_poc.py",
+      "bytes": 6163,
+      "sha256": "a272bd67f6c7e7a11d554f86a34b14647f427a920b60222904ac382260710c3c"
+    },
+    {
+      "path": "workspace/scripts/build_start_dialog_poc.py",
+      "source": "workspace/scripts/build_start_dialog_poc.py",
+      "bytes": 4805,
+      "sha256": "5a7f132af0ec3a0312e1d4a5e56f4f88b75f2d933ff2bf0a4830de00998078fa"
+    },
+    {
+      "path": "workspace/scripts/build_start_poc.py",
+      "source": "workspace/scripts/build_start_poc.py",
+      "bytes": 4704,
+      "sha256": "a70629f6098522c5bfc005fbbd80b4807515f2fa06913ee2ac94064f13caf8ba"
+    },
+    {
+      "path": "workspace/scripts/build_start_production.py",
+      "source": "workspace/scripts/build_start_production.py",
+      "bytes": 5500,
+      "sha256": "735add4ce89472992c5904a41d98bbeeb1c39bfa5f17fd7a62b0118eafff31be"
+    },
+    {
+      "path": "workspace/scripts/build_start_runtime_controls.py",
+      "source": "workspace/scripts/build_start_runtime_controls.py",
+      "bytes": 3770,
+      "sha256": "2d020966459b8d7e67916d20c65f9ab5034b5bc2851fe572f40997a94b78a868"
+    },
+    {
+      "path": "workspace/scripts/build_system_poc.py",
+      "source": "workspace/scripts/build_system_poc.py",
+      "bytes": 7257,
+      "sha256": "7dd84480b86bdc93d3fbc408d116e17eaf249b7b0c63e54957800da423472c4a"
+    },
+    {
+      "path": "workspace/scripts/build_system_production.py",
+      "source": "workspace/scripts/build_system_production.py",
+      "bytes": 7051,
+      "sha256": "7dcf1452a1863c3399d0eeee11da45d2315bf096f891d3a6ff27800045d06cd5"
+    },
+    {
+      "path": "workspace/scripts/build_texture_component_sheet.py",
+      "source": "workspace/scripts/build_texture_component_sheet.py",
+      "bytes": 5815,
+      "sha256": "66d559a30c8be08107320172146ad452e382621514aef221003bac8dffa745ba"
+    },
+    {
+      "path": "workspace/scripts/build_title_graphics_poc.py",
+      "source": "workspace/scripts/build_title_graphics_poc.py",
+      "bytes": 15851,
+      "sha256": "80262fc895ee089a7b404740d351b9efe6008bf2430c3e74bae40f4f48a91757"
+    },
+    {
+      "path": "workspace/scripts/build_title_live_preview.py",
+      "source": "workspace/scripts/build_title_live_preview.py",
+      "bytes": 8227,
+      "sha256": "2957df89cfe95e0c904c27f34d6a303c5add3651af9655e67a94aaf70d0cde88"
+    },
+    {
+      "path": "workspace/scripts/build_translated_images_iso.py",
+      "source": "workspace/scripts/build_translated_images_iso.py",
+      "bytes": 28504,
+      "sha256": "b27ce9d7a4aff915829bd82eb80576d40c9f794490a3001a9ec24082fb4b8451"
+    },
+    {
+      "path": "workspace/scripts/build_tutorial_graphics_poc.py",
+      "source": "workspace/scripts/build_tutorial_graphics_poc.py",
+      "bytes": 16831,
+      "sha256": "74d906a557a103280b398ed5366eb554a2d42cb0851d7a41136dd5b6de2e9aaf"
+    },
+    {
+      "path": "workspace/scripts/build_tutorial_live_preview.py",
+      "source": "workspace/scripts/build_tutorial_live_preview.py",
+      "bytes": 12493,
+      "sha256": "aabe0a1fc955462432e6ba5d2dbfac49af1aaf885677a50338562d9eebe38c71"
+    },
+    {
+      "path": "workspace/scripts/build_world_sign_live_preview.py",
+      "source": "workspace/scripts/build_world_sign_live_preview.py",
+      "bytes": 10358,
+      "sha256": "7a1601d575ae8dfae20de816774773da67036fe90e78390acf86974aa0a602b2"
+    },
+    {
+      "path": "workspace/scripts/build_xdelta_release.py",
+      "source": "workspace/scripts/build_xdelta_release.py",
+      "bytes": 7085,
+      "sha256": "4a202f1d276e5ad7b755682e737880e31906108b5f0e6ca17973c0975b097b16"
+    },
+    {
+      "path": "workspace/scripts/capture_ppsspp_gpu_frame.py",
+      "source": "workspace/scripts/capture_ppsspp_gpu_frame.py",
+      "bytes": 2713,
+      "sha256": "23fd4e685d98c57a1527e2df8eaf8aa233099a7455ba5cc1285f1a6da4cb7c3e"
+    },
+    {
+      "path": "workspace/scripts/capture_ppsspp_gpu_transitions.py",
+      "source": "workspace/scripts/capture_ppsspp_gpu_transitions.py",
+      "bytes": 4496,
+      "sha256": "faae32b575897d92e885918545853dac49fdeaa13247eaf76487e084a5cea4c1"
+    },
+    {
+      "path": "workspace/scripts/capture_ppsspp_visual_transitions.py",
+      "source": "workspace/scripts/capture_ppsspp_visual_transitions.py",
+      "bytes": 4997,
+      "sha256": "4af8892677d8d575daad5b93d01ad45193e2f12a1988dd51658956b8d05d42d1"
+    },
+    {
+      "path": "workspace/scripts/capture_window.ps1",
+      "source": "workspace/scripts/capture_window.ps1",
+      "bytes": 1260,
+      "sha256": "15a0bfd29049206c1c653c5586553b2307922b79db5c00e2ce000fb436ffc198"
+    },
+    {
+      "path": "workspace/scripts/catalog_baked_graphics_full.py",
+      "source": "workspace/scripts/catalog_baked_graphics_full.py",
+      "bytes": 4170,
+      "sha256": "3d7cb774cdd8f5345a2645536fb4609c193a5efe7913138237464bd62c83ab33"
+    },
+    {
+      "path": "workspace/scripts/compare_ppsspp_gpu_dumps.py",
+      "source": "workspace/scripts/compare_ppsspp_gpu_dumps.py",
+      "bytes": 4800,
+      "sha256": "dc0cb3b9c51f1b906706741db3a6e3952c58ba4c477d20c4aac6c36885c1cad8"
+    },
+    {
+      "path": "workspace/scripts/compress_nis_lzs.py",
+      "source": "workspace/scripts/compress_nis_lzs.py",
+      "bytes": 6736,
+      "sha256": "3a1d5bca42daf9f680754c65feda4763d77ae1c62da651bb2e3477ff4650ce23"
+    },
+    {
+      "path": "workspace/scripts/decompress_nis_lzs.py",
+      "source": "workspace/scripts/decompress_nis_lzs.py",
+      "bytes": 2931,
+      "sha256": "fdd9cd864f067ec9fcdf648547c4fb61eb4a245d13b992dddbd869168406c41a"
+    },
+    {
+      "path": "workspace/scripts/demo00.py",
+      "source": "workspace/scripts/demo00.py",
+      "bytes": 5529,
+      "sha256": "ea7b5bac6975a1d3b6a677a96de13bddd51b90e25e9f2220d28530324c869bd8"
+    },
+    {
+      "path": "workspace/scripts/demo00_approve_queue.py",
+      "source": "workspace/scripts/demo00_approve_queue.py",
+      "bytes": 5201,
+      "sha256": "db52bd7a8486b76faa5597c183ab2e764950a46cc53bba340264730f31292536"
+    },
+    {
+      "path": "workspace/scripts/demo00_artifact.py",
+      "source": "workspace/scripts/demo00_artifact.py",
+      "bytes": 12346,
+      "sha256": "4ca0a2f25334800e160f8f9c05fdf2f97323b78d6cf4492eda7193aeae2aaf89"
+    },
+    {
+      "path": "workspace/scripts/demo00_batches.py",
+      "source": "workspace/scripts/demo00_batches.py",
+      "bytes": 9158,
+      "sha256": "98ae1af3f58a1a1a905d4a2daac72bc5ba2f7c6da7cc2d9c8a7e33f9aa308e99"
+    },
+    {
+      "path": "workspace/scripts/demo00_controls.py",
+      "source": "workspace/scripts/demo00_controls.py",
+      "bytes": 5950,
+      "sha256": "376b147ad4136140215a2d70a0bb87f08cdb9f0db6f89883325602a17ea055ab"
+    },
+    {
+      "path": "workspace/scripts/demo00_review_queue.py",
+      "source": "workspace/scripts/demo00_review_queue.py",
+      "bytes": 3066,
+      "sha256": "34c089d9af02592bb2b1227844919251a4d3b2d2e00d315e0d24347ad6bda7fc"
+    },
+    {
+      "path": "workspace/scripts/demo00_speaker_length_review.py",
+      "source": "workspace/scripts/demo00_speaker_length_review.py",
+      "bytes": 10406,
+      "sha256": "e1ed4df480b359f725ccaf170619febc45055cd0caee1644abbd75bf1ef77460"
+    },
+    {
+      "path": "workspace/scripts/didt.py",
+      "source": "workspace/scripts/didt.py",
+      "bytes": 11094,
+      "sha256": "bea95e2f508f7415de74b67d632774bd6f17723384591709b4f56739fc496131"
+    },
+    {
+      "path": "workspace/scripts/dump_ppsspp_memory.py",
+      "source": "workspace/scripts/dump_ppsspp_memory.py",
+      "bytes": 2669,
+      "sha256": "fc8fa9740a992c5f71f97f6f59aaa31402ce36d404e1ce32455c9eef458fe07e"
+    },
+    {
+      "path": "workspace/scripts/export_boot_ui_candidates.py",
+      "source": "workspace/scripts/export_boot_ui_candidates.py",
+      "bytes": 1986,
+      "sha256": "deac3a0fe6fdb078b9ae19ab9ca55fdff322b1a4c5d6f0eb4a839dda6e0a2d64"
+    },
+    {
+      "path": "workspace/scripts/export_dlc_text.py",
+      "source": "workspace/scripts/export_dlc_text.py",
+      "bytes": 12214,
+      "sha256": "a38348cb14e4b1fcc702bfacaefb07257f52d55c829c15b8a1c4645b8004fbc7"
+    },
+    {
+      "path": "workspace/scripts/export_gm3_texture.py",
+      "source": "workspace/scripts/export_gm3_texture.py",
+      "bytes": 1484,
+      "sha256": "5dc05f017f1c6c61faa52565c6697d42e99a35c6b7e65579e411b28bdfd43347"
+    },
+    {
+      "path": "workspace/scripts/export_lucky_doll.py",
+      "source": "workspace/scripts/export_lucky_doll.py",
+      "bytes": 6412,
+      "sha256": "e1bac1edf246123afd66dac88a5da66b801fbbc1b8f4782b152b60ab98fd3fec"
+    },
+    {
+      "path": "workspace/scripts/export_picture_book.py",
+      "source": "workspace/scripts/export_picture_book.py",
+      "bytes": 10394,
+      "sha256": "4c557d6d63df68932ceea4d9ff4623ef19a60e17bcf5fb711439c662012da5e6"
+    },
+    {
+      "path": "workspace/scripts/export_stage_info.py",
+      "source": "workspace/scripts/export_stage_info.py",
+      "bytes": 7266,
+      "sha256": "87471cdbd3ee6016cb8a9cbf2d0fa9977e54821f28068e007e0a86e29a79e993"
+    },
+    {
+      "path": "workspace/scripts/export_start_tables.py",
+      "source": "workspace/scripts/export_start_tables.py",
+      "bytes": 5091,
+      "sha256": "d6ad9b86a4c093a09078007dada0bf26260c4f6848e5d43859f29bfa4a95285c"
+    },
+    {
+      "path": "workspace/scripts/find_binary_blob.py",
+      "source": "workspace/scripts/find_binary_blob.py",
+      "bytes": 1763,
+      "sha256": "a771115ecfb8d076637e30d071fe960ec16b70e90a83aa4e2261c0b3bcbacbff"
+    },
+    {
+      "path": "workspace/scripts/find_encoded_text.py",
+      "source": "workspace/scripts/find_encoded_text.py",
+      "bytes": 2942,
+      "sha256": "91a35beff9c69734d6318d95d5f5fbab944088a51859cb87b524b8f0d57ffd4e"
+    },
+    {
+      "path": "workspace/scripts/find_sjis_candidates.py",
+      "source": "workspace/scripts/find_sjis_candidates.py",
+      "bytes": 3200,
+      "sha256": "ea15f5c8df37317403e6ff7773c3d07d5a12b7279acfbe12623bb9a0d6546be8"
+    },
+    {
+      "path": "workspace/scripts/fix_shared_atlas_regressions.py",
+      "source": "workspace/scripts/fix_shared_atlas_regressions.py",
+      "bytes": 9185,
+      "sha256": "5c900231c402c2ac201c89b4926dbc7a19972b29dd1913602356dae05eac89d2"
+    },
+    {
+      "path": "workspace/scripts/font_assets.py",
+      "source": "workspace/scripts/font_assets.py",
+      "bytes": 9905,
+      "sha256": "61012bfc26eabca74f583e4126431258b236e4bab73bc8819a9bd70116c91f88"
+    },
+    {
+      "path": "workspace/scripts/gm3_assets.py",
+      "source": "workspace/scripts/gm3_assets.py",
+      "bytes": 7850,
+      "sha256": "0c98353e483383ad11abc96b47548a00c05829a0aa7358100136d8d94034065d"
+    },
+    {
+      "path": "workspace/scripts/inspect_nispack.py",
+      "source": "workspace/scripts/inspect_nispack.py",
+      "bytes": 3780,
+      "sha256": "f1e768c565b0efc54e048757509550e5999fbe4b0ebd394883bf0a251458345e"
+    },
+    {
+      "path": "workspace/scripts/inspect_ppsspp_atlas_cache.py",
+      "source": "workspace/scripts/inspect_ppsspp_atlas_cache.py",
+      "bytes": 7214,
+      "sha256": "085d8c68add29f271cc54a38f2c23adeb53d7ef4a93fa452cf38f69c18b72adb"
+    },
+    {
+      "path": "workspace/scripts/inspect_ppsspp_gpu_dump.py",
+      "source": "workspace/scripts/inspect_ppsspp_gpu_dump.py",
+      "bytes": 4453,
+      "sha256": "4e370419f3ef54fdb5a10c504220630304cade10dae46f8b93e1cb44535d86c2"
+    },
+    {
+      "path": "workspace/scripts/inspect_start_dat.py",
+      "source": "workspace/scripts/inspect_start_dat.py",
+      "bytes": 4613,
+      "sha256": "7a0f5ab11f25f7cfbc0c756a5bef66ed2fd1faf28a7c1a8661444f4af954d893"
+    },
+    {
+      "path": "workspace/scripts/install_dlc_kr.ps1",
+      "source": "workspace/scripts/install_dlc_kr.ps1",
+      "bytes": 2078,
+      "sha256": "2d2f7a05ae244be7254a8ece95d2829039ccffaaa950273554e0e5768fc791e5"
+    },
+    {
+      "path": "workspace/scripts/integrate_boot_ui_assets_iso.py",
+      "source": "workspace/scripts/integrate_boot_ui_assets_iso.py",
+      "bytes": 7998,
+      "sha256": "c353d3201039a6cd831717b8274fb0812ba68592396447b296ec26352a8d8d89"
+    },
+    {
+      "path": "workspace/scripts/integrate_stage_info_iso.py",
+      "source": "workspace/scripts/integrate_stage_info_iso.py",
+      "bytes": 13017,
+      "sha256": "3d43ed0c27699e3f3e844d823bde67a1413a8aeac2590dbfd96145ade4a0c20f"
+    },
+    {
+      "path": "workspace/scripts/inventory_graphics.py",
+      "source": "workspace/scripts/inventory_graphics.py",
+      "bytes": 9441,
+      "sha256": "b0539d45f551de3154de5962f6ef47880b22d2ed7724e9658fbaed6dca592d8a"
+    },
+    {
+      "path": "workspace/scripts/launch_prinny_korean.ps1",
+      "source": "workspace/scripts/launch_prinny_korean.ps1",
+      "bytes": 2605,
+      "sha256": "3c47efbc0f24da76a1cd36cec8bb0bd211e7e6f47b0549c08b526a4e41e151f7"
+    },
+    {
+      "path": "workspace/scripts/lucky_doll.py",
+      "source": "workspace/scripts/lucky_doll.py",
+      "bytes": 3838,
+      "sha256": "794930afb6e96893cf2efa4114ce52b95ed677fa00d8b96cef64eed50a545bcc"
+    },
+    {
+      "path": "workspace/scripts/match_gm3_runtime_textures.py",
+      "source": "workspace/scripts/match_gm3_runtime_textures.py",
+      "bytes": 3892,
+      "sha256": "1c3ba99198624bd909cc11be9e17643f040b495e6bfd861f6d4f4d13db82e3dc"
+    },
+    {
+      "path": "workspace/scripts/match_indexed_runtime_hashes.py",
+      "source": "workspace/scripts/match_indexed_runtime_hashes.py",
+      "bytes": 5230,
+      "sha256": "1ab9d7e27a50093e8529b4c49327d792d3224910cedb233e87e30b0bc99077e1"
+    },
+    {
+      "path": "workspace/scripts/match_ppsspp_quick_hash.py",
+      "source": "workspace/scripts/match_ppsspp_quick_hash.py",
+      "bytes": 4277,
+      "sha256": "d95a35282be3f27841cb0f83ee2a66949273d9874aca2269158706825a8936ae"
+    },
+    {
+      "path": "workspace/scripts/message_table_owners.py",
+      "source": "workspace/scripts/message_table_owners.py",
+      "bytes": 5233,
+      "sha256": "f463574c20ad595b8704066a011da578ee5ccf7d2b2ce3e5f0c538ce25b3f371"
+    },
+    {
+      "path": "workspace/scripts/music_shop.py",
+      "source": "workspace/scripts/music_shop.py",
+      "bytes": 8408,
+      "sha256": "bba33aed901ddfaa2cd037ca22245a307d96adf1d103ed289c7e69d33e31f80f"
+    },
+    {
+      "path": "workspace/scripts/nsf_links.py",
+      "source": "workspace/scripts/nsf_links.py",
+      "bytes": 3648,
+      "sha256": "7e7ce4f8d4eaf68e9fb1bd2d9d7f0a2d6d4b9904fc2389d8ae801acb87ec2dac"
+    },
+    {
+      "path": "workspace/scripts/nsf_messages.py",
+      "source": "workspace/scripts/nsf_messages.py",
+      "bytes": 6245,
+      "sha256": "13413d4f2a82f5d0567ef586ebf967ced6d29ecae8145a0c8b4af89d3800d020"
+    },
+    {
+      "path": "workspace/scripts/nsf_reachability.py",
+      "source": "workspace/scripts/nsf_reachability.py",
+      "bytes": 9338,
+      "sha256": "89f840c08d943944fb0ae5f92d40d22e51e615f112c3930b8421a323a5c04f62"
+    },
+    {
+      "path": "workspace/scripts/patch_boot_ui_control_slots.py",
+      "source": "workspace/scripts/patch_boot_ui_control_slots.py",
+      "bytes": 4550,
+      "sha256": "d3d16c4b9d82a121d614050e2e78ea27bcb3e90ad4adda4eb1c7e6a63f02f9f2"
+    },
+    {
+      "path": "workspace/scripts/patch_result_time_spacing.py",
+      "source": "workspace/scripts/patch_result_time_spacing.py",
+      "bytes": 4749,
+      "sha256": "aa34d1d40083a6f4efb16da921bec0d3645692c02c1f81dc388904c096017708"
+    },
+    {
+      "path": "workspace/scripts/picture_book.py",
+      "source": "workspace/scripts/picture_book.py",
+      "bytes": 3257,
+      "sha256": "15752b3dc505fe801f9091119a01a5cfeebb36149f9f127a3b672ef616346fcc"
+    },
+    {
+      "path": "workspace/scripts/ppsspp_basetalk_probe.py",
+      "source": "workspace/scripts/ppsspp_basetalk_probe.py",
+      "bytes": 5464,
+      "sha256": "214349bcb280f0565f7723e51b96dad5ddd148e2d4918b0386292c0c18f50a16"
+    },
+    {
+      "path": "workspace/scripts/ppsspp_boot_probe.py",
+      "source": "workspace/scripts/ppsspp_boot_probe.py",
+      "bytes": 5877,
+      "sha256": "946f893d30dd321ff760550542647d9cc8ca5031cf613365da0058f7abed42b4"
+    },
+    {
+      "path": "workspace/scripts/ppsspp_demo00_target_trace.py",
+      "source": "workspace/scripts/ppsspp_demo00_target_trace.py",
+      "bytes": 8311,
+      "sha256": "042e5269cc9bdb741de1fe565c394c92b17872638493c8d2b03602e3dda0d3a3"
+    },
+    {
+      "path": "workspace/scripts/ppsspp_nsf_trace.py",
+      "source": "workspace/scripts/ppsspp_nsf_trace.py",
+      "bytes": 7606,
+      "sha256": "1861d6d9b3e78127303b3eddb562a21e828c5195bfdabf590a3a86458f8dcfc7"
+    },
+    {
+      "path": "workspace/scripts/probe_ppsspp_atlas_ws.py",
+      "source": "workspace/scripts/probe_ppsspp_atlas_ws.py",
+      "bytes": 4715,
+      "sha256": "9251348da491a8abd50a53f49a917d79f31335614dfef2994e55086ed7ac0a67"
+    },
+    {
+      "path": "workspace/scripts/refresh_all_baked_graphics_preview.ps1",
+      "source": "workspace/scripts/refresh_all_baked_graphics_preview.ps1",
+      "bytes": 1650,
+      "sha256": "eeef8a583ac360e340ccd741f2265078adab55c4604d4f672b67723b26245857"
+    },
+    {
+      "path": "workspace/scripts/refresh_tutorial_live_preview.ps1",
+      "source": "workspace/scripts/refresh_tutorial_live_preview.ps1",
+      "bytes": 1064,
+      "sha256": "5072796b36e05e5d873dbc1a2bb2b7f97e67d4d51a34b348766ce37f1a9fb638"
+    },
+    {
+      "path": "workspace/scripts/render_font_glyphs.py",
+      "source": "workspace/scripts/render_font_glyphs.py",
+      "bytes": 3062,
+      "sha256": "abda596c76cf73534804c3a133948b7b115cf0944510371713acc8d0b655d1e8"
+    },
+    {
+      "path": "workspace/scripts/start_tables.py",
+      "source": "workspace/scripts/start_tables.py",
+      "bytes": 4221,
+      "sha256": "b9ffc4f27b0357b5a0798d09793490f4999fa262096e2c8e719627bb4dcfb61b"
+    },
+    {
+      "path": "workspace/scripts/survey_stage_dat_entries.py",
+      "source": "workspace/scripts/survey_stage_dat_entries.py",
+      "bytes": 2371,
+      "sha256": "2ec044a6bb6cb31977dc80bb110f868cfcfdc4220fc4e4ceda857a1d649fd25d"
+    },
+    {
+      "path": "workspace/scripts/survey_stage_gm3.py",
+      "source": "workspace/scripts/survey_stage_gm3.py",
+      "bytes": 5614,
+      "sha256": "e240f4b5ac7b8f677cbe6b88ab196f81ae541058b7c6712457be612b938869fe"
+    },
+    {
+      "path": "workspace/scripts/sync_ppsspp_texture_pack.py",
+      "source": "workspace/scripts/sync_ppsspp_texture_pack.py",
+      "bytes": 4327,
+      "sha256": "eed97f956d6ac8f7cedbe553057aa88914586a42371c86ab7179de222c5ee6bc"
+    },
+    {
+      "path": "workspace/scripts/trace_ppsspp_renderer_sequence_poll.py",
+      "source": "workspace/scripts/trace_ppsspp_renderer_sequence_poll.py",
+      "bytes": 4491,
+      "sha256": "f338a385ad369a6924639efe582a7cbd2ef5babb9bd95378a3a74697557a6862"
+    },
+    {
+      "path": "workspace/scripts/trace_ppsspp_settings_ui.py",
+      "source": "workspace/scripts/trace_ppsspp_settings_ui.py",
+      "bytes": 12485,
+      "sha256": "736ab81678bacaff2afcc3b29bcec1ea320acef3751655efd3b2ac90ce0db627"
+    },
+    {
+      "path": "workspace/scripts/trace_ppsspp_settings_ui_poll.py",
+      "source": "workspace/scripts/trace_ppsspp_settings_ui_poll.py",
+      "bytes": 15596,
+      "sha256": "5f2e739d4eb8e88e0fc69da448048833c8f46a97e7d94b27f4053ba0d658a974"
+    },
+    {
+      "path": "workspace/scripts/txp_assets.py",
+      "source": "workspace/scripts/txp_assets.py",
+      "bytes": 10706,
+      "sha256": "a4b9618bf2b32ce67b26a850c550a251420c66c237fa41460a384f5d9351b95b"
+    },
+    {
+      "path": "workspace/scripts/verify_boot_ui_build.py",
+      "source": "workspace/scripts/verify_boot_ui_build.py",
+      "bytes": 2962,
+      "sha256": "bb30782f27dc84f8a3f5336008ea763affa422714d8248671c28c1f7338538a4"
+    },
+    {
+      "path": "workspace/scripts/verify_dlc_install.py",
+      "source": "workspace/scripts/verify_dlc_install.py",
+      "bytes": 3521,
+      "sha256": "35cdd058f68bae44ee44b854f19508f8a751aec2fc33d8d2440d92d12878d643"
+    },
+    {
+      "path": "workspace/tests/test_anime_assets.py",
+      "source": "workspace/tests/test_anime_assets.py",
+      "bytes": 2114,
+      "sha256": "2e2c7b828884853881405f76d08797b50e9bb60f80c8ae9b60c0a83f171ec933"
+    },
+    {
+      "path": "workspace/tests/test_audit_cp932_allocation.py",
+      "source": "workspace/tests/test_audit_cp932_allocation.py",
+      "bytes": 2653,
+      "sha256": "14ac77d9c6761dd2b41e0a56a4512ed49cf587a6dbd3fbad886be07e52e14f6d"
+    },
+    {
+      "path": "workspace/tests/test_audit_cp932_usage.py",
+      "source": "workspace/tests/test_audit_cp932_usage.py",
+      "bytes": 1135,
+      "sha256": "7ee86375552ef450f15c404cb81c2232ba1549eff76e395a6095040cdcf02815"
+    },
+    {
+      "path": "workspace/tests/test_audit_demo00_population.py",
+      "source": "workspace/tests/test_audit_demo00_population.py",
+      "bytes": 2080,
+      "sha256": "3bd5c54b9bc2a3c5cbd04f7754994d615c86c30610f3710f60158a423f56b476"
+    },
+    {
+      "path": "workspace/tests/test_audit_enemy_orphan_key.py",
+      "source": "workspace/tests/test_audit_enemy_orphan_key.py",
+      "bytes": 2588,
+      "sha256": "aaa59ee60dc486e1600d048c656fcedf2cae24dd34e13c39501b9bb40fff4ba1"
+    },
+    {
+      "path": "workspace/tests/test_base_talk.py",
+      "source": "workspace/tests/test_base_talk.py",
+      "bytes": 1109,
+      "sha256": "4947f0ba327ab440879625c45ca097f71eeb3d6cc35277a41de8592c1e4b7b17"
+    },
+    {
+      "path": "workspace/tests/test_boot_ui_exact_length_control.py",
+      "source": "workspace/tests/test_boot_ui_exact_length_control.py",
+      "bytes": 2083,
+      "sha256": "62721c06ec174b75ad49beb9ae669851c5ffff2afac4c6d52a2392be77df3d5f"
+    },
+    {
+      "path": "workspace/tests/test_boot_ui_runtime_patch.py",
+      "source": "workspace/tests/test_boot_ui_runtime_patch.py",
+      "bytes": 2446,
+      "sha256": "8fc92de67d01fd2eb4cc2e532042c3c819fc669c96d9df9b8437b17b5594cb12"
+    },
+    {
+      "path": "workspace/tests/test_build_baked_graphics_bulk_preview.py",
+      "source": "workspace/tests/test_build_baked_graphics_bulk_preview.py",
+      "bytes": 2236,
+      "sha256": "89e581f3c3b2298a8f2d57c4c802125abd640f38347c6aaff0b0113d6ae53404"
+    },
+    {
+      "path": "workspace/tests/test_build_demo00_poc.py",
+      "source": "workspace/tests/test_build_demo00_poc.py",
+      "bytes": 1769,
+      "sha256": "aa8ed10526536f75288b96cc021cc290ecc5ee75c8555059ddc3aa76ec8fcd89"
+    },
+    {
+      "path": "workspace/tests/test_build_demo00_production.py",
+      "source": "workspace/tests/test_build_demo00_production.py",
+      "bytes": 2669,
+      "sha256": "cb4442a0d6820be3dbd6d100e771f6e9525cc9df260b4feb311ce18ef31a004a"
+    },
+    {
+      "path": "workspace/tests/test_build_demo_skip_timer_live_preview.py",
+      "source": "workspace/tests/test_build_demo_skip_timer_live_preview.py",
+      "bytes": 2610,
+      "sha256": "b298927cb11dbfd1e2e87332291e4b4c573a0391bd6bad850263a53d6baca684"
+    },
+    {
+      "path": "workspace/tests/test_build_dialog_punctuation_spacing_patch.py",
+      "source": "workspace/tests/test_build_dialog_punctuation_spacing_patch.py",
+      "bytes": 3970,
+      "sha256": "d45df7f5c799bb0917398671b65668c328da31ad8fab0b24bcf859cc24ec40e8"
+    },
+    {
+      "path": "workspace/tests/test_build_dialog_space_advance_test.py",
+      "source": "workspace/tests/test_build_dialog_space_advance_test.py",
+      "bytes": 2458,
+      "sha256": "7b12d00879e74b296ba56a5eb7b394f73e0d7f5daef74b9496cfbf40807a6833"
+    },
+    {
+      "path": "workspace/tests/test_build_dialog_typewriter_patch.py",
+      "source": "workspace/tests/test_build_dialog_typewriter_patch.py",
+      "bytes": 12884,
+      "sha256": "907b237d3eaddbe354f130c454113096a938314b6e55561c045ef8e97ed308ec"
+    },
+    {
+      "path": "workspace/tests/test_build_direct_run.py",
+      "source": "workspace/tests/test_build_direct_run.py",
+      "bytes": 1399,
+      "sha256": "078232a810807c46d28d15442c602004b4e5ad4c2e19a578837eb8bfcb3dfffc"
+    },
+    {
+      "path": "workspace/tests/test_build_dlc_kr.py",
+      "source": "workspace/tests/test_build_dlc_kr.py",
+      "bytes": 3539,
+      "sha256": "ac6c79af5fdf76f86e8eac45b6acc8b1e237a742561ac61bbc9f4306c023bffa"
+    },
+    {
+      "path": "workspace/tests/test_build_font_multi_poc.py",
+      "source": "workspace/tests/test_build_font_multi_poc.py",
+      "bytes": 2200,
+      "sha256": "43e65b413fd964d37bf1e77242c8efd15bf0c02b1fd6586e8d2a6600e89154e7"
+    },
+    {
+      "path": "workspace/tests/test_build_font_poc.py",
+      "source": "workspace/tests/test_build_font_poc.py",
+      "bytes": 2205,
+      "sha256": "080eb20fbce8ef0f9213dc93544c45eaeb632fa3713e63f31e1f2015bd5c3b0e"
+    },
+    {
+      "path": "workspace/tests/test_build_iso_poc.py",
+      "source": "workspace/tests/test_build_iso_poc.py",
+      "bytes": 753,
+      "sha256": "8988f27620be4f8cd3b91ec470481a3bc848ed90edeb9d27237cdaff4053cd54"
+    },
+    {
+      "path": "workspace/tests/test_build_iso_production.py",
+      "source": "workspace/tests/test_build_iso_production.py",
+      "bytes": 1007,
+      "sha256": "c7ea776ae298657412f00d554a7fbdd4a63cf90206d20da1914474948d2b989e"
+    },
+    {
+      "path": "workspace/tests/test_build_start_dialog_poc.py",
+      "source": "workspace/tests/test_build_start_dialog_poc.py",
+      "bytes": 1737,
+      "sha256": "31e33bfc56b7cd348201e09bfa755eaa7c6e93f514b49319a6bb2ee31375f5a1"
+    },
+    {
+      "path": "workspace/tests/test_build_start_poc.py",
+      "source": "workspace/tests/test_build_start_poc.py",
+      "bytes": 1225,
+      "sha256": "83667627d144ec3b92742c39e8836e369a5901ddd62e7ab72eb706af286dd7c6"
+    },
+    {
+      "path": "workspace/tests/test_build_start_production.py",
+      "source": "workspace/tests/test_build_start_production.py",
+      "bytes": 1425,
+      "sha256": "bcf9f81fee956c9fe38b62c3a4566f2d7b49246d5e74dfe1aaba676017e687bf"
+    },
+    {
+      "path": "workspace/tests/test_build_system_poc.py",
+      "source": "workspace/tests/test_build_system_poc.py",
+      "bytes": 1281,
+      "sha256": "7a6670748c054368ee0419c86d249d1ca99c290a8afa9c49cdd140cc3928bb8b"
+    },
+    {
+      "path": "workspace/tests/test_build_system_production.py",
+      "source": "workspace/tests/test_build_system_production.py",
+      "bytes": 1398,
+      "sha256": "ae3f89adb4420c155c11583719a275039bf0fc712c26425c92e6b2e10a737fe6"
+    },
+    {
+      "path": "workspace/tests/test_build_tutorial_graphics_poc.py",
+      "source": "workspace/tests/test_build_tutorial_graphics_poc.py",
+      "bytes": 6701,
+      "sha256": "0d8aa8c1ee358dd2af5a236be895045aa6c86d317378a0fddab3c45d0dbab5b7"
+    },
+    {
+      "path": "workspace/tests/test_build_tutorial_live_preview.py",
+      "source": "workspace/tests/test_build_tutorial_live_preview.py",
+      "bytes": 4017,
+      "sha256": "9bac9e6ad97592e1e18c0dc0c4f8134512c847288e610245e8f22046fcb1666c"
+    },
+    {
+      "path": "workspace/tests/test_demo00.py",
+      "source": "workspace/tests/test_demo00.py",
+      "bytes": 1343,
+      "sha256": "3f1fe8d2f9f711b7380ab438d97251a0d405ddbf75414cb894aef4737c3c69c6"
+    },
+    {
+      "path": "workspace/tests/test_demo00_approve_queue.py",
+      "source": "workspace/tests/test_demo00_approve_queue.py",
+      "bytes": 2534,
+      "sha256": "be42c5521363d0b62fc3180b06d048645f6f7cec938bd07e3977be3944f87b9e"
+    },
+    {
+      "path": "workspace/tests/test_demo00_artifact.py",
+      "source": "workspace/tests/test_demo00_artifact.py",
+      "bytes": 2457,
+      "sha256": "36ebc31e79346610e76e05d2b038edeef2ca6a0b82cb5d408a21a84a2127fd7a"
+    },
+    {
+      "path": "workspace/tests/test_demo00_batches.py",
+      "source": "workspace/tests/test_demo00_batches.py",
+      "bytes": 2672,
+      "sha256": "343d39016bc4e335df93bb3b7a12d5287e6fc0aef03965e27fadc6a1a0e72e8a"
+    },
+    {
+      "path": "workspace/tests/test_demo00_controls.py",
+      "source": "workspace/tests/test_demo00_controls.py",
+      "bytes": 1326,
+      "sha256": "2a7946483f94fd744d0f0a5df895b9157c1972194a1ac1a713e762d3b8394653"
+    },
+    {
+      "path": "workspace/tests/test_demo00_review_queue.py",
+      "source": "workspace/tests/test_demo00_review_queue.py",
+      "bytes": 2225,
+      "sha256": "386f05d037416b296db95118d857c9e88a21f32f2794dc1e4629d1b9d1cd6f47"
+    },
+    {
+      "path": "workspace/tests/test_didt.py",
+      "source": "workspace/tests/test_didt.py",
+      "bytes": 4901,
+      "sha256": "d6d9b50c84cc06b0c1e47a7e21efb64487b3eef4b6f7f36c7cffb66144392a72"
+    },
+    {
+      "path": "workspace/tests/test_export_dlc_text.py",
+      "source": "workspace/tests/test_export_dlc_text.py",
+      "bytes": 4070,
+      "sha256": "b3a1758727302dea455a744f39d94545fc17d43c80517d218f122cb98774a4fa"
+    },
+    {
+      "path": "workspace/tests/test_font_assets.py",
+      "source": "workspace/tests/test_font_assets.py",
+      "bytes": 2327,
+      "sha256": "1a2e75bfa01169797d08bb576f79e7166b5b80322311dd3ef7834609743d0556"
+    },
+    {
+      "path": "workspace/tests/test_lucky_doll.py",
+      "source": "workspace/tests/test_lucky_doll.py",
+      "bytes": 1907,
+      "sha256": "83ff6e0d57e521a9e31cea79c40737cc1c682833d061a910539e4a26760515cc"
+    },
+    {
+      "path": "workspace/tests/test_message_table_owners.py",
+      "source": "workspace/tests/test_message_table_owners.py",
+      "bytes": 1501,
+      "sha256": "da0d3dfaca9672dc6110f75ac0acc25d018f3ac02e5a8df1f510658afd597cbf"
+    },
+    {
+      "path": "workspace/tests/test_music_shop.py",
+      "source": "workspace/tests/test_music_shop.py",
+      "bytes": 2466,
+      "sha256": "015042376b5611b21229ceca031fdf7b3416a4d56481f4f8e0fc62c8525825bf"
+    },
+    {
+      "path": "workspace/tests/test_nis_lzs.py",
+      "source": "workspace/tests/test_nis_lzs.py",
+      "bytes": 1456,
+      "sha256": "6c808b0aa03e8d15a0829eeaa375d582ff2d17113f9415c78132e98552db9dbb"
+    },
+    {
+      "path": "workspace/tests/test_nsf_links.py",
+      "source": "workspace/tests/test_nsf_links.py",
+      "bytes": 1390,
+      "sha256": "4d9e1f8b25b313e694bac96c8a9ce08049a4dabf921267bf7ce4952997c94f72"
+    },
+    {
+      "path": "workspace/tests/test_nsf_messages.py",
+      "source": "workspace/tests/test_nsf_messages.py",
+      "bytes": 1564,
+      "sha256": "4bdc579a4d827f406e96ce70f006e7cd41b85caec80f7249d51811a2388fea78"
+    },
+    {
+      "path": "workspace/tests/test_nsf_reachability.py",
+      "source": "workspace/tests/test_nsf_reachability.py",
+      "bytes": 923,
+      "sha256": "62f9a78609f5ad4e43993a62d32cdf42832c1a6bcb6f4fb350db714efbc495de"
+    },
+    {
+      "path": "workspace/tests/test_ppsspp_boot_probe.py",
+      "source": "workspace/tests/test_ppsspp_boot_probe.py",
+      "bytes": 1080,
+      "sha256": "de69ee6269b62b069a6d19ab8e55811ad8401e7601a782de037823e35df87694"
+    },
+    {
+      "path": "workspace/tests/test_ppsspp_demo00_target_trace.py",
+      "source": "workspace/tests/test_ppsspp_demo00_target_trace.py",
+      "bytes": 1251,
+      "sha256": "8355bd00b193734c9445c66ce4657ae5cb793653e44b04682498ae6fd5a065aa"
+    },
+    {
+      "path": "workspace/tests/test_ppsspp_nsf_trace.py",
+      "source": "workspace/tests/test_ppsspp_nsf_trace.py",
+      "bytes": 1353,
+      "sha256": "83e619f3e18f4d7a6c9fa01948fdc02a03a29d7f779e06f0bd7bafa9d5aa69c3"
+    },
+    {
+      "path": "workspace/tests/test_start_dat.py",
+      "source": "workspace/tests/test_start_dat.py",
+      "bytes": 1153,
+      "sha256": "9c80834cb3f77f314123626e37ada81e27d1db36a1e43fa48350fac8a4857772"
+    },
+    {
+      "path": "workspace/tests/test_title_graphics_poc.py",
+      "source": "workspace/tests/test_title_graphics_poc.py",
+      "bytes": 4031,
+      "sha256": "f7f933eafa5154396f42ac39ededcfc025000c19d3b576f7fcf1b4ff634bd08c"
+    },
+    {
+      "path": "workspace/tests/test_txp_assets.py",
+      "source": "workspace/tests/test_txp_assets.py",
+      "bytes": 2185,
+      "sha256": "729711463f266daae1aaa31d9e0a3183be0af3d066b94286244523231f5e52c9"
+    },
+    {
+      "path": "workspace/text/boot_ui_translation.json",
+      "source": "workspace/text/boot_ui_translation.json",
+      "bytes": 76080,
+      "sha256": "e8bf3e689c370d139d43862ddbf9ee223fab1777eb26a72f2a0931e946bbd537"
+    },
+    {
+      "path": "workspace/text/demo00_poc_07d0.json",
+      "source": "workspace/text/demo00_poc_07d0.json",
+      "bytes": 1303,
+      "sha256": "fb329f9091a5c1a5256390006a9189ecb6b760c2669d833455e5a4e538d29fd5"
+    },
+    {
+      "path": "workspace/text/demo00_speaker_length_review.json",
+      "source": "workspace/text/demo00_speaker_length_review.json",
+      "bytes": 9360,
+      "sha256": "47b14fd5e99c191f41620b4e6eeae4d7d7828e24d64e7522aa64ad413e1136e6"
+    },
+    {
+      "path": "workspace/text/demo00_speaker_length_review.md",
+      "source": "workspace/text/demo00_speaker_length_review.md",
+      "bytes": 3917,
+      "sha256": "168c59cb9b11a873be24cc384a14ccb6f722e206652eee8dd3b7b799300169dc"
+    },
+    {
+      "path": "workspace/text/demo00_translation.json",
+      "source": "workspace/text/demo00_translation.json",
+      "bytes": 2104355,
+      "sha256": "f2facc2247ab06f59ee99791ef42ef0f900cebfc29f9ea9f8aa8662b20173c1d"
+    },
+    {
+      "path": "workspace/text/terminology.json",
+      "source": "workspace/text/terminology.json",
+      "bytes": 102558,
+      "sha256": "d4ccf72a0236a0aa4fa887b9359db5c622762776ff16473c1ddceed3005f38df"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_001_difficulty.json",
+      "source": "workspace/text/batches/demo00_batch_001_difficulty.json",
+      "bytes": 4123,
+      "sha256": "c08beffa925035f8ff71489e4d9db2f15796e98d0fdf3312412196447e3f0938"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_002_intro_scarf.json",
+      "source": "workspace/text/batches/demo00_batch_002_intro_scarf.json",
+      "bytes": 12156,
+      "sha256": "bd63a5c0b72111cd8c35f93db345e8f3d5c9f608cfc6f2a6f26aa3a1bafdac23"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_003_escape_warning.json",
+      "source": "workspace/text/batches/demo00_batch_003_escape_warning.json",
+      "bytes": 14108,
+      "sha256": "fe8006e2200ec9b347d1dd3fa23329ec7dd4418b6afa4cc2695b2e19df58d9f0"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_004_melon_snack.json",
+      "source": "workspace/text/batches/demo00_batch_004_melon_snack.json",
+      "bytes": 9086,
+      "sha256": "434c56354610966b762beca5a99628bd70c9c530347ba171a7a67fce44be67da"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_005_missing_prinnies.json",
+      "source": "workspace/text/batches/demo00_batch_005_missing_prinnies.json",
+      "bytes": 10512,
+      "sha256": "c59380b24c161213a41466bafef90a388a3f3a65181959f72deb2a16256043c4"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_006_progress_reports.json",
+      "source": "workspace/text/batches/demo00_batch_006_progress_reports.json",
+      "bytes": 10111,
+      "sha256": "3becb03a1dd26aee70313b9ec89df198297e2294321c146c0411b101e809db57"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_007_priniger_x.json",
+      "source": "workspace/text/batches/demo00_batch_007_priniger_x.json",
+      "bytes": 11493,
+      "sha256": "8aff68f7638c4cb51801c7f881b74cd0d7f79cbe9d563280c6c43ab60d02845f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_008_game_rant.json",
+      "source": "workspace/text/batches/demo00_batch_008_game_rant.json",
+      "bytes": 8215,
+      "sha256": "a88975eb865542f74eebc31be4005b731fb656ecc6c5f158b45cf7881c3fa577"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_009_job_change.json",
+      "source": "workspace/text/batches/demo00_batch_009_job_change.json",
+      "bytes": 8205,
+      "sha256": "33ad608126fd8620e7a023cc744423f26c74bc2063f25d8d65a671bffa8229bc"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_010_runaway_prinny.json",
+      "source": "workspace/text/batches/demo00_batch_010_runaway_prinny.json",
+      "bytes": 11465,
+      "sha256": "790f9e10beba701a031c852aa25d78afdd901a08a5004b901bb23e8bb8e4b065"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_011_heroine.json",
+      "source": "workspace/text/batches/demo00_batch_011_heroine.json",
+      "bytes": 14490,
+      "sha256": "487168da9045fddeae2c2df774c228ab82cdcb66b277509fe4d5004ce505b9cf"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_012_scolding_preference.json",
+      "source": "workspace/text/batches/demo00_batch_012_scolding_preference.json",
+      "bytes": 12943,
+      "sha256": "14cbc17b45d65637aade602bd4db178a723a3277b9de49d2bfaa4acec45a34a3"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_013_etna_worries.json",
+      "source": "workspace/text/batches/demo00_batch_013_etna_worries.json",
+      "bytes": 11206,
+      "sha256": "8aaec5787a5bd489bc19b6da992ae21b500c53f63b01473f95a834ca08f4603b"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_014_modified_game.json",
+      "source": "workspace/text/batches/demo00_batch_014_modified_game.json",
+      "bytes": 11384,
+      "sha256": "a4fe20f030ae5e3bf02059dc4303a733f3b49db118d147b849157c84c2ccf3ad"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_015_missed_heroics.json",
+      "source": "workspace/text/batches/demo00_batch_015_missed_heroics.json",
+      "bytes": 3980,
+      "sha256": "dc94a78f99e8c1bf40148a772482715b1af6f7032b7bd4822a739bce661e4058"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_016_era_joke.json",
+      "source": "workspace/text/batches/demo00_batch_016_era_joke.json",
+      "bytes": 6824,
+      "sha256": "17c2aaa0cde51d13f310aecdbf00a3b0e805868df3c27ff000b41d644f9b4dff"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_017_ultimate_dessert_reveal.json",
+      "source": "workspace/text/batches/demo00_batch_017_ultimate_dessert_reveal.json",
+      "bytes": 15566,
+      "sha256": "11cebe038db3af5336256a62773e560e9828499b38764b6c1a80bab27ec31d18"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_018_feast_fee.json",
+      "source": "workspace/text/batches/demo00_batch_018_feast_fee.json",
+      "bytes": 18476,
+      "sha256": "5f06d589e2c736467af0a6240c7657323f30eb0f01f7cd24d24bd9f28b018771"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_019_rebellion_priniger.json",
+      "source": "workspace/text/batches/demo00_batch_019_rebellion_priniger.json",
+      "bytes": 14544,
+      "sha256": "d5ef72a08305d2c60a9c4e2e72b4b8a5f2b83426d250053c74b5f30c5b191909"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_020_rebellion_aftermath.json",
+      "source": "workspace/text/batches/demo00_batch_020_rebellion_aftermath.json",
+      "bytes": 21991,
+      "sha256": "3a5dbeb4ca7cb5b2ad55bc83ba059128d71e827a9103f85d10ef567915733061"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_021_gourmet_ogre.json",
+      "source": "workspace/text/batches/demo00_batch_021_gourmet_ogre.json",
+      "bytes": 18165,
+      "sha256": "382915f80cf9facf58a8e8d2da4a4ab9ac66ec6d744bde84fb050d17537fa577"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_022_natsu_recipe.json",
+      "source": "workspace/text/batches/demo00_batch_022_natsu_recipe.json",
+      "bytes": 27942,
+      "sha256": "cee62fa94eb3e00914a552122d8e90411a734257d597154145a06e5de21b0f85"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_023_cardamom_sesame.json",
+      "source": "workspace/text/batches/demo00_batch_023_cardamom_sesame.json",
+      "bytes": 18228,
+      "sha256": "4e358e50ef55bf1c9208620c17c94a3385611bd53bdefe68a8bd9946b97a6d94"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_024_bakuchi_casino.json",
+      "source": "workspace/text/batches/demo00_batch_024_bakuchi_casino.json",
+      "bytes": 25810,
+      "sha256": "a7c9383eeeb71c163ab65fbf793165d25a858ce175b97ed3a37500e045be66b3"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_025_dragon_jam.json",
+      "source": "workspace/text/batches/demo00_batch_025_dragon_jam.json",
+      "bytes": 17453,
+      "sha256": "9bc98851e0e5e11756c302db8d3a07412d90cd0109c69e069253eed2b4e9b458"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_025a_dragon_jam_slot_fix.json",
+      "source": "workspace/text/batches/demo00_batch_025a_dragon_jam_slot_fix.json",
+      "bytes": 3009,
+      "sha256": "2e0c86f1bcddfa4b82a3db70cb2d36e08beb6e1b19012dda57f6212970255b81"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_026_mauve_factory.json",
+      "source": "workspace/text/batches/demo00_batch_026_mauve_factory.json",
+      "bytes": 20267,
+      "sha256": "9335edf4a86b58c2a2965b07dd96108de6b01cd56103ebbf5c8969b5f41abf54"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_027_turmeric_farm.json",
+      "source": "workspace/text/batches/demo00_batch_027_turmeric_farm.json",
+      "bytes": 23028,
+      "sha256": "db31d877a0cc6f71f74699f103cb81497b7521702937f7a5e1a1ef64fdc78146"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_028_natsu_meg.json",
+      "source": "workspace/text/batches/demo00_batch_028_natsu_meg.json",
+      "bytes": 16775,
+      "sha256": "5b6b15c86fd1b9edcfc5078252b5e13a2f217628938624788e849e338e33f685"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_029_poison_apple_liquor.json",
+      "source": "workspace/text/batches/demo00_batch_029_poison_apple_liquor.json",
+      "bytes": 20882,
+      "sha256": "b4373f542cce03b105fc8360f5085a71288559b5d2d4810d919a9db257c31349"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_030_paprika_banana.json",
+      "source": "workspace/text/batches/demo00_batch_030_paprika_banana.json",
+      "bytes": 21510,
+      "sha256": "c694833625a046bda16ba1b46e9c69b8ecb119837c9e1b2c61fbddc57f12d107"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_031_dragon_food.json",
+      "source": "workspace/text/batches/demo00_batch_031_dragon_food.json",
+      "bytes": 21533,
+      "sha256": "4a128c01e5edf853b961322e805ea500b5dda90489bb5f3986b3c726998e8f1e"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_032_taiyaki_tail.json",
+      "source": "workspace/text/batches/demo00_batch_032_taiyaki_tail.json",
+      "bytes": 24622,
+      "sha256": "0d29d743f90a28747bc8d39b0c66da8c80c043dcef5bf39367f1bcd2fb7ba0f9"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_033_gourmet_ogre_candy.json",
+      "source": "workspace/text/batches/demo00_batch_033_gourmet_ogre_candy.json",
+      "bytes": 12629,
+      "sha256": "b9e4a9845ef6887f1c65ae6d0ca0ecfd95c631fec788ba5b86aa72d590bee5c4"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_034_anise_clover.json",
+      "source": "workspace/text/batches/demo00_batch_034_anise_clover.json",
+      "bytes": 30871,
+      "sha256": "d9eabf65aa7f96cbe59cb75e6577d3be66b5dbce0c2ad547ce2e70950551f76e"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_034a_anise_clover_fit.json",
+      "source": "workspace/text/batches/demo00_batch_034a_anise_clover_fit.json",
+      "bytes": 2915,
+      "sha256": "9dff47b18f5bd4080b038c561907c75acae50fed171cb9bfd23155d272c4063e"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_035_paid_comedy.json",
+      "source": "workspace/text/batches/demo00_batch_035_paid_comedy.json",
+      "bytes": 24345,
+      "sha256": "6af0b2bd303e53f21c38f3b0ecc2fe1e30fe636ee287ed49286ad08e23aa84d1"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_036_paprika_fox.json",
+      "source": "workspace/text/batches/demo00_batch_036_paprika_fox.json",
+      "bytes": 24619,
+      "sha256": "3b4c23d5cd1276b6a21c9762326c1b9456a549c6da4d7cfe603df681fad4d01c"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_037_hoshikage_training.json",
+      "source": "workspace/text/batches/demo00_batch_037_hoshikage_training.json",
+      "bytes": 31584,
+      "sha256": "6284f7206a2b3d5941d5c57e384a1d67eac67e0918dca188479cdecf31934251"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_038_anko_debate.json",
+      "source": "workspace/text/batches/demo00_batch_038_anko_debate.json",
+      "bytes": 18935,
+      "sha256": "b9cbcf39d34ac43fab098bf0d01ee786f3dddefc4f75c4b7b442b8800105cc13"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_039_morgan_ogre_farm.json",
+      "source": "workspace/text/batches/demo00_batch_039_morgan_ogre_farm.json",
+      "bytes": 28444,
+      "sha256": "6bf1e01d99de3acc76394c3ff6249fa23fde5e7c72895376dd9653875a4c5235"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_040_natsu_black_cat.json",
+      "source": "workspace/text/batches/demo00_batch_040_natsu_black_cat.json",
+      "bytes": 19644,
+      "sha256": "8211b10bc71ba47d04618865c055c3f07c3d6c59fd8f9aaeb74bf6773fc5d0f1"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_041_prinny_trade.json",
+      "source": "workspace/text/batches/demo00_batch_041_prinny_trade.json",
+      "bytes": 21685,
+      "sha256": "f6237c8599152a340f8663eb92bb8a25e9abc304d50db3a64992af903fad7c37"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_042_paprika_turmeric.json",
+      "source": "workspace/text/batches/demo00_batch_042_paprika_turmeric.json",
+      "bytes": 30496,
+      "sha256": "464174a30391c0bb473c56eaf745a4f5f7bdbfe3bf2db4c4268bd17db02dd147"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_043_hoshikage_prinny.json",
+      "source": "workspace/text/batches/demo00_batch_043_hoshikage_prinny.json",
+      "bytes": 27396,
+      "sha256": "f31a907492f4761d9e1b4188689f17233800c3e2e3abfaff5ea63c747b4033cf"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_044_explosive_candy.json",
+      "source": "workspace/text/batches/demo00_batch_044_explosive_candy.json",
+      "bytes": 17195,
+      "sha256": "64e4b5ee92d20614119d3040b074199b1a00573bc9252458867f171565ded8e3"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_045_gourmet_ogre_dinner.json",
+      "source": "workspace/text/batches/demo00_batch_045_gourmet_ogre_dinner.json",
+      "bytes": 24456,
+      "sha256": "71f4f5b81052fa7fcb3d88332da2f5f3ce2b43c9c3739b504852b384319bf232"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_046_anise_prince.json",
+      "source": "workspace/text/batches/demo00_batch_046_anise_prince.json",
+      "bytes": 27114,
+      "sha256": "3ee633599a9d570737a9ba15f55db0d6bc3313ef39e297eab2823cafeef59f17"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_047_morgan_recruitment.json",
+      "source": "workspace/text/batches/demo00_batch_047_morgan_recruitment.json",
+      "bytes": 30219,
+      "sha256": "f53b3b8a2fc4a20efc77ab3a9df059f6711041a80860c70df829d8048c1a7c9d"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_048_bakuchi_casino.json",
+      "source": "workspace/text/batches/demo00_batch_048_bakuchi_casino.json",
+      "bytes": 22932,
+      "sha256": "6adf2434e2353d0104418f8583903dbd6171360984a46d2bd9b8e13c78796600"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_048a_bakuchi_casino_fit.json",
+      "source": "workspace/text/batches/demo00_batch_048a_bakuchi_casino_fit.json",
+      "bytes": 3022,
+      "sha256": "0fceb8634f4eee3e1fa5506442c0d6262dcf3c39aea7e76fbf621f83f7723b1a"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_049_hoshikage_dragon.json",
+      "source": "workspace/text/batches/demo00_batch_049_hoshikage_dragon.json",
+      "bytes": 16864,
+      "sha256": "ebcb92ea46a5a4e8e1a0ecff0f9500a4df370a9ec4df730db258244142a3a682"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_050_turmeric_guard.json",
+      "source": "workspace/text/batches/demo00_batch_050_turmeric_guard.json",
+      "bytes": 23719,
+      "sha256": "2e2f9561a90bed66e4e7513c81ec1d3b496c73a601921f8dd3d1bc419268e9e7"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_051_gourmet_ogre_bread.json",
+      "source": "workspace/text/batches/demo00_batch_051_gourmet_ogre_bread.json",
+      "bytes": 11129,
+      "sha256": "63d0fa41aa8b84ccb20fa4ebf5e3f90845308c5e07dfeed508de6dfb9ac79d41"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_052_anise_forest_fight.json",
+      "source": "workspace/text/batches/demo00_batch_052_anise_forest_fight.json",
+      "bytes": 37361,
+      "sha256": "a0ae153a4117d7f235407ff3462f36d1541103d175f113db9f5fe26511df5dce"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_053_morgan_hunt.json",
+      "source": "workspace/text/batches/demo00_batch_053_morgan_hunt.json",
+      "bytes": 14129,
+      "sha256": "a0ae0d052ed3810aa60629a3b09fd981acabd7a161ada3e09227557ddf2bab75"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_054_bakuchi_cyclops.json",
+      "source": "workspace/text/batches/demo00_batch_054_bakuchi_cyclops.json",
+      "bytes": 26951,
+      "sha256": "1e20af171c939c9d2f68fe066a78dc20a94c611d46e4ff2769e656d425a31a7f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_055_fullmoon_hoshikage.json",
+      "source": "workspace/text/batches/demo00_batch_055_fullmoon_hoshikage.json",
+      "bytes": 25291,
+      "sha256": "d6ebfae9577a6d01f4d4f1e9789001299865fb5b2e95dc6c2e7f10fb9647839e"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_055a_fullmoon_hoshikage_fit.json",
+      "source": "workspace/text/batches/demo00_batch_055a_fullmoon_hoshikage_fit.json",
+      "bytes": 5173,
+      "sha256": "3c8efaf7bf98b5b9dddcf38a2c749e8be81f0726bb83aea2c4aa42f1fabb837b"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_056_mauve_soldier_baron.json",
+      "source": "workspace/text/batches/demo00_batch_056_mauve_soldier_baron.json",
+      "bytes": 21264,
+      "sha256": "c0fa051f2825ae94671b82516796bffd09f137ee5a613adf8f149b31e6e983a8"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_057_etna_flavor_sage.json",
+      "source": "workspace/text/batches/demo00_batch_057_etna_flavor_sage.json",
+      "bytes": 22898,
+      "sha256": "900baed77e565be817de43567a1ba9473aa321a39e4f45a59ef976678e2b52fd"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_057a_etna_flavor_sage_fit.json",
+      "source": "workspace/text/batches/demo00_batch_057a_etna_flavor_sage_fit.json",
+      "bytes": 3154,
+      "sha256": "0131336a8edfc15ddfea1795fd000d8d72fd3d2201a76b37a6fb193eff7dab85"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_058_master_spice_baron_theft.json",
+      "source": "workspace/text/batches/demo00_batch_058_master_spice_baron_theft.json",
+      "bytes": 60855,
+      "sha256": "0142e4e6477da6a806eae21de7922df51f9f76fd4a53691e6fee6f19a379b922"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_059_darth_mauve.json",
+      "source": "workspace/text/batches/demo00_batch_059_darth_mauve.json",
+      "bytes": 26470,
+      "sha256": "3d2eec16ea0bbeaa75aa08b60b81954de906caba0c6bd6bb934898b91e27803d"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_060_gourmet_ogre_appetite.json",
+      "source": "workspace/text/batches/demo00_batch_060_gourmet_ogre_appetite.json",
+      "bytes": 5474,
+      "sha256": "9f0f28c535412cfaad72422fc44dbf4eb721c034d200d3d5d2c2e7a641d95676"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_061_anise_prince_hunt.json",
+      "source": "workspace/text/batches/demo00_batch_061_anise_prince_hunt.json",
+      "bytes": 12977,
+      "sha256": "577126ee818f58d9bd39d9b2152b357b0a285baa13d6e8694378b1a3dac65c0e"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_062_natsu_meg_weapon.json",
+      "source": "workspace/text/batches/demo00_batch_062_natsu_meg_weapon.json",
+      "bytes": 6960,
+      "sha256": "8333ae651acffaca0943518bb26c5b7a1b4f973916581362c300562abccf6360"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_063_cardamom_sesame_bet.json",
+      "source": "workspace/text/batches/demo00_batch_063_cardamom_sesame_bet.json",
+      "bytes": 5604,
+      "sha256": "14ae6ade373b270577cbe372aa5fbd7d4e49cac745d31332b6779a7a31150b64"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_064_morgan_brother.json",
+      "source": "workspace/text/batches/demo00_batch_064_morgan_brother.json",
+      "bytes": 8383,
+      "sha256": "54d74dcf28b40dcf4bcf03f841fbd5d4de5b7e122f73d3b292dba1ac003a57bc"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_065_bakuchi_cyclops.json",
+      "source": "workspace/text/batches/demo00_batch_065_bakuchi_cyclops.json",
+      "bytes": 6714,
+      "sha256": "f2cb16bfc79b9cf8c1cf392bd1bfd618eaac60d8110d3c351d2b47d50f4b1b2c"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_065a_cyclops_term_state.json",
+      "source": "workspace/text/batches/demo00_batch_065a_cyclops_term_state.json",
+      "bytes": 2662,
+      "sha256": "d1aec6a22cbb1744b7fabee73975dc5dbd3e4bf631e7f4ea83d740c282ef706f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_066_bakuchi_cyclops_mk2.json",
+      "source": "workspace/text/batches/demo00_batch_066_bakuchi_cyclops_mk2.json",
+      "bytes": 6756,
+      "sha256": "7a96879b42963d54aed952257cbbb3219fa179b21781f40beeb2ce14cbae2746"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_067_paprika_scent.json",
+      "source": "workspace/text/batches/demo00_batch_067_paprika_scent.json",
+      "bytes": 5557,
+      "sha256": "27b971796944c97e4ae0651321d4cff7279d58245ad67f11c590719ae72d5feb"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_068_hoshikage_pet.json",
+      "source": "workspace/text/batches/demo00_batch_068_hoshikage_pet.json",
+      "bytes": 9952,
+      "sha256": "f515b11660982442e329fa369ca18ccd319e6d9d8f74e382793b3102aafe1a25"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_069_mauve_tank.json",
+      "source": "workspace/text/batches/demo00_batch_069_mauve_tank.json",
+      "bytes": 6905,
+      "sha256": "238c39754f6ef0cc6e930bb0a89edb3846b0efa553a1294ca7bdb866194bfd60"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_070_turmeric_revenge.json",
+      "source": "workspace/text/batches/demo00_batch_070_turmeric_revenge.json",
+      "bytes": 12727,
+      "sha256": "ee2b69c2fc0b67477c82d8f1398ba607df9e9ca85c754110344666c5457f8413"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_070a_turmeric_revenge_fit.json",
+      "source": "workspace/text/batches/demo00_batch_070a_turmeric_revenge_fit.json",
+      "bytes": 2936,
+      "sha256": "11a099437fe9daa35dd6cb512c1e448830bd0794bd31956bd3ebab92c8622ac2"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_071_baron_challenge.json",
+      "source": "workspace/text/batches/demo00_batch_071_baron_challenge.json",
+      "bytes": 15310,
+      "sha256": "a73633945e36456525966aa81003c4b2a917c6480a78ac867a366fe91b4a81ed"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_072_g_sweets_tank.json",
+      "source": "workspace/text/batches/demo00_batch_072_g_sweets_tank.json",
+      "bytes": 40007,
+      "sha256": "b1de8a2a122579a300b8f3570733a585c5f14026b3775453f5a7eef34c43291f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_073_baron_aftermath.json",
+      "source": "workspace/text/batches/demo00_batch_073_baron_aftermath.json",
+      "bytes": 20789,
+      "sha256": "1ee0bd77105fb0f9dc17ad56d964d7ee9c33e0b687419b782eb06ca6f5e623ed"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_074_laharl_reveal.json",
+      "source": "workspace/text/batches/demo00_batch_074_laharl_reveal.json",
+      "bytes": 42842,
+      "sha256": "209fad3a018894b309b2bc06eab14544807df79ff02b8ca01a6b89d55b42b44a"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_075_asagi_protagonist.json",
+      "source": "workspace/text/batches/demo00_batch_075_asagi_protagonist.json",
+      "bytes": 41404,
+      "sha256": "b321e708199de8c9e37dd0e1f39890565b7d5f5967fc5c7c7735174c69699f8f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_076_asagi_identity.json",
+      "source": "workspace/text/batches/demo00_batch_076_asagi_identity.json",
+      "bytes": 33624,
+      "sha256": "167f43aab638e6e02c185b21eda6f6593b7b6aa0ebdcfb782d1def24d4d10f18"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_077_asagi_advice.json",
+      "source": "workspace/text/batches/demo00_batch_077_asagi_advice.json",
+      "bytes": 40389,
+      "sha256": "0cfee01a421c4ac62c07f81ef97e69fb701ae32ef6d149c1cc38b548f55fcd0b"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_078_asagi_election.json",
+      "source": "workspace/text/batches/demo00_batch_078_asagi_election.json",
+      "bytes": 40361,
+      "sha256": "d03abbf5d37ef1f5aab7c83c6148e5e722321146cf25e1f1fc6c381e0a337636"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_079_asagi_level9999.json",
+      "source": "workspace/text/batches/demo00_batch_079_asagi_level9999.json",
+      "bytes": 40453,
+      "sha256": "5156ab2c3a4e9068e4dddb3999b16706a3348a608515e5f817e9494bbf1b622a"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_080_asagi_body_sacrifice.json",
+      "source": "workspace/text/batches/demo00_batch_080_asagi_body_sacrifice.json",
+      "bytes": 44145,
+      "sha256": "d905a669b69849d1950e9d12e5c019ea30a1796d7772199b2388f370a8e070f7"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_081_asagi_pretty_prinny.json",
+      "source": "workspace/text/batches/demo00_batch_081_asagi_pretty_prinny.json",
+      "bytes": 36652,
+      "sha256": "70fe722d9f31771bc8f4196409f9470dbe05dd8c51ed7a43479f528ce173aa3d"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_082_asagi_prinny_epilogue.json",
+      "source": "workspace/text/batches/demo00_batch_082_asagi_prinny_epilogue.json",
+      "bytes": 3961,
+      "sha256": "31b6ddf7aa3f421bb684cb473ea0e141b5108c8d482f2802c61c8cebe38d7fa8"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_083_hub_souls_services.json",
+      "source": "workspace/text/batches/demo00_batch_083_hub_souls_services.json",
+      "bytes": 29099,
+      "sha256": "6dd500c5b7e248fa5315b8184a36acb7955df06887baa7f6a5aa456f2a940d6a"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_083b_consumer_flags.json",
+      "source": "workspace/text/batches/demo00_batch_083b_consumer_flags.json",
+      "bytes": 13916,
+      "sha256": "da17c6f663b831579e990a9604dcfc3a6575f5df57bf4beafa3697254a60ca99"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_084_hub_facility_tutorials.json",
+      "source": "workspace/text/batches/demo00_batch_084_hub_facility_tutorials.json",
+      "bytes": 60635,
+      "sha256": "d37e9988b4060b0ff1933a694fcb11ebc416d7c83f143c6d117246c1b4e88bd6"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_084a_hub_slot_fix.json",
+      "source": "workspace/text/batches/demo00_batch_084a_hub_slot_fix.json",
+      "bytes": 4394,
+      "sha256": "e6f44fe26ded0046c91f6ba2517982e20970c59913b4d4297b5d4645839605cd"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_085_lucky_doll_professor.json",
+      "source": "workspace/text/batches/demo00_batch_085_lucky_doll_professor.json",
+      "bytes": 35204,
+      "sha256": "5eed6ff1261c78577f4327c06e0e547e866c6665d8cec04cebf36e591e2ed36d"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_085a_lucky_slot_fix.json",
+      "source": "workspace/text/batches/demo00_batch_085a_lucky_slot_fix.json",
+      "bytes": 4546,
+      "sha256": "da010137dc016c00dabdb4b5b3e2c1a6a2109b4a021d7aa94b53e6fe9a0d78d4"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_085b_consumer_flag.json",
+      "source": "workspace/text/batches/demo00_batch_085b_consumer_flag.json",
+      "bytes": 2824,
+      "sha256": "6af65ecf7afeb520c6ab7b6db9d72160c743811acea300f21cbf22358d7695a7"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_086_makai_medal_ceremony.json",
+      "source": "workspace/text/batches/demo00_batch_086_makai_medal_ceremony.json",
+      "bytes": 42502,
+      "sha256": "d418d1a952004bfff48a23ea3da8e9e090bd97263c76bbf3d85077ac8ef7d03d"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_087_makai_medals_runner_fighter.json",
+      "source": "workspace/text/batches/demo00_batch_087_makai_medals_runner_fighter.json",
+      "bytes": 38668,
+      "sha256": "69d6eb1c46d187097cbd075e6cbe92869057c99cdf02093525d8ab1333b38921"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_087a_medal_slot_fix.json",
+      "source": "workspace/text/batches/demo00_batch_087a_medal_slot_fix.json",
+      "bytes": 6828,
+      "sha256": "62380f8adba068c302e1b0561cf8c74cbcef91fa19717c4652ad0fa913ad6f01"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_088_makai_medals_asagi_progress.json",
+      "source": "workspace/text/batches/demo00_batch_088_makai_medals_asagi_progress.json",
+      "bytes": 25960,
+      "sha256": "380c02d7c00a09dd0e3a3c22926fc81261d35463c75edbb87f20a39efa86ff53"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_089_makai_medals_collection_score.json",
+      "source": "workspace/text/batches/demo00_batch_089_makai_medals_collection_score.json",
+      "bytes": 32244,
+      "sha256": "731990a921a129deed8adc5475c8f2709fb772cfd93f0aedb8f30a40c68ed547"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_089a_medal_slot_fix.json",
+      "source": "workspace/text/batches/demo00_batch_089a_medal_slot_fix.json",
+      "bytes": 2933,
+      "sha256": "eee4c9ccd59669652131360fe5a63a3ad0131bd2c7ad1821e3f4f7a0ba8d3435"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_090_makai_news_gameover.json",
+      "source": "workspace/text/batches/demo00_batch_090_makai_news_gameover.json",
+      "bytes": 14212,
+      "sha256": "7df1ff654be42b0aa750795e01a8bc48727c64a77b4611005a5cbe04237770c8"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_091_pickups_0384_0397.json",
+      "source": "workspace/text/batches/demo00_batch_091_pickups_0384_0397.json",
+      "bytes": 31495,
+      "sha256": "c89a3318a30ab09817ca3df9afb46e1ca0405ea4cc5697311913794b5abf7b9b"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_092_pickups_0398_03ab.json",
+      "source": "workspace/text/batches/demo00_batch_092_pickups_0398_03ab.json",
+      "bytes": 31407,
+      "sha256": "b97fadd1afd88d08beb2fdd19a1d3fcc4f192541edc961a2f6f149039c0792fd"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_093_pickups_03ac_03bf.json",
+      "source": "workspace/text/batches/demo00_batch_093_pickups_03ac_03bf.json",
+      "bytes": 31480,
+      "sha256": "dd2d776f0cdc6aabce9e5a7f65f5a642e122363749699ea8fac3f246681c357c"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_094_opening_late_bomb.json",
+      "source": "workspace/text/batches/demo00_batch_094_opening_late_bomb.json",
+      "bytes": 19638,
+      "sha256": "53504bececf9bcc3402eff69e22d9bca612e229481b6a60d641416127cd0fced"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_095_opening_etna_sweets_order.json",
+      "source": "workspace/text/batches/demo00_batch_095_opening_etna_sweets_order.json",
+      "bytes": 24569,
+      "sha256": "3aa36547831af8c18492d24a59ecf8821237325a7284a95feb0adb42f9047f38"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_096_opening_protagonist_scarf.json",
+      "source": "workspace/text/batches/demo00_batch_096_opening_protagonist_scarf.json",
+      "bytes": 9492,
+      "sha256": "be6f1f3ba5723c5832d02ea40ee12325d57b6b6f48b6f13756d5b08f4322506e"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_097_hub_mission_context.json",
+      "source": "workspace/text/batches/demo00_batch_097_hub_mission_context.json",
+      "bytes": 23168,
+      "sha256": "54b361b9e7b29575b69030690b985d9ee9689b62414d675a1c9d31b79ae60aad"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_098_hub_rumor_materials.json",
+      "source": "workspace/text/batches/demo00_batch_098_hub_rumor_materials.json",
+      "bytes": 25170,
+      "sha256": "90e469d97778e258d9044c34479f954090223a509afb797c73326583221cffde"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_098a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_098a_utf8_repair.json",
+      "bytes": 27801,
+      "sha256": "5281940271f50e5eacb9750a590c8d631a121f5c6bf62822c8f7117d905f95c0"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_099_hub_baron_prinny_population.json",
+      "source": "workspace/text/batches/demo00_batch_099_hub_baron_prinny_population.json",
+      "bytes": 19190,
+      "sha256": "1e0a7bfc572d24ccab4aafdfd7f1305534fa9ac090e655e9b2ba34b65764884f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_099a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_099a_utf8_repair.json",
+      "bytes": 21153,
+      "sha256": "ec03d630ed3c4cbabb351cc7a33e724ce2e7c10eecdf4e1d3deaad008b5061b8"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_100_hub_pudding_night.json",
+      "source": "workspace/text/batches/demo00_batch_100_hub_pudding_night.json",
+      "bytes": 20761,
+      "sha256": "6e35c4a13cdf95907539d58558b3155009db8b776179269b6246dbf42c75b034"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_100a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_100a_utf8_repair.json",
+      "bytes": 22929,
+      "sha256": "3c08602bdbfe3d74d9009fd1b57eb8565d556e6bd8fcb97a780ae563f9b16eaa"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_101_hub_red_moon_scarf.json",
+      "source": "workspace/text/batches/demo00_batch_101_hub_red_moon_scarf.json",
+      "bytes": 17787,
+      "sha256": "e42abdd79cb8210863380396dae62b797528dbf2ee53fd13368860e2254495c8"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_101a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_101a_utf8_repair.json",
+      "bytes": 19615,
+      "sha256": "eedee1cab8caee68a1b1bbe0aaa241fca66e17740e3dca8ae6c74093396a7ea4"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_102_hub_six_materials.json",
+      "source": "workspace/text/batches/demo00_batch_102_hub_six_materials.json",
+      "bytes": 13014,
+      "sha256": "546f95de2f1b3e42601e21050bc09995c9af90adf077c4a24fd6d52e50669fb4"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_102a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_102a_utf8_repair.json",
+      "bytes": 14316,
+      "sha256": "bc571a33d60a8622947c0345e287546aede12d964ed12cee8da4021af7b2fb7f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_103_hub_hermit_mountain.json",
+      "source": "workspace/text/batches/demo00_batch_103_hub_hermit_mountain.json",
+      "bytes": 19202,
+      "sha256": "300016f72bd82a49ab8181927bbd3b87f04dfbedf6e5c42255031438ea532fa1"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_103a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_103a_utf8_repair.json",
+      "bytes": 21191,
+      "sha256": "c09e1c33361bc9390dccbaab51aed5a5f750ec09465a6db4bd5f414c9e32453f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_104_hub_dessert_viking.json",
+      "source": "workspace/text/batches/demo00_batch_104_hub_dessert_viking.json",
+      "bytes": 13249,
+      "sha256": "61887fe10ffdaefcda7a0e4b6a8544484384aafc57cbf19444522dd2945c860f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_104a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_104a_utf8_repair.json",
+      "bytes": 14578,
+      "sha256": "7e1aa1abf650b47786885ec35c1aa5b6ffa0a737dda596e3925578f5863908a8"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_105_hub_rumors_employment.json",
+      "source": "workspace/text/batches/demo00_batch_105_hub_rumors_employment.json",
+      "bytes": 17688,
+      "sha256": "f497f198f789043fac70f0b293bdf5e9f6deb677cfc542e40a4ca19ccbec8942"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_105a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_105a_utf8_repair.json",
+      "bytes": 19496,
+      "sha256": "dca5e22f5ab24bb0f0c4bf0646935ab2f02ca188201673c103a341acce2a526f"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_106_hub_workplace_training.json",
+      "source": "workspace/text/batches/demo00_batch_106_hub_workplace_training.json",
+      "bytes": 19062,
+      "sha256": "8c7f9b4aa092b6ea8b08342146d874a378cd4131c4014e4a4482c867940dcf99"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_106a_utf8_repair.json",
+      "source": "workspace/text/batches/demo00_batch_106a_utf8_repair.json",
+      "bytes": 21037,
+      "sha256": "02bc74a7a9efb6a90a626e6855c71fa35cac81c0762891f736b04e649b212099"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_107_hub_asagi_rumors.json",
+      "source": "workspace/text/batches/demo00_batch_107_hub_asagi_rumors.json",
+      "bytes": 10131,
+      "sha256": "eb09a7b14e583bf57360843c3400d0d7e3e97a186ec9a9926f3f8f69d372fd54"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_108_hub_snow_tower_protagonist.json",
+      "source": "workspace/text/batches/demo00_batch_108_hub_snow_tower_protagonist.json",
+      "bytes": 16256,
+      "sha256": "7dc76a71a2796be61fde1fd8824482e775bac7acede93d7b68692778d74e0db6"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_109_hub_asagi_game_advice.json",
+      "source": "workspace/text/batches/demo00_batch_109_hub_asagi_game_advice.json",
+      "bytes": 17850,
+      "sha256": "13decb0dcd39e2f9819e430e0d2588c72df05a4f4813468f71e0c652dd55e5d1"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_110_hub_effort_senior_etna.json",
+      "source": "workspace/text/batches/demo00_batch_110_hub_effort_senior_etna.json",
+      "bytes": 19094,
+      "sha256": "d7024bb1b4325f4ecdf64c7a389c7f786a28e4e46ff7ef4f20c84403be167cd5"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_111_hub_protagonist_qualities.json",
+      "source": "workspace/text/batches/demo00_batch_111_hub_protagonist_qualities.json",
+      "bytes": 13191,
+      "sha256": "e2a476715de97b4675586f6bd4834d1924c177f9b20c6e56af27a3684fe61022"
+    },
+    {
+      "path": "workspace/text/batches/demo00_batch_112_hub_final_asagi_preparation.json",
+      "source": "workspace/text/batches/demo00_batch_112_hub_final_asagi_preparation.json",
+      "bytes": 16139,
+      "sha256": "feeaa63cfaab9a96e466475e20a7871948759360afc3b043dcd9f14a92c27716"
+    },
+    {
+      "path": "workspace/text/translation/clear_time.json",
+      "source": "workspace/text/translation/clear_time.json",
+      "bytes": 497,
+      "sha256": "50b0c9b4d181722e381523267a740e557dd8938d73cf3401a76acc395e1c1c99"
+    },
+    {
+      "path": "workspace/text/translation/collection.csv",
+      "source": "workspace/text/translation/collection.csv",
+      "bytes": 8278,
+      "sha256": "989c0f4b073d149d876213393a8a3488afe68693df65df6191ba804493c705c8"
+    },
+    {
+      "path": "workspace/text/translation/collection_ko_translated.csv",
+      "source": "workspace/text/translation/collection_ko_translated.csv",
+      "bytes": 12243,
+      "sha256": "d4515db5a406e1e7919d637ee1678ab2b533ba57f476420bbbbe4213b1034799"
+    },
+    {
+      "path": "workspace/text/translation/honor.csv",
+      "source": "workspace/text/translation/honor.csv",
+      "bytes": 10022,
+      "sha256": "780e6b284f9eca03401e0750dccdd08c3894e924130114a12a1b71bd2baff0aa"
+    },
+    {
+      "path": "workspace/text/translation/honor_ko_translated.csv",
+      "source": "workspace/text/translation/honor_ko_translated.csv",
+      "bytes": 14105,
+      "sha256": "f55cc4d1f56164ca68c7d9644e0baeeec83b06ed0326f97778ca760575f4affe"
+    },
+    {
+      "path": "workspace/text/translation/lucky_doll.csv",
+      "source": "workspace/text/translation/lucky_doll.csv",
+      "bytes": 33980,
+      "sha256": "977513410a800bc90acdd0c1397be4e86164259ec068e3568a06397ddea4aeb7"
+    },
+    {
+      "path": "workspace/text/translation/lucky_item.csv",
+      "source": "workspace/text/translation/lucky_item.csv",
+      "bytes": 12220,
+      "sha256": "63219802bad732f91119b9a12e25bb0cffa902ab1e99fc32319e80b6889b508c"
+    },
+    {
+      "path": "workspace/text/translation/lucky_item_ko_translated.csv",
+      "source": "workspace/text/translation/lucky_item_ko_translated.csv",
+      "bytes": 15982,
+      "sha256": "d2270d42cae5959364a72547b3afbded9886e004b9fcbc6999c39fb17cb429cd"
+    },
+    {
+      "path": "workspace/text/translation/music_shop.csv",
+      "source": "workspace/text/translation/music_shop.csv",
+      "bytes": 6276,
+      "sha256": "44fa5980d19a10ecb4398ee130c518f4f93204157c239d567729352712f8ef9a"
+    },
+    {
+      "path": "workspace/text/translation/music_shop_ko_translated.csv",
+      "source": "workspace/text/translation/music_shop_ko_translated.csv",
+      "bytes": 8232,
+      "sha256": "e497def842893aa602b6400d98760a4ddb983d45ae3f01d07e7e8185ff055dc1"
+    },
+    {
+      "path": "workspace/text/translation/picture_book.csv",
+      "source": "workspace/text/translation/picture_book.csv",
+      "bytes": 121598,
+      "sha256": "ec5f6a77a9229337f138b84ce631c94566db9a8214650feb864e5b25f9a65aa6"
+    },
+    {
+      "path": "workspace/text/translation/picture_book_ko_translated.csv",
+      "source": "workspace/text/translation/picture_book_ko_translated.csv",
+      "bytes": 153384,
+      "sha256": "e322cf2b121d87af6369036aea85d3549c8f2d964551b8d4adb702e8e65ee3ce"
+    },
+    {
+      "path": "workspace/text/translation/stage_info.csv",
+      "source": "workspace/text/translation/stage_info.csv",
+      "bytes": 30207,
+      "sha256": "cceb97faa2a16563fc847d42b766abe32d106d2f88b90d2def6776266699f087"
+    },
+    {
+      "path": "workspace/text/translation/dlc/README.md",
+      "source": "workspace/text/translation/dlc/README.md",
+      "bytes": 2593,
+      "sha256": "8fe926ef9ab717412f14976f4085363227f32465a781bb25579e6b2da29300b6"
+    },
+    {
+      "path": "workspace/text/translation/dlc/dl0000_ddem.csv",
+      "source": "workspace/text/translation/dlc/dl0000_ddem.csv",
+      "bytes": 11010,
+      "sha256": "5d2f6074822df284dfbe5eb602029c5b87dee6564e97a195dc4d77ef264e4b11"
+    },
+    {
+      "path": "workspace/text/translation/dlc/dl0001_ddem.csv",
+      "source": "workspace/text/translation/dlc/dl0001_ddem.csv",
+      "bytes": 8783,
+      "sha256": "00f7c054b6a3213b97d6e7c99f399220e3fa8f7840b2342d5f4bb67f3198fd2d"
+    },
+    {
+      "path": "workspace/text/translation/dlc/dl0002_ddem.csv",
+      "source": "workspace/text/translation/dlc/dl0002_ddem.csv",
+      "bytes": 3954,
+      "sha256": "37cae5ceedefa3f578042260856a68dea406e438e4fddc33008e31551f97d04f"
+    },
+    {
+      "path": "workspace/text/translation/dlc/dlc_stage_info.csv",
+      "source": "workspace/text/translation/dlc/dlc_stage_info.csv",
+      "bytes": 5238,
+      "sha256": "fde1ed164eabf484b2664d53539f8ecd92cf3cf8cfbb2e7d775d253dd1f2718a"
+    },
+    {
+      "path": "docs/PROJECT_NOTES.md",
+      "source": "README.md",
+      "bytes": 14929,
+      "sha256": "743ce78a3ceaec366f52fac4bc667b34e896123aeba4597b79e78ca36c97c703"
+    }
+  ]
+}

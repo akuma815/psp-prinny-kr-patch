@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_089a_medal_slot_fix",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "e079912a514b7388314ccc3d3371467deab6588bb4b267512e1f9438a2a1ce5f",
+  "context": {
+    "scene": "마계 레코드 대상 설명 슬롯 교정",
+    "evidence": [
+      "089 최초 병합에서 둘째 줄 39/34바이트"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0315",
+      "protected_snapshot": {
+        "record_id": 789,
+        "raw_hex": "150311000000000000000000000000000000000000000000817596828a45838c8352815b836891e58fdc817600000000000000000000000000000096828a45838c8352815b836882f082b782d782c48f5782df82bd89b9837d836a83410082c991a182e782ea82e996828a458c4d8fcd8142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「魔界レコード大賞」",
+            "魔界レコードをすべて集めた音マニア",
+            "に贈られる魔界勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "「마계 레코드 대상」",
+          "마계 레코드를 전부 모은 음원 마니아에게",
+          "주는 마계 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「마계 레코드 대상」",
+          "모든 마계 레코드를 모은 음악광에게",
+          "주는 마계 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    }
+  ]
+}

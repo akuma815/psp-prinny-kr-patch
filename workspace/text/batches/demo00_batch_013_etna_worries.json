@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_013_etna_worries",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "90c58c5f79add4e32ada1dfd0e8aeed47eb2e18bf6258f3b6628cf35ebe2923b",
+  "context": {
+    "scene": "도입부 에트나의 고민과 새 마왕의 죽음",
+    "evidence": [
+      "demo.nsf logical offsets 0x2CF0/0x2D1D/0x2D60/0x2DA3/0x2E1C/0x2E66/0x2E93",
+      "BOOT dispatcher block-local stepping: target 7/7 proven, selected block 1/1 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0E10",
+      "protected_snapshot": {
+        "record_id": 3600,
+        "raw_hex": "100e0300c900c88376838a836a815b000000000000000000834783678369976c82c182c489bd82a9945982dd82b282c6000000000000000000000082a082e98362835882a9815b81480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様って何か悩みごと",
+            "あるッスかー？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님도 무슨 고민이",
+          "있슴까~?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나에게 고민이 있는지 가볍게 묻는 프리니의 질문을 승인 존칭과 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E12",
+      "protected_snapshot": {
+        "record_id": 3602,
+        "raw_hex": "120e0300a2fdc8834783678369000000000000000000000082c882c982e68149945982dd82b282c682ad82e782a20000000000000000000000000082a082e982ed82e68142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "なによ！悩みごとくらい",
+            "あるわよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "뭐야! 나도 고민쯤은",
+          "있다고.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신에게도 고민이 있다고 발끈하는 에트나의 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E14",
+      "protected_snapshot": {
+        "record_id": 3604,
+        "raw_hex": "140e0400a6fdc8834783678369000000000000000000000083588343815b836382cd939082e782ea82e982b5814183418393835e82bd82bf82cd0093ad82a982c882a282b5816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "スイーツは盗られるし、アンタたちは",
+            "働かないし……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "디저트는 도둑맞고, 너희는",
+          "일도 안 하고…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트 도난과 프리니들의 태업을 나열하는 불평을 기존 승인 용어로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E16",
+      "protected_snapshot": {
+        "record_id": 3606,
+        "raw_hex": "160e0400a6fdc883478367836900000000000000000000008a7982b582c48be082cd8ee882c993fc82f182c882a282b5816381638142000000000091cc8f648cb882e782c882a282b58163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "楽して金は手に入んないし……。",
+            "体重減らないし……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "편하게 돈도 못 벌고…….",
+          "살도 안 빠지고…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "쉽게 돈을 벌지 못하고 체중도 줄지 않는다는 에트나의 사소한 고민을 병렬로 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E18",
+      "protected_snapshot": {
+        "record_id": 3608,
+        "raw_hex": "180e0300ce00c88376838a836a815b00000000000000000089bd88ea82c2905b8d8f82c80000000000000000000000000000000000000000000000945982dd82aa82c882a28362835882cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "何一つ深刻な",
+            "悩みがないッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어느 것 하나 심각한",
+          "고민은 아님다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "나열된 고민이 전혀 심각하지 않다고 지적하는 프리니의 건조한 반응을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E1A",
+      "protected_snapshot": {
+        "record_id": 3610,
+        "raw_hex": "1a0e0300c900c88376838a836a815b000000000000000000905682b582a2968289a4976c82aa8e8082f182c50000000000000000000000000000008ee282b582a282c682a9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "新しい魔王様が死んで",
+            "寂しいとか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "새 마왕님이 죽어서",
+          "외롭다든가.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "새 마왕의 죽음 때문에 외로운지 예를 드는 프리니의 질문을 직설적으로 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E1C",
+      "protected_snapshot": {
+        "record_id": 3612,
+        "raw_hex": "1c0e0100a7fdc8834783678369000000000000000000000082ba82f182ba82f181420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ぜんぜん。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "전혀.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "새 마왕의 죽음을 전혀 슬퍼하지 않는 에트나의 단호한 즉답을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    }
+  ]
+}

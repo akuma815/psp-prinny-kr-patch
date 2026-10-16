@@ -1,0 +1,1132 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_085_lucky_doll_professor",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "dc9359664bc62f10973292e8bb70173ec0895bc86d6b732085c475af4682d1f7",
+  "context": {
+    "scene": "라키 교수의 라키 돌 보상과 생태 설명",
+    "evidence": [
+      "정적 참조 12건 중 실행 시작점 10건 증명; 생태 설명 0262-026E 정적 후보 없음, 소비자 검토 유지"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0258",
+      "protected_snapshot": {
+        "record_id": 600,
+        "raw_hex": "58021100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008f5782df82bd83898362834c815b8368815b838b82f0936e82b582bd814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "",
+            "集めたラッキードールを渡した。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "모은 라키 돌을 건넸다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0259",
+      "protected_snapshot": {
+        "record_id": 601,
+        "raw_hex": "590203000000c983898362834c815b8bb38ef6000000000082d982d982a4814982b182ea82cd82b182ea82cd81498148000000000000000000000082de82de82de81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ほほう！これはこれは！？",
+            "むむむ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "오호! 이건 또 무엇인고!?",
+          "흐으음…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/025A",
+      "protected_snapshot": {
+        "record_id": 602,
+        "raw_hex": "5a0203000000c983898362834c815b8bb38ef6000000000082b782ce82e782b582a2814982e082c182c682e082c182c600000000000000000000008f5782df82c482ab82c482ad82ea82bd82dc82a68149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "すばらしい！もっともっと",
+            "集めてきてくれたまえ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "훌륭해! 더 많이",
+          "모아 와 주게!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/025B",
+      "protected_snapshot": {
+        "record_id": 603,
+        "raw_hex": "5b0204000000c983898362834c815b8bb38ef6000000000082d382a48163816382bf82dd82cc836e8393836583428393834f945c97cd82c982cd0082e082a4838f83568aae947382b682e182e681638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ふう……ちみのハンティング能力には",
+            "もうワシ完敗じゃよ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "후우…… 자네 사냥 실력에는",
+          "내가 완패했네…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/025C",
+      "protected_snapshot": {
+        "record_id": 604,
+        "raw_hex": "5c0203000000c983898362834c815b8bb38ef6000000000082a897e782c994e991a082cc8352838c834e835683878393000000000000000000000082f08db782b58fe382b082e982bc82a2814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "お礼に秘蔵のコレクション",
+            "を差し上げるぞい！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "답례로 비장의 수집품을",
+          "주겠네!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/025D",
+      "protected_snapshot": {
+        "record_id": 605,
+        "raw_hex": "5d0204000000c983898362834c815b8bb38ef6000000000082bf82dd82c982cd8afa91d282b582c482a882e982bc82a2814900000000000000000082e082c182c68f5782df82c482ab82c482ad82ea82bd82dc82a68149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ちみには期待しておるぞい！",
+            "もっと集めてきてくれたまえ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "자네를 기대하고 있네!",
+          "더 모아 와 주게!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/025E",
+      "protected_snapshot": {
+        "record_id": 606,
+        "raw_hex": "5e0203000000c983898362834c815b8bb38ef6000000000082c282a282c98141835283938376838a815b8367814981490000000000000000000000835283938376838a815b836782b682e1814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ついに、コンプリート！！",
+            "コンプリートじゃ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "드디어 완성!!",
+          "전부 모았네!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/025F",
+      "protected_snapshot": {
+        "record_id": 607,
+        "raw_hex": "5f0203000000c983898362834c815b8bb38ef6000000000082bf82dd82cc836e8393836583428393834f945c97cd82c982cd81410000000000000082e082a4838f83568aae91538aae9473814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ちみのハンティング能力には、",
+            "もうワシ完全完敗。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "자네 사냥 실력에는",
+          "내가 완전히 졌네.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0260",
+      "protected_snapshot": {
+        "record_id": 608,
+        "raw_hex": "600204000000c983898362834c815b8bb38ef6000000000082e082a4814182b182ea82aa8dc58ce382cc88ea956982b682e181498149000000000094e991a0928682cc94e991a081498e9d82c182c482a282ad82aa82e682a281498149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "もう、これが最後の一品じゃ！！",
+            "秘蔵中の秘蔵！持っていくがよい！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "이게 마지막 물건이네!!",
+          "비장 중의 비장! 가져가게!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0261",
+      "protected_snapshot": {
+        "record_id": 609,
+        "raw_hex": "610204000000c983898362834c815b8bb38ef6000000000083898362834c815b8368815b838b82cd82c782ea82be82af8ca991b182af82c482e000964f82ab82c882a282cc82a88163816382a482c182c682e881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ラッキードールはどれだけ見続けても",
+            "飽きないのお……うっとり……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "라키 돌은 아무리 봐도",
+          "질리지 않는군…… 황홀해…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0262",
+      "protected_snapshot": {
+        "record_id": 610,
+        "raw_hex": "62021100000000000000000000000000000000000000000094f18fed82c989b0956182c890ab8a6982c581419581926982cd926e96ca82cc92860082c9894282ea82c482a882e881418f6f82c482ad82e982b182c682cd0000000000000082a082e882dc82b982f181420000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "非常に臆病な性格で、普段は地面の中",
+            "に隠れており、出てくることは",
+            "ありません。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "아주 겁이 많아 평소엔 땅속에",
+          "숨어서 나오지 않습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0263",
+      "protected_snapshot": {
+        "record_id": 611,
+        "raw_hex": "6302110000000000000000000000000000000000000000008cc291cc909482aa8fad82c882ad814182bb82cc90d482a2837b8366834282c900000096a382b982e782ea82bd8352838c834e835e815b82e091bd82a282e682a4000000000082c582b781420000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "個体数が少なく、その赤いボディに",
+            "魅せられたコレクターも多いよう",
+            "です。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "개체 수가 적고 붉은 몸에",
+          "매료된 수집가도 많다고 합니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0264",
+      "protected_snapshot": {
+        "record_id": 612,
+        "raw_hex": "64021100000000000000000000000000000000000000000082dc82bd814197de8e9782b582bd8eed82c682b582c4835d839383728368815b838b0082c68cc482ce82ea82e982e082cc82e091b68ddd82b582c482a282dc82b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "また、類似した種としてゾンビドール",
+            "と呼ばれるものも存在しています。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "비슷한 종으로 좀비 돌이라",
+          "불리는 것도 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0265",
+      "protected_snapshot": {
+        "record_id": 613,
+        "raw_hex": "65021100000000000000000000000000000000000000000082b182bf82e782c982cd814183898362834c815b8368815b838b82cc82e682a482c8008352838c834e835e815b82cd82a882e782b8000000000000000000000000000000000094f18fed82c98c9982ed82ea82c482a282dc82b7814200000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "こちらには、ラッキードールのような",
+            "コレクターはおらず",
+            "非常に嫌われています。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "이쪽은 라키 돌과 달리 수집가가 없고",
+          "매우 미움받습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0266",
+      "protected_snapshot": {
+        "record_id": 614,
+        "raw_hex": "66021100000000000000000000000000000000000000000083898362834c815b8368815b838b82cd9153959482c582508251824f9543000000000091b68ddd82b582c482a282e982e682a482c582b78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ラッキードールは全部で１２０匹",
+            "存在しているようです。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "라키 돌은 모두 120마리가",
+          "존재하는 듯합니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0267",
+      "protected_snapshot": {
+        "record_id": 615,
+        "raw_hex": "6702110000000000000000000000000000000000000000008a6583588365815b835782c982cd82a982c882e782b8000000000000000000000000008252954391b68ddd82b582c482a282e982e682a482c5000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "各ステージにはかならず",
+            "３匹存在しているようで",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "각 스테이지에 반드시",
+          "세 마리가 있는 듯하며",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0268",
+      "protected_snapshot": {
+        "record_id": 616,
+        "raw_hex": "68021100000000000000000000000000000000000000000082bb82cc83588365815b835782c582cc95df8a6c909482cd000000000000000000000083588365815b8357834e838a83418e9e82c98a6d944682c582ab82dc82b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "そのステージでの捕獲数は",
+            "ステージクリア時に確認できます。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "해당 스테이지의 포획 수는",
+          "클리어할 때 확인할 수 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0269",
+      "protected_snapshot": {
+        "record_id": 617,
+        "raw_hex": "69021100000000000000000000000000000000000000000083898362834c815b8368815b838b82cd8ee582c9926e928682c500000000000000000096b082c182c482a282dc82b782aa81418fd58c8282f08ab4926d82b782e982c6000000926e8fe382c994f282d18f6f82b582c482ad82e9816381630000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ラッキードールは主に地中で",
+            "眠っていますが、衝撃を感知すると",
+            "地上に飛び出してくる……"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "라키 돌은 주로 땅속에서 자지만",
+          "충격을 느끼면 지상으로 튀어나온다……",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/026A",
+      "protected_snapshot": {
+        "record_id": 618,
+        "raw_hex": "6a021100000000000000000000000000000000000000000082c682a282a482cc82aa836e8393835e815b924282cc8ad482c500000000000000000082dc82b182c682b582e282a982c99a9182a982ea82c482a282dc82b7814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "というのがハンター達の間で",
+            "まことしやかに囁かれています。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "라는 이야기가 사냥꾼들 사이에서",
+          "그럴듯하게 퍼져 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/026B",
+      "protected_snapshot": {
+        "record_id": 619,
+        "raw_hex": "6b021100000000000000000000000000000000000000000082dc82bd814193ae82ad82e082cc82f08ca982c282af82e982c682e082cc90a682a20091ac937882c593a682b08f6f82b782c682a282a4895c82c582b78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "また、動くものを見つけるともの凄い",
+            "速度で逃げ出すという噂です。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "움직이는 것을 보면 엄청난",
+          "속도로 도망간다는 소문도 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/026C",
+      "protected_snapshot": {
+        "record_id": 620,
+        "raw_hex": "6c02110000000000000000000000000000000000000000008b7482c98cbe82a682ce8141000000000000000000000000000000000000000000000093ae82a982c882af82ea82ce8ca982c282a982e782c882a282c600000000000000000082a282a482b182c682e08cbe82a682bb82a482c582b782aa8163816381420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "逆に言えば、",
+            "動かなければ見つからないと",
+            "いうことも言えそうですが……。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "반대로 말하면",
+          "움직이지 않으면 들키지 않는다고",
+          "할 수도 있겠지만……."
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/026D",
+      "protected_snapshot": {
+        "record_id": 621,
+        "raw_hex": "6d021100000000000000000000000000000000000000000083898362834c815b8368815b838b82f094ad8ca982b582bd82cc82bf8163816300000095df8a6c814182b782c882ed82bf937c82b382c882af82ea82ce00000000000000000095df82dc82a682bd82b182c682c982cd82c882e882dc82b982f1814200000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ラッキードールを発見したのち……",
+            "捕獲、すなわち倒さなければ",
+            "捕まえたことにはなりません。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "라키 돌을 발견한 뒤……",
+          "포획, 즉 쓰러뜨려야",
+          "잡은 것으로 인정됩니다."
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/026E",
+      "protected_snapshot": {
+        "record_id": 622,
+        "raw_hex": "6e021100000000000000000000000000000000000000000094ad8ca982b582c482e08141000000000000000000000000000000000000000000000082a082b982e782b88a6d8ec082c9937c82b582dc82b582e582a48142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "発見しても、",
+            "あせらず確実に倒しましょう。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "발견해도 서두르지 말고",
+          "확실히 쓰러뜨리십시오.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정적 소비 후보가 없어 소비 경로 최종 검토 필요.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_066_bakuchi_cyclops_mk2",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2ca04e1f0388cf1b7679d5df5ced3c834b922d55b04347701977de7a7afdf5a8",
+  "context": {
+    "scene": "바쿠치의 사이클롭스 mk2 출격",
+    "evidence": [
+      "demo.nsf 목표 정적 참조 통합 38/38; BOOT dispatcher 선택 블록 7/7 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/34BC",
+      "protected_snapshot": {
+        "record_id": 13500,
+        "raw_hex": "bc340400a506c8836f834e8360815b00000000000000000092b492bf82b582a28b868bc982cc83588343815b836382c182c482cc82f000000000008349837d83478e9d82c182c482e982e782b582a282c8834081480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "超珍しい究極のスイーツってのを",
+            "オマエ持ってるらしいなァ？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "엄청 희귀한 궁극의 디저트를",
+          "네가 갖고 있다며?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "반복 조우에서 궁극의 디저트를 확인하는 바쿠치 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/34BE",
+      "protected_snapshot": {
+        "record_id": 13502,
+        "raw_hex": "be340300a506c8836f834e8360815b00000000000000000082d682d682d68141834a8357836d82cc8c69956982c90000000000000000000000000082e082c182c482b182a282be82ba8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "へへへ、カジノの景品に",
+            "もってこいだぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "헤헤헤, 카지노 경품으로",
+          "딱이겠군!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "반복 조우에서 디저트를 경품으로 노리는 바쿠치 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/34C0",
+      "protected_snapshot": {
+        "record_id": 13504,
+        "raw_hex": "c0340400a706c8836f834e8360815b0000000000000000008d7382af814183548343834e838d83768358828d828b8251814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1703,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "行け、サイクロプスｍｋ２！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "가라, 사이클롭스 Mk.2!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "サイクロプスｍｋ２의 영문형 개량기 표기를 유지한 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "variant_name_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/34C2",
+      "protected_snapshot": {
+        "record_id": 13506,
+        "raw_hex": "c234020036ffc88376838a836a815b000000000000000000837d8141837d815b834e8363815b82c1835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "マ、マークツーっスか！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "마, 마크 투임까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "mk2를 마크 투로 읽으며 놀라는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

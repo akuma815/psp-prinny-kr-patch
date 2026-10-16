@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_011_heroine",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "deceed3c1ddcd10fd34508c590260fe60e96035e614ca8e209214423b015ec68",
+  "context": {
+    "scene": "도입부 도망친 프리니 결론과 주인공 지망 인간 소녀: 에트나의 주인공 살해 조언과 프리니의 공포",
+    "evidence": [
+      "demo.nsf logical offsets 0x2464/0x25F1/0x261E/0x2661/0x26DA/0x2727/0x2754/0x27B7/0x281B",
+      "BOOT dispatcher block-local stepping: target 9/9 proven"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0D88",
+      "protected_snapshot": {
+        "record_id": 3464,
+        "raw_hex": "880d0700a1fdc883478367836900000000000000000000008e7682a282c182ab82e88352834c8e6782a882a482c6000000000000000000000000008e7682c182c482bd82cc82c9815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": -607,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "思いっきりコキ使おうと",
+            "思ってたのにー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "실컷 부려 먹으려고",
+          "했는데~!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "도망친 프리니를 가혹하게 부릴 계획이었다는 아쉬움을 에트나의 반말로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DAC",
+      "protected_snapshot": {
+        "record_id": 3500,
+        "raw_hex": "ac0d0400c900c88376838a836a815b000000000000000000834783678369976c815b81418ee5906c8cf682c982c882e882bd82aa82c182c482e90095cf82c8906c8ad482cc8f9782cc8e7182c989ef82c182bd83628358815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様ー、主人公になりたがってる",
+            "変な人間の女の子に会ったッスー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님~, 주인공이 되고 싶다는",
+          "이상한 인간 여자애를 만났슴다~.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "주인공이 되고 싶어 하는 인간 소녀를 만났다는 보고를 승인 존칭과 프리니 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DAE",
+      "protected_snapshot": {
+        "record_id": 3502,
+        "raw_hex": "ae0d03006002c883478367836900000000000000000000008ee5906c8cf6814800000000000000000000000000000000000000000000000000000082bb82f182c882cc8ac8925082c582b582e581420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "主人公？",
+            "そんなの簡単でしょ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "주인공?",
+          "그건 간단하잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "주인공이 되는 일을 대수롭지 않게 여기는 에트나의 반응을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DB0",
+      "protected_snapshot": {
+        "record_id": 3504,
+        "raw_hex": "b00d03005d02c883478367836900000000000000000000008da182cc8ee5906c8cf682f0837583628e4582b982ce0000000000000000000000000082a282a282be82af82b682e182f18142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 605,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "今の主人公をブッ殺せば",
+            "いいだけじゃん。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "지금 주인공을 죽여 버리면",
+          "그만이잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "현재 주인공을 죽이면 된다는 과격한 해결책을 에트나의 가벼운 반말로 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DB2",
+      "protected_snapshot": {
+        "record_id": 3506,
+        "raw_hex": "b20d0200ce00c88376838a836a815b00000000000000000082b3814182b382b782aa834783678369976c836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "さ、さすがエトナ様ッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "여, 역시 에트나 님임다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "과격한 조언에 겁먹으면서도 감탄하는 프리니의 반응을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DB4",
+      "protected_snapshot": {
+        "record_id": 3508,
+        "raw_hex": "b40d0300ca00c88376838a836a815b0000000000000000008163816382cd82c1814182e082b582e28349838c82bd82bf000000000000000000000082cc96bd82e0915f82c182c481638163814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……はっ、もしやオレたち",
+            "の命も狙って……！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……헉, 설마 저희",
+          "목숨도 노리는……!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신들도 주인공이므로 에트나가 목숨을 노릴지 모른다는 공포를 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DB6",
+      "protected_snapshot": {
+        "record_id": 3510,
+        "raw_hex": "b60d04005a02c88347836783690000000000000000000000836f834a82cb815b81428341835e835682aa83418393835e82bd82bf82a982e70000008ee5906c8cf682cc8dc082f0924482a482cd82b882c882a282c582b582e581420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "バカねー。アタシがアンタたちから",
+            "主人公の座を奪うはずないでしょ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "바보네~. 내가 너희한테서",
+          "주인공 자리를 뺏을 리 없잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니에게서 주인공 자리를 빼앗을 생각은 없다는 에트나의 조롱 섞인 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DB8",
+      "protected_snapshot": {
+        "record_id": 3512,
+        "raw_hex": "b80d03005902c8834783678369000000000000000000000082b982a282ba82a283588367838c835894ad8e5582cc00000000000000000000000000918a8ee882f082b382b982e982ad82e782a282e68142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "せいぜいストレス発散の",
+            "相手をさせるくらいよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "기껏해야 스트레스 해소",
+          "상대로 삼는 정도야.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 스트레스 해소용 상대로만 쓴다는 잔혹한 농담을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DBA",
+      "protected_snapshot": {
+        "record_id": 3514,
+        "raw_hex": "ba0d0400ce00c88376838a836a815b0000000000000000008163816382bb82ea82cd82cd82bd82b582c4837583628e4582b382ea82e982cc82c60088e182a4895e96bd82c882f18362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……それははたしてブッ殺されるのと",
+            "違う運命なんッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……그게 죽는 것과",
+          "다른 운명임까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스트레스 해소 상대가 되는 일이 죽임당하는 것과 다르냐는 자조적 반문을 프리니 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

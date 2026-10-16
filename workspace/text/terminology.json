@@ -1,0 +1,2118 @@
+{
+  "schema_version": 1,
+  "scope": {
+    "disc_id": "ULJS00150",
+    "disc_version": "1.01",
+    "asset": "Demo00.dat"
+  },
+  "decisions": [
+    {
+      "decision_id": "TERM-CHAR-PRINNY-001",
+      "source": "プリニー",
+      "ko": "프리니",
+      "scope": "캐릭터 종족명과 화자명",
+      "status": "approved",
+      "evidence": "Demo00 0x07D0 번역 PoC 및 2026-07-17 사용자 화면 확인",
+      "limitations": "복합 고유명사 안의 활용은 별도 검토"
+    },
+    {
+      "decision_id": "STYLE-PRINNY-SSU-001",
+      "source": "～ッス／～ッスか",
+      "ko": "문맥에 따라 ～임다／～슴다, ～임까／～슴까",
+      "scope": "프리니 화자의 문장 종결 말투",
+      "status": "approved",
+      "evidence": "Demo00 0x005A·0x005B 난이도 선택 화면의 '난이도임다'와 2026-07-18 사용자 확정 예문 '없슴까?', '굳세게 살겠슴다'",
+      "notes": "한 어미를 기계적으로 고정하지 않는다. 명사 서술에는 임다/임까, 동사·형용사 활용에는 문맥과 발음이 자연스러운 임다/슴다·임까/슴까를 선택한다."
+    },
+    {
+      "decision_id": "TERM-CHAR-ETNA-001",
+      "source": "エトナ",
+      "ko": "에트나",
+      "scope": "캐릭터명과 화자명",
+      "status": "approved",
+      "evidence": "일본어 고유명 음역, NIS America 공식 영문 Etna 표기 및 2026-07-18 사용자 승인",
+      "source_url": "https://nisamerica.com/games/prinny-1-2",
+      "limitations": "본 프로젝트의 캐릭터명과 화자명 범위에 적용"
+    },
+    {
+      "decision_id": "TERM-ITEM-SCARF-001",
+      "source": "マフラー",
+      "ko": "머플러",
+      "scope": "프리니의 생존 장치인 붉은 머플러",
+      "status": "approved",
+      "evidence": "장면에서 착용·분리하는 scarf 의미, NIS America 공식 Red Scarf 표기 및 2026-07-18 사용자 선택",
+      "source_url": "https://www.nisamerica.com/news/20090109.html",
+      "rejected_alternative": "목도리",
+      "limitations": "일반 의복 문맥이 아니라 본 작품의 생존 장치 명칭에 적용"
+    },
+    {
+      "decision_id": "TERM-WORLD-SWEETS-001",
+      "source": "スイーツ",
+      "ko": "디저트",
+      "scope": "궁극의 스위츠를 포함한 작품 전반의 음식 범주",
+      "status": "approved",
+      "evidence": "NIS America 공식 Prinny 1 소개의 ultimate dessert 현지화 및 2026-07-18 사용자 승인",
+      "source_url": "https://nisamerica.com/games/prinny-1-2",
+      "rejected_alternatives": [
+        "스위츠",
+        "과자"
+      ],
+      "limitations": "문맥상 특정 과자 종류를 지칭할 때는 별도 검토"
+    },
+    {
+      "decision_id": "STYLE-PRINNY-ROGER-001",
+      "source": "らじゃッス",
+      "ko": "라져임다",
+      "scope": "프리니가 명령을 익살스럽게 수락하는 표현",
+      "status": "approved",
+      "evidence": "らじゃ(roger)의 희화화된 외래어 느낌, 승인 문체 ～임다 및 2026-07-18 사용자 승인",
+      "rejected_alternative": "알겠임다",
+      "notes": "동일한 らじゃ 계열 표현에 적용하되 다른 수락 표현은 문맥별로 검토"
+    },
+    {
+      "decision_id": "STYLE-ETNA-SAMA-001",
+      "source": "エトナ様",
+      "ko": "에트나 님",
+      "scope": "프리니가 에트나를 직접 부르는 존칭",
+      "status": "approved",
+      "evidence": "승인 이름 에트나에 원문의 존칭 様를 분리 표기한 demo00/0BEA 번역 및 2026-07-18 사용자 승인",
+      "rejected_alternative": "에트나님",
+      "limitations": "프리니가 에트나를 직접 높여 부르는 문맥에 적용"
+    },
+    {
+      "decision_id": "EXPR-ETNA-TONYA-001",
+      "source": "そうは問屋がおろさない",
+      "ko": "그렇게 쉽게 되진 않을 거야",
+      "scope": "에트나가 프리니의 도주 시도를 막는 demo00/0BF2 장면",
+      "status": "approved",
+      "evidence": "직역보다 '그렇게 뜻대로 되지 않는다'는 관용 의미와 에트나의 반말을 보존한 2026-07-18 사용자 확정 번역",
+      "rejected_alternatives": [
+        "그렇게 호락호락 안 될 거야",
+        "그렇게 마음대로는 안 돼"
+      ],
+      "limitations": "반복 관용구로 확인되기 전에는 이 장면에만 적용"
+    },
+    {
+      "decision_id": "EXPR-ETNA-MELON-001",
+      "source": "わざとらしいメロン味",
+      "ko": "인공적인 멜론 맛",
+      "scope": "에트나가 멜론맛 간식을 먹고 추억을 떠올리는 demo00/0C1C 장면",
+      "status": "approved",
+      "evidence": "わざとらしい가 자연 과즙보다 의도적으로 두드러진 인공 향미를 가리키는 장면 해석과 2026-07-18 사용자 승인",
+      "rejected_alternatives": [
+        "티 나는 멜론 맛",
+        "과장된 멜론 맛"
+      ],
+      "limitations": "반복 표현으로 확인되기 전에는 이 장면에만 적용"
+    },
+    {
+      "decision_id": "STYLE-PRINNY-SNACK-001",
+      "source": "だったッスか／好きッスねー／おじゃましたッス",
+      "ko": "이었슴까／좋아하심다／실례했슴다",
+      "scope": "demo00/0C1E·0C22의 프리니 발화",
+      "status": "approved",
+      "evidence": "승인된 문맥별 임다/슴다·임까/슴까 규칙을 과거 서술, 현재 동사, 물러나는 인사에 각각 적용하고 2026-07-18 사용자 승인",
+      "rejected_alternatives": [
+        "이었임까／좋아함다／실례했임다"
+      ],
+      "limitations": "동일한 활용과 화자·청자 관계에서 적용하며 다른 활용은 문맥별로 검토"
+    },
+    {
+      "decision_id": "TERM-FOOD-SHIKO-MABO-001",
+      "source": "至高のマーボー",
+      "ko": "지고의 마파두부",
+      "scope": "에트나가 사흘 전에 다른 프리니 부대에 찾게 한 demo00/0C54 임무 대상",
+      "status": "approved",
+      "evidence": "究極과 대비되는 至高의 수식 관계 및 マーボー를 음식명 마파두부의 축약으로 해석한 누적 초벌",
+      "alternatives": [
+        "최고의 마파두부",
+        "지고의 마파"
+      ],
+      "limitations": "전체 초벌 완료 뒤 최종 용어 검토 전에는 동일 표현을 승인 표기로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "EXPR-PRINNY-KICHIKU-001",
+      "source": "鬼畜ッス",
+      "ko": "악랄함다",
+      "scope": "에트나가 프리니의 진행 보고를 재촉한 뒤의 demo00/0CB6 독백",
+      "status": "approved",
+      "evidence": "상대를 잔혹하게 부려먹는다는 비난을 짧은 프리니 말투로 보존한 누적 초벌",
+      "alternatives": [
+        "귀축임다",
+        "악마임다",
+        "잔혹함다"
+      ],
+      "limitations": "전체 초벌 완료 뒤 최종 표현 검토 전에는 동일 표현을 승인 표기로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-PRINIGER-X-001",
+      "source": "伝説のプリニガーＸ／プリニガーＸ",
+      "ko": "전설의 프리니거 X／프리니거 X",
+      "scope": "에트나가 프리니 부대의 반영구 노동용 개조를 제안하는 demo00/0CEC·0CEE 장면",
+      "status": "approved",
+      "evidence": "プリニー와 로봇 명칭을 결합한 고유명으로 보고 원음에 가깝게 음역한 누적 초벌",
+      "alternatives": [
+        "전설의 프링거 X／프링거 X",
+        "전설의 프리니가 X／프리니가 X"
+      ],
+      "limitations": "시리즈 공식 표기 확인과 최종 사용자 검토 전에는 승인 고유명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "EXPR-ETNA-FURUBOKKO-001",
+      "source": "フルボッコ",
+      "ko": "두들겨 팬다",
+      "scope": "프리니가 전직 의사를 떠보자 에트나가 즉답하는 demo00/0D4E 장면",
+      "status": "approved",
+      "evidence": "일방적으로 심하게 구타한다는 속어 의미와 에트나의 즉각적인 위협을 보존한 누적 초벌",
+      "alternatives": [
+        "박살",
+        "죽도록 팬다",
+        "몰매"
+      ],
+      "limitations": "전체 초벌 완료 뒤 최종 표현 검토 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "STYLE-RUNAWAY-ORE-SAMA-001",
+      "source": "オレ様",
+      "ko": "이 몸",
+      "scope": "도망친 프리니가 자신을 거만하게 부르던 1인칭을 설명하는 demo00/0D84 장면",
+      "status": "approved",
+      "evidence": "높은 자기평가와 거만함을 드러내는 일본어 1인칭을 한국어 캐릭터 표현으로 의역한 누적 초벌",
+      "alternatives": [
+        "나님",
+        "이 몸님",
+        "오레사마"
+      ],
+      "limitations": "도망친 인물의 정체·반복 화법을 전체 문맥에서 확인하고 최종 승인하기 전에는 전역 적용하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "EXPR-ETNA-SHIKEKOMU-001",
+      "source": "女の子としけこむ",
+      "ko": "여자애랑 놀아나다",
+      "scope": "에트나가 프리니들이 명령을 잊고 여자아이와 어울리는지 의심하는 demo00/0DE4 장면",
+      "status": "approved",
+      "evidence": "남녀가 외진 곳에 틀어박힌다는 しけこむ의 성적 함의를 제한된 슬롯에서 자연스럽게 완화한 누적 초벌",
+      "alternatives": [
+        "여자애랑 틀어박히다",
+        "여자애랑 밀회하다",
+        "여자애랑 놀아나다"
+      ],
+      "limitations": "장면 수위와 대상 연령 표현을 최종 검토하기 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "EXPR-PRINNY-ONAKA-IPPPAI-001",
+      "source": "それはお腹いっぱいッス",
+      "ko": "그건 이미 질렸슴다",
+      "scope": "에트나가 직접 욕해 주겠다는 농담을 프리니가 사양하는 demo00/0DEC 장면",
+      "status": "approved",
+      "evidence": "배가 부르다는 직역보다 이미 충분히 겪어 더는 원치 않는다는 관용 의미를 보존한 누적 초벌",
+      "alternatives": [
+        "그건 이미 충분함다",
+        "그건 사양하겠슴다",
+        "그건 지긋지긋함다"
+      ],
+      "limitations": "프리니 문체와 농담의 강도를 최종 검토하기 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "EXPR-ETNA-CHOSHI-NORI-001",
+      "source": "調子に乗りすぎてない？",
+      "ko": "너무 기고만장한 거 아냐?",
+      "scope": "에트나가 프리니들의 태도가 지나치게 우쭐해졌는지 묻는 demo00/0E42 장면",
+      "status": "approved",
+      "evidence": "기세나 성공에 취해 우쭐댄다는 표현을 에트나의 위압적인 반말과 좁은 슬롯에 맞춘 누적 초벌",
+      "alternatives": [
+        "너무 우쭐대는 거 아냐?",
+        "너무 나대는 거 아냐?",
+        "너무 기세등등한 거 아냐?"
+      ],
+      "limitations": "캐릭터 어조와 표현 강도를 최종 검토하기 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "STYLE-PRINNY-UI-001",
+      "source": "ういッス！どうぞ思う存分食ってくださいッス！",
+      "ko": "옛슴다! 부디 마음껏 드셔 주십쇼!",
+      "scope": "궁극의 디저트를 에트나에게 건네며 힘차게 권하는 demo00/0EDE 발화",
+      "status": "approved",
+      "evidence": "짧은 긍정 응답 ういッス와 거친 높임 표현을 프리니의 군대식 말투와 고정 슬롯에 맞춘 누적 초벌",
+      "alternatives": [
+        "알겠슴다! 마음껏 드심다!",
+        "예임다! 실컷 드십쇼!",
+        "옛슴다! 마음껏 드십쇼!"
+      ],
+      "limitations": "프리니의 높임 강도와 활용을 최종 검토하기 전에는 반복 문체로 승인하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CURRENCY-HELL-001",
+      "source": "ヘル",
+      "ko": "헬",
+      "scope": "에트나가 대연회 회비를 1인당 5000ヘル로 고지하는 demo00/0F00 및 동일 통화 단위",
+      "status": "approved",
+      "evidence": "마계전기 디스가이아 계열의 통화 고유명을 발음대로 옮긴 누적 초벌",
+      "alternatives": [
+        "HL",
+        "헤르",
+        "헬(HL)"
+      ],
+      "limitations": "게임 전역 표시와 시리즈 한국어 표기 정책을 최종 검토하기 전에는 승인 통화명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "EXPR-PRINNY-SANMA-PAY-001",
+      "source": "サンマ払いはあんまりッス",
+      "ko": "꽁치로 주는 건 사양임다",
+      "scope": "프리니가 다음 달부터 급여를 현금으로 달라고 요구하는 demo00/0F26 장면",
+      "status": "approved",
+      "evidence": "サンマ払い를 현금 대신 꽁치로 급여를 지급하는 세계관 농담으로 해석한 누적 초벌",
+      "alternatives": [
+        "꽁치 지급은 별로임다",
+        "꽁치로 때우는 건 싫슴다",
+        "꽁치 급여는 사양임다"
+      ],
+      "limitations": "급여 체계와 반복 농담 문맥을 최종 검토하기 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-MODEL-POLY-PUTTY-001",
+      "source": "プラモ屋／瞬間接着剤／ポリパテ",
+      "ko": "모형 가게／순간접착제／폴리퍼티",
+      "scope": "망가진 프리니거 X 수리 재료를 사 오라고 명령하는 demo00/0F2A 장면",
+      "status": "approved",
+      "evidence": "프라모델 제작 문맥의 상점과 재료명을 한국어 취미 용어로 옮긴 누적 초벌",
+      "alternatives": [
+        "프라모델 가게／순간접착제／폴리에스테르 퍼티",
+        "모형점／순간접착제／폴리 퍼티"
+      ],
+      "limitations": "게임 내 반복과 표기 간격을 최종 검토하기 전에는 승인 용어로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "STYLE-PRINNY-HAIII-001",
+      "source": "は、はいぃぃぃーッス！！",
+      "ko": "네, 네에에~임다!!",
+      "scope": "에트나의 심부름 명령에 겁먹고 복종하는 demo00/0F32 발화",
+      "status": "approved",
+      "evidence": "길게 늘인 はい와 프리니 종결형을 함께 보존한 누적 초벌",
+      "alternatives": [
+        "네, 네에에~!!",
+        "예, 예에에~임다!!",
+        "아, 알겠슴다!!"
+      ],
+      "limitations": "늘임 감탄과 캐릭터 종결형의 자연스러움을 최종 검토하기 전에는 승인하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-GOURMET-OGRE-001",
+      "source": "グルメオーガ／おで／～ずら",
+      "ko": "미식 오거／내·나／~구먼",
+      "scope": "태고의 고기를 노리는 demo00/2774~2786 및 궁극의 디저트를 노리는 demo00/3390~3394 미식 오거의 발화",
+      "status": "approved",
+      "evidence": "グルメ를 의미 번역하고 オーガ를 음역했으며, 유아적인 1인칭 おで와 ずら 방언을 한국어 촌스러운 구먼체로 현지화한 누적 초벌",
+      "alternatives": [
+        "구르메 오거／내·나／~구먼",
+        "미식가 오거／나／~다요",
+        "미식 오우거／나／표준말"
+      ],
+      "limitations": "적 이름과 방언의 캐릭터성을 최종 검토하기 전에는 승인 이름·문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-ANCIENT-MEAT-001",
+      "source": "太古の肉",
+      "ko": "태고의 고기",
+      "scope": "미식 오거의 아침밥이자 궁극의 디저트 재료인 demo00/2782 획득 아이템",
+      "status": "approved",
+      "evidence": "太古를 아주 먼 옛 시대라는 의미의 태고로 직역한 누적 초벌",
+      "alternatives": [
+        "고대의 고기",
+        "태고의 살코기",
+        "원시 고기"
+      ],
+      "limitations": "아이템 목록과 반복 표기를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-FOOD-FURIKAKE-001",
+      "source": "フリカケ",
+      "ko": "후리카케",
+      "scope": "미식 오거가 식사를 방해한 자를 갈아 밥 위에 뿌리겠다고 위협하는 demo00/277E 장면",
+      "status": "approved",
+      "evidence": "일본식 밥 토핑이라는 문화 의미와 분쇄 위협의 말장난을 보존한 음역 초벌",
+      "alternatives": [
+        "밥가루",
+        "고명",
+        "밥 위에 뿌려 먹는 가루"
+      ],
+      "limitations": "문화어 유지 여부와 슬롯 내 설명 가능성을 최종 검토하기 전에는 승인하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-ANISE-001",
+      "source": "アニス",
+      "ko": "아니스",
+      "scope": "죽은 왕자가 프리니로 환생했다고 믿는 demo00/2F12~2F34 및 demo00/33C2~33D0 인물",
+      "status": "approved",
+      "evidence": "일본어 인명 アニス를 발음대로 음역하고 기존 장면과 동일 표기를 유지한 초벌",
+      "alternatives": [
+        "애니스",
+        "아니스(アニス)",
+        "아니즈"
+      ],
+      "limitations": "다른 자산의 인명 표기와 왕자의 정체·관계 맥락을 최종 확인하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-NATSU-001",
+      "source": "ナツ",
+      "ko": "나츠",
+      "scope": "궁극의 디저트를 조사하는 demo00/27A6~27C4 및 최종병기로 오해하는 demo00/33F4~33FA 인물",
+      "status": "approved",
+      "evidence": "일본어 인명을 발음대로 옮긴 누적 초벌",
+      "alternatives": [
+        "나쯔",
+        "NATSU",
+        "나츠(ナツ)"
+      ],
+      "limitations": "다른 자산의 이름 표기와 인물 정체를 최종 검토하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-FOUR-SECOND-RECIPE-001",
+      "source": "４秒クッキングレシピ",
+      "ko": "4초 요리 레시피",
+      "scope": "나츠를 쓰러뜨린 뒤 줍는 궁극의 디저트 조리법 demo00/27C6",
+      "status": "approved",
+      "evidence": "クッキングレシピ의 중복적인 외래어 느낌을 일부 유지해 아이템명의 우스꽝스러움을 보존한 누적 초벌",
+      "alternatives": [
+        "4초 쿠킹 레시피",
+        "4초 요리법",
+        "4초 조리 레시피"
+      ],
+      "limitations": "후속 레시피 번호·아이템 목록 표기와 함께 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-CARDAMOM-SESAME-001",
+      "source": "カルダモン／セサミ／～へん・～や・～で",
+      "ko": "카르다몬／세사미／간사이풍 구어",
+      "scope": "demo00/27D8~27E6의 만담 및 demo00/3426~342A의 디저트 완성 내기 장면 인물과 말투",
+      "status": "approved",
+      "evidence": "인명은 일본어 발음을 기준으로 음역하고, カルダモン의 간사이 방언은 자연스러운 한국어 구어 어미로 약하게 현지화한 누적 초벌",
+      "alternatives": [
+        "칼다몬／세서미／표준말",
+        "카다몬／세사미／경상도풍 구어",
+        "카르다몸／세서미／간사이 어미 직역"
+      ],
+      "limitations": "다른 자산의 이름 표기와 방언 현지화 강도를 최종 검토하기 전에는 승인 인명·문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CULTURE-TSUKKOMI-001",
+      "source": "ツッコミ",
+      "ko": "츳코미",
+      "scope": "카르다몬과 세사미가 프리니에게 만담의 받아치기를 연습시키는 demo00/27E2~27E8 장면",
+      "status": "approved",
+      "evidence": "보케와 짝을 이루는 일본 만담 용어의 문화적 의미를 보존하기 위해 통용 음역을 사용한 누적 초벌",
+      "alternatives": [
+        "태클",
+        "딴죽",
+        "받아치기"
+      ],
+      "limitations": "한국어 독자의 이해도와 후속 보케·츳코미 용례를 함께 최종 검토하기 전에는 승인 문화어로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-PREMIUM-FISH-BONES-001",
+      "source": "高級魚（骨だけ）",
+      "ko": "고급 생선(뼈만 남음)",
+      "scope": "츳코미 포상으로 떠맡는 궁극의 재료 demo00/27E8",
+      "status": "approved",
+      "evidence": "고급 생선이라는 기대와 뼈만 남았다는 실상을 대비시키는 괄호형 농담을 보존한 누적 초벌",
+      "alternatives": [
+        "고급 생선(뼈만)",
+        "고급 생선 뼈",
+        "고급어의 뼈"
+      ],
+      "limitations": "아이템 목록 표기와 괄호 폭을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-BAKUCHI-001",
+      "source": "バクチー",
+      "ko": "바쿠치",
+      "scope": "demo00/280A~2826의 카지노 장면과 demo00/348A~34C2의 사이클롭스 출격 장면 인물",
+      "status": "approved",
+      "evidence": "도박을 뜻하는 バクチ를 연상시키는 이름을 일본어 발음에 따라 음역한 누적 초벌",
+      "alternatives": [
+        "바쿠치이",
+        "도박치",
+        "바쿠치(バクチー)"
+      ],
+      "limitations": "다른 자산의 인명 표기와 말장난 현지화 방침을 최종 검토하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-TRICK-DICE-001",
+      "source": "いかさまダイス",
+      "ko": "속임수 주사위",
+      "scope": "바쿠치의 카지노에서 궁극의 디저트 재료로 얻는 demo00/2816 아이템",
+      "status": "approved",
+      "evidence": "いかさま의 조작·속임 의미와 ダイス의 주사위 의미를 직접 전달한 누적 초벌",
+      "alternatives": [
+        "사기 주사위",
+        "조작 주사위",
+        "야바위 주사위"
+      ],
+      "limitations": "아이템 목록 표기와 장면의 도박 말장난을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-HOSHIKAGE-LISHANLONG-001",
+      "source": "星影／リーシャンロン",
+      "ko": "호시카게／리샹롱",
+      "scope": "demo00/283C~284E의 드래곤 잼 채취와 demo00/3520~352A의 와비사비 수행 장면 인물과 반려 용",
+      "status": "approved",
+      "evidence": "星影는 후속 명칭 マンゲツノホシカゲ에서 일본어 독음 호시카게가 드러나며, リーシャンロン은 원문 가타카나 발음을 따라 음역한 누적 초벌",
+      "alternatives": [
+        "성영／리샹룽",
+        "호시카게／리 셴롱",
+        "별그림자／이신룡"
+      ],
+      "limitations": "공식 한국어 표기와 다른 자산의 음성·이름 표기를 최종 검토하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-STYLE-HOSHIKAGE-001",
+      "source": "～ネー／～デース",
+      "ko": "~네／~라구~요／~어~요",
+      "scope": "호시카게가 사용하는 전형적인 외국인풍 일본어 말투",
+      "status": "approved",
+      "evidence": "한국어 문법을 심하게 무너뜨리지 않으면서 장음과 일부 어미로 캐릭터의 외국인풍 리듬을 남긴 누적 초벌",
+      "alternatives": [
+        "~해요／표준 존댓말",
+        "~다해／직역 외국인 말투",
+        "~네용／과장된 현지화"
+      ],
+      "limitations": "전체 호시카게 대사에서 자연스러움과 캐릭터성이 일관되는지 최종 검토하기 전에는 승인 문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-DRAGON-JAM-001",
+      "source": "ドラゴンジャム",
+      "ko": "드래곤 잼",
+      "scope": "리샹롱에게서 채취해 궁극의 디저트 재료로 얻는 demo00/2846~284C 아이템",
+      "status": "approved",
+      "evidence": "ドラゴン과 ジャム을 통용 외래어로 직역해 기묘한 식재료 농담을 보존한 누적 초벌",
+      "alternatives": [
+        "용 잼",
+        "드래곤쨈",
+        "용의 잼"
+      ],
+      "limitations": "아이템 목록과 후속 반복 표기를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-MAUVE-SOLDIER-001",
+      "source": "モーブ兵／～ブー",
+      "ko": "모브 병사／~다꿀·~라꿀",
+      "scope": "demo00/2870~2882의 공장 경비와 demo00/3552~3558의 전차부대 장면 병사와 말투",
+      "status": "approved",
+      "evidence": "병사명은 가타카나를 모브로 음역하고 돼지 울음 ブー는 뜻이 드러나는 한국어 꿀 어미로 현지화한 누적 초벌",
+      "alternatives": [
+        "모브병／~부",
+        "모브 병사／~꿀꿀",
+        "마우브 병사／표준말"
+      ],
+      "limitations": "캐릭터 도감의 정식 명칭과 전체 발화에서 꿀 어미의 자연스러움을 최종 검토하기 전에는 승인 인명·문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-TORN-CARDBOARD-001",
+      "source": "破れた段ボール",
+      "ko": "찢어진 골판지",
+      "scope": "공장 주변에서 분리수거해 궁극의 디저트 재료로 얻는 demo00/287A 아이템",
+      "status": "approved",
+      "evidence": "段ボール을 재질 중심의 골판지로 옮겨 쓰레기 분리배출 농담과 짧은 아이템명을 함께 보존한 누적 초벌",
+      "alternatives": [
+        "찢어진 골판지 상자",
+        "뜯어진 박스",
+        "찢어진 종이상자"
+      ],
+      "limitations": "아이템 목록 표기와 分別バッチリ 농담의 표현을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-TURMERIC-001",
+      "source": "ターメリック",
+      "ko": "터메릭",
+      "scope": "demo00/2904~291E의 농장 경비와 demo00/3584~3592의 스위츠 남작 복수 장면 인물",
+      "status": "approved",
+      "evidence": "향신료 turmeric의 통용 한국어 외래어 표기와 원문 장음을 고려해 터메릭으로 옮긴 누적 초벌",
+      "alternatives": [
+        "터머릭",
+        "타메릭",
+        "강황"
+      ],
+      "limitations": "다른 향신료 계열 인명과 공식 한국어 표기를 최종 검토하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-HOT-BLOOD-BOWL-001",
+      "source": "熱い血潮丼",
+      "ko": "뜨거운 피 덮밥",
+      "scope": "터메릭의 점심이자 궁극의 디저트 재료인 demo00/2912 아이템",
+      "status": "approved",
+      "evidence": "열혈 용병의 뜨거운 혈조와 실제 음식 재료인 피를 겹치는 농담이 드러나도록 직관적으로 옮긴 누적 초벌",
+      "alternatives": [
+        "뜨거운 핏줄기 덮밥",
+        "열혈 덮밥",
+        "뜨거운 피의 덮밥"
+      ],
+      "limitations": "아이템 목록 표기와 血潮의 과장된 열혈 뉘앙스를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-MEG-001",
+      "source": "メグ／……",
+      "ko": "메그／단속적인 명사형 발화",
+      "scope": "demo00/293A~2946에서 검은 고양이를 소탕하고 demo00/33F6에서 궁극의 디저트를 최종병기라 부르는 나츠의 쌍둥이와 말투",
+      "status": "approved",
+      "evidence": "メグ는 발음대로 음역하고 원문의 짧고 기계적인 명사형 발화를 한국어에서도 말줄임표와 단문으로 보존한 누적 초벌",
+      "alternatives": [
+        "멕／단문",
+        "메구／단문",
+        "메그／자연스러운 완결문"
+      ],
+      "limitations": "다른 자산의 인명 표기와 전체 발화에서 단속적인 문체가 일관되는지 최종 검토하기 전에는 승인 인명·문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-GIRLS-RECORDER-001",
+      "source": "女子のたて笛",
+      "ko": "여학생의 리코더",
+      "scope": "나츠와 메그 쌍둥이가 떨어뜨린 궁극의 디저트 재료 demo00/294A",
+      "status": "approved",
+      "evidence": "女子를 장면상 소녀 인물과 연결되는 여학생으로, たて笛를 한국어에서 익숙한 리코더로 옮긴 누적 초벌",
+      "alternatives": [
+        "여자아이의 리코더",
+        "소녀의 피리",
+        "여학생의 세로피리"
+      ],
+      "limitations": "캐릭터 연령 설정과 소지품 농담의 수위를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-ACCIDENT-LIQUOR-001",
+      "source": "冥酒￥不慮の事故",
+      "ko": "명주￥불의의 사고",
+      "scope": "독사과로 만들어 암살에 쓰는 demo00/2972~2980 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "冥酒의 죽음·명계 이미지를 짧은 한자어 명주로 남기고 不慮の事故를 불의의 사고로 직역했으며, 둘 사이의 전각 ￥ 제어 문자를 보존한 누적 초벌",
+      "alternatives": [
+        "명계주￥불의의 사고",
+        "저승술￥불의의 사고",
+        "죽음의 술￥뜻밖의 사고"
+      ],
+      "limitations": "전각 ￥의 실제 표시 의미, 冥酒의 말장난과 아이템 목록 표기를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-MORGAN-PAPRIKA-001",
+      "source": "モーガン／パプリカ／～にゃ",
+      "ko": "모건／파프리카／~냥",
+      "scope": "demo00/299A~29AC 및 모건 재도전 demo00/3458~3460·파프리카 냄새 추적 demo00/34EE~34F2 발화",
+      "status": "approved",
+      "evidence": "인명은 원문 가타카나와 통용 외래어 발음을 따라 음역하고 파프리카의 고양이 말투는 한국어 냥 어미로 현지화한 누적 초벌",
+      "alternatives": [
+        "모간／파프리카／~냐",
+        "모르간／파프리카／~야옹",
+        "모건／파프리카／표준말"
+      ],
+      "limitations": "다른 자산의 인명 표기와 전체 파프리카 발화에서 냥 어미가 자연스러운지 최종 검토하기 전에는 승인 인명·문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-EVERYONES-BANANA-001",
+      "source": "みんな大好きバナナ",
+      "ko": "모두가 좋아하는 바나나",
+      "scope": "파프리카에게서 얻는 demo00/29AC 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "대중적인 바나나를 과장하는 단순한 아이템명을 의미 그대로 옮긴 누적 초벌",
+      "alternatives": [
+        "모두의 인기 바나나",
+        "다들 좋아하는 바나나",
+        "국민 바나나"
+      ],
+      "limitations": "아이템 목록의 어조와 후속 반복 표기를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CULTURE-WA-SPIRIT-001",
+      "source": "「ワ」の心",
+      "ko": "「와」의 마음",
+      "scope": "호시카게가 리샹롱의 거친 장난을 이해하지 못하는 프리니를 꾸짖는 demo00/29DC 표현",
+      "status": "approved",
+      "evidence": "외국인 캐릭터가 일본의 조화·일본다움을 말하는 문화 농담을 설명으로 평탄화하지 않고 원문 음가와 인용부호로 보존한 누적 초벌",
+      "alternatives": [
+        "조화의 마음",
+        "일본의 마음",
+        "화합의 정신"
+      ],
+      "limitations": "ワ가 和를 가리키는지와 독자 이해도를 최종 검토하기 전에는 승인 문화어로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-DRAGON-RUSH-001",
+      "source": "ドラゴンまっしぐら",
+      "ko": "드래곤 돌진",
+      "scope": "리샹롱의 먹이이자 궁극의 디저트 재료인 demo00/29E4 아이템",
+      "status": "approved",
+      "evidence": "먹이를 향해 곧장 달려드는 まっしぐら의 광고풍 상품명 농담을 짧은 명사형 드래곤 돌진으로 옮긴 누적 초벌",
+      "alternatives": [
+        "드래곤이 달려든다",
+        "드래곤 직행",
+        "드래곤 환장 사료"
+      ],
+      "limitations": "원문의 사료 광고 패러디 인지도와 아이템 목록 어조를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-TAIYAKI-TAIL-001",
+      "source": "たいやきのしっぽ（アンコ無し）",
+      "ko": "붕어빵 꼬리(팥 없음)",
+      "scope": "모브 병사 공장이 증거 인멸을 위해 떠넘기는 demo00/2A1C 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "한국어에서 익숙한 대응 음식 붕어빵으로 현지화하고 꼬리 부분에 팥이 없다는 개발 실패 설명을 괄호로 보존한 누적 초벌",
+      "alternatives": [
+        "도미빵 꼬리(팥 없음)",
+        "붕어빵 꼬리(앙금 없음)",
+        "타이야키 꼬리(팥 없음)"
+      ],
+      "limitations": "일본 음식 문화어 유지 여부와 아이템 목록의 괄호 표기를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-SWEETS-BARON-001",
+      "source": "スイーツ男爵",
+      "ko": "스위츠 남작",
+      "scope": "demo00/2AFA 이후 등장하는 단것 전문 악마의 호칭과 화자명",
+      "status": "approved",
+      "evidence": "고유 칭호의 가타카나 음가를 스위츠로 보존하고 男爵을 남작으로 직역한 누적 초벌",
+      "alternatives": [
+        "스위트 남작",
+        "디저트 남작",
+        "과자 남작"
+      ],
+      "limitations": "후속 본인 등장 장면의 성격과 공식 영문 표기를 함께 검토하기 전에는 승인 호칭으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-FLOAT-CANDY-001",
+      "source": "浮き輪キャンディー",
+      "ko": "튜브 캔디",
+      "scope": "미식 오거에게서 얻는 demo00/2B02 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "浮き輪를 한국어에서 익숙한 물놀이 튜브로 현지화하고 캔디의 모양을 나타내는 짧은 아이템명으로 구성한 누적 초벌",
+      "alternatives": [
+        "구명환 캔디",
+        "물놀이 튜브 사탕",
+        "도넛 캔디"
+      ],
+      "limitations": "실제 아이템 도상과 메뉴 표기를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-BAD-LUCK-CLOVER-001",
+      "source": "凶運のクローバー",
+      "ko": "흉운의 클로버",
+      "scope": "아니스에게서 얻는 demo00/2B4A 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "행운의 클로버를 뒤집은 凶運의 말장난을 흉운이라는 대응 한자어로 보존한 누적 초벌",
+      "alternatives": [
+        "불운의 클로버",
+        "흉조의 클로버",
+        "재수 없는 클로버"
+      ],
+      "limitations": "아이템 목록의 어조와 행운/불운 말장난을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-SOME-BONE-001",
+      "source": "何かの骨",
+      "ko": "무언가의 뼈",
+      "scope": "카르다몬 일행에게서 얻는 demo00/2B70 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "정체를 일부러 밝히지 않는 何かの 모호함을 무언가의로 유지한 누적 초벌",
+      "alternatives": [
+        "뭔가의 뼈",
+        "정체불명의 뼈",
+        "어떤 뼈"
+      ],
+      "limitations": "후속 재료 목록의 명명 규칙을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-MAKU-SHAKE-001",
+      "source": "魔苦シェイク",
+      "ko": "마고 셰이크",
+      "scope": "파프리카에게서 얻는 demo00/2B9C 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "魔苦를 한국 한자음 마고로 읽고 シェイク를 셰이크로 옮겨 원문의 악마식 상품명 패러디를 보존한 누적 초벌",
+      "alternatives": [
+        "마쿠 셰이크",
+        "마고통 셰이크",
+        "악마 셰이크"
+      ],
+      "limitations": "원 상품 패러디와 魔苦의 말장난을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-FULL-RICEBALL-001",
+      "source": "満腹おにぎり",
+      "ko": "포만 주먹밥",
+      "scope": "호시카게에게서 얻는 demo00/2BD6 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "満腹의 배부름 효과를 짧은 명사형 포만으로 옮기고 おにぎり를 주먹밥으로 현지화한 누적 초벌",
+      "alternatives": [
+        "배부른 주먹밥",
+        "만복 주먹밥",
+        "든든한 주먹밥"
+      ],
+      "limitations": "아이템 목록의 어조와 효과 표기를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-FOOD-ANKO-001",
+      "source": "つぶあん／こしあん／暗黒まんじゅう",
+      "ko": "통팥／고운 팥소／암흑 만주",
+      "scope": "모브 병사들이 팥소의 질감을 논하고 입막음 아이템을 주는 demo00/2BF2~2C08",
+      "status": "approved",
+      "evidence": "팥알이 남은 つぶあん과 체에 거른 こしあん의 차이를 한국어 통팥과 고운 팥소로 현지화하고 まんじゅう는 만주로 옮긴 누적 초벌",
+      "alternatives": [
+        "통팥소／팥앙금／암흑 만주",
+        "알갱이 팥소／거른 팥소／암흑 만두",
+        "츠부앙／코시앙／암흑 만주"
+      ],
+      "limitations": "일본 화과자 문화어의 현지화 정도와 아이템 도상을 최종 검토하기 전에는 승인 음식명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-DEAD-END-GREENS-001",
+      "source": "八方塞がり菜",
+      "ko": "사면초가 나물",
+      "scope": "미식 오거의 밭에서 뽑는 demo00/2D04 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "八方塞がり의 모든 길이 막힌 상태를 대응 사자성어 사면초가로 옮기고 菜를 나물로 연결한 누적 초벌",
+      "alternatives": [
+        "팔방막힘 채소",
+        "사방막힘 나물",
+        "막다른 채소"
+      ],
+      "limitations": "운세 용어의 뉘앙스와 식재료명 말장난을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-HELL-MONKEY-BRACKET-001",
+      "source": "地獄ザルのこしかけ",
+      "ko": "지옥 원숭이 걸상버섯",
+      "scope": "나츠와 메그의 덫 주변에서 얻는 demo00/2D36 궁극의 디저트 재료",
+      "status": "approved",
+      "evidence": "サルノコシカケ 계열 버섯명의 원숭이 걸상 이미지를 보존하고 地獄ザル을 지옥 원숭이로 풀어 쓴 누적 초벌",
+      "alternatives": [
+        "지옥 잔나비걸상버섯",
+        "지옥원숭이 의자버섯",
+        "지옥 원숭이 걸상"
+      ],
+      "limitations": "실제 아이템 도상과 버섯명 현지화 정도를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-CAL-DEATH-IUM-001",
+      "source": "カル死ウム",
+      "ko": "칼사슘",
+      "scope": "카다멈과 세서미가 프리니를 팔아 손에 넣으려는 demo00/2D50~2D6A 아이템",
+      "status": "approved",
+      "evidence": "カルシウム의 가운데 글자를 死로 바꾼 원문의 말장난을 한국어 칼슘에 사를 끼워 넣은 칼사슘으로 보존한 초벌",
+      "alternatives": [
+        "칼死슘",
+        "죽음의 칼슘",
+        "사망 칼슘"
+      ],
+      "limitations": "아이템 도상과 실제 효능 문구를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-MA-SHMALLOW-001",
+      "source": "魔シュマロ",
+      "ko": "마시멜로",
+      "scope": "파프리카가 프리니를 유혹하는 demo00/2D82~2DA8 장면의 아이템",
+      "status": "approved",
+      "evidence": "マシュマロ의 첫 음절을 魔로 치환한 표기를 자연스러운 한국어 상품명 마시멜로에 겹쳐 읽도록 옮긴 초벌",
+      "alternatives": [
+        "마(魔)시멜로",
+        "마법 마시멜로",
+        "악마시멜로"
+      ],
+      "limitations": "화면 표기에서 말장난이 충분히 전달되는지 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-HOTBLOOD-BRIEFS-001",
+      "source": "熱血ブリーフ",
+      "ko": "열혈 브리프",
+      "scope": "터메릭이 보수로 요구하는 demo00/2D82~2DA8 장면의 아이템",
+      "status": "approved",
+      "evidence": "熱血의 과장된 열혈 이미지를 살리고 ブリーフ를 게임 내 물품명으로 바로 알아볼 수 있게 브리프로 음역한 초벌",
+      "alternatives": [
+        "열혈 팬티",
+        "불타는 브리프",
+        "열혈 삼각팬티"
+      ],
+      "limitations": "아이템 도상과 게임 전체의 속옷 명명 규칙을 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-DRAGON-STENCH-DROOL-001",
+      "source": "竜の腐臭漂うＹＯＤＡＲＥ",
+      "ko": "용의 악취 나는 침",
+      "scope": "호시카게가 프리니를 길들이는 demo00/2DB4~2DD4 장면의 먹이",
+      "status": "approved",
+      "evidence": "腐臭漂う를 악취 나는으로 풀고 강조된 로마자 YODARE를 화면 폭에 맞는 침으로 옮긴 초벌",
+      "alternatives": [
+        "용의 썩은내 나는 침",
+        "용의 부패취 침",
+        "용의 악취 가득한 침"
+      ],
+      "limitations": "아이템 도상과 로마자 강조의 의도를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-EXPLOSIVE-CANDY-001",
+      "source": "爆発キャンディ",
+      "ko": "폭발 캔디",
+      "scope": "모브 병사가 시험 대상을 찾는 demo00/2DE6~2DFA 장면의 시제품",
+      "status": "approved",
+      "evidence": "폭발 효과와 캔디 품목을 직접 보존하고 기존 디저트·캔디 표기 규칙에 맞춘 초벌",
+      "alternatives": [
+        "폭발 사탕",
+        "폭탄 캔디",
+        "폭발성 캔디"
+      ],
+      "limitations": "아이템 도상과 게임 전역의 キャンディ 표기를 최종 대조하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-NAMELESS-MONSTER-FERTILIZER-PICKLE-001",
+      "source": "名も無き魔物の肥やし漬け",
+      "ko": "이름 없는 마물의 거름절임",
+      "scope": "미식 오거가 저녁거리로 건네는 demo00/2EE0~2EFE 아이템",
+      "status": "approved",
+      "evidence": "名も無き魔物를 이름 없는 마물로, 肥やし漬け의 엽기 음식 이미지를 거름절임으로 결합한 초벌",
+      "alternatives": [
+        "이름 없는 마물의 비료절임",
+        "무명 마물 거름절임",
+        "정체불명 마물의 거름 장아찌"
+      ],
+      "limitations": "아이템 도상과 肥やし가 비료인지 재료인지 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-FOOD-ZOMBIE-JUICE-001",
+      "source": "ゾンビ汁",
+      "ko": "좀비즙",
+      "scope": "이름 없는 마물의 거름절임에 들어가는 demo00/2EF2~2EF4 비법 재료",
+      "status": "approved",
+      "evidence": "汁의 국물·액즙 의미 중 엽기적인 비법 재료의 농축 이미지를 살려 좀비즙으로 옮긴 초벌",
+      "alternatives": [
+        "좀비 국물",
+        "좀비액",
+        "좀비 육수"
+      ],
+      "limitations": "음식 도상과 대사 전체의 혐오 표현 수위를 최종 확인하기 전에는 승인 음식명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-DEMON-STRAW-DOLL-001",
+      "source": "悪魔のワラ人形",
+      "ko": "악마의 짚인형",
+      "scope": "아니스가 오해를 사과하며 건네는 demo00/2F12~2F34 아이템",
+      "status": "approved",
+      "evidence": "ワラ人形의 저주 인형 문화 이미지를 한국어에서 통용되는 짚인형으로 옮긴 초벌",
+      "alternatives": [
+        "악마의 저주 인형",
+        "악마 짚인형",
+        "악마의 밀짚 인형"
+      ],
+      "limitations": "아이템 도상과 저주 기능의 존재 여부를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-CHOCO-PAIPO-001",
+      "source": "チョコパイポ",
+      "ko": "초코 파이포",
+      "scope": "모건이 프리니 모집 보상으로 제시하고 갈취하는 demo00/2F44~2F6A 아이템",
+      "status": "approved",
+      "evidence": "고유 상품명처럼 쓰이는 원문의 음가와 초콜릿 계열 이미지를 보존한 초벌",
+      "alternatives": [
+        "초코파이포",
+        "초콜릿 파이포",
+        "초코 파이프"
+      ],
+      "limitations": "아이템 도상과 공식 표기를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ENEMY-CYCLOPS-001",
+      "source": "サイクロプス",
+      "ko": "사이클롭스",
+      "scope": "바쿠치가 카지노 경품 전투에 내보내는 demo00/2F76~2F90·348E·34C0 몬스터 및 개량형 명칭",
+      "status": "approved",
+      "evidence": "그리스 신화 괴물명 Cyclops의 국내 통용 표기와 원문의 음가를 반영한 초벌",
+      "alternatives": [
+        "키클롭스",
+        "사이클롭",
+        "외눈박이 거인"
+      ],
+      "limitations": "게임 내 도감과 시리즈 공식 한국어 표기 및 mk2 개량형 표기를 최종 대조하기 전에는 승인 명칭으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-EPITHET-TURMERIC-PHOENIX-001",
+      "source": "不死鳥のターメリック",
+      "ko": "불사조 터메릭",
+      "scope": "패배해도 죽지 않는다고 외치는 demo00/358C 터메릭의 자칭 이명",
+      "status": "approved",
+      "evidence": "不死鳥를 불사조로 직역하고 승인 인명 터메릭과 결합한 초벌",
+      "alternatives": [
+        "불사조의 터메릭",
+        "피닉스 터메릭",
+        "불멸의 터메릭"
+      ],
+      "limitations": "캐릭터 도감과 반복 이명 표기를 확인하기 전에는 승인 이명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-ATOMIC-CORE-001",
+      "source": "アトミックコア",
+      "ko": "아토믹 코어",
+      "scope": "바쿠치가 카지노 최고 경품으로 제시하는 demo00/2F76~2F90 아이템명",
+      "status": "approved",
+      "evidence": "고유 아이템명에 가까운 원문의 외래어 조합을 음역해 시리즈 용어 대조가 가능하도록 한 초벌",
+      "alternatives": [
+        "원자 코어",
+        "아토믹코어",
+        "원자핵"
+      ],
+      "limitations": "아이템 도상과 시리즈 공식 한국어 표기를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-DRAGON-NOSE-HAIR-001",
+      "source": "ドラゴンの鼻毛",
+      "ko": "드래곤 코털",
+      "scope": "잠든 리샹롱을 깨운 뒤 발견하는 demo00/2FA8~2FBC 획득 아이템",
+      "status": "approved",
+      "evidence": "鼻毛의 우스꽝스러운 아이템 이미지를 한국어 구어에서 자연스러운 코털로 직접 옮긴 초벌",
+      "alternatives": [
+        "용의 코털",
+        "드래곤의 코털",
+        "용 코털"
+      ],
+      "limitations": "아이템 도상과 시리즈 공식 한국어 표기를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-SKILL-GREAT-DIMENSION-SLASH-001",
+      "source": "大次元斬",
+      "ko": "대차원참",
+      "scope": "터메릭이 경호전에서 외치는 demo00/2FDA~2FF8 필살기명",
+      "status": "approved",
+      "evidence": "大次元斬의 한자 의미와 기술명다운 압축성을 보존해 한자음으로 옮긴 초벌",
+      "alternatives": [
+        "대차원 베기",
+        "대차원참격",
+        "그레이트 디멘션 슬래시"
+      ],
+      "limitations": "기술 연출과 시리즈 공식 한국어 표기를 최종 대조하기 전에는 승인 기술명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-HOTBLOODED-PERSIMMON-SEED-001",
+      "source": "熱血柿の種",
+      "ko": "열혈 감씨",
+      "scope": "터메릭과 모브 병사의 오인 사격 뒤 얻는 demo00/2FDA~2FF8 아이템",
+      "status": "approved",
+      "evidence": "柿の種의 감씨와 동명 과자 중의성을 짧은 아이템명 '감씨'에 남긴 초벌",
+      "alternatives": [
+        "열혈 감씨 과자",
+        "뜨거운 피의 감씨",
+        "열혈 카키노타네"
+      ],
+      "limitations": "아이템 도상으로 실제 감씨인지 과자인지 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-NAVEL-BREAD-001",
+      "source": "でべそパン（ゴマ味）",
+      "ko": "배꼽빵(참깨맛)",
+      "scope": "굶주린 미식 오거를 쓰러뜨린 뒤 몸에서 떼어 내는 demo00/30D4~30E0 재료",
+      "status": "approved",
+      "evidence": "でべそ의 튀어나온 배꼽과 パン의 빵 이미지를 결합한 원문 농담을 압축한 초벌",
+      "alternatives": [
+        "참깨맛 튀어나온 배꼽빵",
+        "배꼽빵(깨맛)",
+        "참깨 배꼽빵"
+      ],
+      "limitations": "아이템 도상과 궁극의 디저트 재료 목록 표기를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-HALF-CHEWED-GUM-001",
+      "source": "誰かのかみかけガム",
+      "ko": "누군가 씹다 만 껌",
+      "scope": "아니스·나츠·메그의 숲 싸움 뒤 줍는 demo00/3106~3137 아이템",
+      "status": "approved",
+      "evidence": "かみかけ의 불쾌한 중도 상태를 자연스러운 한국어 '씹다 만'으로 직접 옮긴 초벌",
+      "alternatives": [
+        "누군가 씹던 껌",
+        "남이 씹다 만 껌",
+        "누군가의 씹던 껌"
+      ],
+      "limitations": "아이템 목록의 길이와 시리즈 공식 표기를 최종 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-SKULL-MELON-PICKLES-001",
+      "source": "ドクロ瓜のピクルス",
+      "ko": "해골참외 피클",
+      "scope": "모건의 달밤 사냥 장면 demo00/3138~3148에서 받는 재료",
+      "status": "approved",
+      "evidence": "ドクロ瓜를 해골 형태나 무늬를 가진 참외로 해석하고 ピクルス를 피클로 유지한 초벌",
+      "alternatives": [
+        "해골참외 절임",
+        "해골멜론 피클",
+        "해골 박 피클"
+      ],
+      "limitations": "아이템 도상과 瓜의 실제 품종을 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-SEA-STAR-SCOUNDREL-001",
+      "source": "海のお土産ヒトデナシ",
+      "ko": "바다 선물 불가사리놈",
+      "scope": "바쿠치의 사이클롭스 폭주 장면 demo00/316A~318C에서 폭풍으로 날아오는 재료",
+      "status": "approved",
+      "evidence": "ヒトデ와 人でなし의 음성 말장난을 불가사리와 비하 접미사 '놈'의 결합으로 압축한 초벌",
+      "alternatives": [
+        "바다 선물 인간말종 불가사리",
+        "바다 기념품 불가사리놈",
+        "바다 선물 별난 놈"
+      ],
+      "limitations": "말장난의 화면 도상과 아이템 목록 폭을 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-FULLMOON-HOSHIKAGE-001",
+      "source": "満月の星陰",
+      "ko": "만월의 호시카게",
+      "scope": "보름달에 폭주한 호시카게의 demo00/319C~31BC 화자명과 문어체 대사",
+      "status": "approved",
+      "evidence": "満月을 이명다운 한자어 '만월'로, 인명 星陰은 기존 승인 표기 호시카게로 유지한 초벌",
+      "alternatives": [
+        "보름달의 호시카게",
+        "만월의 성영",
+        "보름달 호시카게"
+      ],
+      "limitations": "화면 연출과 다른 자산의 변신 명칭을 확인하기 전에는 승인 이명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-GRILLED-GIANT-SQUID-001",
+      "source": "焼き大王イカ",
+      "ko": "구운 대왕오징어",
+      "scope": "개구리 사부가 demo00/319C~31BC에서 건네는 호시카게의 간식 재료",
+      "status": "approved",
+      "evidence": "焼き의 조리 상태와 大王イカ의 거대 오징어 이미지를 직접 보존한 초벌",
+      "alternatives": [
+        "대왕오징어 구이",
+        "구운 대왕오징어 간식",
+        "왕오징어 구이"
+      ],
+      "limitations": "아이템 도상과 조리 형태를 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-SURPRISE-BOX-CHOCOLATE-001",
+      "source": "ビックリ箱チョコ",
+      "ko": "깜짝 상자 초콜릿",
+      "scope": "모브 병사가 demo00/31CE~31E8에서 떠넘기는 실패작 재료",
+      "status": "approved",
+      "evidence": "ビックリ箱의 놀람 상자 이미지를 '깜짝 상자'로, チョコ를 초콜릿으로 풀어 쓴 초벌",
+      "alternatives": [
+        "깜짝 상자 초코",
+        "잭인더박스 초콜릿",
+        "깜짝상자 초콜릿"
+      ],
+      "limitations": "아이템 도상과 상자 작동 방식을 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-LOCATION-DARK-HOTPOT-MOUNTAIN-001",
+      "source": "闇鍋山",
+      "ko": "어둠전골산",
+      "scope": "맛선인 마스터 드 스파이스가 머무는 demo00/32C8~334C 지명",
+      "status": "approved",
+      "evidence": "闇鍋의 정체불명 재료 전골 문화어와 山의 지형 의미를 합성한 초벌",
+      "alternatives": [
+        "암흑전골산",
+        "어둠냄비산",
+        "야미나베산"
+      ],
+      "limitations": "스테이지·맵 표기와 지형 연출을 확인하기 전에는 승인 지명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-MASTER-DE-SPICE-001",
+      "source": "味仙人／マスター・ド・スパイス",
+      "ko": "맛선인／마스터 드 스파이스",
+      "scope": "궁극의 디저트를 조리하는 demo00/32C8~334C 인물의 호칭과 고유명",
+      "status": "approved",
+      "evidence": "味仙人은 역할을 드러내는 짧은 호칭으로, 외래어 고유명은 원문 음가를 보존해 옮긴 초벌",
+      "alternatives": [
+        "미각선인／마스터 드 스파이스",
+        "맛의 선인／마스터 오브 스파이스",
+        "미선인／마스터 드 스파이스"
+      ],
+      "limitations": "음성 발음과 다른 자산의 영문·한글 표기를 확인하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ROBOT-IRON-GIANT-CHEF-001",
+      "source": "料理の鉄巨人",
+      "ko": "요리의 철거인",
+      "scope": "마스터 드 스파이스가 demo00/331A~3328에서 꺼내는 만능 조리 로봇",
+      "status": "approved",
+      "evidence": "料理の鉄人 패러디와 巨人 로봇 이미지를 함께 살리기 위해 철거인으로 합성한 초벌",
+      "alternatives": [
+        "요리의 철인 거인",
+        "철의 요리 거인",
+        "요리 철거인"
+      ],
+      "limitations": "로봇 외형과 패러디 연출을 확인하기 전에는 승인 기체명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-TITLE-SWEET-DEMON-KING-001",
+      "source": "天下一の甘味魔王",
+      "ko": "천하제일 감미마왕",
+      "scope": "스위츠 남작이 demo00/3330~333E에서 사용하는 자칭 칭호",
+      "status": "approved",
+      "evidence": "과장된 한자 칭호의 리듬을 보존하고 甘味를 감미로 압축한 초벌",
+      "alternatives": [
+        "천하제일 단맛마왕",
+        "천하 최고의 디저트 마왕",
+        "천하일미 감미마왕"
+      ],
+      "limitations": "스위츠 남작의 후속 대사와 공식 칭호를 대조하기 전에는 승인 칭호로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-LOCATION-DESSERT-DESERT-001",
+      "source": "菓子砂漠（デザートデザート）",
+      "ko": "과자 사막(디저트 디저트)",
+      "scope": "스위츠 남작의 성으로 이어지는 demo00/3348 지명",
+      "status": "approved",
+      "evidence": "菓子와 砂漠의 뜻을 번역하고 dessert/desert의 일본어 동음 말장난을 괄호에 보존한 초벌",
+      "alternatives": [
+        "디저트 사막(디저트 데저트)",
+        "과자 사막",
+        "디저트 데저트"
+      ],
+      "limitations": "맵 라벨 폭과 음성 발음을 확인하기 전에는 승인 지명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-DARTH-MAUVE-001",
+      "source": "ダースモーブー",
+      "ko": "다스 모브",
+      "scope": "디저트 바이킹 부대를 이끌고 프리니를 포획하려는 demo00/335E~337E 인물",
+      "status": "approved",
+      "evidence": "ダース를 다스로, 기존 승인 표기 モーブ를 모브로 연결한 초벌. 말끝 ブー와 고유명 말장난 가능성은 별도 검토 대상으로 보존",
+      "alternatives": [
+        "다스 모브꿀",
+        "다스 모브부",
+        "다스 마우브"
+      ],
+      "limitations": "캐릭터 도감·외형과 ダース 및 ブー의 패러디 범위를 확인하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ENEMY-DESSERT-VIKING-001",
+      "source": "デザートバイキング",
+      "ko": "디저트 바이킹",
+      "scope": "demo00/334C의 출몰 경고와 demo00/3360~3378에서 프리니를 포획·거래하는 적 또는 집단명",
+      "status": "approved",
+      "evidence": "디저트 뷔페를 뜻하는 일본식 バイキング과 바이킹 괴물의 중의성을 음역으로 유지한 초벌",
+      "alternatives": [
+        "디저트 뷔페 바이킹",
+        "사막 바이킹",
+        "디저트 약탈단"
+      ],
+      "limitations": "후속 장면으로 적 집단 정체는 확인했으나 뷔페·바이킹 중의성의 최종 현지화 방식을 승인하기 전에는 승인 적명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-LEGENDARY-G-SWEETS-001",
+      "source": "伝説のＧスイーツ／Ｇスイーツ",
+      "ko": "전설의 G 디저트／G 디저트",
+      "scope": "스위츠 남작이 demo00/35FA~3650에서 프리니의 영혼을 재료로 완성하려는 디저트",
+      "status": "approved",
+      "evidence": "기존 승인 일반어 スイーツ→디저트를 적용하고 등급 또는 명칭 표지인 Ｇ는 반각 G로 보존한 초벌",
+      "alternatives": [
+        "전설의 G 스위츠／G 스위츠",
+        "전설의 지 디저트／지 디저트",
+        "전설의 궁극 디저트／G 디저트"
+      ],
+      "limitations": "G의 구체적 의미와 화면 내 공식 영문 표기를 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-COOKING-ESSENCE-001",
+      "source": "エッセンス",
+      "ko": "에센스",
+      "scope": "demo00/3630에서 죄 많은 영혼을 최고급 디저트의 필수 재료로 비유하는 표현",
+      "status": "approved",
+      "evidence": "제과 문맥의 외래어 어감을 유지하고 짧은 고정 슬롯에 맞춘 초벌",
+      "alternatives": [
+        "필수 요소",
+        "핵심 재료",
+        "진액"
+      ],
+      "limitations": "스위츠 남작의 과장된 제과 어조와 전체 용어 통일을 최종 검토하기 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-LAHARL-001",
+      "source": "ラハール",
+      "ko": "라하르",
+      "scope": "demo00/5216 이후 정체가 드러나는 프리니 모습의 인물과 화자명",
+      "status": "approved",
+      "evidence": "일본어 고유명 ラハール의 장음을 별도 음절로 늘이지 않고 라하르로 옮긴 초벌",
+      "alternatives": [
+        "라할",
+        "라하알",
+        "라하르 님"
+      ],
+      "limitations": "시리즈 공식 한국어 표기와 캐릭터 자산을 대조하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-ASAGI-001",
+      "source": "アサギ",
+      "ko": "아사기",
+      "scope": "demo00/7532 이후 자신이 주인공이라고 믿으며 등장하는 인물과 화자명",
+      "status": "approved",
+      "evidence": "가타카나 고유명 음가를 한국어로 직접 옮긴 초벌",
+      "alternatives": [
+        "아사기 님",
+        "아사키",
+        "ASAGI"
+      ],
+      "limitations": "시리즈 공식 한국어 표기와 다른 자산의 영문 표기를 대조하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-TITLE-SWEETS-HUNTER-ASAGI-001",
+      "source": "スイーツハンターアサギ",
+      "ko": "디저트 헌터 아사기",
+      "scope": "demo00/7538에서 아사기가 사용하는 자기소개형 칭호",
+      "status": "approved",
+      "evidence": "기존 승인 일반어 スイーツ→디저트와 인명 초벌 아사기를 결합하고 ハンター를 헌터로 음역",
+      "alternatives": [
+        "스위츠 헌터 아사기",
+        "디저트 사냥꾼 아사기",
+        "스위트 헌터 아사기"
+      ],
+      "limitations": "캐릭터의 공식 이명과 후속 아사기 장면을 함께 검토하기 전에는 승인 칭호로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-EXTRA-TEARS-001",
+      "source": "エキストラの涙",
+      "ko": "엑스트라의 눈물",
+      "scope": "demo00/7566에서 아사기가 떨어뜨리고 프리니가 줍는 아이템",
+      "status": "approved",
+      "evidence": "주인공이 되지 못한 아사기의 메타 서사를 살리기 위해 エキストラ를 엑스트라로 음역한 초벌",
+      "alternatives": [
+        "단역의 눈물",
+        "엑스트라의 눈물방울",
+        "조연의 눈물"
+      ],
+      "limitations": "아이템 목록 표기와 메타 농담의 현지화 강도를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "STYLE-ASAGI-DIALECT-001",
+      "source": "だべ／だべさ／っしょや 계열 아사기 인격 전환",
+      "ko": "-여／-혀／-당께 계열의 과장된 한국어 사투리",
+      "scope": "demo00/75A8~75B0, 7624~7626, 767E에서 갑자기 튀어나오는 아사기의 별도 인격 어조",
+      "status": "approved",
+      "evidence": "원문의 표준어에서 홋카이도·동북 방언풍으로 급변하는 인격 전환 신호를 한국어에서도 즉시 구분되도록 보존한 초벌",
+      "alternatives": [
+        "지역색 없는 거친 구어",
+        "충청 방언풍",
+        "전라 방언풍"
+      ],
+      "limitations": "특정 한국 지역을 희화화할 위험과 후속 전환 장면의 일관성을 최종 검토하기 전에는 승인 문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-PROTAGONIST-GUIDE-001",
+      "source": "クズでもなれる主役入門",
+      "ko": "쓰레기도 되는 주역 입문",
+      "scope": "demo00/75C0에서 아사기가 떨어뜨리는 사용서풍 메타 아이템",
+      "status": "approved",
+      "evidence": "クズ의 모욕성을 쓰레기로 직접 살리고 主役入門을 짧은 입문서 제목으로 구성한 초벌",
+      "alternatives": [
+        "찌질이도 되는 주역 입문",
+        "누구나 주인공 되는 법",
+        "폐인도 가능한 주역 입문"
+      ],
+      "limitations": "クズ의 대상과 아이템 목록 어조를 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-PROTAGONIST-BURN-001",
+      "source": "主役根性焼き（焼きすぎ）",
+      "ko": "주역 근성구이(너무 구움)",
+      "scope": "demo00/762C에서 아사기가 떨어뜨리는 말장난 아이템",
+      "status": "approved",
+      "evidence": "根性焼き의 과격한 관용 의미와 焼きすぎ의 굽기 농담을 근성구이와 너무 구움으로 병치한 초벌",
+      "alternatives": [
+        "주역 담뱃불 자국(너무 지짐)",
+        "주인공 근성구이(바싹 구움)",
+        "주역 근성 낙인(과열)"
+      ],
+      "limitations": "根性焼き의 문화 의미를 어느 정도 노출할지 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-CHEAT-GOLD-MONAKA-001",
+      "source": "裏技金色モナカ",
+      "ko": "비기 황금 모나카",
+      "scope": "demo00/7690에서 아사기가 떨어뜨리는 황금색 모나카 아이템",
+      "status": "approved",
+      "evidence": "裏技를 게임 메타 문맥의 비기로, 金色와 モナカ를 황금 모나카로 압축한 초벌",
+      "alternatives": [
+        "꼼수 황금 모나카",
+        "비밀기술 금빛 모나카",
+        "치트 황금 모나카"
+      ],
+      "limitations": "裏技의 치트·비기 뉘앙스와 실제 아이템 도상을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-SYSTEM-PRI-ACTION-REPLAY-001",
+      "source": "プリアクションリプレイ",
+      "ko": "프리 액션 리플레이",
+      "scope": "정적 소비 후보가 없는 demo00/76C6에서 아사기가 레벨 조작 수단으로 언급하는 명칭",
+      "status": "approved",
+      "evidence": "Pro Action Replay를 비튼 것으로 보이는 원문 음가를 프리 액션 리플레이로 보존한 초벌",
+      "alternatives": [
+        "프로 액션 리플레이",
+        "프리니 액션 리플레이",
+        "액션 리플레이"
+      ],
+      "limitations": "실제 소비 분기와 상표 패러디 범위를 확인하기 전에는 승인 명칭으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CULTURE-CLUMSY-TURTLE-001",
+      "source": "ドジでノロマな亀",
+      "ko": "덜렁대고 굼뜬 거북이",
+      "scope": "demo00/76D4에서 아사기가 자신을 비하하는 문화 인용 후보",
+      "status": "approved",
+      "evidence": "행동이 서툴고 느리다는 표면 의미를 자연스러운 한국어 자기비하로 옮긴 초벌",
+      "alternatives": [
+        "덜렁이에 굼벵이 거북이",
+        "실수투성이 느림보 거북이",
+        "덜렁대는 느림보"
+      ],
+      "limitations": "일본 드라마 인용 인지도를 살릴지 현지화할지 최종 검토하기 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ITEM-BEST-ACTRESS-THEFT-001",
+      "source": "卑劣！主演女優賞の盗りかた",
+      "ko": "비열! 여우주연상 훔치는 법",
+      "scope": "demo00/76F4에서 아사기가 떨어뜨리는 메타 아이템",
+      "status": "approved",
+      "evidence": "主演女優賞을 여우주연상으로 옮기고 盗りかた의 수상·절도 말장난을 훔치는 법으로 노출한 초벌",
+      "alternatives": [
+        "비열! 여우주연상 타는 법",
+        "비겁! 주연여우상 가로채기",
+        "여우주연상 강탈 비법"
+      ],
+      "limitations": "아이템 목록 폭과 수상·절도 말장난의 전달력을 최종 검토하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-ASAGI-BODY-TYPES-001",
+      "source": "ムチムチ／ペタンコ／ずんどう",
+      "ko": "글래머 몸매／빈유／통짜 몸매",
+      "scope": "demo00/7674와 7724~7746에서 아사기·프리니·에트나의 체형을 두고 이어지는 메타 농담",
+      "status": "approved",
+      "evidence": "육감적 체형, 납작한 가슴, 허리 굴곡 없는 체형의 대비가 이어지도록 짧은 한국어 표현으로 구성한 초벌",
+      "alternatives": [
+        "육감적 몸매／납작 가슴／원통 몸매",
+        "볼륨 몸매／절벽／통짜",
+        "글래머／슬렌더／일자 몸매"
+      ],
+      "limitations": "성적 대상화 수위, 캐릭터 말투와 화면 등급을 최종 검토하기 전에는 승인 표현군으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-TRANSFORM-PRINNYGER-X-001",
+      "source": "プリニガーＸ",
+      "ko": "프리니거 X",
+      "scope": "demo00/7752에서 에트나가 소중한 것을 잃으면 프리니가 변신한다고 주장하는 패러디 명칭",
+      "status": "approved",
+      "evidence": "プリニー와 거대 로봇풍 접미를 결합한 음가를 프리니거로 보존하고 전각 Ｘ는 반각 X로 정리한 초벌",
+      "alternatives": [
+        "프리니가 X",
+        "프리니저 X",
+        "프리니가 엑스"
+      ],
+      "limitations": "원 패러디 대상과 후속 변신 연출을 확인하기 전에는 승인 기술·형태명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-TRANSFORM-PRETTY-PRINNY-001",
+      "source": "魔法少女プリティプリニー／プリティプリニーエボリューション",
+      "ko": "마법소녀 프리티 프리니／프리티 프리니 에볼루션",
+      "scope": "demo00/7792~7794에서 아사기가 모든 것을 희생하고 선택한 변신 형태와 구호",
+      "status": "approved",
+      "evidence": "마법소녀 장르명과 영어풍 Pretty Prinny·Evolution 음가를 조합해 패러디 구조를 보존한 초벌",
+      "alternatives": [
+        "마법소녀 프리티 프리니／프리티 프리니 진화",
+        "마법소녀 큐티 프리니／큐티 프리니 에볼루션",
+        "마법소녀 예쁜 프리니／프리니 진화"
+      ],
+      "limitations": "변신 연출의 화면 표기와 패러디 대상을 최종 검토하기 전에는 승인 형태명·구호로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-DOUBLE-ENTENDRE-STANDING-DEATH-001",
+      "source": "立ったままイっちゃってる",
+      "ko": "선 채로 가 버렸다",
+      "scope": "demo00/77AC에서 폭발한 아사기를 본 프리니의 죽음·성적 중의적 반응",
+      "status": "approved",
+      "evidence": "죽었다는 의미와 イく의 중의성을 한국어 가 버리다로 함께 암시한 초벌",
+      "alternatives": [
+        "선 채로 죽었슴다",
+        "서 있는 채로 가셨슴다",
+        "선 채로 끝나 버렸슴다"
+      ],
+      "limitations": "게임 등급과 장면 연출에 맞는 중의성 수위를 최종 검토하기 전에는 승인 표현으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-HUB-FACILITY-NAMES-001",
+      "source": "セーブ屋／記録屋／音楽屋／夜逃げ屋／時空の渡し人／リプレイ屋／チュートリアル屋",
+      "ko": "세이브 담당／기록 담당／음악 담당／야반도주 담당／시공의 뱃사공／리플레이 담당／튜토리얼 담당",
+      "scope": "demo00/012C~023C의 거점 시설 명패와 설명문",
+      "status": "approved",
+      "evidence": "屋를 상점으로 한정하지 않고 기능 담당자로 통일하되, 時空の渡し人은 분위기를 살려 뱃사공으로 옮긴 초벌",
+      "alternatives": [
+        "세이브 상점 등 직역",
+        "시공의 안내인",
+        "시설명 원음 표기"
+      ],
+      "limitations": "메뉴·맵 표기와 명패 폭을 최종 검토하기 전에는 승인 시설명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-NAMELESS-SOUL-001",
+      "source": "名も無き魂",
+      "ko": "이름 없는 영혼",
+      "scope": "demo00/0140~0234의 거점 영혼 NPC",
+      "status": "approved",
+      "evidence": "고유 역할명 의미를 직관적으로 전달하는 초벌",
+      "alternatives": [
+        "이름 없는 혼",
+        "무명의 영혼"
+      ],
+      "limitations": "기존 시리즈 정식 표기를 확인하기 전에는 승인 명칭으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-LUCKY-PROFESSOR-001",
+      "source": "ラッキー教授",
+      "ko": "라키 교수",
+      "scope": "Demo00의 라키 돌 수집가 NPC",
+      "status": "approved",
+      "evidence": "일본어 장음 없는 음가와 명패 슬롯을 고려한 초벌",
+      "alternatives": [
+        "럭키 교수",
+        "래키 교수"
+      ],
+      "limitations": "시리즈 정식 표기와 음성을 최종 확인하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CREATURE-LUCKY-DOLL-001",
+      "source": "ラッキードール／ゾンビドール",
+      "ko": "라키 돌／좀비 돌",
+      "scope": "demo00/0169~026E의 수집 생물과 유사종",
+      "status": "approved",
+      "evidence": "Lucky Doll과 Zombie Doll의 대응 구조를 짧은 음역으로 유지한 초벌",
+      "alternatives": [
+        "럭키 돌／좀비 돌",
+        "행운 인형／좀비 인형"
+      ],
+      "limitations": "도감·아이템·화면 공식 표기를 대조하기 전에는 승인 종명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-SYSTEM-NIGHT-ESCAPE-001",
+      "source": "夜逃げ",
+      "ko": "야반도주",
+      "scope": "demo00/017D~020D의 기록 승계형 게임 오버 기능",
+      "status": "approved",
+      "evidence": "몰래 달아난다는 기능 의미를 짧은 한국어 명사로 옮긴 초벌",
+      "alternatives": [
+        "야간 도주",
+        "밤도망",
+        "도주"
+      ],
+      "limitations": "메뉴 버튼 폭과 기능 안내의 자연스러움을 최종 검토하기 전에는 승인 시스템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-SYSTEM-MAKAI-RECORD-001",
+      "source": "魔界レコード",
+      "ko": "마계 레코드",
+      "scope": "demo00/01FF~0202의 BGM 수집품",
+      "status": "approved",
+      "evidence": "수집 음반의 고유명 구조를 보존한 초벌",
+      "alternatives": [
+        "마계 음반",
+        "마계 기록판"
+      ],
+      "limitations": "수집 화면과 정식 시리즈 표기를 확인하기 전에는 승인 아이템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-SYSTEM-MAKAI-MEDAL-001",
+      "source": "魔界勲章",
+      "ko": "마계 훈장",
+      "scope": "demo00/01F7 및 후속 훈장 수여·설명 구간",
+      "status": "approved",
+      "evidence": "勲章의 일반적 의미와 수여 장면을 반영한 초벌",
+      "alternatives": [
+        "마계 메달",
+        "마계 공훈장"
+      ],
+      "limitations": "훈장 목록 전체와 UI 폭을 검토하기 전에는 승인 시스템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-SAFFRON-ZONKAME-001",
+      "source": "サフラン嬢／ゾンカメ",
+      "ko": "사프란 양／존카메",
+      "scope": "demo00/02BC~02D7의 마계 훈장 방송 진행자와 촬영 담당",
+      "status": "approved",
+      "evidence": "인명 음가를 보존하고 嬢은 방송 호칭에 맞춰 양으로 옮긴 초벌",
+      "alternatives": [
+        "사프란 아가씨／존카메",
+        "샤프란／좀카메"
+      ],
+      "limitations": "시리즈 정식 표기와 음성을 대조하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-MEDAL-RUNNER-FIGHTER-001",
+      "source": "ブロンズランナー~スイーツハンター",
+      "ko": "브론즈 러너~디저트 헌터",
+      "scope": "demo00/02DA~02F1의 러너·파이터·노 미스·누적 훈장 12종",
+      "status": "approved",
+      "evidence": "등급색·도전 유형을 통일하고 で賞 말장난은 ‘죽었상’으로 옮긴 초벌",
+      "alternatives": [
+        "동·은·금 러너",
+        "너무 많이 죽었어요 상"
+      ],
+      "limitations": "훈장 UI 폭과 で賞 말장난의 전달력을 최종 검토하기 전에는 승인 명칭군으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-MEDAL-ASAGI-PROGRESS-001",
+      "source": "アサギファン１号~アサギフォーエバー",
+      "ko": "아사기 팬 1호~아사기 포에버",
+      "scope": "demo00/02F2~0301의 아사기·도감·진행·보스 훈장 8종",
+      "status": "approved",
+      "evidence": "기존 아사기·마신 에트나 표기와 진행 조건을 재사용하고 で賞는 ‘많았상’으로 대응한 초벌",
+      "alternatives": [
+        "아사기 팬클럽 1호",
+        "주민이 많아요 상"
+      ],
+      "limitations": "기존 시리즈 훈장 정식 표기와 ￥ 표시 의미를 확인하기 전에는 승인 명칭군으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-MEDAL-COLLECTION-SCORE-001",
+      "source": "スイーツマスター~魔界レコード大賞",
+      "ko": "디저트 마스터~마계 레코드 대상",
+      "scope": "demo00/0302~0315의 수집·점수·특수 도전 훈장 10종",
+      "status": "approved",
+      "evidence": "기존 디저트·야반도주·라키 돌·마계 레코드 용어를 재사용한 초벌",
+      "alternatives": [
+        "스위츠 마스터",
+        "마계 레코드 어워드"
+      ],
+      "limitations": "천하포무·스타스크림 등 문화·상표 연상과 UI 폭을 최종 검토하기 전에는 승인 명칭군으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-CHAR-RABBIT-PLENAIR-001",
+      "source": "ウサギさん／プレネール",
+      "ko": "토끼 씨／플레네르",
+      "scope": "demo00/0320~0328의 마계 뉴스 진행자와 무언 진행자",
+      "status": "approved",
+      "evidence": "일반 호칭과 인명 음가를 방송 장면 명패에 맞춘 초벌",
+      "alternatives": [
+        "토끼 님／플레네어",
+        "우사기 씨／플레네르"
+      ],
+      "limitations": "시리즈 정식 한국어 표기와 음성을 확인하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-COLLECTIBLE-SECRET-FILE-001",
+      "source": "シークレットファイル",
+      "ko": "시크릿 파일",
+      "scope": "demo00/0384~03BF의 인물·마물·재료 수집 파일 획득 메시지",
+      "status": "approved",
+      "evidence": "반복 수집품 명칭을 원음 중심으로 통일하고 대상명은 기존 번역 결정을 재사용한 초벌",
+      "alternatives": [
+        "비밀 파일",
+        "시크릿 프로필"
+      ],
+      "limitations": "실제 컬렉션 메뉴 명칭과 대상별 정식 표기를 대조하기 전에는 승인 시스템명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "STYLE-SKELETON-SONG-001",
+      "source": "ガイコツ의 ♪ 노래 대사",
+      "ko": "해골의 운율형 위협 노래",
+      "scope": "demo00/07D2~07DA의 지각 프리니 조롱과 폭탄 경고",
+      "status": "approved",
+      "evidence": "♪ 위치와 반복 리듬을 유지하면서 한국어 위협 문장으로 재구성한 초벌",
+      "alternatives": [
+        "해골 원음식 직역",
+        "동요풍 완전 현지화"
+      ],
+      "limitations": "실제 음성·표시 타이밍과 운율을 확인하기 전에는 승인 문체로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-HUB-PRINNY-NAMES-001",
+      "source": "プリ兵衛／プリトニー／プリニコフ",
+      "ko": "프리베／프리토니／프리니코프",
+      "scope": "demo00/0866~0882의 거점 프리니 NPC 명패",
+      "status": "approved",
+      "evidence": "명패 슬롯과 프리니 이름 말장난을 고려해 음가를 짧게 보존한 초벌",
+      "alternatives": [
+        "프리베에／프리토니／프리니코프",
+        "이름별 의미 현지화"
+      ],
+      "limitations": "후속 명패 전체와 시리즈 표기를 검토하기 전에는 승인 인명으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-HUB-LATE-PRINNY-NAMES-001",
+      "source": "プリ五郎~プリーチ",
+      "ko": "프리고로~프리치",
+      "scope": "demo00/0898~0B66의 후반 거점 프리니 NPC 명패",
+      "status": "approved",
+      "evidence": "명패 16바이트 제한 안에서 プリ 계열 말장난과 원음 식별성을 유지한 전량 초벌",
+      "alternatives": [
+        "이름별 의미 현지화",
+        "장음·촉음을 모두 살린 표기"
+      ],
+      "limitations": "시리즈 정식 표기와 이름 말장난을 최종 대조하기 전에는 승인 인명군으로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-LORE-RED-MOON-001",
+      "source": "赤い月",
+      "ko": "붉은 달",
+      "scope": "demo00/0936~093C의 프리니 죄 사면과 환생 설정",
+      "status": "approved",
+      "evidence": "프리니 전생 설정의 의미를 보존하고 짧은 고유 개념으로 통일한 초벌",
+      "alternatives": [
+        "적월",
+        "빨간 달"
+      ],
+      "limitations": "디스가이아 시리즈 정식 한국어 용어를 대조하기 전에는 승인 설정어로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    },
+    {
+      "decision_id": "TERM-HUB-LATE-PROPER-NOUNS-001",
+      "source": "デザートバイキング／モーガン商会／魔界ウォーズ（仮）",
+      "ko": "디저트 바이킹／모건 상회／마계 워즈(가제)",
+      "scope": "demo00/09CA~0AC8의 후반 거점 소문과 아사기 대화",
+      "status": "approved",
+      "evidence": "인게임 기능과 말장난을 식별할 수 있도록 음역과 통용 번역을 결합한 초벌",
+      "alternatives": [
+        "데저트 바이킹／모건 상사／마계 전기(가제)",
+        "디저트 해적단／모간 상회／마계 워즈(임시)"
+      ],
+      "limitations": "시리즈 정식 표기와 デザート의 사막·후식 중의성을 최종 검토하기 전에는 승인 용어로 간주하지 않음",
+      "approval": {
+        "date": "2026-07-18",
+        "basis": "사용자가 현행 review queue 번역 전체를 검토하고 해당 버전을 승인"
+      }
+    }
+  ]
+}

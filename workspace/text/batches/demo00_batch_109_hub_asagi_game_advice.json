@@ -1,0 +1,557 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_109_hub_asagi_game_advice",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "bd4755a11bf449ca900030026b17ce43f9a55af63e18b10ab93ffedc0eacf81c",
+  "context": {
+    "scene": "마계 성 거점: 아사기 상담·마계 워즈·주인공 비법",
+    "evidence": [
+      "정적 소비 감사 후 보호 병합"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0ABE",
+      "protected_snapshot": {
+        "record_id": 2750,
+        "raw_hex": "be0a04006500c88376838a98618fae000000000000000000906c82c98cbe82a682c882a2905b8d8f82c8945982dd82aa82a082e98362835881420083418354834d82b382f182c9918a926b82b582bd82a982c182bd8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ和尚",
+          "lines": [
+            "人に言えない深刻な悩みがあるッス。",
+            "アサギさんに相談したかったッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리 화상",
+        "lines": [
+          "남에게 못 할 심각한 고민이 있슴다.",
+          "아사기 씨에게 상담하고 싶었슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0AC0",
+      "protected_snapshot": {
+        "record_id": 2752,
+        "raw_hex": "c00a040037ffc88376838a836a815b000000000000000000946e8ed4946e82cc82b282c682ad93ad82a982b382ea82e988c88a4f82c90000000000945982dd82aa82a082e982f18362835882a981420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "馬車馬のごとく働かされる以外に",
+            "悩みがあるんッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "죽도록 부려 먹히는 것 말고",
+          "또 고민이 있슴까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0AC2",
+      "protected_snapshot": {
+        "record_id": 2754,
+        "raw_hex": "c20a02006500c88376838a98618fae0000000000000000008ec082cd8349838c81419085928e83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ和尚",
+          "lines": [
+            "実はオレ、水虫ッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리 화상",
+        "lines": [
+          "사실 나, 무좀임다.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0AC4",
+      "protected_snapshot": {
+        "record_id": 2756,
+        "raw_hex": "c40a040032ffc88376838a836a815b000000000000000000816381638142000000000000000000000000000000000000000000000000000000000082c682c182c682c694e7958689c882c98d7382af8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……。",
+            "とっとと皮膚科に行けッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "…….",
+          "얼른 피부과에 가십쇼.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0AC6",
+      "protected_snapshot": {
+        "record_id": 2758,
+        "raw_hex": "c60a04006500c98376838a83548386838a0000000000000083418354834d82b382f182aa8ee58989975c92e882cc8351815b838082c182c400000082c782f182c893e0976582be82c182bd82f18362835882a982cb8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリサユリ",
+          "lines": [
+            "アサギさんが主演予定のゲームって",
+            "どんな内容だったんッスかね？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리사유리",
+        "lines": [
+          "아사기 씨 주연 예정 게임은",
+          "어떤 내용이었슴까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0AC8",
+      "protected_snapshot": {
+        "record_id": 2760,
+        "raw_hex": "c80a04006500c98376838a83548386838a0000000000000096828a4583458348815b8359816989bc816a82c682a282a4835e83438367838b00000088c88a4f82cd93e482dd82bd82a28362835882cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリサユリ",
+          "lines": [
+            "魔界ウォーズ（仮）というタイトル",
+            "以外は謎みたいッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리사유리",
+        "lines": [
+          "「마계 워즈(가제)」라는 제목",
+          "외에는 수수께끼인 모양임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0ACA",
+      "protected_snapshot": {
+        "record_id": 2762,
+        "raw_hex": "ca0a030037ffc88376838a836a815b000000000000000000816989bc816a82cd97ca82e882b582ea82c882a200000000000000000000000000000089c2945c90ab82f094e982df82c482e9836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "（仮）は量りしれない",
+            "可能性を秘めてるッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "(가제)에는 헤아릴 수 없는",
+          "가능성이 숨어 있슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0ACC",
+      "protected_snapshot": {
+        "record_id": 2764,
+        "raw_hex": "cc0a04006500c98376838a83548386838a0000000000000096bc914f82e0817583418354834d816989bc816a817682c982b582bd82d982a482aa0097c782a982c182bd82a982e08362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリサユリ",
+          "lines": [
+            "名前も「アサギ（仮）」にしたほうが",
+            "良かったかもッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리사유리",
+        "lines": [
+          "이름도 「아사기(가제)」가",
+          "나았을지도 모름다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0ACE",
+      "protected_snapshot": {
+        "record_id": 2766,
+        "raw_hex": "ce0a04006500c98376838a8358838a815b000000000000008ee5906c8cf682d482e982be82af82c882e781418da182b782ae82c982c582e000000082c882ea82e98362835881428bd6926682cc8341836d95fb964082c882e781420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリスリー",
+          "lines": [
+            "主人公ぶるだけなら、今すぐにでも",
+            "なれるッス。禁断のアノ方法なら。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리스리",
+        "lines": [
+          "주인공 행세만이라면 당장",
+          "될 수 있슴다. 금단의 그 방법이면.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0AD0",
+      "protected_snapshot": {
+        "record_id": 2768,
+        "raw_hex": "d00a040037ffc88376838a836a815b00000000000000000083418354834d82b382f182cd906c8ad48362835882a982e782cb81420000000000000082a282bf82a882a48bb382a682c482e282e98362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "アサギさんは人間ッスからね。",
+            "いちおう教えてやるッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아사기 씨는 인간이니까",
+          "일단 알려 줌까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0AD2",
+      "protected_snapshot": {
+        "record_id": 2770,
+        "raw_hex": "d20a04006500c98376838a8358838a815b0000000000000082c582e082bb82b182dc82c582b582c482c882e882bd82a28362835882a982cb8142008bea984a82aa919d82a682e982be82af8362835882e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリスリー",
+          "lines": [
+            "でもそこまでしてなりたいッスかね。",
+            "苦労が増えるだけッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리스리",
+        "lines": [
+          "그렇게까지 되고 싶슴까?",
+          "고생만 늘어날 뿐임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

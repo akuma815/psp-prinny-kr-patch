@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_030_paprika_banana",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "056210e4e19f7a4f3c0fc7526dfa34e2cc098c69444cd8f9db1d703b4650323f",
+  "context": {
+    "scene": "카지노 경비 파프리카와의 전투 뒤 모두가 좋아하는 바나나 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0xDE5F..0xE505의 연속 14개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 14/14 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/299A",
+      "protected_snapshot": {
+        "record_id": 10650,
+        "raw_hex": "9a290400a506c8836f834e8360815b00000000000000000082ed82e882a182c88382815b834b839381428ee882cd91ab82e882c482f182be81420088c082ad82c882c182bd82e7948382c182c482e282e982e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "わりぃなモーガン。手は足りてんだ。",
+            "安くなったら買ってやるよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "미안하다, 모건. 일손은 충분해.",
+          "싸지면 사 줄게.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "모건의 판매 제안을 일손이 충분하다며 거절하는 바쿠치 대사. 두 인명 결정을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/299C",
+      "protected_snapshot": {
+        "record_id": 10652,
+        "raw_hex": "9c290300bef9c88382815b834b839300000000000000000082dc82a282c78141836f834e8360815b82b382f181420000000000000000000000000082dc82bd978882dc82b782ba81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "まいど、バクチーさん。",
+            "また来ますぜ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "매번 고맙습니다, 바쿠치 씨.",
+          "또 오겠습니다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "モーガン을 모건으로 음역하고 거래처에 다시 오겠다는 상인풍 인사를 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/299E",
+      "protected_snapshot": {
+        "record_id": 10654,
+        "raw_hex": "9e290300bd02c883708376838a834a00000000000000000082c982e1815b82a8818f00000000000000000000000000000000000000000000000000834c837e8141834a8357836d8b7182c982e181480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "にゃーお￥",
+            "キミ、カジノ客にゃ？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "냐~옹￥",
+          "넌 카지노 손님이냥?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "パプリカ를 파프리카로 옮기고 고양이 말투를 냥으로 현지화했다. 원문 전각 ￥ 제어 문자는 첫 줄 끝에 보존했다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "control_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29A0",
+      "protected_snapshot": {
+        "record_id": 10656,
+        "raw_hex": "a029020037ffc88376838a836a815b00000000000000000082df82c182bb82a482e082c882a283628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "めっそうもないッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "천만의 말씀임다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "카지노 손님이라는 오해를 강하게 부정하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/29A2",
+      "protected_snapshot": {
+        "record_id": 10658,
+        "raw_hex": "a229040037ffc88376838a836a815b000000000000000000825093fa8251824f8e9e8ad4984a93ad82cc00000000000000000000000000000000008349838c82bd82bf82c98141975682d48e9e8ad482cd82c882a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "１日２０時間労働の",
+            "オレたちに、遊ぶ時間はないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "하루 20시간 노동하는",
+          "저희에겐 놀 시간이 없슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "가혹한 노동시간 탓에 놀 수 없다는 프리니의 자조를 기존 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/29A4",
+      "protected_snapshot": {
+        "record_id": 10660,
+        "raw_hex": "a4290300be02c883708376838a834a00000000000000000082b682e1829f904e93fc8ed282c982e10000000000000000000000000000000000000082c982e182a282a982c1814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "じゃぁ侵入者にゃ",
+            "にゃいかっ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "그럼 침입자",
+          "아니냥!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "손님이 아니면 침입자라는 결론과 にゃいか 말장난을 냥 어미로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29A6",
+      "protected_snapshot": {
+        "record_id": 10662,
+        "raw_hex": "a6290400c002c883708376838a834a000000000000000000836f834e8360815b82b382f182c98cd982ed82ea82bd0000000000000000000000000097709053965f82cc83708376838a834a814182e682eb82b582ad82c982e182f181f4000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "バクチーさんに雇われた",
+            "用心棒のパプリカ、よろしくにゃん♪",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "바쿠치 씨가 고용한 경호원",
+          "파프리카다냥, 잘 부탁해냥♪",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "카지노 경호원이라는 파프리카의 자기소개와 고양이 말투·음표를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29A8",
+      "protected_snapshot": {
+        "record_id": 10664,
+        "raw_hex": "a8290300c402c883708376838a834a00000000000000000082cd82c982e1829f81600000000000000000000000000000000000000000000000000082e282e782ea82bd82c982e1829f8160814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 708,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "はにゃぁ～",
+            "やられたにゃぁ～。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "하냐아~",
+          "당했다냥~.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "패배한 파프리카의 고양이 감탄과 냥 어미를 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29AA",
+      "protected_snapshot": {
+        "record_id": 10666,
+        "raw_hex": "aa29030035ffc88376838a836a815b00000000000000000082bb82ea82b682e182a0814182b182ea82cd0000000000000000000000000000000000974c93ef82ad92b882ad8362835882e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "それじゃあ、これは",
+            "有難く頂くッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그럼 이건",
+          "고맙게 받겠슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "패배한 파프리카의 물건을 챙기는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/29AC",
+      "protected_snapshot": {
+        "record_id": 10668,
+        "raw_hex": "ac29110000000000000000000000000000000000000000008376838a836a815b82cd814183708376838a834a82a982e70000000000000000000000817582dd82f182c891e58d4482ab836f836983698176000000000000000000000000008163816382f082e082e782c182bd814900000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、パプリカから",
+            "「みんな大好きバナナ」",
+            "……をもらった！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 파프리카에게서",
+          "「모두가 좋아하는 바나나」",
+          "……를 받았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "みんな大好きバナナ를 모두가 좋아하는 바나나로 직역한 재료 획득 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29AE",
+      "protected_snapshot": {
+        "record_id": 10670,
+        "raw_hex": "ae290300a606c8836f834e8360815b00000000000000000082a8814182a882a281410000000000000000000000000000000000000000000000000082c882c982e282c182c482f182be8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "お、おい、",
+            "なにやってんだ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "어, 어이,",
+          "뭐 하는 거야!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "경호원의 물건을 가져가는 프리니를 발견한 바쿠치의 외침 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29B0",
+      "protected_snapshot": {
+        "record_id": 10672,
+        "raw_hex": "b029020034ffc88376838a836a815b00000000000000000082c9814193a682b082e98362835881608149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "に、逃げるッス～！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "튀, 튀는 검다~!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "바쿠치에게 들켜 도망치는 프리니의 외침 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/29B2",
+      "protected_snapshot": {
+        "record_id": 10674,
+        "raw_hex": "b2290700a806c8836f834e8360815b0000000000000000008e9f82ab82bd82e782bd82be82b682e10000000000000000000000000000000000000082a882a982cb82a682bc814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "次きたらただじゃ",
+            "おかねえぞ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "다음에 또 오면",
+          "그냥 안 둔다!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "다시 오면 가만두지 않겠다는 바쿠치의 위협 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/29B4",
+      "protected_snapshot": {
+        "record_id": 10676,
+        "raw_hex": "b4290f000000c88376838a836a815b00000000000000000082a282e281418be097d68ddb978882e982b182c682cd0000000000000000000000000082c882a2836283588160814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 15,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、金輪際来ることは",
+            "ないッス～。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아뇨, 두 번 다시 올 일은",
+          "없슴다~.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "금륜제 다시 오지 않겠다는 프리니의 도주 답변 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_067_paprika_scent",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2ca04e1f0388cf1b7679d5df5ced3c834b922d55b04347701977de7a7afdf5a8",
+  "context": {
+    "scene": "파프리카의 궁극 디저트 냄새 추적",
+    "evidence": [
+      "demo.nsf 목표 정적 참조 통합 38/38; BOOT dispatcher 선택 블록 7/7 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/34EE",
+      "protected_snapshot": {
+        "record_id": 13550,
+        "raw_hex": "ee340400c002c883708376838a834a00000000000000000082c982e1815b82a8818f0000000000000000000000000000000000000000000000000082cb82a581418b868bc982cc83588343815b836382cd82c782b182c982e181480000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "にゃーお￥",
+            "ねぇ、究極のスイーツはどこにゃ？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "냐옹￥",
+          "저기, 궁극의 디저트는 어디냥?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "고양이 울음과 ￥를 보존하고 궁극의 디저트 위치를 묻는 파프리카 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied",
+          "control_marker_preserved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/34F0",
+      "protected_snapshot": {
+        "record_id": 13552,
+        "raw_hex": "f0340400c102c883708376838a834a00000000000000000082f1814882a282a293f582a282aa82b782e98352839382c982e1814981490000000000834c837e82bd82bf82c282dc82dd904882a282b582bd835283938149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 705,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "ん？いい匂いがするコンにゃ！！",
+            "キミたちつまみ食いしたコン！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "응? 좋은 냄새가 난다콩냥!!",
+          "너희 몰래 먹었콩!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "여우 콩과 고양이 냥 말끝이 섞이는 원문의 혼란을 보존한 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/34F2",
+      "protected_snapshot": {
+        "record_id": 13554,
+        "raw_hex": "f234040032ffc88376838a836a815b000000000000000000834c8363836c82a9836c835282a982cd82c182ab82e882b582c4000000000000000000977e82b582a283628358816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "キツネかネコかはっきりして",
+            "欲しいッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "여우인지 고양이인지 확실히",
+          "해 주십쇼…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "파프리카에게 여우와 고양이 중 하나로 정하라고 지적하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

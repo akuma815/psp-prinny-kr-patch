@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "status": "PASS: four independent xdelta patches reverse-verified",
+  "distribution_policy": "main ISO patch plus optional per-DLC EDAT patches",
+  "contains_original_game_files": false,
+  "patches": [
+    {
+      "id": "ISO",
+      "patch": "Prinny_ULJS00150_KR_20260803.xdelta",
+      "patch_size": 723171,
+      "patch_sha256": "357082ca2707240bd5defe59faad75c72e2ca44fe900380523fbd9c2846bbc89",
+      "source_size": 500465664,
+      "source_sha256": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
+      "target_size": 500465664,
+      "target_sha256": "ae53bc4b960b263a362756e801c21da7224ce3dd735d2da5882c04a0248622ac",
+      "reverse_verification": "PASS"
+    },
+    {
+      "id": "DL0000",
+      "patch": "Prinny_DLC_DL0000_KR_20260803.xdelta",
+      "patch_size": 1917,
+      "patch_sha256": "0a4d662e671ddd5aa561a31678a8957f755dae15b5f7e4005cf4e3040f1c4f8a",
+      "source_size": 1624784,
+      "source_sha256": "a0209702de5210b2f35c57e7c12bfddbeb691200de06769b615ca50254d48c1b",
+      "target_size": 1624784,
+      "target_sha256": "2a2fb6a26ad40aa7ef2bfd46795657416e4d45723f7b04b3a30e76e715b83739",
+      "reverse_verification": "PASS"
+    },
+    {
+      "id": "DL0001",
+      "patch": "Prinny_DLC_DL0001_KR_20260803.xdelta",
+      "patch_size": 1715,
+      "patch_sha256": "b79cf9e1ab0767b26e5c6ae3458846e5e33d42c9dad656a6a627addc86db41a6",
+      "source_size": 1540688,
+      "source_sha256": "86b48d56b6ba853f09ffb0a524ccebf4f601c78cb0f4937cb885ec8815bdb7a7",
+      "target_size": 1540688,
+      "target_sha256": "4d3f0b113670c532cab6233c08309b000a34622673730cfd1b8d12dc6e503ccc",
+      "reverse_verification": "PASS"
+    },
+    {
+      "id": "DL0002",
+      "patch": "Prinny_DLC_DL0002_KR_20260803.xdelta",
+      "patch_size": 1153,
+      "patch_sha256": "d837367e14d021256adf31d35a2b478aded7e149250f3889cabbc5a1d4c7d2b1",
+      "source_size": 1365296,
+      "source_sha256": "3fbc26ed99c1b3f474e50dd5290eb0497e61f0a7e8e9268fb82980a426079be9",
+      "target_size": 1365296,
+      "target_sha256": "fb6b75f3f60da7233eea63a229512a0762e3b789c7204c5e22d0d837677435ae",
+      "reverse_verification": "PASS"
+    }
+  ],
+  "font_dependency": "DLC patches require the 998-character font in the main patch",
+  "runtime": {
+    "direct_run": "main, native stage HUD, result-time spacing, and R7 DLC verified in PPSSPP 1.19.3 before packaging",
+    "xdelta_applied_iso_boot_probe": "PASS",
+    "probe_report": "G:/Downloads/Korean Traslate Project/Games/Prinny - Ore ga Shujinkou de Iinsuka/work/probes/final_xdelta_applied_20260803_boot.json",
+    "graphical_boot": "PASS: PPSSPP 1.19.3 opened ULJS00150"
+  }
+}

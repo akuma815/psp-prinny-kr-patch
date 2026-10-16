@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_027_turmeric_farm",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "aa89918c726dd91ed65320fa9d624b3fea87c373f95e12d96bf0a113553d0bf6",
+  "context": {
+    "scene": "터메릭이 지키는 농장에서 뜨거운 피덮밥을 얻고 미식 오거의 고용 관계가 드러나는 장면",
+    "evidence": [
+      "demo.nsf logical offsets 0xCA3C..0xCFE7의 연속 15개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 15/15 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2904",
+      "protected_snapshot": {
+        "record_id": 10500,
+        "raw_hex": "04290500dd05c9835e815b8381838a8362834e000000000082c682a482c1815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "とうっー！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "이얏~!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ターメリック을 향신료 영문명 발음에 가까운 터메릭으로 옮긴 등장 기합 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2906",
+      "protected_snapshot": {
+        "record_id": 10502,
+        "raw_hex": "06290100dd05c9835e815b8381838a8362834e000000000082b182b182cd92ca82b382f1814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ここは通さん！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "여긴 못 지나간다!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "농장 경비로 길을 막는 터메릭의 열혈 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2908",
+      "protected_snapshot": {
+        "record_id": 10504,
+        "raw_hex": "0829020032ffc88376838a836a815b0000000000000000008163816382c8814182c882f1835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……な、なんスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……뭐, 뭠까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 제지에 당황한 프리니의 반문 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/290A",
+      "protected_snapshot": {
+        "record_id": 10506,
+        "raw_hex": "0a290300dd05c9835e815b8381838a8362834e00000000008349838c82cc96bc82cd0000000000000000000000000000000000000000000000000095738e8092b982cc835e815b8381838a8362834e8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "オレの名は",
+            "不死鳥のターメリック！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "내 이름은",
+          "불사조의 터메릭!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "불사조의 터메릭이라는 자칭을 직역한 고유명 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/290C",
+      "protected_snapshot": {
+        "record_id": 10508,
+        "raw_hex": "0c290400dd05c9835e815b8381838a8362834e000000000082b182cc945f898082cc8c7894f582c98cd982ed82ea82bd0000000000000000000000944d8c8c8e9e815882a882bf82e182df82c8814197ac82b582cc976295ba82be8149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "この農園の警備に雇われた",
+            "熱血時々おちゃめな、流しの傭兵だ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "열혈에 가끔은 장난꾸러기인",
+          "이 농장의 떠돌이 용병이다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "농장 경비로 고용된 熱血時々おちゃめな流しの傭兵이라는 자기소개를 두 줄에 재배열한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/290E",
+      "protected_snapshot": {
+        "record_id": 10510,
+        "raw_hex": "0e290400dd05c9835e815b8381838a8362834e000000000082bd82be8da181418349815b8369815b82cd82a890488e96928681490000000000000083578383837d82f082b782e982c882e78376838a836a815b82c582e0816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ただ今、オーナーはお食事中！",
+            "ジャマをするならプリニーでも……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "지금 주인은 식사 중이다!",
+          "방해한다면 프리니라도…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고용주의 식사를 방해하면 프리니라도 봐주지 않겠다는 경고 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2910",
+      "protected_snapshot": {
+        "record_id": 10512,
+        "raw_hex": "10290500df05c9835e815b8381838a8362834e000000000097658ecd82b982f181490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 1503,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "容赦せん！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "용서 못 한다!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "앞 경고를 마무리하는 터메릭의 열혈 외침 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2912",
+      "protected_snapshot": {
+        "record_id": 10514,
+        "raw_hex": "1229110000000000000000000000000000000000000000008376838a836a815b82cd8141835e815b8381838a8362834e82cc928b904800000000008175944d82a28c8c92aa98a581760000000000000000000000000000000000000000008163816382f089f582ad814882e482b882c182c482e082e782c182bd81490000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、ターメリックの昼食",
+            "「熱い血潮丼」",
+            "……を快く？ゆずってもらった！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 터메릭의 점심",
+          "「뜨거운 피 덮밥」",
+          "……을 흔쾌히? 양보받았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "熱い血潮丼을 터메릭의 열혈 이미지와 실제 피의 중의성이 남는 뜨거운 피 덮밥으로 옮기고 快く？의 반어를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2914",
+      "protected_snapshot": {
+        "record_id": 10516,
+        "raw_hex": "1429030035ffc88376838a836a815b00000000000000000082b182ea82cd814182a482dc82bb82a48362835882cb8142000000000000000000000097c782a282e082cc92b882a282bd8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "これは、うまそうッスね。",
+            "良いもの頂いたッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이건 맛있어 보임다.",
+          "좋은 걸 얻었슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "빼앗은 점심을 만족스러워하는 프리니 대사를 기존 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2916",
+      "protected_snapshot": {
+        "record_id": 10518,
+        "raw_hex": "16290400e105c9835e815b8381838a8362834e000000000082bb814182bb82ea82cd82a282dc904882a882a482c682b582c482bd000000000000008349838c82cc928b9048814982ad82c181638163814195d482b582e282aa82ea8149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1505,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "そ、それはいま食おうとしてた",
+            "オレの昼食！くっ……、返しやがれ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "그, 그건 지금 먹으려던",
+          "내 점심이다! 큭…… 돌려줘!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "방금 먹으려던 점심을 빼앗긴 터메릭의 분노와 당황을 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2918",
+      "protected_snapshot": {
+        "record_id": 10520,
+        "raw_hex": "182904007007c9834f838b83818349815b834b000000000089bd82b582c482e982c781498b788c6582aa8f4982ed82c182bd82e700000000000000918182ad94a882cc8e47919082f094b282ad8dec8bc682c996df82e982b882e78149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "何してるど！休憩が終わったら",
+            "早く畑の雑草を抜く作業に戻るずら！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "뭐 하냐구먼! 다 쉬었으면",
+          "빨리 밭의 잡초나 뽑으러 가구먼!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사용자 승인된 미식 오거 이름과 구먼체를 유지해 휴식 종료 후 작업 복귀 명령을 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/291A",
+      "protected_snapshot": {
+        "record_id": 10522,
+        "raw_hex": "1a290c00de05c9835e815b8381838a8362834e00000000008163816382ad82bb82a481418349838c82cd82b182f182c882c682b182eb82c500000091ab93a582dd82b582c482a282e982ed82af82c982cd82a282a982f182cc82be8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 12,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "……くそう、オレはこんなところで",
+            "足踏みしているわけにはいかんのだ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "……젠장, 난 이런 곳에서",
+          "발목 잡힐 수는 없다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "농장 일에 머물 수 없는 터메릭의 비장한 독백 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/291C",
+      "protected_snapshot": {
+        "record_id": 10524,
+        "raw_hex": "1c290a00de05c9835e815b8381838a8362834e00000000008384836382f0937c82b782dc82c582cd8163816381490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 10,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ヤツを倒すまでは……！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "그 녀석을 쓰러뜨리기 전에는……!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "정체를 밝히지 않은 목표를 쓰러뜨리겠다는 터메릭의 복선 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "referent_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/291E",
+      "protected_snapshot": {
+        "record_id": 10526,
+        "raw_hex": "1e290100dd05c9835e815b8381838a8362834e000000000082b382e782ce82be81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "さらばだ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "잘 있어라!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "농장을 떠나는 터메릭의 작별 외침 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2920",
+      "protected_snapshot": {
+        "record_id": 10528,
+        "raw_hex": "202907006f07c9834f838b83818349815b834b000000000082b1814182b182e78149814995a582c182bd8be082cc0000000000000000000000000082d482f182cd93ad82a282c482a282ad82b882e7815b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 1903,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "こ、こら！！払った金の",
+            "ぶんは働いていくずらー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "어, 어이!! 받은 돈만큼은",
+          "일하고 가야지구먼~!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사용자 승인된 미식 오거 이름과 구먼체를 유지해 임금만큼 일하라는 항의를 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

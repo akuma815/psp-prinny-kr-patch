@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_041_prinny_trade",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "b9732a76d4b76e6ce9a7223f0361398ede9b2e20b0928fdb414ca7490ffa21d8",
+  "context": {
+    "scene": "카르다몬과 세사미의 프리니 생포·판매 시도와 칼사슘 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x130AB..0x1367F의 연속 14개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 14/14 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2D50",
+      "protected_snapshot": {
+        "record_id": 11600,
+        "raw_hex": "502d030035ffc88376838a836a815b0000000000000000008dde97bf83518362836782c1835881490000000000000000000000000000000000000082b182ea836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "材料ゲットっス！",
+            "これッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "재료를 찾았슴다!",
+          "이거임다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "새 식재료를 발견하고 내보이는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D52",
+      "protected_snapshot": {
+        "record_id": 11602,
+        "raw_hex": "522d0300b2fbc9834a838b835f838283930000000000000082a882a88141978882bd82c5978882bd82c5814200000000000000000000000000000082c982e782f182be92ca82e882e28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1102,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "おお、来たで来たで。",
+            "にらんだ通りや。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "오, 왔데이 왔데이.",
+          "짐작대로야.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 나타날 것을 예상한 카르다몬의 승인된 방언 적용 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D54",
+      "protected_snapshot": {
+        "record_id": 11604,
+        "raw_hex": "542d0200b2fbc9834a838b835f838283930000000000000082b382c182bb82ad95df82dc82a682e982c5815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -1102,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "さっそく捕まえるでー。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "당장 잡는다~.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 즉시 붙잡으려는 카르다몬의 방언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D56",
+      "protected_snapshot": {
+        "record_id": 11606,
+        "raw_hex": "562d03004efbc8835a8354837e000000000000000000000082b182cc8da082cd8376838a836a815b82cc94e782aa00000000000000000000000000948482ea82e982e782b582a282c88340814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "この頃はプリニーの皮が",
+            "売れるらしいなァ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "요즘은 프리니 가죽이",
+          "잘 팔린다 카더라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 가죽이 팔린다는 소문을 말하는 세사미의 승인된 방언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D58",
+      "protected_snapshot": {
+        "record_id": 11608,
+        "raw_hex": "582d0400b3fbc9834a838b835f838283930000000000000094e78e5a977082cd82a082a982f182c595ea82bf82e182f1814200000000000000000082e082c182c682a282a28fee95f182f095b782a282bd82f182e28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "皮算用はあかんで母ちゃん。",
+            "もっといい情報を聞いたんや。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "가죽부터 세지 마라, 엄마.",
+          "더 좋은 정보를 들었데이.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "皮算用의 가죽과 김칫국 계산 중의성을 실제 프리니 가죽에 맞춰 살린 카르다몬 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D5A",
+      "protected_snapshot": {
+        "record_id": 11610,
+        "raw_hex": "5a2d0400b2fbc9834a838b835f838283930000000000000082b182cc8da082b682e18376838a836a815b82cd00000000000000000000000000000090b682ab82bd82dc82dc8d8282a3948482ea82e982f182e282c68142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1102,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "この頃じゃプリニーは",
+            "生きたまま高ぅ売れるんやと。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "요즘 프리니는",
+          "산 채로 비싸게 팔린다더라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "살아 있는 프리니가 비싸게 거래된다는 카르다몬의 방언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D5C",
+      "protected_snapshot": {
+        "record_id": 11612,
+        "raw_hex": "5c2d04004dfbc8835a8354837e000000000000000000000082c882f182e2814182bb82f182c88f64977682c882b182c6918182e60000000000000082a282a282c8814982b382c182bb82ad95df82dc82a682e982c58149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "なんや、そんな重要なこと早よ",
+            "いいな！さっそく捕まえるで！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "뭐고, 그런 중요한 걸 빨리",
+          "말해야지! 당장 잡는다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "중요한 정보를 늦게 말했다며 바로 생포하려는 세사미의 방언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D5E",
+      "protected_snapshot": {
+        "record_id": 11614,
+        "raw_hex": "5e2d040034ffc88376838a836a815b00000000000000000082a882a88362835881480000000000000000000000000000000000000000000000000082c8814182c882c982e282e7906782cc8aeb8caf82f08ab482b682e9836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "おおッス？",
+            "な、なにやら身の危険を感じるッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "오옷?",
+          "뭔가 신변의 위험이 느껴짐다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신을 팔려는 기척을 느낀 프리니의 승인된 슴다체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D60",
+      "protected_snapshot": {
+        "record_id": 11616,
+        "raw_hex": "602d04004d04c9834a838b835f838283930000000000000082a0815b82a081418382815b834b839382cd82f182c98376838a836a815b82f00000008d8282a3948482c182c48d8b975690b68a8882cc975c92e882aa8340814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "あーあ、モーガンはんにプリニーを",
+            "高ぅ売って豪遊生活の予定がァ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "아~ 모건 씨에게 프리니를",
+          "팔아서 호강하려 했는데.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 모건에게 비싸게 팔아 호화롭게 살려던 카르다몬의 아쉬움 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D62",
+      "protected_snapshot": {
+        "record_id": 11618,
+        "raw_hex": "622d040032ffc88376838a836a815b000000000000000000834783678369976c82c9926d82ea82bd82e795d082c1925b82a982e7000000000000008349838c82bd82bf948482c182cf82e782ed82ea82bb82a483628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様に知れたら片っ端から",
+            "オレたち売っぱらわれそうッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님이 아시면 모조리",
+          "우리를 팔아 버릴 것 같슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나가 알면 프리니들을 모두 팔 것 같다는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D64",
+      "protected_snapshot": {
+        "record_id": 11620,
+        "raw_hex": "642d0400b104c8835a8354837e000000000000000000000082a082ea82dc814182a082f182bd82e782a082cc9682905f82c682b182cc00000000008376838a836a815b82be82c182bd82f182a982a28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "あれま、あんたらあの魔神とこの",
+            "プリニーだったんかい。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "어머, 너희 그 마신네",
+          "프리니였구나.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "주인공들이 에트나의 프리니임을 알아보는 세사미 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D66",
+      "protected_snapshot": {
+        "record_id": 11622,
+        "raw_hex": "662d0300b104c8835a8354837e000000000000000000000082c782a482e882c58141000000000000000000000000000000000000000000000000008daa90ab82a082e982ed82af82e28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "どうりで、",
+            "根性あるわけや。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "어쩐지",
+          "근성이 있더라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 부하라 근성이 있다는 세사미의 납득 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D68",
+      "protected_snapshot": {
+        "record_id": 11624,
+        "raw_hex": "682d03004d04c9834a838b835f83828393000000000000008da193fa82cd94bd8fc889ef82e2814282b182ea82e282e9000000000000000000000082a982e782a8914f82e082cd82e68b4182e881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "今日は反省会や。これやる",
+            "からお前もはよ帰り。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "오늘은 반성회다. 이거 줄 테니",
+          "너도 어서 돌아가라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "실패 후 부부 반성회를 열며 프리니를 돌려보내는 카르다몬 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D6A",
+      "protected_snapshot": {
+        "record_id": 11626,
+        "raw_hex": "6a2d110000000000000000000000000000000000000000008376838a836a815b82cd814195768dc882a982e789f682b582b082c896f200000000008175834a838b8e808345838081760000000000000000000000000000000000000000008163816382f08a9382c982cb82b68d9e82dc82ea82bd81490000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、夫妻から怪しげな薬",
+            "「カル死ウム」",
+            "……を鞄にねじ込まれた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 부부에게 수상한 약",
+          "「칼사슘」을",
+          "……가방에 욱여넣음당했다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "カル死ウム의 칼슘·죽음 말장난을 칼사슘으로 옮기고 강제로 가방에 넣는 상황을 유머체로 구성한 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "wordplay_review_required", "tone_review_required"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_009_job_change",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "127bb643aa77c904803857d896a240d6f59806a2b1f1fb5d964fa8a3b6ca461d",
+  "context": {
+    "scene": "도입부 전직 상담: 프리니가 전직 의사를 떠보자 에트나가 폭력으로 답하는 대화",
+    "evidence": [
+      "demo.nsf logical offsets 0x1F96/0x1FD2/0x2015/0x2042/0x20BE",
+      "BOOT dispatcher block-local stepping: target 5/5 proven"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0D48",
+      "protected_snapshot": {
+        "record_id": 3400,
+        "raw_hex": "480d0200c900c88376838a836a815b00000000000000000082a082cc815b834783678369976c81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あのーエトナ様。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저기, 에트나 님.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "전직 이야기를 꺼내기 전 조심스럽게 에트나를 부르는 발화를 승인 존칭으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0D4A",
+      "protected_snapshot": {
+        "record_id": 3402,
+        "raw_hex": "4a0d01006002c8834783678369000000000000000000000082c882c982e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "なによ。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "왜?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "なによ의 퉁명스러운 반응을 짧은 반말로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0D4C",
+      "protected_snapshot": {
+        "record_id": 3404,
+        "raw_hex": "4c0d0400c900c88376838a836a815b00000000000000000082e082b58163816382e082b58362835882e681410000000000000000000000000000008349838c82bd82bf82aa935d904582b582bd82a282c182c4815c815c814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "もし……もしッスよ、",
+            "オレたちが転職したいって――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "만약…… 만약에 말임다,",
+          "저희가 전직하고 싶다면――.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "말을 더듬으며 프리니들의 전직 의사를 가정형으로 떠보는 긴장과 문체를 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0D4E",
+      "protected_snapshot": {
+        "record_id": 3406,
+        "raw_hex": "4e0d01006002c883478367836900000000000000000000008374838b837b836283528142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "フルボッコ。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "두들겨 팬다.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "フルボッコ를 집단적이고 일방적으로 두들겨 패는 위협으로 풀어 옮긴 초벌. 짧은 유행어 어감은 최종 검토 필요.",
+        "flags": ["draft", "deferred_final_human_review", "expression_approval_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0D50",
+      "protected_snapshot": {
+        "record_id": 3408,
+        "raw_hex": "500d0200ce00c88376838a836a815b0000000000000000008163816382c882f182c582e082c882a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……なんでもないッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……아무것도 아님다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭력적인 답을 듣고 즉시 말을 거두는 프리니의 반응을 누적 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

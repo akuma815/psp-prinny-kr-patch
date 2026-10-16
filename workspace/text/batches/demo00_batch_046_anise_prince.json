@@ -1,0 +1,822 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_046_anise_prince",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "67cc62c70f8f8b1d05f9a3ffff51cc43827cc446338c9d41f0e42858d256bfd6",
+  "context": {
+    "scene": "아니스의 왕자 오인과 악마의 짚인형 사과",
+    "evidence": [
+      "demo.nsf logical offsets 0x15718..0x15F32의 연속 18개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 18/18 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2F12",
+      "protected_snapshot": {
+        "record_id": 12050,
+        "raw_hex": "122f04002603c88341836a8358000000000000000000000082dc82b382a9814982a082bd82b582cc89a48e71976c81498148000000000000000000978882c489ba82b382c182bd82cc82cb814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "まさか！あたしの王子様！？",
+            "来て下さったのね！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "설마! 내 왕자님!?",
+          "와 주셨군요!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 죽은 왕자의 환생으로 오인해 반기는 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F14",
+      "protected_snapshot": {
+        "record_id": 12052,
+        "raw_hex": "142f020032ffc88376838a836a815b00000000000000000082c8814182c882f18362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、なんッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무, 뭐임까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑자기 왕자 취급을 받아 당황하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F16",
+      "protected_snapshot": {
+        "record_id": 12054,
+        "raw_hex": "162f03002603c88341836a8358000000000000000000000082a482d3818f000000000000000000000000000000000000000000000000000000000082c682da82af82c482e096b3816091ca814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "うふ￥",
+            "とぼけても無～駄。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "우훗￥",
+          "시치미 떼도 소~용없어.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 모른 척한다고 믿는 아니스 대사와 원문 ￥ 표기를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F18",
+      "protected_snapshot": {
+        "record_id": 12056,
+        "raw_hex": "182f04002603c88341836a8358000000000000000000000088a482b782e989a48e71976c82cd82bf82e1815b82f182c682a082bd82b582cc00000082b182c68a6f82a682c482a282e982e082cc818f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "愛する王子様はちゃーんとあたしの",
+            "こと覚えているもの￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "사랑하는 왕자님은 당연히 나를",
+          "기억하고 있거든￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사랑하는 왕자라면 자신을 기억한다고 확신하는 아니스 대사와 ￥ 표기 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F1A",
+      "protected_snapshot": {
+        "record_id": 12058,
+        "raw_hex": "1a2f010036ffc88376838a836a815b000000000000000000814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스의 공격 직전 놀라는 프리니의 기호 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F1C",
+      "protected_snapshot": {
+        "record_id": 12060,
+        "raw_hex": "1c2f08002403c88341836a8358000000000000000000000082ad82a782e7814182a882cc82ea89bd82f094f082af82c682e982a9817c814900000082c782c282ab88a482cd8341835e834382e782cc88a482cc8fd882b682e182eb8149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": 804,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "くぉら、おのれ何を避けとるか－！",
+            "どつき愛はアタイらの愛の証じゃろ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "어이, 왜 피하는 거냐―!",
+          "두들겨야 우리 사랑의 증표지!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "どつき愛의 폭력과 사랑 말장난을 두들겨야 사랑의 증표라는 표현으로 현지화한 초벌.",
+        "flags": ["draft", "deferred_review", "wordplay_review_required", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F1E",
+      "protected_snapshot": {
+        "record_id": 12062,
+        "raw_hex": "1e2f07002503c88341836a8358000000000000000000000082a282b382ac82e682ad82b182cc88a4814100000000000000000000000000000000008ef382af8e7e82df82f182a982a282c1814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 805,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "いさぎよくこの愛、",
+            "受け止めんかいっ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "이 사랑을 깨끗이",
+          "받아 내라!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "공격을 사랑이라 부르며 순순히 받아 내라는 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F20",
+      "protected_snapshot": {
+        "record_id": 12064,
+        "raw_hex": "202f03002203c88341836a8358000000000000000000000082a682a682c1814182a082c882bd82a082bd82b582cc0000000000000000000000000089a48e71976c82b682e182c882a282cc814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 802,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "ええっ、あなたあたしの",
+            "王子様じゃないの？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "어? 당신 내",
+          "왕자님 아니야?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "싸움 뒤 상대가 자기 왕자가 아닌지 처음 의심하는 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F22",
+      "protected_snapshot": {
+        "record_id": 12066,
+        "raw_hex": "222f03002103c88341836a8358000000000000000000000082b682e1829f8376838a836a815b82d6935d90b682b782e90000000000000000000000914f82cc8e648e9682cd814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "じゃぁプリニーへ転生する",
+            "前の仕事は？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "그럼 프리니로 환생하기",
+          "전 직업은?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니로 환생하기 전 직업을 물어 동일 인물인지 확인하는 아니스 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F24",
+      "protected_snapshot": {
+        "record_id": 12068,
+        "raw_hex": "242f020037ffc88376838a836a815b00000000000000000082b582aa82c882a288ab91e38aaf83628358815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "しがない悪代官ッスー。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "보잘것없는 탐관오리였슴다~.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "しがない悪代官을 보잘것없는 탐관오리로 문화 현지화한 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F26",
+      "protected_snapshot": {
+        "record_id": 12070,
+        "raw_hex": "262f01002103c88341836a83580000000000000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "왕자의 전생과 다르다는 답을 듣고 굳는 아니스의 침묵 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F28",
+      "protected_snapshot": {
+        "record_id": 12072,
+        "raw_hex": "282f03002603c88341836a835800000000000000000000008aa888e182a282b582bf82e182c182bd82dd82bd82a28142000000000000000000000082c482d6818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "勘違いしちゃったみたい。",
+            "てへ￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "착각했나 봐.",
+          "데헷￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "오인을 가볍게 인정하는 아니스 대사와 원문 ￥ 표기를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F2A",
+      "protected_snapshot": {
+        "record_id": 12074,
+        "raw_hex": "2a2f040032ffc88376838a836a815b0000000000000000008f5082a282a982a982c182c4978882c4817582c482d6818f817682c58dcf82de00000096828a4582c182c48ea997528362835882cb815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "襲いかかって来て「てへ￥」で済む",
+            "魔界って自由ッスねー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "덤벼들고선 「데헷￥」으로 끝나는",
+          "마계는 참 자유롭슴다~.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "공격 뒤 데헷 한마디로 끝내는 마계의 자유분방함을 빈정대고 ￥ 표기를 보존한 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F2C",
+      "protected_snapshot": {
+        "record_id": 12076,
+        "raw_hex": "2c2f03002603c88341836a8358000000000000000000000082e082a4814182b182ea82a082b082e982a982e70000000000000000000000000000008b9682b582c482e6818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "もう、これあげるから",
+            "許してよ￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "자, 이거 줄 테니",
+          "용서해 줘￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사과의 뜻으로 물건을 건네는 아니스 대사와 원문 ￥ 표기를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F2E",
+      "protected_snapshot": {
+        "record_id": 12078,
+        "raw_hex": "2e2f110000000000000000000000000000000000000000008376838a836a815b82cd814182a882ed82d182c98341836a835882a982e70000000000817588ab968282cc838f8389906c8c60817600000000000000000000000000000000008163816382f082e082e782c182bd814900000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、おわびにアニスから",
+            "「悪魔のワラ人形」",
+            "……をもらった！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 사과의 뜻으로 아니스에게",
+          "「악마의 짚인형」을",
+          "……받았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "悪魔のワラ人形을 악마의 짚인형으로 옮긴 사과 아이템 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F30",
+      "protected_snapshot": {
+        "record_id": 12080,
+        "raw_hex": "302f03002203c88341836a8358000000000000000000000082a082bd82b5814194de82c696f191a982b582bd82cc82c9000000000000000000000094de8e8082f182b682e182c182c48163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 802,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "あたし、彼と約束したのに",
+            "彼死んじゃって……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "난 그와 약속했는데",
+          "그가 죽어 버려서…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "왕자와 약속했지만 그가 죽었다는 아니스의 사정 설명 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F32",
+      "protected_snapshot": {
+        "record_id": 12082,
+        "raw_hex": "322f04002203c88341836a8358000000000000000000000082bb82ea82c98dc58bdf8376838a836a815b82f08ca982a982af82c882ad000000000082c882c182bd82a982e79053947a82c5816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 802,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "それに最近プリニーを見かけなく",
+            "なったから心配で……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "게다가 요즘 프리니가",
+          "안 보여서 걱정돼…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "왕자가 환생했을 프리니가 요즘 보이지 않아 걱정했다는 아니스 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F34",
+      "protected_snapshot": {
+        "record_id": 12084,
+        "raw_hex": "342f030037ffc88376838a836a815b0000000000000000008349838c82bd82bf82c882e7917c82a282c48ecc82c482e9000000000000000000000082d982c782a282e982cd82b88362835882af82c78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレたちなら掃いて捨てる",
+            "ほどいるはずッスけど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우리라면 널리고 널렸을",
+          "텐데 말임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니는 쓸어 버릴 만큼 많아야 한다고 반박하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

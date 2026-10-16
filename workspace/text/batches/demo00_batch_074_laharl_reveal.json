@@ -1,0 +1,1404 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_074_laharl_reveal",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "c08fd574cf883e9675a15442a7fe3b2173894ca9f611a9d0cb51daa0c1156a0a",
+  "context": {
+    "scene": "프리니 라하르의 정체와 에트나의 회수",
+    "evidence": [
+      "BOOT 디스패처 정적 참조 29/29, 선택 블록 감사 포함"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/5208",
+      "protected_snapshot": {
+        "record_id": 21000,
+        "raw_hex": "085210000000c88148814881488148000000000000000000836e834081608362836e8362836e8362836e8362836e8362814981490000000000000082c782a482be814182dc82bd838c8378838b83418362837682b582bd82bc81498149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 16,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "ハァ～ッハッハッハッハッ！！",
+            "どうだ、またレベルアップしたぞ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "하~하하하하!!",
+          "어떠냐, 또 레벨 업했다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체불명의 인물이 자신의 레벨 상승을 과시하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/520A",
+      "protected_snapshot": {
+        "record_id": 21002,
+        "raw_hex": "0a52040033ffc88376838a836a815b00000000000000000082b1814182b182cc90ba82cd82dc82b382a982b182b182cc837b83588149814800000082e282c182cf82e8978882e982f182b682e182c882a982c182bd83628358815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "こ、この声はまさかここのボス！？",
+            "やっぱり来るんじゃなかったッスー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이, 이 목소린 설마 여기 보스!?",
+          "역시 오지 말 걸 그랬슴다-!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "목소리를 보스로 오인하고 겁먹는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/520C",
+      "protected_snapshot": {
+        "record_id": 21004,
+        "raw_hex": "0c5210000000c881488148814881480000000000000000008376838a836a815b82c982c882c182c482e08349838c976c82cc8bad82b382cd0000008c928ddd82cc82e682a482be82c88149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 16,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "プリニーになってもオレ様の強さは",
+            "健在のようだな！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "프리니가 돼도 이 몸의 강함은",
+          "여전한 모양이군!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 된 뒤에도 강함을 과시하는 정체불명의 인물.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/520E",
+      "protected_snapshot": {
+        "record_id": 21006,
+        "raw_hex": "0e5210000000c88148814881488148000000000000000000836e834081608362836e8362836e8362836e8362836e8362814981498149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 16,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "ハァ～ッハッハッハッハッ！！！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "하~하하하하하하!!!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체불명의 인물이 터뜨리는 큰 웃음.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5210",
+      "protected_snapshot": {
+        "record_id": 21008,
+        "raw_hex": "1052030032ffc88376838a836a815b000000000000000000816382c8815b82f182a995b782ab8a6f82a682cc82a082e900000000000000000000008d828fce82a28362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "…なーんか聞き覚えのある",
+            "高笑いッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……어디선가 들어 본",
+          "웃음소리임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "익숙한 웃음소리를 떠올리는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5212",
+      "protected_snapshot": {
+        "record_id": 21010,
+        "raw_hex": "1252030032ffc88376838a836a815b00000000000000000082bb82cc90478a6f82cd814100000000000000000000000000000000000000000000008df093fa8f6f82c482c182bd905693fc82e881638163814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "その触覚は、",
+            "昨日出てった新入り……！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그 더듬이는",
+          "어제 나간 신입……!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "더듬이로 어제 떠난 신입을 알아보는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5214",
+      "protected_snapshot": {
+        "record_id": 21012,
+        "raw_hex": "14520a0030ffc88376838a836a815b000000000000000000837281418372837282c182c491b982b582bd836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 10,
+          "reserved_3": 0,
+          "face_asset_signed": -208,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ビ、ビビって損したッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "괜히 겁먹었슴다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "상대가 신입임을 알고 긴장을 푸는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5216",
+      "protected_snapshot": {
+        "record_id": 21014,
+        "raw_hex": "16520200f501c88389836e815b838b0000000000000000008163816382de82c181418376838a836a815b82a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 501,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "……むっ、プリニーか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "……응? 프리니인가?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ラハール를 라하르로 옮긴 첫 화자명.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5218",
+      "protected_snapshot": {
+        "record_id": 21016,
+        "raw_hex": "18520400f501c88389836e815b838b00000000000000000082a882a982b582a282c881418384836382e782aa8d4482ab8d4482f182c5000000000082b182f182c88f8a82dc82c5978882e982cd82b882aa816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 501,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "おかしいな、ヤツらが好き好んで",
+            "こんな所まで来るはずが……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "이상하군, 녀석들이 좋아서",
+          "여기까지 올 리가…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "라하르 화자명을 유지한 독백.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/521A",
+      "protected_snapshot": {
+        "record_id": 21018,
+        "raw_hex": "1a520400f801c88389836e815b838b000000000000000000836e8362814182b382c482cd82a8914f83478367836982cc8e688b7182a981498148008349838c976c82f0984182ea96df82b582c9978882bd82cc82be82c8814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 504,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "ハッ、さてはお前エトナの刺客か！？",
+            "オレ様を連れ戻しに来たのだな！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "흥, 너 에트나의 자객이구나!?",
+          "이 몸을 끌고 가려는 거지!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "라하르가 프리니를 에트나의 자객으로 오인하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/521C",
+      "protected_snapshot": {
+        "record_id": 21020,
+        "raw_hex": "1c52020032ffc88376838a836a815b00000000000000000082c8814182c882f182cc82b182c68362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、なんのことッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무, 무슨 소림까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자객이라는 오해를 이해하지 못하는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/521E",
+      "protected_snapshot": {
+        "record_id": 21022,
+        "raw_hex": "1e520300f501c88389836e815b838b00000000000000000082c682da82af82e982c88149000000000000000000000000000000000000000000000082bb82a482cd82b382b982f182bc8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 501,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "とぼけるな！",
+            "そうはさせんぞ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "시치미 떼지 마라!",
+          "뜻대로는 안 된다!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "오해한 채 공격 의사를 드러내는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5220",
+      "protected_snapshot": {
+        "record_id": 21024,
+        "raw_hex": "20520400f801c88389836e815b838b000000000000000000834981418349838c976c82aa8376838a836a815b82b282c682ab82c900000000000000927882ea82f08ee682e982be82c68163816381480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 504,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "オ、オレ様がプリニーごときに",
+            "遅れを取るだと……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "이, 이 몸이 프리니 따위에게",
+          "당했다고……?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니에게 패한 사실을 믿지 못하는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5222",
+      "protected_snapshot": {
+        "record_id": 21026,
+        "raw_hex": "2252040037ffc88376838a836a815b00000000000000000082a282e2814182a082f182bd82e093af82b68376838a836a815b82c1835881420000008ea995aa82aa93c195ca82c68e7682a282bd82a282a8944e8da08362835882a98142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、あんたも同じプリニーっス。",
+            "自分が特別と思いたいお年頃ッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아니, 당신도 같은 프리니임다.",
+          "자기가 특별해 보이고픈 나이임까.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "라하르 역시 프리니임을 지적하며 놀리는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5224",
+      "protected_snapshot": {
+        "record_id": 21028,
+        "raw_hex": "24520400f501c88389836e815b838b0000000000000000008163816382c882f182be82a8914f81418349838c976c82f0984182ea96df82b582c900978882bd82cc82c582cd82c882a982c182bd82cc82a9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 501,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "……なんだお前、オレ様を連れ戻しに",
+            "来たのではなかったのか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "……뭐냐, 넌 이 몸을 끌고",
+          "가러 온 게 아니었나.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "자신을 데리러 온 것이 아님을 확인하는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5226",
+      "protected_snapshot": {
+        "record_id": 21030,
+        "raw_hex": "2652030037ffc88376838a836a815b00000000000000000096e2939a96b3977082c58f5082a282a982a982e782ea82c4000000000000000000000089e482aa906782f08ee782c182bd82be82af83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "問答無用で襲いかかられて",
+            "我が身を守っただけッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "문답 무용으로 덤벼들길래",
+          "내 몸을 지켰을 뿐임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "기습에 맞서 정당방위했음을 설명하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5228",
+      "protected_snapshot": {
+        "record_id": 21032,
+        "raw_hex": "28520400f501c88389836e815b838b00000000000000000082ad82bb815b8141969e95a082c882e78349838c976c82cd958982af82f182cc82c9008376838a839388ea82c282c582cd9153915291ab82e882f182bc8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 501,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "くそー、満腹ならオレ様は負けんのに",
+            "プリン一つでは全然足りんぞ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "젠장, 배만 부르면 안 지는데",
+          "푸딩 하나론 턱없이 부족해!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "배고픔을 패배 원인으로 돌리는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/522A",
+      "protected_snapshot": {
+        "record_id": 21034,
+        "raw_hex": "2a52040032ffc88376838a836a815b00000000000000000082e082b582a982b582c48141834783678369976c82cc83588343815b836382f0000000939082f182be82cc82cd816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "もしかして、エトナ様のスイーツを",
+            "盗んだのは……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "혹시 에트나 님의 디저트를",
+          "훔친 건…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트 도난범이 라하르인지 추궁하려는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/522C",
+      "protected_snapshot": {
+        "record_id": 21036,
+        "raw_hex": "2c520400f701c88389836e815b838b0000000000000000008349838c976c82cd814196a295a582a282cc8b8b97bf82f0000000000000000000000082d982f182cc88ea959482a282bd82be82a282bd82be82af82be8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 503,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "オレ様は、未払いの給料を",
+            "ほんの一部いただいただけだ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "이 몸은 밀린 월급의",
+          "일부를 받았을 뿐이다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "절도를 미지급 급여 회수라고 주장하는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/522E",
+      "protected_snapshot": {
+        "record_id": 21038,
+        "raw_hex": "2e520400f501c88389836e815b838b00000000000000000082be82a282bd82a282a082a282c282cd8376838a836a815b82cc91d28bf682aa00000088ab82b782ac82e982bc814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 501,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "だいたいあいつはプリニーの待遇が",
+            "悪すぎるぞ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "애초에 그 녀석은 프리니 대우가",
+          "너무 나쁘다고!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "에트나의 프리니 처우를 비판하는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5230",
+      "protected_snapshot": {
+        "record_id": 21040,
+        "raw_hex": "30520300f501c88389836e815b838b00000000000000000082a282c182bd82a20000000000000000000000000000000000000000000000000000008da182dc82c582c782a482a282a4815c815c81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 501,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "いったい",
+            "今までどういう――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "대체 지금까지",
+          "어떻게…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "에트나의 처우 문제를 더 말하려다 끊기는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5232",
+      "protected_snapshot": {
+        "record_id": 21042,
+        "raw_hex": "32520f000000c8814881488148814800000000000000000082b182f182c88f8a82c589bd82f0975682f182c500000000000000000000000000000082a282e982f182c582b782a981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 15,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "こんな所で何を遊んで",
+            "いるんですか！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "이런 데서 뭘 하고",
+          "노는 겁니까!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나가 모습을 드러내기 직전 꾸짖는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5234",
+      "protected_snapshot": {
+        "record_id": 21044,
+        "raw_hex": "345204005c02c8834783678369000000000000000000000082f182e082a4814182b182ab8e6782a482cc82cd918182ad935d90b682aa000000000082c582ab82e982e682a482c982b782e982bd82df82c582b782e6818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "んもう、こき使うのは早く転生が",
+            "できるようにするためですよ￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "정말, 부려 먹는 건 빨리",
+          "환생하게 해 주려는 거랍니다￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "원문 말끝 제어 문자 ￥를 보존한 에트나의 해명.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "control_token_preserved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5236",
+      "protected_snapshot": {
+        "record_id": 21046,
+        "raw_hex": "36520400a4fdc883478367836900000000000000000000008b4182c182bd82e782b382c182bb82ad82a082bd82b582cc00000000000000000000008ca882e082f182c582e082e782a282dc82b782a982e782cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "帰ったらさっそくあたしの",
+            "肩もんでもらいますからね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "돌아가면 당장 내",
+          "어깨를 주물러 줘야겠어요.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "돌아간 뒤 라하르에게 안마를 시키려는 에트나.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5238",
+      "protected_snapshot": {
+        "record_id": 21048,
+        "raw_hex": "38520400a4fdc8834783678369000000000000000000000091de8bfc82b582cc82ac82c9000000000000000000000000000000000000000000000088ea94ad8c7c82c882f182c482cc82e082c782a482c582b782a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "退屈しのぎに",
+            "一発芸なんてのもどうですか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "심심풀이로",
+          "개인기 하나는 어때요?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "심심풀이 개인기를 제안하는 에트나.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/523A",
+      "protected_snapshot": {
+        "record_id": 21050,
+        "raw_hex": "3a520300f601c88389836e815b838b00000000000000000082ad82c182bb82a48149935d90b682b582bd82e70000000000000000000000000000008a6f82a682c482eb82a782a782c18163816381498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 502,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラハール",
+          "lines": [
+            "くっそう！転生したら",
+            "覚えてろぉぉっ……！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라하르",
+        "lines": [
+          "젠장! 환생하면",
+          "두고 봐아아……!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "환생 뒤 복수하겠다고 외치는 라하르.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/523C",
+      "protected_snapshot": {
+        "record_id": 21052,
+        "raw_hex": "3c52030032ffc88376838a836a815b000000000000000000816381638da189f182cc8dd093ef82cd000000000000000000000000000000000000008384836382cc82b982a28362835882a9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……今回の災難は",
+            "ヤツのせいッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……이번 재난은",
+          "저 녀석 때문임까.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "이번 소동의 원인이 라하르였음을 깨닫는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/523E",
+      "protected_snapshot": {
+        "record_id": 21054,
+        "raw_hex": "3e52040037ffc88376838a836a815b00000000000000000082af82c782a082cc836f834a82c182db82a28d828fce82a282cd00000000000000000082c782b182a982c58163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "けどあのバカっぽい高笑いは",
+            "どこかで……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "하지만 저 바보 같은 웃음소린",
+          "어디선가…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "라하르의 웃음소리에 익숙함을 느끼는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/5240",
+      "protected_snapshot": {
+        "record_id": 21056,
+        "raw_hex": "4052030037ffc88376838a836a815b00000000000000000082dc82a082c782a482c582e0000000000000000000000000000000000000000000000082a282a28362835882cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "まあどうでも",
+            "いいッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 아무래도",
+          "상관없슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체에 대한 의문을 흘려보내는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    }
+  ]
+}

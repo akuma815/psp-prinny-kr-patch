@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_028_natsu_meg",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "df257c8daa47d52a7e09b19be8a039b400d9452d681bbca02c2fb9bd46ae0dbc",
+  "context": {
+    "scene": "나츠와 메그 쌍둥이의 검은 고양이 수색과 여학생의 리코더 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0xD13E..0xD6B0의 연속 11개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 11/11 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2936",
+      "protected_snapshot": {
+        "record_id": 10550,
+        "raw_hex": "362904008503c8836983630000000000000000000000000082cb82a681418d95944c926d82e782c882a282a982c88148000000000000000000000082b782b282ad90b688d38b4382c8944c82c882f182be82af82c78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 901,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "ねえ、黒猫知らないかな？",
+            "すごく生意気な猫なんだけど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "있잖아, 검은 고양이 못 봤어?",
+          "엄청 건방진 고양이인데.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 전 용어 결정의 나츠 표기를 재사용해 건방진 검은 고양이를 찾는 질문을 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2938",
+      "protected_snapshot": {
+        "record_id": 10552,
+        "raw_hex": "3829020037ffc88376838a836a815b0000000000000000008d95944c8148926d82e782c882a283628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "黒猫？知らないッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "검은 고양이? 모름다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "검은 고양이를 모른다는 프리니의 짧은 답변 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/293A",
+      "protected_snapshot": {
+        "record_id": 10554,
+        "raw_hex": "3a29020015fcc88381834f0000000000000000000000000096b3945c816381638e478b9b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -1003,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "無能……雑魚。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "무능…… 잡졸.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "メグ를 메그로 음역하고 짧게 끊는 냉담한 모욕을 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/293C",
+      "protected_snapshot": {
+        "record_id": 10556,
+        "raw_hex": "3c29020036ffc88376838a836a815b00000000000000000082a8814193af82b688ab968282aa814193f1906c81480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "お、同じ悪魔が、二人？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "가, 같은 악마가 둘?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "쌍둥이 악마를 보고 놀라는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/293E",
+      "protected_snapshot": {
+        "record_id": 10558,
+        "raw_hex": "3e29030033ffc88376838a836a815b00000000000000000082b5814182b582a982e089bd8ccc82a98af982c90000000000000000000000000000008343838982c282a282c482e983628358814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "し、しかも何故か既に",
+            "イラついてるッス！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "게, 게다가 왜 벌써부터",
+          "짜증 내고 있슴까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "이미 화난 쌍둥이의 태도에 당황하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2940",
+      "protected_snapshot": {
+        "record_id": 10560,
+        "raw_hex": "402903008803c8836983630000000000000000000000000096f097a782bd82b882cc8376838a836a815b82c882f182c4000000000000000000000082a282e782c882a282e682cb81418381834f81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 904,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "役立たずのプリニーなんて",
+            "いらないよね、メグ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "쓸모없는 프리니 따윈",
+          "필요 없지, 메그?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "나츠가 쌍둥이 메그에게 동의를 구하며 프리니를 배제하는 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2942",
+      "protected_snapshot": {
+        "record_id": 10562,
+        "raw_hex": "4229020017fcc88381834f0000000000000000000000000090ed93ac816381638a4a8e6e814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -1001,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "戦闘……開始！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "전투…… 개시!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "메그의 기계적이고 단속적인 전투 개시 선언 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2944",
+      "protected_snapshot": {
+        "record_id": 10564,
+        "raw_hex": "442902008503c8836983630000000000000000000000000082a082c181498d95944c82be82e681490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 901,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "あっ！黒猫だよ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "앗! 검은 고양이다!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "싸움 도중 검은 고양이를 발견한 나츠의 외침 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2946",
+      "protected_snapshot": {
+        "record_id": 10566,
+        "raw_hex": "46290200e903c88381834f00000000000000000000000000917c93a2816381638a4a8e6e814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1001,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "掃討……開始！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "소탕…… 개시!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "메그의 기계적인 검은 고양이 소탕 선언 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2948",
+      "protected_snapshot": {
+        "record_id": 10568,
+        "raw_hex": "4829020032ffc88376838a836a815b00000000000000000082cd815b81418f9582a982c182bd83628358816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "はー、助かったッス……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "하아, 살았슴다…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "쌍둥이가 고양이를 쫓아가 위기를 넘긴 프리니의 안도 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/294A",
+      "protected_snapshot": {
+        "record_id": 10570,
+        "raw_hex": "4a29110000000000000000000000000000000000000000008376838a836a815b82cd8141916f8e7182aa978e82c682b582c482a282c182bd00000081758f978e7182cc82bd82c4934a8176000000000000000000000000000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、双子が落としていった",
+            "「女子のたて笛」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 쌍둥이가 떨어뜨린",
+          "「여학생의 리코더」",
+          "……를 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "女子のたて笛를 여학생의 리코더로 옮긴 재료 획득 초벌. 대상 연령과 선정적 농담의 수위는 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "tone_review_required"]
+      }
+    }
+  ]
+}

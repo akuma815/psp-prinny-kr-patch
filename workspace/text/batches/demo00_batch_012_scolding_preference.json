@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_012_scolding_preference",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "9b08f42f308ed5937fddccba0860153fa97e43ae89162e829560856e46cdcce1",
+  "context": {
+    "scene": "도입부 디저트 명령 확인과 욕설 취향 오해",
+    "evidence": [
+      "demo.nsf logical offsets 0x291E/0x2981/0x29C7/0x2A0A/0x2A6D/0x2ACF/0x2B25/0x2B85",
+      "BOOT dispatcher block-local stepping: target 8/8 proven"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0DDE",
+      "protected_snapshot": {
+        "record_id": 3550,
+        "raw_hex": "de0d0400a2fdc8834783678369000000000000000000000083418393835e82bd82bf814182a082bd82b582cc83588343815b836382cc82b182c600965982ea82c482c882a2814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "アンタたち、あたしのスイーツのこと",
+            "忘れてない？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "너희, 내 디저트 일은",
+          "잊은 거 아니지?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트 재료 수집 명령을 잊지 않았는지 확인하는 에트나의 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DE0",
+      "protected_snapshot": {
+        "record_id": 3552,
+        "raw_hex": "e00d0400ca00c88376838a836a815b00000000000000000082df814182df82c182bb82a482e082c882a283628358814900000000000000000000008dde97bf82e08f8792b282c98f5782dc82c182c482e9836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "め、めっそうもないッス！",
+            "材料も順調に集まってるッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "다, 당치도 않슴다!",
+          "재료도 순조롭게 모이고 있슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "명령을 잊지 않았고 재료 수집도 순조롭다는 다급한 보고를 프리니 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DE2",
+      "protected_snapshot": {
+        "record_id": 3554,
+        "raw_hex": "e20d0400a0fdc8834783678369000000000000000000000082bb82ea82c882e782a282a282f182be82af82c781638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "それならいいんだけど……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그렇다면 됐지만…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "보고를 일단 받아들이면서도 의심을 남기는 에트나의 반응을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DE4",
+      "protected_snapshot": {
+        "record_id": 3556,
+        "raw_hex": "e40d0400a3fdc8834783678369000000000000000000000096bd97df965982ea82c48f9782cc8e7182c682b582af82b182f182be82e882b582c40082c882a282a982c882c182c48e7682c182c482b38142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -605,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "命令忘れて女の子としけこんだりして",
+            "ないかなって思ってさ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "명령을 잊고 여자애랑 놀아나진",
+          "않나 싶어서 말이야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "しけこむ의 남녀가 외진 곳에 틀어박힌다는 성적 뉘앙스를 짧은 슬롯에서 '놀아나다'로 완화한 초벌. 수위와 의미 선택을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "meaning_review_required", "expression_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DE6",
+      "protected_snapshot": {
+        "record_id": 3558,
+        "raw_hex": "e60d0300c900c88376838a836a815b00000000000000000082a282e28141000000000000000000000000000000000000000000000000000000000082cc82cc82b582e782ea82c482e98362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、",
+            "ののしられてるッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아뇨,",
+          "욕먹고 있슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "여자애와 놀아나는 것이 아니라 모욕당하고 있다는 정정을 프리니 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DE8",
+      "protected_snapshot": {
+        "record_id": 3560,
+        "raw_hex": "e80d0300a6fdc8834783678369000000000000000000000082a082e783418393835e82bd82bf00000000000000000000000000000000000000000082bb82a482a282a482cc82aa8d4482ab82c882cc8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "あらアンタたち",
+            "そういうのが好きなの？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "어머, 너희",
+          "그런 걸 좋아해?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "욕먹는 취향으로 오해하고 짓궂게 묻는 에트나의 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DEA",
+      "protected_snapshot": {
+        "record_id": 3562,
+        "raw_hex": "ea0d0300a4fdc8834783678369000000000000000000000082be82c182bd82e78341835e835682aa0000000000000000000000000000000000000082b582c482e282e982cc82c9815b818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "だったらアタシが",
+            "してやるのにー￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그렇다면 내가",
+          "해 줄 텐데~￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "원문의 이어지는 농담과 문장 말미 제어 후보인 전각 ￥를 보존한 누적 초벌. 최종 조판 때 기호 소비를 확인한다.",
+        "flags": ["draft", "deferred_review", "control_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0DEC",
+      "protected_snapshot": {
+        "record_id": 3564,
+        "raw_hex": "ec0d0200ce00c88376838a836a815b00000000000000000082bb82ea82cd82a895a082a282c182cf82a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "それはお腹いっぱいッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그건 이미 질렸슴다.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "お腹いっぱい를 문자 그대로가 아니라 '이미 충분히 겪어 사양한다'는 관용 의미의 '질렸다'로 옮긴 초벌. 어감은 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "idiom_review_required"]
+      }
+    }
+  ]
+}

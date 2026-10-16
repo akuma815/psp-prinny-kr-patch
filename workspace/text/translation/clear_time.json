@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "asset": "start.dat/ClearTime00.dat",
+  "source": {
+    "size": 5104,
+    "sha256": "0cbd7dcc67e49ee72a7a22248d1e53a2ccc2ec85c70dcd3c045576a4d770526e",
+    "record_count": 53,
+    "record_size": 96,
+    "text_offset": 32,
+    "text_size": 64,
+    "prefix": "【魔界的難易度格付け】"
+  },
+  "translation": {
+    "prefix": "【마계 공식 난이도】",
+    "star_suffix_policy": "preserve",
+    "suffixes": {
+      "測定不能": "측정 불가"
+    }
+  }
+}

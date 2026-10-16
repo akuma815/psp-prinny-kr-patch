@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_060_gourmet_ogre_appetite",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "047f4ba2a79a177ecea07f87eff07da50d6598c26de4f0bcb9b5e0738f3014e5",
+  "context": {
+    "scene": "궁극의 디저트를 노리는 미식 오거의 식탐",
+    "evidence": [
+      "demo.nsf logical offsets 0x1DDB5..0x1DE48의 목표 호출 3/3; BOOT dispatcher 선택 블록 포함 통합 감사 6/6 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/3390",
+      "protected_snapshot": {
+        "record_id": 13200,
+        "raw_hex": "903303007007c9834f838b83818349815b834b00000000008b868bc982cc83588343815b836382c682e282e782f00000000000000000000000000082a882c582c9904882ed82b982e982c7815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "究極のスイーツとやらを",
+            "おでに食わせるどー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "궁극의 디저트란 걸",
+          "내가 먹어 주겠구먼!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 자신에게 먹이라고 외치는 미식 오거의 구먼체 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3392",
+      "protected_snapshot": {
+        "record_id": 13202,
+        "raw_hex": "923307007307c9834f838b83818349815b834b000000000089bd82aa89bd82c582e082a882c582aa00000000000000000000000000000000000000904882a482f182be82c7815b81498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 1907,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "何が何でもおでが",
+            "食うんだどー！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "무슨 일이 있어도 내가",
+          "먹을 거구먼!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "어떤 일이 있어도 자신이 먹겠다는 미식 오거의 집착을 구먼체로 옮김.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3394",
+      "protected_snapshot": {
+        "record_id": 13204,
+        "raw_hex": "9433030032ffc88376838a836a815b00000000000000000082b782b282a20000000000000000000000000000000000000000000000000000000000904882a288d3926e8362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "すごい",
+            "食い意地ッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "엄청난",
+          "식탐임다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "미식 오거의 강한 식탐에 질린 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

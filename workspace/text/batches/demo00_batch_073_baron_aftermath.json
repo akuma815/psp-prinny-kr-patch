@@ -1,0 +1,688 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_073_baron_aftermath",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "c08fd574cf883e9675a15442a7fe3b2173894ca9f611a9d0cb51daa0c1156a0a",
+  "context": {
+    "scene": "G 디저트 기계 파괴와 임무 성공",
+    "evidence": [
+      "BOOT 디스패처 정적 참조 14/14, 선택 블록 감사 포함"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/3650",
+      "protected_snapshot": {
+        "record_id": 13904,
+        "raw_hex": "50360400d107c983588343815b8363926a8edd000000000082a082a082c18141936090e082cc826683588343815b836382cd00000000000000000082cd82a982c882a296b282c68fc182a682e982cc82cb816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "ああっ、伝説のＧスイーツは",
+            "はかない夢と消えるのね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "아아, 전설의 G 디저트가",
+          "덧없는 꿈으로 사라지는구나…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "전설의 G 디저트가 무산되는 상황.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3652",
+      "protected_snapshot": {
+        "record_id": 13906,
+        "raw_hex": "5236030034ffc88376838a836a815b00000000000000000082ab81418b408a4282aa000000000000000000000000000000000000000000000000008e7e82dc82f182c882a2836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "き、機械が",
+            "止まんないッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "기, 기계가",
+          "멈추질 않슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "가동한 기계가 멈추지 않는다는 경고.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3654",
+      "protected_snapshot": {
+        "record_id": 13908,
+        "raw_hex": "54360400d307c983588343815b8363926a8edd000000000096b391ca82e68142835e8393834e82f089f382b782c982cd00000000000000000000009682905f8b8982cc97cd82aa954b977682c882f182be82a982e78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2003,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "無駄よ。タンクを壊すには",
+            "魔神級の力が必要なんだから。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "소용없어. 탱크를 부수려면",
+          "마신급 힘이 필요하거든.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "탱크의 내구도를 설명하는 스위츠 남작.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3656",
+      "protected_snapshot": {
+        "record_id": 13910,
+        "raw_hex": "5636020033ffc88376838a836a815b000000000000000000815c815c9682905f8b898149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "――魔神級！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……마신급!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "마신급이라는 조건에 놀라는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3658",
+      "protected_snapshot": {
+        "record_id": 13912,
+        "raw_hex": "5836020099ffc88376838a836a815b00000000000000000082b1814189f382ea82bd83628358815b8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "こ、壊れたッスー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "부, 부서졌슴다-!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "예상과 달리 탱크가 파괴된 순간의 외침.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/365A",
+      "protected_snapshot": {
+        "record_id": 13914,
+        "raw_hex": "5a360200d107c983588343815b8363926a8edd00000000008163816382c882f182c68149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "……なんと！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "……이럴 수가!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "탱크 파괴를 믿지 못하는 반응.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/365C",
+      "protected_snapshot": {
+        "record_id": 13916,
+        "raw_hex": "5c3603006700c98376838a836a815b91e00000000000000082e281638163814182e282c182bd836283588149000000000000000000000000000000837e836283568387839390ac8cf78362835882e6815b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "や……、やったッス！",
+            "ミッション成功ッスよー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "해…… 해냈슴다!",
+          "미션 성공임다-!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "탱크 파괴와 임무 성공을 기뻐하는 프리니 부대.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/365E",
+      "protected_snapshot": {
+        "record_id": 13918,
+        "raw_hex": "5e36040099ffc98376838a836a815b91e0000000000000008349838c82bd82bf82e082e282ea82ce82c582ab82e98362835882cb81490000000000924e8362835882a9814196b3979d82c182c48cbe82c182bd82cc82cd814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "オレたちもやればできるッスね！",
+            "誰ッスか、無理って言ったのは！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "우리도 하면 되는군요!",
+          "누가 무리라고 했슴까!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "성공에 들뜬 프리니 부대의 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3660",
+      "protected_snapshot": {
+        "record_id": 13920,
+        "raw_hex": "603603009bffc98376838a836a815b91e0000000000000008163816382c582e081418349838c82bd82bf82cd0000000000000000000000000000008250954382b682e182c882a982c182bd836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "……でも、オレたちは",
+            "１匹じゃなかったッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "……하지만 우린",
+          "한 마리가 아니었슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "희생된 동료들을 떠올리는 전환 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3662",
+      "protected_snapshot": {
+        "record_id": 13922,
+        "raw_hex": "623603009bffc98376838a836a815b91e00000000000000082dd82f182c882cc97cd82c500000000000000000000000000000000000000000000008349838c82bd82bf82cd82b182b182dc82c581638163000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "みんなの力で",
+            "オレたちはここまで……",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "모두의 힘으로",
+          "우린 여기까지…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "동료들의 힘으로 도달했음을 기리는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3664",
+      "protected_snapshot": {
+        "record_id": 13924,
+        "raw_hex": "643604006700c88376838a836a815b0000000000000000008db082cd8a4a95fa82b382ea82bd8362835882a982e7814182dc82bd8141000000000082c782b182a982c58376838a836a815b82c9935d90b682b782e98362835882cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "魂は開放されたッスから、また、",
+            "どこかでプリニーに転生するッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "영혼은 해방됐으니, 다시",
+          "어딘가에서 프리니로 환생할 검다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "해방된 영혼들의 재환생을 위로 삼는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3666",
+      "protected_snapshot": {
+        "record_id": 13926,
+        "raw_hex": "6636030099ffc98376838a836a815b91e0000000000000008163816382c68cbe82c182c482a282e98ad482c982e00000000000000000000000000093fa82aa8fb882e98362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "……と言っている間にも",
+            "日が昇るッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "……이렇게 말하는 사이",
+          "해가 뜨고 있슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "날이 밝고 있음을 깨닫는 프리니 부대.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3668",
+      "protected_snapshot": {
+        "record_id": 13928,
+        "raw_hex": "6836030099ffc98376838a836a815b91e0000000000000008b7d82a282c58141000000000000000000000000000000000000000000000000000000834783678369976c82c995f18d908362835882e68149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "急いで、",
+            "エトナ様に報告ッスよ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "서둘러",
+          "에트나 님께 보고하러 감다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나에게 임무 성공을 보고하러 가자는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/366A",
+      "protected_snapshot": {
+        "record_id": 13930,
+        "raw_hex": "6a3603009bffc88376838a836a815b00000000000000000082dd82f182c890c382a982c9000000000000000000000000000000000000000000000096b082c182c482ad82ea836283588163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "みんな静かに",
+            "眠ってくれッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "다들 편히",
+          "잠들어 주십쇼…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "희생된 동료들에게 건네는 추모.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    }
+  ]
+}

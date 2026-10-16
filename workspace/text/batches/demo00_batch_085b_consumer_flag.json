@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_085b_consumer_flag",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "340169d78e4c0a633580fe082a73ea398876c58913da703f8ad1f3f83af13da4",
+  "context": {
+    "scene": "라키 교수 보상 대화 소비 근거 상태 교정",
+    "evidence": [
+      "정적 후보는 있으나 블록 로컬 실행 시작점 미증명 1건"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/025D",
+      "protected_snapshot": {
+        "record_id": 605,
+        "raw_hex": "5d0204000000c983898362834c815b8bb38ef6000000000082bf82dd82c982cd8afa91d282b582c482a882e982bc82a2814900000000000000000082e082c182c68f5782df82c482ab82c482ad82ea82bd82dc82a68149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ちみには期待しておるぞい！",
+            "もっと集めてきてくれたまえ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "자네를 기대하고 있네!",
+          "더 모아 와 주게!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "자네를 기대하고 있네!",
+          "더 모아 와 주게!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "고유명·말투는 최종 일괄 검토 대상. 정적 후보의 블록 로컬 실행 시작점은 최종 소비 경로 검토가 필요함.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    }
+  ]
+}

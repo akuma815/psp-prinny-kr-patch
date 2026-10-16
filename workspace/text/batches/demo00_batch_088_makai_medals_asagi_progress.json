@@ -1,0 +1,813 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_088_makai_medals_asagi_progress",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "3b2963bfb6e7e5e3d72c24eb2d297e42123d011d13d470ae7558b11a1593bc68",
+  "context": {
+    "scene": "마계 훈장 목록 2: 아사기·도감·진행·보스",
+    "evidence": [
+      "02F2~0301 16건은 NSF 정적 후보 없음"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/02F2",
+      "protected_snapshot": {
+        "record_id": 754,
+        "raw_hex": "f20204000000c983548374838983938fec00000000000000817583418354834d83748340839382508d86818f81760000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「アサギファン１号￥」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「아사기 팬 1호￥」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F3",
+      "protected_snapshot": {
+        "record_id": 755,
+        "raw_hex": "f30211000000000000000000000000000000000000000000817583418354834d83748340839382508d86818f81760000000000000000000000000083418354834d82f08349815b8376839382b582bd96b397de82cc00000000000000000083418354834d8d4482ab82c991a182e9837483408393834e838983758fdc8142000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「アサギファン１号￥」",
+            "アサギをオープンした無類の",
+            "アサギ好きに贈るファンクラブ賞。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「아사기 팬 1호￥」",
+          "아사기를 해금한 열렬한 팬에게",
+          "주는 팬클럽상."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F4",
+      "protected_snapshot": {
+        "record_id": 756,
+        "raw_hex": "f40204000000c983548374838983938fec000000000000008175944d8c8c8381835f838b817600000000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「熱血メダル」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「열혈 메달」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F5",
+      "protected_snapshot": {
+        "record_id": 757,
+        "raw_hex": "f502110000000000000000000000000000000000000000008175944d8c8c8381835f838b81760000000000000000000000000000000000000000008351815b8380834e838a834182f082b582bd8ed282c9975e82a682e782ea82e90000008c4d8fcd81428351815b8380834e838a834182a882df82c582c682a481490000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「熱血メダル」",
+            "ゲームクリアをした者に与えられる",
+            "勲章。ゲームクリアおめでとう！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「열혈 메달」",
+          "게임을 클리어한 자에게 주는 훈장.",
+          "클리어를 축하합니다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F6",
+      "protected_snapshot": {
+        "record_id": 758,
+        "raw_hex": "f60204000000c983548374838983938fec00000000000000817596828a4590b695a88a778e6d81760000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「魔界生物学士」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「마계 생물학자」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F7",
+      "protected_snapshot": {
+        "record_id": 759,
+        "raw_hex": "f70211000000000000000000000000000000000000000000817596828a4590b695a88a778e6d817600000000000000000000000000000000000000968295a8907d8ad382f090a7946582b582bd8ed282c900000000000000000000000000975e82a682e782ea82e997528f8f82a082e98c4d8fcd81420000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「魔界生物学士」",
+            "魔物図鑑を制覇した者に",
+            "与えられる由緒ある勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「마계 생물학자」",
+          "마물 도감을 완성한 자에게",
+          "주는 유서 깊은 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F8",
+      "protected_snapshot": {
+        "record_id": 760,
+        "raw_hex": "f80204000000c983548374838983938fec000000000000008175837183628376837d836a834181760000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「ヒップマニア」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「힙 마니아」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F9",
+      "protected_snapshot": {
+        "record_id": 761,
+        "raw_hex": "f902110000000000000000000000000000000000000000008175837183628376837d836a83418176000000000000000000000000000000000000008371836283768341835e8362834e82f08250969c89f182a882b182c882c182bd0000008ed282c9975e82a682e782ea82e9837d836a834182c88c4d8fcd814200000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「ヒップマニア」",
+            "ヒップアタックを１万回おこなった",
+            "者に与えられるマニアな勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「힙 마니아」",
+          "힙 어택을 1만 번 한 자에게",
+          "주는 마니아 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02FA",
+      "protected_snapshot": {
+        "record_id": 762,
+        "raw_hex": "fa0204000000c983548374838983938fec0000000000000081758f5a906c82bd82ad82b382f182c58fdc817600000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「住人たくさんで賞」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「주민이 많았상」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02FB",
+      "protected_snapshot": {
+        "record_id": 763,
+        "raw_hex": "fb021100000000000000000000000000000000000000000081758f5a906c82bd82ad82b382f182c58fdc81760000000000000000000000000000008b92935f82c99c669c7282a48db082f082b782d782c48cb382cc8e7082c9000000000096df82b582bd8ed282c9975e82a682e782ea82e98fdc81420000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「住人たくさんで賞」",
+            "拠点に彷徨う魂をすべて元の姿に",
+            "戻した者に与えられる賞。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「주민이 많았상」",
+          "거점의 모든 영혼을 원래 모습으로",
+          "돌려놓은 자에게 주는 상."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02FC",
+      "protected_snapshot": {
+        "record_id": 764,
+        "raw_hex": "fc0204000000c983548374838983938fec0000000000000081758376838a836a815b837d836a83418176000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「プリニーマニア」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「프리니 마니아」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02FD",
+      "protected_snapshot": {
+        "record_id": 765,
+        "raw_hex": "fd021100000000000000000000000000000000000000000081758376838a836a815b837d836a834181760000000000000000000000000000000000915382c482cc83588365815b835782f0834e838a834182b582bd8ed282c982cc82dd0091a182e782ea82e98dc58d8282cc8968975f8142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「プリニーマニア」",
+            "全てのステージをクリアした者にのみ",
+            "贈られる最高の栄誉。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「프리니 마니아」",
+          "모든 스테이지를 클리어한 자에게만",
+          "주는 최고의 영예."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02FE",
+      "protected_snapshot": {
+        "record_id": 766,
+        "raw_hex": "fe0204000000c983548374838983938fec0000000000000081759682905f8c4d8fcd8176000000000000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「魔神勲章」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「마신 훈장」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02FF",
+      "protected_snapshot": {
+        "record_id": 767,
+        "raw_hex": "ff021100000000000000000000000000000000000000000081759682905f8c4d8fcd817600000000000000000000000000000000000000000000009682905f83478367836982f08c82946a82b582bd814197458ed282cc928682cc00000097458ed282c991a182e782ea82e996828a458c4d8fcd81420000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「魔神勲章」",
+            "魔神エトナを撃破した、勇者の中の",
+            "勇者に贈られる魔界勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「마신 훈장」",
+          "마신 에트나를 쓰러뜨린",
+          "용사 중의 용사에게 주는 마계 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0300",
+      "protected_snapshot": {
+        "record_id": 768,
+        "raw_hex": "000304000000c983548374838983938fec00000000000000817583418354834d83748348815b8347836f815b81760000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「アサギフォーエバー」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「아사기 포에버」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0301",
+      "protected_snapshot": {
+        "record_id": 769,
+        "raw_hex": "010311000000000000000000000000000000000000000000817583418354834d83748348815b8347836f815b81760000000000000000000000000083418354834d82f0834e838a834182b582bd96b397de82cc83418354834d8d4482ab0082c991a182e782ea82e9837d836a834182cc8c4d8fcd81420000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「アサギフォーエバー」",
+            "アサギをクリアした無類のアサギ好き",
+            "に贈られるマニアの勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「아사기 포에버」",
+          "아사기 편을 클리어한 열렬한 팬에게",
+          "주는 마니아 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    }
+  ]
+}

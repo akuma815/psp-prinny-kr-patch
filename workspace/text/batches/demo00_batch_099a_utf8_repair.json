@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_099a_utf8_repair",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "bd4755a11bf449ca900030026b17ce43f9a55af63e18b10ab93ffedc0eacf81c",
+  "context": {
+    "scene": "UTF-8 초벌 번역 교정",
+    "evidence": [
+      "PowerShell 파이프 문자 치환 발견 후 UTF-8 원문 복구"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/08CA",
+      "protected_snapshot": {
+        "record_id": 2250,
+        "raw_hex": "ca0804006500c88376838a91be000000000000000000000083588343815b836382c682a282a682ce8163816382b182cc88ab96828149000000000082c182c2815b82cc82aa82a282e98362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ太",
+          "lines": [
+            "スイーツといえば……この悪魔！",
+            "っつーのがいるッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "????????? ? ??!",
+          "?? ??? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리타",
+        "lines": [
+          "스위츠라면……바로 그 악마!",
+          "하는 녀석이 있슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08CC",
+      "protected_snapshot": {
+        "record_id": 2252,
+        "raw_hex": "cc0803006500c88376838a91be00000000000000000000008ea9914f82cc8d488fea82dc82c50000000000000000000000000000000000000000008e9d82c182c482e982c182c498628362835882e68142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ太",
+          "lines": [
+            "自前の工場まで",
+            "持ってるって話ッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?? ????",
+          "?? ??? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리타",
+        "lines": [
+          "자기 공장까지",
+          "갖고 있다는 소문임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08CE",
+      "protected_snapshot": {
+        "record_id": 2254,
+        "raw_hex": "ce08020037ffc88376838a836a815b00000000000000000082c882f182c496bc914f8362835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なんて名前ッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "??? ???",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이름이 뭠까?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08D0",
+      "protected_snapshot": {
+        "record_id": 2256,
+        "raw_hex": "d00804006500c88376838a91be000000000000000000000082a6815b82c68141834f838b838190e5906c8163816382b682e182c882ad82c4000000816381638368965982ea82b582bd8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ太",
+          "lines": [
+            "えーと、グルメ仙人……じゃなくて",
+            "……ド忘れしたッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?, ?? ??????",
+          "???????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리타",
+        "lines": [
+          "어, 미식 선인……아니",
+          "……깜빡했슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08D2",
+      "protected_snapshot": {
+        "record_id": 2258,
+        "raw_hex": "d20804006500c88376838a8e71000000000000000000000082a282c182bd82a282b182cc968289a48fe982c982cd89bd954382cc000000000000008376838a836a815b82aa82a282e98362835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ子",
+          "lines": [
+            "いったいこの魔王城には何匹の",
+            "プリニーがいるッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "? ???? ?? ????",
+          "? ??? ????",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리코",
+        "lines": [
+          "이 마왕성엔 대체 프리니가",
+          "몇 마리나 있슴까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08D4",
+      "protected_snapshot": {
+        "record_id": 2260,
+        "raw_hex": "d408040037ffc88376838a836a815b00000000000000000082b3829f8163816382c582e082b182cc96828a4582b682e1834783678369976c82aa0088ea94d482cc8376838a836a815b8e9d82bf8362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "さぁ……でもこの魔界じゃエトナ様が",
+            "一番のプリニー持ちッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "??????? ? ????",
+          "??? ?? ?? ?? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "글쎄……그래도 이 마계에선",
+          "에트나 님이 제일 많이 부림다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08D6",
+      "protected_snapshot": {
+        "record_id": 2262,
+        "raw_hex": "d60804006500c88376838a8e710000000000000000000000905682b582ad8376838a836a815b82f08cd982a48be082aa82a082c182bd82e70000008b8b97bf8fe382b082c4977e82b582a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ子",
+          "lines": [
+            "新しくプリニーを雇う金があったら",
+            "給料上げて欲しいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "? ???? ??? ? ???",
+          "???? ????? ??.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리코",
+        "lines": [
+          "새 프리니를 고용할 돈 있으면",
+          "월급이나 올려줬으면 함다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08D8",
+      "protected_snapshot": {
+        "record_id": 2264,
+        "raw_hex": "d808040037ffc88376838a836a815b0000000000000000008349838c82bd82bf82c182c48141967b939682c90000000000000000000000000000008def8ee682b382ea82dc82ad82e88362835882a982e782cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレたちって、本当に",
+            "搾取されまくりッスからね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "??? ??",
+          "??? ?????? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우리는 정말",
+          "끝없이 착취당하니까 말임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08DA",
+      "protected_snapshot": {
+        "record_id": 2266,
+        "raw_hex": "da0804006500c98376838a8357815b836a83870000000000834783678369976c82cc96bd97df82c988a482f08ab482b682e982e682a482c900000082c882c182bd82e782a882b582dc82a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリジーニョ",
+          "lines": [
+            "エトナ様の命令に愛を感じるように",
+            "なったらおしまいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "????",
+        "lines": [
+          "??? ? ???? ???",
+          "??? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리지뇨",
+        "lines": [
+          "에트나 님 명령에서 사랑을",
+          "느끼면 끝장임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08DC",
+      "protected_snapshot": {
+        "record_id": 2268,
+        "raw_hex": "dc0804006500c98376838a8357815b836a8387000000000093c195ca82c88eef96a182c996da8a6f82df82bd82c68cbe82c182c482e0000000000089df8cbe82b682e182c882a28362835882cb81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリジーニョ",
+          "lines": [
+            "特別な趣味に目覚めたと言っても",
+            "過言じゃないッスね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "????",
+        "lines": [
+          "??? ??? ???? ??",
+          "??? ?????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리지뇨",
+        "lines": [
+          "특별한 취향에 눈떴다고 해도",
+          "과언이 아님다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08DE",
+      "protected_snapshot": {
+        "record_id": 2270,
+        "raw_hex": "de08030032ffc88376838a836a815b000000000000000000834981418349838c82cd0000000000000000000000000000000000000000000000000082dc82be91e58fe495768362835882e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オ、オレは",
+            "まだ大丈夫ッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?, ??",
+          "?? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "나, 나는",
+          "아직 괜찮슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/08E0",
+      "protected_snapshot": {
+        "record_id": 2272,
+        "raw_hex": "e00803006a00c98376838a8357815b836a83870000000000816381638349838c814182bb82eb82bb82eb96da8a6f82df000000000000000000000082cd82b682df82c482e982a982e08362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリジーニョ",
+          "lines": [
+            "……オレ、そろそろ目覚め",
+            "はじめてるかもッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "????",
+        "lines": [
+          "???, ?? ???",
+          "??? ? ?????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리지뇨",
+        "lines": [
+          "……나, 슬슬 눈뜨기",
+          "시작한 것 같슴다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

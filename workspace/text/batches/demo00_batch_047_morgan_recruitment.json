@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_047_morgan_recruitment",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "ca0435cd1d17f60c36df969100647759924bc492c60d26aa64b26475ba7ae7fa",
+  "context": {
+    "scene": "모건의 프리니 스카우트와 초코 파이포 갈취",
+    "evidence": [
+      "demo.nsf logical offsets 0x16075..0x1684B의 연속 20개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 20/20 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2F44",
+      "protected_snapshot": {
+        "record_id": 12100,
+        "raw_hex": "442f04004206c88382815b834b839300000000000000000082a082e882aa82c682e282f182b582bd8141925593df814200000000000000000000008da18ce382c682e082a282a28fee95f182f082a88ae882a282b582dc82b782ba8149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "ありがとやんした、旦那。",
+            "今後ともいい情報をお願いしますぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "감사합니다, 나리.",
+          "앞으로도 좋은 정보 부탁드립니다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "거래 상대에게 감사를 전하고 후속 정보를 부탁하는 모건의 장사꾼 말투 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F46",
+      "protected_snapshot": {
+        "record_id": 12102,
+        "raw_hex": "462f0300b204c8835a8354837e000000000000000000000082d982c882a082f182bd81428eed914b82e093fc82c182bd000000000000000000000082b182c682e282b58163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "ほなあんた。種銭も入った",
+            "ことやし……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "그럼 여보. 밑천도",
+          "생겼으니…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모건에게 정보를 팔아 종잣돈을 마련한 세사미의 부부 만담 방언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F48",
+      "protected_snapshot": {
+        "record_id": 12104,
+        "raw_hex": "482f0300b2fbc9834a838b835f838283930000000000000082a282c182bf82e589d282ac82c90000000000000000000000000000000000000000008d7382ab82dc82c182a9818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1102,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "いっちょ稼ぎに",
+            "行きまっか￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "한탕 벌러",
+          "가 볼까예￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "밑천으로 한탕 벌러 가자는 카르다몬의 방언과 원문 ￥ 표기를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F4A",
+      "protected_snapshot": {
+        "record_id": 12106,
+        "raw_hex": "4a2f04004106c88382815b834b839300000000000000000082a882e281418376838a836a815b82c582b782a982a28142000000000000000000000082a282a282c682b182eb82c589ef82a282dc82b582bd82c883408142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "おや、プリニーですかい。",
+            "いいところで会いましたなァ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "이런, 프리니 아닙니까.",
+          "마침 잘 만났군요.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "거래 직후 프리니 부대를 발견한 모건의 정중한 장사꾼 말투 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F4C",
+      "protected_snapshot": {
+        "record_id": 12108,
+        "raw_hex": "4c2f04004106c88382815b834b839300000000000000000082b582a982e0814194778ce382c982cd91e597ca82cc8376838a836a815b91e08142008bdf8da082b682e18ca982ea82c882a28cf58c6982c582b782c88142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "しかも、背後には大量のプリニー隊。",
+            "近頃じゃ見れない光景ですな。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "게다가 뒤엔 대규모 프리니 부대.",
+          "요즘 보기 드문 광경이군요.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "최근 보기 드문 대규모 프리니 부대를 평가하는 모건 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F4E",
+      "protected_snapshot": {
+        "record_id": 12110,
+        "raw_hex": "4e2f04004206c88382815b834b839300000000000000000082c8829f8376838a836a815b82b382f182e6814191d28bf682cc82a282a200000000008ee5906c82c988c691d682a682b582bd82ad82cd82c882a282c582b782a982a28148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "なぁプリニーさんよ、待遇のいい",
+            "主人に鞍替えしたくはないですかい？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "프리니 씨, 대우 좋은",
+          "주인으로 갈아탈 생각 없습니까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "더 나은 주인에게 이직하라고 프리니를 스카우트하는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F50",
+      "protected_snapshot": {
+        "record_id": 12112,
+        "raw_hex": "502f040037ffc88376838a836a815b0000000000000000008163816382c682c482e096a397cd934982c882a8905c82b58f6f8362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……とても魅力的なお申し出ッスね。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……아주 매력적인 제안임다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모건의 이직 제안이 매력적이라고 솔직히 인정하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F52",
+      "protected_snapshot": {
+        "record_id": 12114,
+        "raw_hex": "522f040037ffc88376838a836a815b00000000000000000082af82c790a282cc928682c982cd814193a682ea82e782ea82ca90e291ce934982c800895e96bd82c682a282a482e082cc82aa82a082e982f18362835882e6816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "けど世の中には、逃れられぬ絶対的な",
+            "運命というものがあるんッスよ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "하지만 세상엔 피할 수 없는 절대적",
+          "운명이란 게 있슴다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나에게서 벗어날 수 없는 처지를 절대적 운명으로 표현한 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F54",
+      "protected_snapshot": {
+        "record_id": 12116,
+        "raw_hex": "542f03004106c88382815b834b839300000000000000000082d982a382d982a4814182bb82f182c882c98da182cc0000000000000000000000000082b28ee5906c976c82aa82a282a282c6814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "ほぅほう、そんなに今の",
+            "ご主人様がいいと？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "호오, 그리 지금",
+          "주인이 좋습니까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 현 주인을 좋아해서 거절하는 것으로 오해하는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F56",
+      "protected_snapshot": {
+        "record_id": 12118,
+        "raw_hex": "562f03004106c88382815b834b839300000000000000000082bb82ea82c882e78ec097cd8d738e6782c6000000000000000000000000000000000082a282ab82dc82b582e582a482a982cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "それなら実力行使と",
+            "いきましょうかね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "그럼 힘으로",
+          "데려가야겠군요.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스카우트가 실패하자 무력으로 데려가겠다는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F58",
+      "protected_snapshot": {
+        "record_id": 12120,
+        "raw_hex": "582f07000000c88382815b834b83930000000000000000008250824f824f954382aa82a982e882c582e082a082c182b582c982cd000000000000008f9f82c482dc82b982f182ba81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "１００匹がかりでもあっしには",
+            "勝てませんぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "백 마리가 덤벼도 제겐",
+          "못 이깁니다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 백 마리도 자신을 이길 수 없다고 장담하는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F5A",
+      "protected_snapshot": {
+        "record_id": 12122,
+        "raw_hex": "5a2f03004106c88382815b834b839300000000000000000082b182ea82d982c78bad82a28376838a836a815b91e082aa000000000000000000000082a482eb82c282a282c482a282e982c682cd81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "これほど強いプリニー隊が",
+            "うろついているとは……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "이리 강한 프리니 부대가",
+          "돌아다니다니…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "패배 뒤 예상보다 강한 프리니 부대에 놀라는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F5C",
+      "protected_snapshot": {
+        "record_id": 12124,
+        "raw_hex": "5c2f03004106c88382815b834b83930000000000000000008fee95f189ae82e000000000000000000000000000000000000000000000000000000082a082c482c982c882e882dc82b982f182c883400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "情報屋も",
+            "あてになりませんなァ",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "정보상도",
+          "믿을 게 못 되는군요.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 부대의 전력을 몰랐던 정보원을 탓하는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F5E",
+      "protected_snapshot": {
+        "record_id": 12126,
+        "raw_hex": "5e2f030037ffc88376838a836a815b0000000000000000008349838c82bd82bf0000000000000000000000000000000000000000000000000000008ce382aa82c882a28362835882a982e782cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレたち",
+            "後がないッスからね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우린",
+          "뒤가 없으니까 말임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "목숨이 걸려 강할 수밖에 없다고 답하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F60",
+      "protected_snapshot": {
+        "record_id": 12128,
+        "raw_hex": "602f030037ffc88376838a836a815b0000000000000000008163816382c682b182eb82c582a082f182bd89bd82a9000000000000000000000000008e9d82c182c482c882a28362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……ところであんた何か",
+            "持ってないッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……그런데 뭔가",
+          "가진 거 없슴까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "싸움 뒤 모건에게 가진 물건을 요구하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F62",
+      "protected_snapshot": {
+        "record_id": 12130,
+        "raw_hex": "622f04004306c88382815b834b839300000000000000000082d682c18bc182a282bd814200000000000000000000000000000000000000000000008376838a836a815b82aa834a83638341835182c582b782a982a28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1603,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "へっ驚いた。",
+            "プリニーがカツアゲですかい。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "허, 놀랍군요.",
+          "프리니가 갈취라니.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "カツアゲ를 갈취로 옮겨 프리니가 금품을 뜯는 상황을 표현한 모건 초벌.",
+        "flags": ["draft", "deferred_review", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F64",
+      "protected_snapshot": {
+        "record_id": 12132,
+        "raw_hex": "642f040037ffc88376838a836a815b00000000000000000082c782a482b582c482e083588343815b836382cc8dde97bf82aa00000000000000000082a282e982f183628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どうしてもスイーツの材料が",
+            "いるんッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "꼭 디저트 재료가",
+          "필요함다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트 재료가 반드시 필요하다고 설명하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F66",
+      "protected_snapshot": {
+        "record_id": 12134,
+        "raw_hex": "662f04004306c88382815b834b839300000000000000000083588343815b8363814882a482bf82cc82a893be88d382b382f182e00000000000000082bb82f182c882b182c68cbe82c182c682e882dc82b582bd82c88340814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1603,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "スイーツ？うちのお得意さんも",
+            "そんなこと言っとりましたなァ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "디저트? 제 단골도",
+          "그런 말을 하더군요.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자기 단골도 디저트를 언급했다며 관련 정보를 떠올리는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F68",
+      "protected_snapshot": {
+        "record_id": 12136,
+        "raw_hex": "682f03004206c88382815b834b839300000000000000000082e682b282b482f182b582e5814200000000000000000000000000000000000000000091e58e9682c98e6782a282c882b982a6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "よござんしょ。",
+            "大事に使いなせえ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "좋습니다.",
+          "소중히 쓰시죠.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니에게 물건을 건네며 잘 쓰라고 말하는 모건 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2F6A",
+      "protected_snapshot": {
+        "record_id": 12138,
+        "raw_hex": "6a2f110000000000000000000000000000000000000000008376838a836a815b82cd81418382815b834b839382a982e791e58d4495a882cc000000817583608387835283708343837c8176000000000000000000000000000000000000008163816382f0834a83638341835182bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、モーガンから大好物の",
+            "「チョコパイポ」",
+            "……をカツアゲた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 모건이 좋아하는",
+          "「초코 파이포」를",
+          "……갈취했다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "チョコパイポ를 초코 파이포로 옮기고 カツアゲた를 갈취했다로 처리한 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "tone_review_required"]
+      }
+    }
+  ]
+}

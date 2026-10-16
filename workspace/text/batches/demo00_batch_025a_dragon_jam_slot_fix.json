@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_025a_dragon_jam_slot_fix",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "462cb0209002daa0cacd4cea509c608345d33d99cbaff20c2aad0f0142186e03",
+  "context": {
+    "scene": "드래곤 잼 장면 0x2840 예상 슬롯 1바이트 초과 수정",
+    "evidence": [
+      "demo.nsf logical offset 0xBCE7 target 1/1 proven",
+      "25차 보호 병합 결과 line projected 35/34; 의미 보존 축약 후 재검사"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2840",
+      "protected_snapshot": {
+        "record_id": 10304,
+        "raw_hex": "40280c0030ffc88376838a836a815b00000000000000000082ab81418aeb8caf82c88d8182e882aa82b782e98362835881490000000000000000008bdf957482a982c882a282cc82aa97988cfb82cc82e682a483628358816381638149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 12,
+          "reserved_3": 0,
+          "face_asset_signed": -208,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "き、危険な香りがするッス！",
+            "近付かないのが利口のようッス……！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "위, 위험한 냄새가 남다!",
+          "가까이 안 가는 게 현명하겠슴다……!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "위험을 감지하고 접근을 피하려는 프리니 대사를 기존 문맥형 종결 규칙에 맞춘 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "위, 위험한 냄새가 남다!",
+          "가까이 안 가는 게 현명함다……!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "위험을 감지하고 접근을 피하려는 프리니 대사. 예상 슬롯 35/34 초과를 해소하려고 겠슴다를 함다로 축약했으며 의미는 유지했다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "disc_id": "ULJS00150",
+  "workflow": "ppsspp-replacement-first",
+  "iso_build": false,
+  "font_regular": "Font/HancomMalangMalang-Regular.ttf",
+  "font_bold": "Font/HancomMalangMalang-Bold.ttf",
+  "verification_policy": "전체 이미지 초안을 먼저 만든 뒤 화면별로 검증한다.",
+  "assets": [
+    {
+      "id": "gfx/start/enemy-label-atlas",
+      "source": "start.dat/anime00.dat record 73 texture 0",
+      "preview": "work/analysis/graphics/start_anime/anime00_r73_t00.png",
+      "classification": "target",
+      "status": "draft-generated-live-installable",
+      "dump_names": ["090d236071e5ca896f5b71d4.png"],
+      "notes": "적·보스·아이템 명칭 아틀라스 초벌. 짧은 슬롯명은 인게임 확인 후 용어집 기준으로 다듬는다."
+    },
+    {
+      "id": "gfx/start/stage-result-atlas",
+      "source": "start.dat/anime00.dat record 84 texture 0",
+      "preview": "work/analysis/graphics/start_anime/anime00_r84_t00.png",
+      "classification": "target",
+      "status": "draft-generated-live-installable",
+      "dump_names": [
+        "0916bd60671c58233aef5cd3.png",
+        "0916bd60671c582358e69208.png",
+        "0916bd60671c5823e6ef5e02.png"
+      ],
+      "translations": ["스테이지 결과", "클리어 랭크"]
+    },
+    {
+      "id": "gfx/start/difficulty-labels",
+      "source": "start.dat/anime00.dat record 84 texture 1",
+      "preview": "work/analysis/graphics/start_anime/anime00_r84_t01.png",
+      "classification": "target",
+      "status": "draft-generated-live-installable",
+      "dump_names": ["0918bd60611a54e7d55a5edf.png"],
+      "translations": ["스탠다드", "베이비", "마계 공식 룰", "스탠다드", "마계 공인"]
+    },
+    {
+      "id": "gfx/start/replay-save",
+      "source": "start.dat/anime00.dat record 87 texture 0",
+      "preview": "work/analysis/graphics/start_anime/anime00_r87_t00.png",
+      "classification": "target",
+      "status": "draft-generated-live-installable",
+      "dump_names": ["091cd1e0f54138b2af437712.png"],
+      "translation": "리플레이 저장"
+    },
+    {
+      "id": "gfx/runtime/demo-skip-clut-states",
+      "source": "PPSSPP GE debugger exact draw calls",
+      "classification": "target-runtime-atlas",
+      "status": "live-installed-runtime-verification-pending",
+      "content_hashes": ["f4cbdbb1", "6ceb80dc"],
+      "dump_names": [
+        "091cd1e0a8d5fd96f4cbdbb1.png",
+        "091cd1e0f54138b2f4cbdbb1.png",
+        "091cd1e0f96c6b82f4cbdbb1.png",
+        "091cd1e0a8d5fd966ceb80dc.png",
+        "091cd1e0f54138b26ceb80dc.png",
+        "091cd1e0f96c6b826ceb80dc.png"
+      ],
+      "translations": ["리플레이 저장", "데모 스킵"],
+      "notes": "동일 인덱스 픽셀의 CLUT 상태 3종을 서로 다른 RGBA 교체본으로 유지한다."
+    },
+    {
+      "id": "gfx/runtime/deadline-timer-atlas",
+      "source": "PPSSPP GE debugger exact draw calls",
+      "classification": "target-runtime-atlas",
+      "status": "draft-generated-live-installed-runtime-verification-pending",
+      "content_hash": "b5a34886",
+      "dump_names": [
+        "09596a50564378d0b5a34886.png",
+        "09596a50862c2386b5a34886.png",
+        "09596a50982610dbb5a34886.png",
+        "09596a50a8d5f299b5a34886.png"
+      ],
+      "translations": ["궁극의 디저트 완성까지", "남은 시간"],
+      "notes": "숫자와 장식은 보존하고 일본어 텍스트 밴드 3개만 교체한다."
+    },
+    {
+      "id": "gfx/anime20/protagonist-recruitment-sign",
+      "source": "ANIME.DAT/anime20.dat record 14 texture 0",
+      "preview": "work/analysis/graphics/anime/anime20_r14_t00.png",
+      "classification": "target",
+      "status": "draft-generated",
+      "translation": "밝은 주인공 구함"
+    },
+    {
+      "id": "gfx/ending/end-card",
+      "source": "ANIME.DAT/anime90.dat record 2 texture 0",
+      "preview": "work/analysis/graphics/anime/anime90_r02_t00.png",
+      "classification": "target",
+      "status": "draft-generated",
+      "translation": "끝"
+    },
+    {
+      "id": "gfx/ending/staff-credits",
+      "source": "ANIME.DAT/anime90.dat record 3 textures 0-5; anime92/93 duplicates",
+      "preview": "work/analysis/graphics/anime_sheets/anime90.png",
+      "classification": "target",
+      "status": "draft-generated-runtime-hash-pending",
+      "notes": "역할명과 판독 가능한 인명을 한글 초벌로 교체했다. anime92/93 중복 소비자는 런타임 해시 확인 후 같은 생성본으로 연결한다."
+    },
+    {
+      "id": "gfx/ending/epilogue-prose",
+      "source": "ANIME.DAT/anime94.dat record 0 texture 0; anime96 duplicate",
+      "preview": "work/analysis/graphics/anime/anime94_r00_t00.png",
+      "classification": "target",
+      "status": "draft-generated",
+      "duplicate_consumers": ["anime96.dat/record-0/texture-0"]
+    },
+    {
+      "id": "gfx/ending/montage-dialogue",
+      "source": "ANIME.DAT/anime92.dat and anime93.dat full-screen montage frames",
+      "preview": "work/analysis/graphics/anime_sheets/anime92.png",
+      "classification": "target",
+      "status": "scene-mapping-pending",
+      "notes": "기존 승인 대사와 프레임을 대응시킨 뒤 말풍선만 교체한다."
+    },
+    {
+      "id": "gfx/anime91/screen-labels",
+      "source": "ANIME.DAT/anime91.dat record 0 textures 1-3",
+      "preview": "work/analysis/graphics/anime_sheets/anime91.png",
+      "classification": "target-unverified",
+      "status": "draft-generated-reachability-pending",
+      "translations": ["우사기", "플레네르", "뉴스 속보", "프리니 부대 전멸", "스태프 명단 종료"]
+    },
+    {
+      "id": "gfx/debug/bg-test-01-03",
+      "source": "BG.DAT bg6001/6002, bg6101/6102, bg6201/bg6202",
+      "classification": "non-target",
+      "status": "excluded-debug"
+    },
+    {
+      "id": "gfx/debug/anime95-attack-label",
+      "source": "ANIME.DAT/anime95.dat record 2",
+      "classification": "non-target",
+      "status": "excluded-debug"
+    },
+    {
+      "id": "gfx/trial/bg9801-9803",
+      "source": "BG.DAT trial warning/controller help/demo advertisement",
+      "classification": "non-target-unless-reachable",
+      "status": "retail-reachability-pending"
+    }
+  ],
+  "deferred_runtime_verification": [
+    "gfx/base/menu-*",
+    "gfx/world/sign-tutorial residue above 튜토리얼"
+  ]
+}

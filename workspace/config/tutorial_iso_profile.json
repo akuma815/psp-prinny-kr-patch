@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "profile_id": "prinny-tutorial-graphics-v3",
+  "poc": {
+    "iso": {
+      "archive_size": 500465664,
+      "archive_sha256": "36dfb20bc87a07b506704bc99fa9e7c53a152318ec6d5629fff22f5a59ae4a9a",
+      "target_path": "/PSP_GAME/USRDIR/ANIME.DAT;1",
+      "target_offset": "0x1AE00000",
+      "target_size": 27827616,
+      "target_sha256": "8f7bbf57a836377e3cdc4be03857da6290e64fa5d85bcbc76ab40bc09130fa4f",
+      "replacement_sha256": "74b7fa6be0cd1d6fa662f58bfcd911efff846a1cd22ae0e1d13cbc349a58339a"
+    }
+  }
+}

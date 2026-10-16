@@ -1,0 +1,778 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_055_fullmoon_hoshikage",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "02e1ba02816056ffe264360aff5c0fa7130318212baa34b6260a2b17c40373e8",
+  "context": {
+    "scene": "보름달의 호시카게 폭주와 개구리 사부의 구운 대왕오징어 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x1A295..0x1A968의 연속 17개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 17/17 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/319C",
+      "protected_snapshot": {
+        "record_id": 12700,
+        "raw_hex": "9c31030037ffc88376838a836a815b0000000000000000008163816382f18148000000000000000000000000000000000000000000000000000000924e82e082a282c882a28362835882cb816381638148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……ん？",
+            "誰もいないッスね……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……응?",
+          "아무도 없슴다……?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "인기척 없는 장소에서 주위를 살피는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/319E",
+      "protected_snapshot": {
+        "record_id": 12702,
+        "raw_hex": "9e3104003608c88e748fa00000000000000000000000000082d082a182a182a18149814982dc814182dc82c182bd82ad0000000000000000000000969e8c8e82cc96e982cd8ee882aa957482af82e782ea82f182ed8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2102,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "ひぃぃぃ！！ま、まったく",
+            "満月の夜は手が付けられんわ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "히이익!! 저, 정말이지",
+          "보름달 밤엔 감당 못 하겠구나!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "보름달에 폭주한 호시카게를 피해 달아나는 개구리 사부 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31A0",
+      "protected_snapshot": {
+        "record_id": 12704,
+        "raw_hex": "a031010037ffc88376838a836a815b000000000000000000816381638148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사부의 경고를 이해하지 못한 프리니 반응.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31A2",
+      "protected_snapshot": {
+        "record_id": 12706,
+        "raw_hex": "a23104003608c88e748fa00000000000000000000000000082f1814888ab82a282b182c682cd8cbe82ed82f182a982e781410000000000000000008349837d834782e093a682b082bd82d982a482aa97c782a282bc8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2102,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "ん？悪いことは言わんから、",
+            "オマエも逃げたほうが良いぞ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "응? 빈말이 아니니,",
+          "너도 도망치는 게 좋을 게다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니에게도 즉시 도망치라고 충고하는 사부 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31A4",
+      "protected_snapshot": {
+        "record_id": 12708,
+        "raw_hex": "a43106000000ca838a815b835683838393838d839300000082ae82b282a782a782a782a782a782a782a7814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "リーシャンロン",
+          "lines": [
+            "ぐごぉぉぉぉぉぉぉ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "리샹롱",
+        "lines": [
+          "크고오오오오!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "보름달 아래 리샹롱의 길게 울리는 포효.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31A6",
+      "protected_snapshot": {
+        "record_id": 12710,
+        "raw_hex": "a63103000000c9969e8c8e82cc90af89410000000000000095538b5396e98d73834b81638163000000000000000000000000000000000000000000969e8c8e836d90af8941836a89bd9770835d81638163814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "満月の星陰",
+          "lines": [
+            "百鬼夜行ガ……",
+            "満月ノ星陰ニ何用ゾ……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "만월의 호시카게",
+        "lines": [
+          "백귀야행이……",
+          "만월의 호시카게에게 무슨 볼일인가……?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "보름달에 변한 호시카게의 이명과 고풍스러운 가타카나 어조를 문어체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_variant_review", "archaic_style_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31A8",
+      "protected_snapshot": {
+        "record_id": 12712,
+        "raw_hex": "a831030032ffc88376838a836a815b00000000000000000082a0814182a082cc82a490488dde82f095aa82af82c40000000000000000000000000082d982b582a282f18362835882af82c7816381638148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あ、あのう食材を分けて",
+            "ほしいんッスけど……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저, 저기 식재료를 좀 나눠",
+          "주셨으면 함다만……?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭주 상태의 호시카게에게도 재료를 부탁하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31AA",
+      "protected_snapshot": {
+        "record_id": 12714,
+        "raw_hex": "aa3103000000c9969e8c8e82cc90af89410000000000000089e4836a965d838096bd926d83898359816381630000000000000000000000000000008b59838c83668dcf838083678e768345836981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "満月の星陰",
+          "lines": [
+            "我ニ望ム命知ラズ……",
+            "戯レデ済ムト思ウナ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "만월의 호시카게",
+        "lines": [
+          "내게 바라다니, 목숨이 아깝지 않나……",
+          "장난으로 끝날 줄 마라!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "我ニ望ム命知ラズ를 목숨을 건 무모한 청으로 해석한 만월 호시카게의 위협 초벌.",
+        "flags": ["draft", "deferred_review", "archaic_style_review", "source_interpretation_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31AC",
+      "protected_snapshot": {
+        "record_id": 12716,
+        "raw_hex": "ac3103003508c88e748fa00000000000000000000000000090af894182f0937c82b782c682cd81410000000000000000000000000000000000000082c882a982c882a982e282e982cc82a7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "星陰を倒すとは、",
+            "なかなかやるのぉ",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "호시카게를 쓰러뜨리다니,",
+          "제법이구나.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭주한 제자를 쓰러뜨린 프리니를 칭찬하는 사부 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31AE",
+      "protected_snapshot": {
+        "record_id": 12718,
+        "raw_hex": "ae31040037ffc88376838a836a815b00000000000000000082b182c182bf82e0814183588343815b83638dec82e882c9000000000000000000000096bd82a982a982c182c482e98362835882a982e782cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "こっちも、スイーツ作りに",
+            "命かかってるッスからね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이쪽도 디저트 만들기에",
+          "목숨 걸었슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트 임무 역시 목숨이 걸렸다고 답하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31B0",
+      "protected_snapshot": {
+        "record_id": 12720,
+        "raw_hex": "b03104007905c890af89650000000000000000000000000082a082a282bd82bd82bd82bd816381638142000000000000000000000000000000000082a282c182bd82a289bd82cc919b82ac8366815b8358834a815b8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "あいたたたた……。",
+            "いったい何の騒ぎデースカー？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "아야야야…….",
+          "대체 무슨 소란이에~요?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정상으로 돌아와 상황을 기억하지 못하는 호시카게의 늘인 말투.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31B2",
+      "protected_snapshot": {
+        "record_id": 12722,
+        "raw_hex": "b23104003508c88e748fa00000000000000000000000000082d982ea8141838f835682a982e782cc8354815b8372835882b682e1814200000000008ef382af8ee682e982aa82a282a28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "ほれ、ワシからのサービスじゃ。",
+            "受け取るがいい。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "자, 이건 내 서비스다.",
+          "받거라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니의 실력을 인정하고 보상을 건네는 사부 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31B4",
+      "protected_snapshot": {
+        "record_id": 12724,
+        "raw_hex": "b431110000000000000000000000000000000000000000008376838a836a815b82cd8141834a8347838b82cc8e748fa082c900000000000000000081758fc482ab91e589a48343834a8176000000000000000000000000000000000000008163816382f082e082e782c182bd814900000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、カエルの師匠に",
+            "「焼き大王イカ」",
+            "……をもらった！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 개구리 사부에게",
+          "「구운 대왕오징어」",
+          "……를 받았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "焼き大王イカ를 조리 상태와 거대 오징어 이미지를 살린 아이템명으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "item_name_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31B6",
+      "protected_snapshot": {
+        "record_id": 12726,
+        "raw_hex": "b63103007f05c890af89650000000000000000000000000082a081608149814882bb82ea8141838f835e835682cc0000000000000000000000000082a882e282c282b682e182c882a283668358834a815b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1407,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "あ～！？それ、ワタシの",
+            "おやつじゃないデスカー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "아~!? 그거, 내",
+          "간식이잖아~요!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사부가 자신의 간식을 건넨 데 항의하는 호시카게 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31B8",
+      "protected_snapshot": {
+        "record_id": 12728,
+        "raw_hex": "b83102007f05c890af89650000000000000000000000000095d482b582c88354815b8343814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1407,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "返しなサーイ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "돌려줘~요!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "빼앗긴 간식을 돌려 달라는 호시카게의 외침.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31BA",
+      "protected_snapshot": {
+        "record_id": 12730,
+        "raw_hex": "ba31020035ffc88376838a836a815b000000000000000000899397b682c882ad82a282bd82be82ad8362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "遠慮なくいただくッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "사양 않고 받겠슴다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "호시카게의 항의를 무시하고 보상을 챙기는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31BC",
+      "protected_snapshot": {
+        "record_id": 12732,
+        "raw_hex": "bc31020035ffc88376838a836a815b000000000000000000825582c282df83518362836782c183588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "６つめゲットっス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "6번째 획득임다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "여섯 번째 재료 획득을 기뻐하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

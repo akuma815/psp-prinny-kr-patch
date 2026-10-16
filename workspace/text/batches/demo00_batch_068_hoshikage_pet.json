@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_068_hoshikage_pet",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2ca04e1f0388cf1b7679d5df5ced3c834b922d55b04347701977de7a7afdf5a8",
+  "context": {
+    "scene": "호시카게의 와비사비 수행과 애완동물 권유",
+    "evidence": [
+      "demo.nsf 목표 정적 참조 통합 38/38; BOOT dispatcher 선택 블록 7/7 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/3520",
+      "protected_snapshot": {
+        "record_id": 13600,
+        "raw_hex": "203504007905c890af896500000000000000000000000000838f83728354837282c992ca82b682bd8bad82ad82c4838f8393835f837a815b82c8008376838a836a815b82cd8386815b82bd82bf83668358834a815b8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ワビサビに通じた強くてワンダホーな",
+            "プリニーはユーたちデスカー？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "와비사비를 아는 강하고 원더풀한",
+          "프리니는 당신들입니-까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ワビサビ와 ワンダホー를 보존하고 호시카게의 외국인풍 말투를 적용한 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "culture_review_required",
+          "speaker_style_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3522",
+      "protected_snapshot": {
+        "record_id": 13602,
+        "raw_hex": "2235030032ffc88376838a836a815b000000000000000000838f83728354837282cd0000000000000000000000000000000000000000000000000082ed82a982f182c882a28362835882af82c781638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ワビサビは",
+            "わかんないッスけど……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "와비사비는",
+          "모름다만…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "와비사비는 모른다고 답하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3524",
+      "protected_snapshot": {
+        "record_id": 13604,
+        "raw_hex": "2435040037ffc88376838a836a815b00000000000000000082a082f182bd82aa9046815882c68aa888e182a282b582c482a282e90000000000000092c982a2906c82c182c482cc82cd926d82c182c482e9836283588163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あんたが色々と勘違いしている",
+            "痛い人ってのは知ってるッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "당신이 여러모로 착각하는",
+          "아픈 사람인 건 암다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "痛い人를 아픈 사람으로 직역한 비꼼의 전달력을 최종 검토한다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "culture_review_required",
+          "tone_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3526",
+      "protected_snapshot": {
+        "record_id": 13606,
+        "raw_hex": "263503007905c890af896500000000000000000000000000838f835e835682cc8f438d7382c9000000000000000000000000000000000000000000957482ab8d8782a48366815b83588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ワタシの修行に",
+            "付き合うデース！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "내 수행에",
+          "어울려 주세-요!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신의 수행에 동참하라는 호시카게의 외국인풍 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3528",
+      "protected_snapshot": {
+        "record_id": 13608,
+        "raw_hex": "283503007905c890af89650000000000000000000000000082bb82b582c4838f835e835682cc83798362836782c90000000000000000000000000082c882e982aa82a282a2836c815b8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "そしてワタシのペットに",
+            "なるがいいネー！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "그리고 내 펫이",
+          "되는 겁니-다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 애완동물로 삼겠다는 호시카게 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/352A",
+      "protected_snapshot": {
+        "record_id": 13610,
+        "raw_hex": "2a35040032ffc88376838a836a815b00000000000000000082d982f182c682c98141906c82cc986282f0000000000000000000000000000000000082c882f182c982e095b782a282c482c882a28362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ほんとに、人の話を",
+            "なんにも聞いてないッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "정말 남의 말을",
+          "전혀 안 듣슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "호시카게가 남의 말을 듣지 않는다고 지적하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

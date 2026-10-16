@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_035_paid_comedy",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "4ab67e8ffcda225931ff6af9192481f9e4e6796121d6077b6f4fe3acc008fce3",
+  "context": {
+    "scene": "카르다몬과 세사미의 스위츠 남작 소문 및 유료 부부 만담",
+    "evidence": [
+      "demo.nsf logical offsets 0x104ED..0x10A9A의 연속 16개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 16/16 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2B5C",
+      "protected_snapshot": {
+        "record_id": 11100,
+        "raw_hex": "5c2b0300b104c8835a8354837e00000000000000000000008ac382a282e082f182c4000000000000000000000000000000000000000000000000008d4482ab82e282ed8340814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "甘いもんて",
+            "好きやわァ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "단 건",
+          "좋아한다 아이가.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "단것을 좋아한다는 세사미의 간사이풍 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B5E",
+      "protected_snapshot": {
+        "record_id": 11102,
+        "raw_hex": "5e2b04004d04c9834a838b835f838283930000000000000082a282ad82e78d4482ab82a282a482c482e0000000000000000000000000000000000083588343815b8363926a8edd82c982cd958982af82e982e282eb8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "いくら好きいうても",
+            "スイーツ男爵には負けるやろ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "아무리 좋아해도",
+          "스위츠 남작한텐 못 당하지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작의 단것 사랑과 비교하는 카르다몬 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B60",
+      "protected_snapshot": {
+        "record_id": 11104,
+        "raw_hex": "602b0400b104c8835a8354837e000000000000000000000082bb82e782bb82a482e2814282a082cc82a8906c8141944e82aa82e7944e92860000008ac382a283828393904882a382c482cd82e982a982e782c883408142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "そらそうや。あのお人、年がら年中",
+            "甘いモン食ぅてはるからなァ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "당연하지. 그 사람은 일 년 내내",
+          "단것만 먹고 사니까.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작이 늘 단것을 먹는다는 세사미 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B62",
+      "protected_snapshot": {
+        "record_id": 11106,
+        "raw_hex": "622b03004f04c9834a838b835f838283930000000000000083748374837481638163814200000000000000000000000000000000000000000000008349837d834782e08ac382a282c5836e836a815b818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "フフフ……。",
+            "オマエも甘いでハニー￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "후후후…….",
+          "당신도 참 달콤하다, 허니￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "甘い의 중의성과 허니￥ 제어 표기를 보존한 카르다몬의 애정 농담 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "control_marker_preserved", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B64",
+      "protected_snapshot": {
+        "record_id": 11108,
+        "raw_hex": "642b0300b404c8835a8354837e000000000000000000000082a282e282e200000000000000000000000000000000000000000000000000000000008fc682ea82e982ed829f818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "いやや",
+            "照れるわぁ￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "아잉,",
+          "부끄럽게￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "부끄러워하는 세사미의 부부 만담과 ￥ 제어 표기를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B66",
+      "protected_snapshot": {
+        "record_id": 11110,
+        "raw_hex": "662b010032ffc88376838a836a815b000000000000000000816381638163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "…………。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "………….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "닭살 돋는 부부 대화를 지켜보는 프리니의 침묵 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B68",
+      "protected_snapshot": {
+        "record_id": 11112,
+        "raw_hex": "682b03004d04c9834a838b835f838283930000000000000082c882f182e2814897a782bf95b782ab82c682cd00000000000000000000000000000082a882be82e282a982e282c882a282c8814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "なんや？立ち聞きとは",
+            "おだやかやないな。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "뭐고? 엿듣기라니",
+          "심상찮구마.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "엿듣는 프리니를 추궁하는 카르다몬의 방언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B6A",
+      "protected_snapshot": {
+        "record_id": 11114,
+        "raw_hex": "6a2b0400b104c8835a8354837e000000000000000000000082a482bf82e782cc8fee95f18163816382e282c882ad82c48163816300000000000000969f8dcb82cd82bd82be82e282c882a282c581480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "うちらの情報……やなくて……",
+            "漫才はただやないで？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "우리 정보……아니……",
+          "만담은 공짜가 아니데이?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "정보를 만담으로 고쳐 말하며 돈을 요구하는 세사미의 방언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B6C",
+      "protected_snapshot": {
+        "record_id": 11116,
+        "raw_hex": "6c2b030032ffc88376838a836a815b0000000000000000008da182cc82a882cc82eb82af95769577969f8dcb82c5000000000000000000000000008be082c682e982f18362835882a98163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "今のおのろけ夫婦漫才で",
+            "金とるんッスか……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "지금 그 닭살 부부 만담으로",
+          "돈도 받슴까…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "부부 만담에 돈까지 받느냐고 황당해하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B6E",
+      "protected_snapshot": {
+        "record_id": 11118,
+        "raw_hex": "6e2b04004d04c9834a838b835f838283930000000000000082c882f182e2969f8dcb82aa8ca982bd82a282f182e282c882a282f182a9814200000082b582e1815b82c882a282c881428e9d82c182c482af8368838d837b815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "なんや漫才が見たいんやないんか。",
+            "しゃーないな。持ってけドロボー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "뭐고, 만담 보러 온 게 아니었나.",
+          "어쩔 수 없네. 가져가라, 도둑아!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "만담 손님이 아님을 알고 물건을 던져 주는 카르다몬 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B70",
+      "protected_snapshot": {
+        "record_id": 11120,
+        "raw_hex": "702b110000000000000000000000000000000000000000008376838a836a815b82cd8141834a838b835f8382839382bd82bf82cc82a882e282c200817589bd82a982cc8d9c817600000000000000000000000000000000000000000000008163816382f082a282bd82be82a282bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、カルダモンたちのおやつ",
+            "「何かの骨」",
+            "……をいただいた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 카르다몬 일행의 간식",
+          "「무언가의 뼈」",
+          "……를 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "何かの骨를 무언가의 뼈로 옮긴 아이템 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B72",
+      "protected_snapshot": {
+        "record_id": 11122,
+        "raw_hex": "722b030037ffc88376838a836a815b00000000000000000082c682b182eb82c583588343815b8363926a8edd82c182c4000000000000000000000089bd8ed2836283588148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ところでスイーツ男爵って",
+            "何者ッス？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그런데 스위츠 남작이",
+          "누구임까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작의 정체를 묻는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B74",
+      "protected_snapshot": {
+        "record_id": 11124,
+        "raw_hex": "742b0300b104c8835a8354837e000000000000000000000082b182b182c99682905f83478367836982cc82b182c682f0000000000000000000000095b782ab82c9978882bd82c581420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "ここに魔神エトナのことを",
+            "聞きに来たで。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "여기에 마신 에트나에 대해",
+          "물으러 왔데이.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "주어가 생략된 원문을 앞선 스위츠 남작으로 연결한 세사미 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "referent_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B76",
+      "protected_snapshot": {
+        "record_id": 11126,
+        "raw_hex": "762b020037ffc88376838a836a815b000000000000000000834783678369976c82cc82b182c681480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様のこと？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님에 대해서?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나에 관한 질문이었다는 말에 반문하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B78",
+      "protected_snapshot": {
+        "record_id": 11128,
+        "raw_hex": "782b03004e04c9834a838b835f838283930000000000000082a882c182c6814100000000000000000000000000000000000000000000000000000082b182ea88c88fe382cc8fee95f182cd974c97bf82e2814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1102,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "おっと、",
+            "これ以上の情報は有料や。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "어허,",
+          "이 이상은 유료다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "추가 정보는 유료라고 선을 긋는 카르다몬 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B7A",
+      "protected_snapshot": {
+        "record_id": 11130,
+        "raw_hex": "7a2b020032ffc88376838a836a815b00000000000000000090a282cc928681418be08be08be08362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "世の中、金金金ッスね。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "세상은 돈 돈 돈임다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "돈을 거듭 요구하는 세태를 한탄하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

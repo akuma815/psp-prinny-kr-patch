@@ -1,0 +1,910 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_042_paprika_turmeric",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "6b55532f0488a337edade1e3fbe86962bbc960e6bb585a21edb744a6ee9f09da",
+  "context": {
+    "scene": "파프리카의 유혹과 터메릭의 용병 난입·열혈 브리프 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x137AE..0x1406F의 연속 20개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 20/20 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2D82",
+      "protected_snapshot": {
+        "record_id": 11650,
+        "raw_hex": "822d0300bd02c883708376838a834a00000000000000000082ed82a881418376838a836a815b81498149000000000000000000000000000000000082e282c182c68ca982c182af82bd82c982e182f1818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "わお、プリニー！！",
+            "やっと見っけたにゃん￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "와, 프리니!!",
+          "드디어 찾았다냥￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 발견하고 반기는 파프리카의 승인된 냥체와 ￥ 표기를 적용한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D84",
+      "protected_snapshot": {
+        "record_id": 11652,
+        "raw_hex": "842d0400c002c883708376838a834a00000000000000000082b182c182bf82a882a282c582c982e1816082f1818f000000000000000000000000008345836082cc91be82e082e082c882c582c882c582b782e982c982e1818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "こっちおいでにゃ～ん￥",
+            "ウチの太ももなでなでするにゃ￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "이리 오라냥~￥",
+          "내 허벅지를 쓰다듬어라냥￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 유혹해 허벅지를 쓰다듬게 하려는 파프리카 대사와 ￥ 표기를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D86",
+      "protected_snapshot": {
+        "record_id": 11654,
+        "raw_hex": "862d040034ffc88376838a836a815b00000000000000000082c882c882c882f18362835882a9814182b182cc82a282ab82c882e882cc0000000000838283658382836582c182d582e88149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なななんッスか、このいきなりの",
+            "モテモテっぷり！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무무무슨 상황임까, 갑자기",
+          "인기 폭발임까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 유혹을 인기 폭발로 오해하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D88",
+      "protected_snapshot": {
+        "record_id": 11656,
+        "raw_hex": "882d0300c302c883708376838a834a0000000000000000008163816388ab82a282c982e181410000000000000000000000000000000000000000008cd982a28ee582cc96bd97df82c982e182f1818f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 707,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "……悪いにゃ、",
+            "雇い主の命令にゃん￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "……미안하다냥,",
+          "고용주 명령이다냥￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "고용주의 명령으로 프리니를 유인했음을 밝히는 파프리카 냥체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D8A",
+      "protected_snapshot": {
+        "record_id": 11658,
+        "raw_hex": "8a2d0f000000c8814881488148814800000000000000000091d282c491d282c491d282c4815b82a281490000000000000000000000000000000000904e93fc8ed282cd8349838c82c982dc82a982b982eb814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 15,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "待て待て待てーい！",
+            "侵入者はオレにまかせろ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "잠깐 잠깐 잠깐~!",
+          "침입자는 내게 맡겨라!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체 공개 전 명패를 가리고 침입자 처리를 자청하는 터메릭의 난입 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_identity_protected"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D8C",
+      "protected_snapshot": {
+        "record_id": 11660,
+        "raw_hex": "8c2d030023fac9835e815b8381838a8362834e00000000008349838c82cd97ac82b582cc976295ba8141000000000000000000000000000000000095738e8092b982cc835e815b8381838a8362834e8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "オレは流しの傭兵、",
+            "不死鳥のターメリック！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "난 떠돌이 용병,",
+          "불사조의 터메릭!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인된 터메릭 이름과 불사조의 자칭을 적용한 재등장 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D8E",
+      "protected_snapshot": {
+        "record_id": 11662,
+        "raw_hex": "8e2d030023fac9835e815b8381838a8362834e0000000000836c83528f9781418349838c82f08cd982a282c88149000000000000000000000000008ce389f782cd82b382b982c882a282ba814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ネコ女、オレを雇いな！",
+            "後悔はさせないぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "고양이 여자, 날 고용해라!",
+          "후회하지 않을 거다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "파프리카에게 자신을 고용하라고 제안하는 터메릭의 열혈 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D90",
+      "protected_snapshot": {
+        "record_id": 11664,
+        "raw_hex": "902d0400bd02c883708376838a834a00000000000000000082c982e1815b82f181f482bb82ea82c882e7918191ac8376838a836a815b82f000000095df82dc82a682e982c982e181490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "にゃーん♪それなら早速プリニーを",
+            "捕まえるにゃ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "냐앙♪ 그럼 당장 프리니를",
+          "잡아라냥!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "터메릭을 즉시 고용해 프리니 생포를 명령하는 파프리카 냥체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D92",
+      "protected_snapshot": {
+        "record_id": 11666,
+        "raw_hex": "922d0400c002c883708376838a834a00000000000000000095df82dc82a682bd82e78345836082cc968283568385837d838d82f000000000000000836383938363839382b382b982c482a082b082e982c982e182f1818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "捕まえたらウチの魔シュマロを",
+            "ツンツンさせてあげるにゃん￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "잡으면 내 마시멜로를",
+          "쿡쿡 찌르게 해 주겠다냥￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "魔シュマロ의 악마식·성적 중의성을 우선 마시멜로로 옮기고 ￥ 표기를 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved", "term_review_required", "wordplay_review_required", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D94",
+      "protected_snapshot": {
+        "record_id": 11668,
+        "raw_hex": "942d030021fac9835e815b8381838a8362834e000000000082ca82a782a782c181410000000000000000000000000000000000000000000000000082c882f182c682a282a496a397cd934982c895f18f56814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1503,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ぬぉぉっ、",
+            "なんという魅力的な報酬！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "누오오,",
+          "이 얼마나 매력적인 보수인가!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "파프리카가 제시한 보수에 열광하는 터메릭 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D96",
+      "protected_snapshot": {
+        "record_id": 11670,
+        "raw_hex": "962d030023fac9835e815b8381838a8362834e000000000082be82aa8349838c82cd8b7782cc8fee95f182f000000000000000000000000000000093be82e982bd82df82c98be082aa82a282e982cc82be814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "だがオレは仇の情報を",
+            "得るために金がいるのだ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "하지만 원수의 정보를",
+          "얻으려면 돈이 필요하다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "원수의 정보를 얻기 위해 돈이 필요하다는 터메릭의 목적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D98",
+      "protected_snapshot": {
+        "record_id": 11672,
+        "raw_hex": "982d0400dd05c9835e815b8381838a8362834e0000000000958982af82bd82e782b582e582a482aa82cb82a581638163814200000000000000000082b182f182c882e082f182b582a982cb82a582aa82a8914f82c982e282e982ba8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "負けたらしょうがねぇ……。",
+            "こんなもんしかねぇがお前にやるぜ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "졌으니 어쩔 수 없군…….",
+          "이런 것뿐이지만 너 가져라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "패배 뒤 가진 물건을 프리니에게 건네는 터메릭 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D9A",
+      "protected_snapshot": {
+        "record_id": 11674,
+        "raw_hex": "9a2d110000000000000000000000000000000000000000008376838a836a815b82cd8141924582ac82bd82c482d982e282d982e282cc00000000008175944d8c8c8375838a815b83748176000000000000000000000000000000000000008163816382f0899f82b5957482af82e782ea82bd814900000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、脱ぎたてほやほやの",
+            "「熱血ブリーフ」",
+            "……を押し付けられた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 방금 벗어 따끈한",
+          "「열혈 브리프」",
+          "……를 떠맡았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "脱ぎたてほやほや와 熱血ブリーフ의 불쾌한 개그를 방금 벗어 따끈한 열혈 브리프로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D9C",
+      "protected_snapshot": {
+        "record_id": 11676,
+        "raw_hex": "9c2d040032ffc88376838a836a815b0000000000000000008163816382c782a482dd82c482e083588343815b836382cc8dde97bf82b682e100000082c882a28362835882af82c782cb814283848350834e835c82c18358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……どうみてもスイーツの材料じゃ",
+            "ないッスけどね。ヤケクソっス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……아무리 봐도 디저트 재료는",
+          "아님다. 될 대로 되라임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "브리프가 디저트 재료가 아님을 알지만 자포자기하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D9E",
+      "protected_snapshot": {
+        "record_id": 11678,
+        "raw_hex": "9e2d0a00de05c9835e815b8381838a8362834e00000000008be082cd82e082a492fa82df82e982a98163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 10,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "金はもう諦めるか……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "돈은 이제 포기할까…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정보 구입 자금을 포기할지 고민하는 터메릭 독백 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DA0",
+      "protected_snapshot": {
+        "record_id": 11680,
+        "raw_hex": "a02d0b00de05c9835e815b8381838a8362834e000000000082b182a482c882e882e18384836382cc8d488fea82c90000000000000000000000000092bc90da90f693fc82b782e982b582a982cb82a58142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 11,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "こうなりゃヤツの工場に",
+            "直接潜入するしかねぇ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "이렇게 된 이상 녀석의 공장에",
+          "직접 잠입할 수밖에 없다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "원수의 공장에 직접 잠입하기로 결심하는 터메릭 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DA2",
+      "protected_snapshot": {
+        "record_id": 11682,
+        "raw_hex": "a22d0100dd05c9835e815b8381838a8362834e00000000008163816382b382e782ce8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "……さらば！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "……잘 있어라!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "공장 잠입을 위해 떠나는 터메릭의 작별 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DA4",
+      "protected_snapshot": {
+        "record_id": 11684,
+        "raw_hex": "a42d0400c002c883708376838a834a0000000000000000008bf38b4382cc93c782df82c882a2836f834a82cd82e082a482a282c882a282c982e10082b3814182b182c182bf82a882a282c582c982e1815b818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "空気の読めないバカはもういないにゃ",
+            "さ、こっちおいでにゃー￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "눈치 없는 바보는 이제 없다냥.",
+          "자, 이리 오라냥~￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "터메릭이 떠난 뒤 다시 프리니를 유혹하는 파프리카 냥체와 ￥ 표기 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DA6",
+      "protected_snapshot": {
+        "record_id": 11686,
+        "raw_hex": "a62d020032ffc88376838a836a815b00000000000000000082b782bd82b182e782b382c182b383628358815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "すたこらさっさッスー！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "냅다 도망임다~!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "파프리카의 유혹에서 재빨리 달아나는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DA8",
+      "protected_snapshot": {
+        "record_id": 11688,
+        "raw_hex": "a82d0400c202c883708376838a834a00000000000000000082e082a4814992bf82b582ad8376838a836a815b82f08ca982c282af82bd82cc82c90082a082cc944d8c8c836f834a82cc82b982a282be8352839381490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 706,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "パプリカ",
+          "lines": [
+            "もう！珍しくプリニーを見つけたのに",
+            "あの熱血バカのせいだコン！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "파프리카",
+        "lines": [
+          "정말! 어렵게 프리니를 찾았는데",
+          "저 열혈 바보 때문이다콩!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "터메릭 때문에 프리니를 놓치고 여우 말버릇 콩이 나온 파프리카 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

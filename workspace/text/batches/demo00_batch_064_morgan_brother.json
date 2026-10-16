@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_064_morgan_brother",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2ca04e1f0388cf1b7679d5df5ced3c834b922d55b04347701977de7a7afdf5a8",
+  "context": {
+    "scene": "모건의 동생 패배 확인과 재도전",
+    "evidence": [
+      "demo.nsf 목표 정적 참조 통합 38/38; BOOT dispatcher 선택 블록 7/7 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/3458",
+      "protected_snapshot": {
+        "record_id": 13400,
+        "raw_hex": "583403004306c88382815b834b839300000000000000000082a082f182bd82e782a082c182b582cc92ed82dc82c50000000000000000000000000082cc82b582bd82bb82a482c582b782c8814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1603,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "あんたらあっしの弟まで",
+            "のしたそうですな。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "너희가 내 동생까지",
+          "쓰러뜨렸다더군.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "モーガン의 弟를 동생으로 옮긴 관계 정보. 이전 형제 대사와 최종 대조한다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "relationship_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/345A",
+      "protected_snapshot": {
+        "record_id": 13402,
+        "raw_hex": "5a3403004106c88382815b834b839300000000000000000082af82c782a082f182bd82e782aa8bad82a282cc82c682cd000000000000000000000088e182a282dc82b782ba814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "けどあんたらが強いのとは",
+            "違いますぜ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "하지만 너희가 강하다는 것과는",
+          "다른 얘기지.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "동생을 쓰러뜨렸다고 프리니가 강한 것은 아니라고 반박하는 모건 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/345C",
+      "protected_snapshot": {
+        "record_id": 13404,
+        "raw_hex": "5c34030032ffc88376838a836a815b00000000000000000082bb82cc88d38ca982cd8141000000000000000000000000000000000000000000000082e082c182c682e08362835882af82c7816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "その意見は、",
+            "もっともッスけど……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그 의견은",
+          "맞는 말임다만…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모건의 지적이 타당하다고 마지못해 인정하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/345E",
+      "protected_snapshot": {
+        "record_id": 13406,
+        "raw_hex": "5e3404004106c88382815b834b83930000000000000000008da1937882cd8fa4956982c682cd8e7682a282dc82b982f182ba8149000000000000008ee889c18cb882c882b581498a6f8ce582b582c482ad82be82b982a6814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーガン",
+          "lines": [
+            "今度は商品とは思いませんぜ！",
+            "手加減なし！覚悟してくだせえ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모건",
+        "lines": [
+          "이번엔 상품이라 생각 안 해!",
+          "봐주기 없다! 각오해!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "이번에는 프리니를 상품으로 보지 않고 전력으로 싸우겠다는 모건 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3460",
+      "protected_snapshot": {
+        "record_id": 13408,
+        "raw_hex": "6034040036ffc88376838a836a815b00000000000000000082e282c182cf82e8814182bb82a482ab82bd8362835882a9814981490000000000000082e082a481418aa895d982b582c482d982b582a28362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "やっぱり、そうきたッスか！！",
+            "もう、勘弁してほしいッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "역시 그렇게 나옴까!!",
+          "이제 좀 봐주십쇼!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모건의 재도전에 질려 선처를 구하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

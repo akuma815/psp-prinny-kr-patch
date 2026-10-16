@@ -1,0 +1,601 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_105a_utf8_repair",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "bd4755a11bf449ca900030026b17ce43f9a55af63e18b10ab93ffedc0eacf81c",
+  "context": {
+    "scene": "UTF-8 초벌 번역 교정",
+    "evidence": [
+      "PowerShell 파이프 문자 치환 발견 후 UTF-8 원문 복구"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/09F6",
+      "protected_snapshot": {
+        "record_id": 2550,
+        "raw_hex": "f60902006500c88376838a8fab8c5200000000000000000095b782a282bd8362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ将軍",
+          "lines": [
+            "聞いたッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "?? ??",
+        "lines": [
+          "?????",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리 장군",
+        "lines": [
+          "들었슴까?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09F8",
+      "protected_snapshot": {
+        "record_id": 2552,
+        "raw_hex": "f80904006500c88376838a8fab8c52000000000000000000937c82b582bd88ab968282bd82bf82aa81418b868bc982cc83588343815b836382f000915f82a28f6f82b582bd82c182c48345838f835482c1835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ将軍",
+          "lines": [
+            "倒した悪魔たちが、究極のスイーツを",
+            "狙い出したってウワサっス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "?? ??",
+        "lines": [
+          "???? ???? ??? ????",
+          "???? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리 장군",
+        "lines": [
+          "쓰러뜨린 악마들이 궁극의 스위츠를",
+          "노린다는 소문임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09FA",
+      "protected_snapshot": {
+        "record_id": 2554,
+        "raw_hex": "fa09030032ffc88376838a836a815b00000000000000000082a0814182a082f182c888ab968282bd82bf82c682cd0000000000000000000000000082e082a490ed82a282bd82ad82c882a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あ、あんな悪魔たちとは",
+            "もう戦いたくないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?, ?? ????",
+          "?? ??? ?? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그런 악마들과",
+          "다시 싸우고 싶지 않슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09FC",
+      "protected_snapshot": {
+        "record_id": 2556,
+        "raw_hex": "fc09030032ffc88376838a836a815b00000000000000000082bd82be82cc8345838f835482c582a082e982b182c682f0000000000000000000000090d8965d82b782e98362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ただのウワサであることを",
+            "切望するッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?? ????",
+          "??? ?????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그냥 소문이길",
+          "간절히 바람다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09FE",
+      "protected_snapshot": {
+        "record_id": 2558,
+        "raw_hex": "fe0904006500c88376838a94fc00000000000000000000008376838a836a815b82c182c482a282c182bd82a200000000000000000000000000000082c782b182a982e790b682dc82ea82e982f18362835882a982cb8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ美",
+          "lines": [
+            "プリニーっていったい",
+            "どこから生まれるんッスかね？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "???? ??",
+          "??? ???? ???",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리미",
+        "lines": [
+          "프리니는 대체",
+          "어디서 태어나는 검까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A00",
+      "protected_snapshot": {
+        "record_id": 2560,
+        "raw_hex": "000a040037ffc88376838a836a815b00000000000000000090ce82a982e790b682dc82ea82e982c682e0814196d882c98ec082e982c682e00000008cbe82a48362835882aa81418ca982bd82b182c682c882a283628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "石から生まれるとも、木に実るとも",
+            "言うッスが、見たことないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "??? ?? ??? ?????",
+          "? ?? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "돌에서 나고 나무에 열린다지만",
+          "본 적은 없슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A02",
+      "protected_snapshot": {
+        "record_id": 2562,
+        "raw_hex": "020a03006500c98376838a8362834e83580000000000000082a282dc96828a4582b682e1906c8dde94688cad82aa0000000000000000000000000097ac8d7382c182c482e98362835882e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリックス",
+          "lines": [
+            "いま魔界じゃ人材派遣が",
+            "流行ってるッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?? ???? ?? ???",
+          "????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프릭스",
+        "lines": [
+          "요즘 마계에선 인력 파견이",
+          "유행임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A04",
+      "protected_snapshot": {
+        "record_id": 2564,
+        "raw_hex": "040a03006500c98376838a8362834e8358000000000000008382815b834b83938fa489ef82c182c482cc82aa0000000000000000000000000000008dc591e58ee883628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリックス",
+          "lines": [
+            "モーガン商会ってのが",
+            "最大手ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?? ???? ??",
+          "?? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프릭스",
+        "lines": [
+          "모건 상회라는 곳이",
+          "업계 최대임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A06",
+      "protected_snapshot": {
+        "record_id": 2566,
+        "raw_hex": "060a040037ffc88376838a836a815b00000000000000000082d382c1814194688cad89ef8ed082c882f182c492ca82b382c882ad82c482e0814100926a8edd82c98cd982c182c482e082e782a682e982a982e083628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ふっ、派遣会社なんて通さなくても、",
+            "男爵に雇ってもらえるかもッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?, ?? ?? ? ???",
+          "???? ???? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "흥, 파견 회사 안 통해도",
+          "남작에게 고용될지 모름다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A08",
+      "protected_snapshot": {
+        "record_id": 2568,
+        "raw_hex": "080a04006500c98376838a8362834e83580000000000000082a082f182bd935d904582b782e98b43969e81588362835882cb8142000000000000008349838c82cd834783678369976c82cc82c682b182c597c782a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリックス",
+          "lines": [
+            "あんた転職する気満々ッスね。",
+            "オレはエトナ様のとこで良いッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?? ??? ??? ????.",
+          "?? ??? ? ?? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프릭스",
+        "lines": [
+          "당신 완전히 이직할 생각임다.",
+          "나는 에트나 님 밑이 좋슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0A0A",
+      "protected_snapshot": {
+        "record_id": 2570,
+        "raw_hex": "0a0a040032ffc88376838a836a815b000000000000000000834783678369976c82aa97c782a282c682a282a482e682e8000000000000000000000082a082c682aa957c82a282c182c48ab482b68362835882cb81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様が良いというより",
+            "あとが怖いって感じッスね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "??? ?? ?????",
+          "??? ??? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님이 좋다기보다",
+          "뒷일이 무서운 검다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_094_opening_late_bomb",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "371d937ad25f8892c0317638fc50e81d14f1af0b1ca7a6b1e6ad5d09828ad49b",
+  "context": {
+    "scene": "지각한 프리니와 마력의 구슬 획득",
+    "evidence": [
+      "정적 후보 13/13 실행 시작점 증명"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/07D2",
+      "protected_snapshot": {
+        "record_id": 2002,
+        "raw_hex": "d20702000000c8834b834383528363000000000000000000927882ea82eb927882ea82eb927882ea82bf82dc82a681f4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ガイコツ",
+          "lines": [
+            "遅れろ遅れろ遅れちまえ♪",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "해골",
+        "lines": [
+          "늦어라 늦어라 늦어 버려라♪",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07D4",
+      "protected_snapshot": {
+        "record_id": 2004,
+        "raw_hex": "d40702000000c8834b834383528363000000000000000000935d82f182c5927882ea82c4837b83628352837b835281f4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ガイコツ",
+          "lines": [
+            "転んで遅れてボッコボコ♪",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "해골",
+        "lines": [
+          "넘어져 늦고 두들겨 맞아라♪",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07D6",
+      "protected_snapshot": {
+        "record_id": 2006,
+        "raw_hex": "d607030097ffc88376838a836a815b00000000000000000082bb814182bb82ea82be82af82cd000000000000000000000000000000000000000000834a83938378839382c1835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -105,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そ、それだけは",
+            "カンベンっス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그것만은",
+          "봐주심다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07D8",
+      "protected_snapshot": {
+        "record_id": 2008,
+        "raw_hex": "d80703009affc88376838a836a815b00000000000000000082c882c882c8814100000000000000000000000000000000000000000000000000000082c882c982b282c68362835882a98149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -102,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ななな、",
+            "なにごとッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무, 무슨",
+          "일임까!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07DA",
+      "protected_snapshot": {
+        "record_id": 2010,
+        "raw_hex": "da0704000000c8834b83438352836300000000000000000082a892878ad488a382ea82c98376838a836a815b949a926581f40000000000000000009682905f82cc937b82e882aa8d7e82e8928d82ae81f4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ガイコツ",
+          "lines": [
+            "お仲間哀れにプリニー爆弾♪",
+            "魔神の怒りが降り注ぐ♪",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "해골",
+        "lines": [
+          "동료의 비참한 프리니 폭탄♪",
+          "마신의 분노가 쏟아진다♪",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07DC",
+      "protected_snapshot": {
+        "record_id": 2012,
+        "raw_hex": "dc07020098ffc88376838a836a815b00000000000000000082d082a682a582c181418b7d82ae83628358815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -104,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひえぇっ、急ぐッスー！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히익, 서두름다!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07DE",
+      "protected_snapshot": {
+        "record_id": 2014,
+        "raw_hex": "de0702006a00c88376838a836a815b00000000000000000082c8814189bd82aa8b4e82ab82bd8362835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、何が起きたッスか！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 뭐가 일어난 검까!?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07E0",
+      "protected_snapshot": {
+        "record_id": 2016,
+        "raw_hex": "e007020098ffc98376838a836a815b91e00000000000000082b28ee5906c976c82aa82a8937b82e88362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -104,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "ご主人様がお怒りッス！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "주인님이 화나셨슴다!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07E2",
+      "protected_snapshot": {
+        "record_id": 2018,
+        "raw_hex": "e207040098ffc98376838a836a815b91e00000000000000097e182cc8e968ec082f082c682a482c682a4926d82e782ea82c400000000000000000082b582dc82c182bd8362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -104,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "例の事実をとうとう知られて",
+            "しまったッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "그 사실을 결국",
+          "아셨슴다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07E4",
+      "protected_snapshot": {
+        "record_id": 2020,
+        "raw_hex": "e407030098ffc98376838a836a815b91e000000000000000918182ad959489ae82c98d7382ad8362835882e681490000000000000000000000000096bd97df82cd90e291ce836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -104,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "早く部屋に行くッスよ！",
+            "命令は絶対ッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "빨리 방으로 감다!",
+          "명령은 절대임다!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07E6",
+      "protected_snapshot": {
+        "record_id": 2022,
+        "raw_hex": "e60701006b00c88376838a836a815b00000000000000000082d082a582a582c181498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 107,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひぇぇっ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히이익!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07E8",
+      "protected_snapshot": {
+        "record_id": 2024,
+        "raw_hex": "e807010099ffc88376838a836a815b0000000000000000008b438d878362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "気合ッス！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "기합임다!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/07EA",
+      "protected_snapshot": {
+        "record_id": 2026,
+        "raw_hex": "ea07110000000000000000000000000000000000000000008376838a836a815b82cd81418366815b8382839382aa978e82c682b582bd00000000008175968297cd82cc8bca817600000000000000000000000000000000000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、デーモンが落とした",
+            "「魔力の玉」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 데몬이 떨어뜨린",
+          "「마력의 구슬」을",
+          "획득했다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

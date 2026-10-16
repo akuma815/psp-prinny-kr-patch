@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_040_natsu_black_cat",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "9ba06cf4ee0457395344a10c25b9ff9d1e402b130225e715df01848bb0c5a3f5",
+  "context": {
+    "scene": "나츠와 메그의 검은 고양이 낚시 실패 및 지옥 원숭이 걸상버섯 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x12A04..0x12F1F의 연속 13개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 13/13 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2D1E",
+      "protected_snapshot": {
+        "record_id": 11550,
+        "raw_hex": "1e2d03008703c88369836300000000000000000000000000836083628141000000000000000000000000000000000000000000000000000000000095df82dc82a682bb82b182c882c182bd82a981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 903,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "チッ、",
+            "捕まえそこなったか！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "쳇,",
+          "놓쳐 버렸나!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "검은 고양이 낚시에 실패한 나츠의 짜증 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D20",
+      "protected_snapshot": {
+        "record_id": 11552,
+        "raw_hex": "202d030036ffc88376838a836a815b00000000000000000082d082a582a58149000000000000000000000000000000000000000000000000000000e3a982be82c182bd8362835882a98149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひぇぇ！",
+            "罠だったッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히익!",
+          "함정이었슴까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신이 미끼였음을 깨닫고 놀라는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D22",
+      "protected_snapshot": {
+        "record_id": 11554,
+        "raw_hex": "222d04008803c8836983630000000000000000000000000082e282c182c68ca982c282af82bd8376838a836a815b82c882f182be82a982e700000093a682aa82b382c882a282ed82e68142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 904,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "やっと見つけたプリニーなんだから",
+            "逃がさないわよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "겨우 찾은 프리니니까",
+          "놓치지 않을 거야.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "귀해진 프리니를 놓치지 않겠다는 나츠 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D24",
+      "protected_snapshot": {
+        "record_id": 11556,
+        "raw_hex": "242d030016fcc88381834f00000000000000000000000000837483748374816381638142000000000000000000000000000000000000000000000088d38b43816381639767815881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1002,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "フフフ……。",
+            "意気……揚々。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "후후후…….",
+          "의기……양양.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "의기양양한 상태를 단어 단위로 끊어 말하는 메그의 기존 과묵체 적용.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D26",
+      "protected_snapshot": {
+        "record_id": 11558,
+        "raw_hex": "262d020033ffc88376838a836a815b00000000000000000082c8814182c882c982b282c68362835882a9814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、なにごとッスか！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무, 무슨 일임까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 추격 상황을 묻는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D28",
+      "protected_snapshot": {
+        "record_id": 11560,
+        "raw_hex": "282d04008603c8836983630000000000000000000000000082a0815b82a081418d95944c92de82e982c982cd8376838a836a815b82f00000000000896182c982b782e982cc82aa97c782a282c695aa82a982c182c482e982cc82c98142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 902,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "あーあ、黒猫釣るにはプリニーを",
+            "餌にするのが良いと分かってるのに。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "검은 고양이는 프리니를",
+          "미끼로 낚아야 하는데.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "검은 고양이를 낚기 위한 프리니 미끼 전술을 설명하는 나츠 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D2A",
+      "protected_snapshot": {
+        "record_id": 11562,
+        "raw_hex": "2a2d0200eb03c88381834f000000000000000000000000008efb8a6e816381638a4696b3814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1003,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "収穫……皆無。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "수확……전무.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "검은 고양이 포획 성과가 없음을 단어 단위로 말하는 메그의 기존 과묵체 적용.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D2C",
+      "protected_snapshot": {
+        "record_id": 11564,
+        "raw_hex": "2c2d03008703c8836983630000000000000000000000000082cb82a6814182a082f182bd82e788ea91cc000000000000000000000000000000000082c782b182c982a282e982cc81480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 903,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "ねえ、あんたら一体",
+            "どこにいるの？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "있잖아, 너희 대체",
+          "어디 있는 거야?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "최근 프리니가 보이지 않는 이유를 묻는 나츠 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D2E",
+      "protected_snapshot": {
+        "record_id": 11566,
+        "raw_hex": "2e2d040032ffc88376838a836a815b00000000000000000082a681418349838c82bd82bf96828a45928682c782b182c982c582e00000000000000082a282e982b682e182c882a28362835882a981420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "え、オレたち魔界中どこにでも",
+            "いるじゃないッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에, 우린 마계 어디에나",
+          "있지 않슴까.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니는 어디에나 있다고 답하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D30",
+      "protected_snapshot": {
+        "record_id": 11568,
+        "raw_hex": "302d0200eb03c88381834f000000000000000000000000008dc58bdf81638163957391ab814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1003,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "最近……不足。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "요즘……부족.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "최근 프리니가 부족하다고 단어 단위로 답하는 메그의 기존 과묵체 적용.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D32",
+      "protected_snapshot": {
+        "record_id": 11570,
+        "raw_hex": "322d040037ffc88376838a836a815b00000000000000000082d3815b82f1814182c782a482c582e08343834382c1835882af82c782cb814200000082bb82ea82e682e8814189bd82a990488dde82aa977e82b582a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ふーん、どうでもイイっスけどね。",
+            "それより、何か食材が欲しいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "흐음, 아무래도 좋슴다.",
+          "그보다 식재료가 필요함다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 부족에는 무관심하고 식재료를 요구하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D34",
+      "protected_snapshot": {
+        "record_id": 11572,
+        "raw_hex": "342d04008703c8836983630000000000000000000000000082a0815b82e082a4814182b182cc95d382c982a082e982e082cc82c882e700000000008f9f8ee882c982e082c182c482a282ab82c882e68142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 903,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "あーもう、この辺にあるものなら",
+            "勝手にもっていきなよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "아, 정말. 이 근처에 있는 건",
+          "마음대로 가져가.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "귀찮아하며 주변 물건을 가져가라고 허락하는 나츠 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2D36",
+      "protected_snapshot": {
+        "record_id": 11574,
+        "raw_hex": "362d110000000000000000000000000000000000000000008376838a836a815b82cd814182bb82b182c990b682a682c482a282bd000000000000008175926e8d968355838b82cc82b182b582a982af8176000000000000000000000000008163816382f088f882c182d882aa82b582bd8149000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、そこに生えていた",
+            "「地獄ザルのこしかけ」",
+            "……を引っぺがした！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 그곳에 자라던",
+          "「지옥 원숭이 걸상버섯」",
+          "……을 뜯어냈다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "地獄ザルのこしかけ의 원숭이 걸상과 버섯명 말장난을 지옥 원숭이 걸상버섯으로 현지화한 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "wordplay_review_required", "culture_review_required"]
+      }
+    }
+  ]
+}

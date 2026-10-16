@@ -1,0 +1,797 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_095_opening_etna_sweets_order",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "371d937ad25f8892c0317638fc50e81d14f1af0b1ca7a6b1e6ad5d09828ad49b",
+  "context": {
+    "scene": "에트나의 궁극 디저트 명령과 폭발 봉인",
+    "evidence": [
+      "정적 후보 16/16 실행 시작점 증명"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0802",
+      "protected_snapshot": {
+        "record_id": 2050,
+        "raw_hex": "02080800a1fdc8834783678369000000000000000000000082a0815b82bd815b82b5815b82cc83588343815b83638141000000000000000000000082be815b82ea82aa904882a282e282aa82c182bd829f829f82c18149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": -607,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "あーたーしーのスイーツ、",
+            "だーれが食いやがったぁぁっ！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "내 디저트,",
+          "누가 처먹었어!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0804",
+      "protected_snapshot": {
+        "record_id": 2052,
+        "raw_hex": "040802006b00c98376838a836a815b91e00000000000000082df82df82df82c182bb82a482e082c882a2836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 107,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "めめめっそうもないッス！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "다, 당치도 않슴다!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0806",
+      "protected_snapshot": {
+        "record_id": 2054,
+        "raw_hex": "060804006800c98376838a836a815b91e000000000000000834783678369976c82cc83588343815b836382c90000000000000000000000000000008ee882f08f6f82b78376838a836a815b82cd82a282c882a283628358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 104,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "エトナ様のスイーツに",
+            "手を出すプリニーはいないッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "에트나 님의 디저트에",
+          "손댈 프리니는 없슴다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0808",
+      "protected_snapshot": {
+        "record_id": 2056,
+        "raw_hex": "080804006900c98376838a836a815b91e000000000000000925082c9814182a282c282cc8ad482c982a996b382ad82c882c182c482bd82cc82f0008ca982c48ca982ca905582e882b582c482bd82be82af83628358815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 105,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "単に、いつの間にか無くなってたのを",
+            "見て見ぬ振りしてただけッスー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "그냥 어느새 사라진 걸",
+          "못 본 척했을 뿐임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/080A",
+      "protected_snapshot": {
+        "record_id": 2058,
+        "raw_hex": "0a080400a0fdc8834783678369000000000000000000000082a282a282ed814196be93fa82cc92a982dc82c582c98d4a82c5986291e882cc00000081778b868bc982cc83588343815b8363817882f08e9d82c182c482ab82c881490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "いいわ、明日の朝までに巷で話題の",
+            "『究極のスイーツ』を持ってきな！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "좋아, 내일 아침까지 화제의",
+          "「궁극의 디저트」를 가져와!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/080C",
+      "protected_snapshot": {
+        "record_id": 2060,
+        "raw_hex": "0c080300a0fdc883478367836900000000000000000000008163816382bb82ea82c5000000000000000000000000000000000000000000000000008aa895d982b582c482a082b082e98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "……それで",
+            "勘弁してあげる。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "……그럼",
+          "봐줄게.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/080E",
+      "protected_snapshot": {
+        "record_id": 2062,
+        "raw_hex": "0e080400a2fdc8834783678369000000000000000000000082e082c182c482b182ea82c882a982c182bd82c682ab82cd814100000000000000000083418393835e82e791538e4582b582be82a982f182cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "もってこれなかったときは、",
+            "アンタら全殺しだかんね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "못 가져오면",
+          "너희 전부 죽여 버릴 거야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0810",
+      "protected_snapshot": {
+        "record_id": 2064,
+        "raw_hex": "100804006600c98376838a836a815b91e00000000000000082ab81418b868bc982cc83588343815b836383448149814800000000000000000000008345838f835482cc96bd82aa82af82cc83588343815b836382c1835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 102,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "き、究極のスイーツゥ！？",
+            "ウワサの命がけのスイーツっスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "구, 궁극의 디저트!?",
+          "목숨을 걸어야 하는 소문임까!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0812",
+      "protected_snapshot": {
+        "record_id": 2066,
+        "raw_hex": "120804006800c98376838a836a815b91e0000000000000008349838c82bd82bf82c182c48141938a82b082e982c88aeb8caf8362835882e681490089bd954382a282bd82c182c491ab82e882c882a28362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 104,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "オレたちって、投げるな危険ッスよ！",
+            "何匹いたって足りないッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "우린 던지면 위험함다!",
+          "몇 마리 있어도 모자람다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0814",
+      "protected_snapshot": {
+        "record_id": 2068,
+        "raw_hex": "14081100000000000000000000000000000000000000000090e096be82b582e682a481498376838a836a815b82cd8ee88d7282c988b582a482c60082c882ba82a98ac8925082c9949a94ad82b582c482b582dc82a482cc82be81490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "説明しよう！プリニーは手荒に扱うと",
+            "なぜか簡単に爆発してしまうのだ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "설명하자! 프리니는 험하게 다루면",
+          "왠지 쉽게 폭발해 버린다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0816",
+      "protected_snapshot": {
+        "record_id": 2070,
+        "raw_hex": "16080400a4fdc883478367836900000000000000000000008163816382c182c48e7682a482c582b582e5815b81480000000000000000000000000082d382d382f1814182bb82f182c88e9682e082a082eb82a482a982c6815c815c8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "……って思うでしょー？",
+            "ふふん、そんな事もあろうかと――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "……그럴 줄 알았지?",
+          "훗, 이럴 줄 알고 준비했어.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0818",
+      "protected_snapshot": {
+        "record_id": 2072,
+        "raw_hex": "180804006700c98376838a836a815b91e0000000000000008163816382ce8141949a94ad82b582c882a2836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "……ば、爆発しないッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "……포, 폭발하지 않슴다!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/081A",
+      "protected_snapshot": {
+        "record_id": 2074,
+        "raw_hex": "1a080200a7fdc8834783678369000000000000000000000082a282a281488afa8cc082cd96be93fa82cc92a981420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "いい？期限は明日の朝。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "잘 들어. 기한은 내일 아침이야.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/081C",
+      "protected_snapshot": {
+        "record_id": 2076,
+        "raw_hex": "1c080400a7fdc8834783678369000000000000000000000082bb82ea82dc82c582c981418b868bc982cc83588343815b836382f000000000000000977088d382c582ab82c882a982c182bd82e781638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "それまでに、究極のスイーツを",
+            "用意できなかったら……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그때까지 궁극의 디저트를",
+          "준비하지 못하면…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/081E",
+      "protected_snapshot": {
+        "record_id": 2078,
+        "raw_hex": "1e080200a1fdc88347836783690000000000000000000000815c815c8a6f8ce5814182a282a282ed82cb814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -607,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "――覚悟、いいわね？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "……각오, 됐지?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0820",
+      "protected_snapshot": {
+        "record_id": 2080,
+        "raw_hex": "20080200cd00c88376838a836a815b0000000000000000008341814183418343834183438354815b8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ア、アイアイサー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아, 아이아이서!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인명·노래·관용구·도입부 말투는 최종 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

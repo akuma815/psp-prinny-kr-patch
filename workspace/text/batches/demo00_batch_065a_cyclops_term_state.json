@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_065a_cyclops_term_state",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "4e72c37790407e57561a1dcd6eb38dec14c560c273542b3b6c17a6fc9cfc24d0",
+  "context": {
+    "scene": "사이클롭스 용어 상태 플래그 교정",
+    "evidence": [
+      "TERM-ENEMY-CYCLOPS-001 status=needs_human_review와 역문 플래그 정합화"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/348E",
+      "protected_snapshot": {
+        "record_id": 13454,
+        "raw_hex": "8e340200a706c8836f834e8360815b0000000000000000008d7382af814183548343834e838d83768358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1703,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "行け、サイクロプス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "가라, 사이클롭스!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사이클롭스를 출격시키는 바쿠치 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "가라, 사이클롭스!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사이클롭스를 출격시키는 바쿠치 대사. TERM-ENEMY-CYCLOPS-001의 미승인 상태에 맞춰 용어 검토 플래그를 교정한다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_055a_fullmoon_hoshikage_fit",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "e06f31cc37d17602000513ba7590a9dc2dd05f6ba9fa354b4b4ec1c246f9f10c",
+  "context": {
+    "scene": "만월 호시카게 이명·위협 대사 고정 슬롯 수정",
+    "evidence": [
+      "배치 055의 demo00/31A6 38/34 및 demo00/31AA 37/34바이트 초과",
+      "의미 보존 축약 후 보호 병합과 34바이트 고정 슬롯 재검증"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/31A6",
+      "protected_snapshot": {
+        "record_id": 12710,
+        "raw_hex": "a63103000000c9969e8c8e82cc90af89410000000000000095538b5396e98d73834b81638163000000000000000000000000000000000000000000969e8c8e836d90af8941836a89bd9770835d81638163814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "満月の星陰",
+          "lines": [
+            "百鬼夜行ガ……",
+            "満月ノ星陰ニ何用ゾ……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "만월의 호시카게",
+        "lines": [
+          "백귀야행이……",
+          "만월의 호시카게에게 무슨 볼일인가……?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "보름달에 변한 호시카게의 이명과 고풍스러운 가타카나 어조를 문어체로 옮긴 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_variant_review",
+          "archaic_style_review"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "만월의 호시카게",
+        "lines": [
+          "백귀야행이……",
+          "만월의 호시카게에게 웬일인가……?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "보름달에 변한 호시카게의 이명과 고풍스러운 가타카나 어조를 문어체로 옮긴 초벌. 배치 055의 38/34바이트 초과를 의미 보존 축약.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_variant_review",
+          "archaic_style_review",
+          "fixed_slot_fit_corrected"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/31AA",
+      "protected_snapshot": {
+        "record_id": 12714,
+        "raw_hex": "aa3103000000c9969e8c8e82cc90af89410000000000000089e4836a965d838096bd926d83898359816381630000000000000000000000000000008b59838c83668dcf838083678e768345836981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "満月の星陰",
+          "lines": [
+            "我ニ望ム命知ラズ……",
+            "戯レデ済ムト思ウナ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "만월의 호시카게",
+        "lines": [
+          "내게 바라다니, 목숨이 아깝지 않나……",
+          "장난으로 끝날 줄 마라!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "我ニ望ム命知ラズ를 목숨을 건 무모한 청으로 해석한 만월 호시카게의 위협 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "archaic_style_review",
+          "source_interpretation_review"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "만월의 호시카게",
+        "lines": [
+          "내게 청하다니, 목숨이 아깝나……",
+          "장난으로 끝날 줄 마라!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "我ニ望ム命知ラズ를 목숨을 건 무모한 청으로 해석한 만월 호시카게의 위협 초벌. 배치 055의 37/34바이트 초과를 의미 보존 축약.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "archaic_style_review",
+          "source_interpretation_review",
+          "fixed_slot_fit_corrected"
+        ]
+      }
+    }
+  ]
+}

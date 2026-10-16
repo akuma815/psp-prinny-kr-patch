@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_096_opening_protagonist_scarf",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "371d937ad25f8892c0317638fc50e81d14f1af0b1ca7a6b1e6ad5d09828ad49b",
+  "context": {
+    "scene": "주인공 머플러 인계와 출발",
+    "evidence": [
+      "정적 후보 6/6 실행 시작점 증명"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0834",
+      "protected_snapshot": {
+        "record_id": 2100,
+        "raw_hex": "3408020099ffc98376838a836a815b91e00000000000000082e682c181418371815b838d815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "よっ、ヒーロー！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "와, 히어로!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 머플러 용어와 프리니 말투를 적용한 장면 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0836",
+      "protected_snapshot": {
+        "record_id": 2102,
+        "raw_hex": "360803006700c98376838a836a815b91e0000000000000008da193fa82a982e700000000000000000000000000000000000000000000000000000082a082f182bd82aa8ee596f083628358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "今日から",
+            "あんたが主役ッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "오늘부터",
+          "네가 주인공임다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 머플러 용어와 프리니 말투를 적용한 장면 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0838",
+      "protected_snapshot": {
+        "record_id": 2104,
+        "raw_hex": "3808040032ffc88376838a836a815b00000000000000000081638163814282b182cc837d83748389815b816381638141000000000000000000000082c882f182c588ea968782b582a982c882a282f18362835882a98163816381480000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……。このマフラー……、",
+            "なんで一枚しかないんッスか……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……. 이 머플러……,",
+          "왜 하나뿐임까……?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 머플러 용어와 프리니 말투를 적용한 장면 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/083A",
+      "protected_snapshot": {
+        "record_id": 2106,
+        "raw_hex": "3a0804009bffc98376838a836a815b91e00000000000000088c0905382b782e98362835881428e9f82cc8376838a836a815b82cd0000000000000082bf82e182f182c68c8882df82c482a882ad8362835882a982e78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "安心するッス。次のプリニーは",
+            "ちゃんと決めておくッスから。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "안심하심다. 다음 프리니는",
+          "정해 둘 검다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 머플러 용어와 프리니 말투를 적용한 장면 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/083C",
+      "protected_snapshot": {
+        "record_id": 2108,
+        "raw_hex": "3c0803006700c98376838a836a815b91e0000000000000008349838c82bd82bf82e09190977482cc894182a982e700000000000000000000000000899e898782b582c482e9836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "オレたちも草葉の陰から",
+            "応援してるッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "우리도 저세상에서",
+          "응원하겠슴다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 머플러 용어와 프리니 말투를 적용한 장면 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/083E",
+      "protected_snapshot": {
+        "record_id": 2110,
+        "raw_hex": "3e08030099ffc98376838a836a815b91e00000000000000082aa82f182ce82c182c48d7382c182c400000000000000000000000000000000000000978882e98362835882e6815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "がんばって行って",
+            "来るッスよー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "힘내서",
+          "다녀오심다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 머플러 용어와 프리니 말투를 적용한 장면 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_004_melon_snack",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "4f0fd5ce563ace688d92676510310d67aee3c32c09f975ce4fc244c316eb416a",
+  "context": {
+    "scene": "도입부 멜론맛 간식: 에트나의 추억과 프리니의 디저트 확보 보고 오해",
+    "evidence": [
+      "demo.nsf block 0x00000F70..0x000011FC 내 logical offsets 0x000010C2/0x0000113B/0x00001168/0x000011C8의 연속 42 01 호출",
+      "BOOT dispatcher block-local stepping: target 4 offsets all proven, block completed 1/1",
+      "2026-07-18 사용자 승인: 네 번째 배치 초벌 4건 전체 승인"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0C1C",
+      "protected_snapshot": {
+        "record_id": 3100,
+        "raw_hex": "1c0c0400a4fdc8834783678369000000000000000000000082f182d382d3814182b182cc82ed82b482c682e782b582a28381838d839396a181490089f982a982b5815b81f4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "んふふ、このわざとらしいメロン味！",
+            "懐かしー♪",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "후후, 이 인공적인 멜론 맛!",
+          "그립네~♪",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "わざとらしいメロン味를 의도적으로 인공적인 향이 두드러지는 맛으로 해석하고, 에트나가 추억을 떠올리는 가벼운 감탄을 유지한 초벌.",
+        "flags": [
+          "draft",
+          "expression_approval_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "후후, 이 인공적인 멜론 맛!",
+          "그립네~♪",
+          ""
+        ],
+        "status": "complete",
+        "notes": "わざとらしいメロン味를 의도적으로 인공적인 향이 두드러지는 맛으로 해석하고, 에트나가 추억을 떠올리는 가벼운 감탄을 유지. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0C1E",
+      "protected_snapshot": {
+        "record_id": 3102,
+        "raw_hex": "1e0c0400cb00c88376838a836a815b00000000000000000082a882e282c282cc8e9e8ad482be82c182bd8362835882a98142000000000000000000837a8393836783588343815b83638d4482ab8362835882cb815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "おやつの時間だったッスか。",
+            "ホントスイーツ好きッスねー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "간식 시간이었슴까?",
+          "진짜 디저트를 좋아하심다~.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "승인 용어 디저트와 문맥별 프리니 종결 규칙을 적용했다. 과거 서술에는 '이었슴까', 동사 활용에는 '좋아하심다'를 선택한 초벌.",
+        "flags": [
+          "draft",
+          "speaker_style_approval_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "간식 시간이었슴까?",
+          "진짜 디저트를 좋아하심다~.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "승인 용어 디저트와 문맥별 프리니 종결 규칙을 적용했다. 과거 서술에는 '이었슴까', 동사 활용에는 '좋아하심다'를 선택. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "speaker_style_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0C20",
+      "protected_snapshot": {
+        "record_id": 3104,
+        "raw_hex": "200c0400a0fdc883478367836900000000000000000000008b868bc982cc83588343815b83638a6d95db82cc95f18d90814800000000000000000096b391ca986282c882e782bd82be82b682e182a882a982c882a282af82c781420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "究極のスイーツ確保の報告？",
+            "無駄話ならただじゃおかないけど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "궁극의 디저트 확보 보고야?",
+          "쓸데없는 얘기면 가만 안 둘 거야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "究極のスイーツ는 승인 용어에 따라 '궁극의 디저트'로 옮기고, 無駄話ならただじゃおかない의 위협적인 반말을 간결하게 유지한 초벌.",
+        "flags": [
+          "draft",
+          "meaning_review_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "궁극의 디저트 확보 보고야?",
+          "쓸데없는 얘기면 가만 안 둘 거야.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "究極のスイーツ는 승인 용어에 따라 '궁극의 디저트'로 옮기고, 無駄話ならただじゃおかない의 위협적인 반말을 간결하게 유지. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0C22",
+      "protected_snapshot": {
+        "record_id": 3106,
+        "raw_hex": "220c0200ce00c88376838a836a815b00000000000000000082a8814182a882b682e182dc82b582bd8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "お、おじゃましたッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "시, 실례했슴다.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "おじゃました를 에트나의 위협을 듣고 황급히 물러나는 '실례했다'로 옮기고 문맥별 프리니 종결형을 적용한 초벌.",
+        "flags": [
+          "draft",
+          "meaning_review_required",
+          "speaker_style_approval_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "시, 실례했슴다.",
+          "",
+          ""
+        ],
+        "status": "complete",
+        "notes": "おじゃました를 에트나의 위협을 듣고 황급히 물러나는 '실례했다'로 옮기고 문맥별 프리니 종결형을 적용. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "speaker_style_approved"
+        ]
+      }
+    }
+  ]
+}

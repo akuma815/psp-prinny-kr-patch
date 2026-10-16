@@ -1,0 +1,1970 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_084_hub_facility_tutorials",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "dc9359664bc62f10973292e8bb70173ec0895bc86d6b732085c475af4682d1f7",
+  "context": {
+    "scene": "거점 시설 해금 설명과 튜토리얼",
+    "evidence": [
+      "정적 참조 44/44 실행 시작점 증명, 선택 블록 25/33 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/01F4",
+      "protected_snapshot": {
+        "record_id": 500,
+        "raw_hex": "f40104000000c88b4c985e89ae000000000000000000000082d382a0829f816082a0814182e682ad905182dc82b582bd81638163000000000000008e8482cc8b4c985e82cd96828a4582cc8b4c89af8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "記録屋",
+          "lines": [
+            "ふあぁ～あ、よく寝ました……",
+            "私の記録は魔界の記憶……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "기록 담당",
+        "lines": [
+          "하아암, 잘 잤습니다……",
+          "제 기록은 마계의 기억…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01F5",
+      "protected_snapshot": {
+        "record_id": 501,
+        "raw_hex": "f50104000000c88b4c985e89ae00000000000000000000008b4d936182cc976c815882c88b4c985e82f0000000000000000000000000000000000082a88ca982b982a282bd82b582dc82b582e582a48142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "記録屋",
+          "lines": [
+            "貴殿の様々な記録を",
+            "お見せいたしましょう。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "기록 담당",
+        "lines": [
+          "귀공의 여러 기록을",
+          "보여 드리겠습니다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01F6",
+      "protected_snapshot": {
+        "record_id": 502,
+        "raw_hex": "f601110000000000000000000000000000000000000000008b4c985e89ae82c582cd814100000000000000000000000000000000000000000000008376838c8343928682c9924290ac82b582bd976c815882c88b4c985e82e200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "記録屋では、",
+            "プレイ中に達成した様々な記録や",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "기록 담당에게서는",
+          "플레이 중 달성한 여러 기록과",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01F7",
+      "protected_snapshot": {
+        "record_id": 503,
+        "raw_hex": "f701110000000000000000000000000000000000000000008ee882c993fc82ea82bd8341834383658380814196828a458c4d8fcd82c882c782cc008a6d944682f082b782e982b182c682aa82c582ab82dc82b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "手に入れたアイテム、魔界勲章などの",
+            "確認をすることができます。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "획득한 아이템과 마계 훈장 등을",
+          "확인할 수 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01FE",
+      "protected_snapshot": {
+        "record_id": 510,
+        "raw_hex": "fe0104000000c889b98a7989ae000000000000000000000082e682a482e282ad906c82cc8e7082c996df82ea82dc82b582bd8163816300000000008e8482cd96828a4582cc89b98a7989ae814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "音楽屋",
+          "lines": [
+            "ようやく人の姿に戻れました……",
+            "私は魔界の音楽屋。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "음악 담당",
+        "lines": [
+          "드디어 사람 모습으로 돌아왔군요……",
+          "저는 마계의 음악 담당.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01FF",
+      "protected_snapshot": {
+        "record_id": 511,
+        "raw_hex": "ff0104000000c889b98a7989ae000000000000000000000082b382a0814196828a45838c8352815b836882f08ca982c282af82c4000000000000008e8482cc8cb382c98e9d82c182c482ad82e982cc82c582b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "音楽屋",
+          "lines": [
+            "さあ、魔界レコードを見つけて",
+            "私の元に持ってくるのです。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "음악 담당",
+        "lines": [
+          "자, 마계 레코드를 찾아",
+          "제게 가져오십시오.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0200",
+      "protected_snapshot": {
+        "record_id": 512,
+        "raw_hex": "00021100000000000000000000000000000000000000000089b98a7989ae82c582cd8141817796828a45838c8352815b8368817882c900000000008efb985e82b382ea82bd82618266826c82f08dc490b682b782e982b182c682aa00000082c582ab82dc82b7814200000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "音楽屋では、『魔界レコード』に",
+            "収録されたＢＧＭを再生することが",
+            "できます。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "음악 담당에게서는 「마계 레코드」에",
+          "수록된 BGM을 재생할 수",
+          "있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0201",
+      "protected_snapshot": {
+        "record_id": 513,
+        "raw_hex": "01021100000000000000000000000000000000000000000096828a45838c8352815b836882cd83588365815b835793e082c9978e82bf82c400000082a282dc82b782cc82c58141925482b582c482dd82dc82b582e582a4814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "魔界レコードはステージ内に落ちて",
+            "いますので、探してみましょう。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "마계 레코드는 스테이지에",
+          "떨어져 있으니 찾아보십시오.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0202",
+      "protected_snapshot": {
+        "record_id": 514,
+        "raw_hex": "02021100000000000000000000000000000000000000000082dc82bd814188ea937882c582e08351815b838082f0834e838a83410000000000000082b582c482a282e982c68d4482ab82c88bc882f083588365815b835782cc000000000082618266826c82c990dd92e882b782e982b182c682e082c582ab82dc82b78142000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "また、一度でもゲームをクリア",
+            "していると好きな曲をステージの",
+            "ＢＧＭに設定することもできます。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "게임을 한 번이라도 클리어했다면",
+          "원하는 곡을 스테이지 BGM으로",
+          "설정할 수도 있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0208",
+      "protected_snapshot": {
+        "record_id": 520,
+        "raw_hex": "080203000000c896e993a682b089ae00000000000000000082de81418b4d976c81638163000000000000000000000000000000000000000000000092c78ee882c582cd82a082e982dc82a282c881638163814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "夜逃げ屋",
+          "lines": [
+            "む、貴様……",
+            "追手ではあるまいな……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "야반도주 담당",
+        "lines": [
+          "음, 네놈……",
+          "추격자는 아니겠지……?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0209",
+      "protected_snapshot": {
+        "record_id": 521,
+        "raw_hex": "09021100000000000000000000000000000000000000000096e993a682b089ae82c9817596e993a682b0817682f088cb978a82b782e982c600000083588343815b836390bb8dec82f095fa8afc82b582bd82c68ca982c882b382ea82c4000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "夜逃げ屋に「夜逃げ」を依頼すると",
+            "スイーツ製作を放棄したと見なされて",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "야반도주 담당에게 「야반도주」를",
+          "부탁하면 디저트 제작을 포기한",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/020A",
+      "protected_snapshot": {
+        "record_id": 522,
+        "raw_hex": "0a02110000000000000000000000000000000000000000008351815b83808349815b836f815b82c982c882c182c482b582dc82a282dc82b700000082cc82c5928d88d382aa954b977682c582b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ゲームオーバーになってしまいます",
+            "ので注意が必要です。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "것으로 간주되어 게임 오버가",
+          "되므로 주의해야 합니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/020B",
+      "protected_snapshot": {
+        "record_id": 523,
+        "raw_hex": "0b021100000000000000000000000000000000000000000082bd82be81418351815b83808349815b836f815b8ce382cd81410000000000000000008e6382e88376838a836a815b909482e290698d738ff38bb588c88a4f82cc00000000008366815b835e82f088f882ab8c7082a282c50000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ただ、ゲームオーバー後は、",
+            "残りプリニー数や進行状況以外の",
+            "データを引き継いで"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "다만 게임 오버 뒤에는",
+          "남은 프리니 수와 진행 상황 외의",
+          "데이터를 이어받아"
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/020C",
+      "protected_snapshot": {
+        "record_id": 524,
+        "raw_hex": "0c02110000000000000000000000000000000000000000008f8982df82a982e7975682d482b182c682aa82c582ab82dc82b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "初めから遊ぶことができます。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "처음부터 플레이할 수 있습니다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/020D",
+      "protected_snapshot": {
+        "record_id": 525,
+        "raw_hex": "0d02110000000000000000000000000000000000000000008b4c985e82f088f882ab8c7082a282c5000000000000000000000000000000000000008dc58f8982a982e7975682d182c882a882b582bd82a28fea8d8782c9000000000000009798977082b782e982c682e682a282c582b582e582a481420000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "記録を引き継いで",
+            "最初から遊びなおしたい場合に",
+            "利用するとよいでしょう。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "기록을 이어받아",
+          "처음부터 다시 시작하고 싶을 때",
+          "이용하면 좋습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0212",
+      "protected_snapshot": {
+        "record_id": 530,
+        "raw_hex": "120203000000c983898362834c815b8bb38ef60000000000838f835682cd83898362834c815b8bb38ef6814200000000000000000000000000000083898362834c815b8368815b838b82cc8352838c834e835e815b82b682e181420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ワシはラッキー教授。",
+            "ラッキードールのコレクターじゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "나는 라키 교수.",
+          "라키 돌 수집가라네.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0213",
+      "protected_snapshot": {
+        "record_id": 531,
+        "raw_hex": "130203000000c983898362834c815b8bb38ef6000000000096ec90b682cc83898362834c815b8368815b838b82f000000000000000000000000000925482b591b182af82c496828a4582f097b782b582c482a882e98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "野生のラッキードールを",
+            "探し続けて魔界を旅しておる。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "야생 라키 돌을 찾아",
+          "마계를 계속 여행하고 있지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0214",
+      "protected_snapshot": {
+        "record_id": 532,
+        "raw_hex": "140203000000c983898362834c815b8bb38ef6000000000083898362834c815b8368815b838b82f08ca982c282af82bd82e7000000000000000000838f835682cc8f8a82dc82c582e082c182c482ab82c682ad82ea8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ラッキードールを見つけたら",
+            "ワシの所までもってきとくれ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "라키 돌을 찾으면",
+          "내게 가져다주게.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0215",
+      "protected_snapshot": {
+        "record_id": 533,
+        "raw_hex": "150202000000c983898362834c815b8bb38ef6000000000094e991a082cc834183438365838082c6000000000000000000000000000000000000008cf08ab782b582c482e282e982bc82a2814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "秘蔵のアイテムと",
+            "交換してやるぞい。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "비장의 아이템과",
+          "바꿔 주겠네.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0216",
+      "protected_snapshot": {
+        "record_id": 534,
+        "raw_hex": "16021100000000000000000000000000000000000000000083898362834c815b8368815b838b82c682cd83588365815b8357928682c9894282ea0082c482a282e990d482a2838283938358835e815b82cc96bc914f82c582b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ラッキードールとはステージ中に隠れ",
+            "ている赤いモンスターの名前です。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "라키 돌은 스테이지에 숨어 있는",
+          "붉은 몬스터의 이름입니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0217",
+      "protected_snapshot": {
+        "record_id": 535,
+        "raw_hex": "1702110000000000000000000000000000000000000000008a6583588365815b835782c982cd8252954382cc83898362834c815b8368815b838b0082aa91b68ddd82b582c482a282dc82b7814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "各ステージには３匹のラッキードール",
+            "が存在しています。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "각 스테이지에는 라키 돌이",
+          "세 마리씩 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0218",
+      "protected_snapshot": {
+        "record_id": 536,
+        "raw_hex": "18021100000000000000000000000000000000000000000083898362834c815b8368815b838b82cd8ca982c282af82bd82be82af82c582cd00000093fc8ee882b582bd82b182c682c982cd82c882e782c882a282cc82c500000000000000928d88d382aa954b977682c582b7814200000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ラッキードールは見つけただけでは",
+            "入手したことにはならないので",
+            "注意が必要です。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "라키 돌은 찾기만 해서는",
+          "획득한 게 아니니",
+          "주의해야 합니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0219",
+      "protected_snapshot": {
+        "record_id": 537,
+        "raw_hex": "19021100000000000000000000000000000000000000000094f18fed82c993ae82ab82aa918182a282c582b782aa0000000000000000000000000082aa82f182ce82c182c4937c82b582c482dd82c482ad82be82b382a2814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "非常に動きが早いですが",
+            "がんばって倒してみてください。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "아주 빠르게 움직이지만",
+          "힘내서 쓰러뜨려 보십시오.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/021C",
+      "protected_snapshot": {
+        "record_id": 540,
+        "raw_hex": "1c0204000000c98e9e8bf382cc936e82b5906c00000000008e8482cd8e9e8bf382cc936e82b5906c8163816300000000000000000000000000000082b182b182cd82c782b182cc96828a4582a982b582e7814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "時空の渡し人",
+          "lines": [
+            "私は時空の渡し人……",
+            "ここはどこの魔界かしら？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "시공의 뱃사공",
+        "lines": [
+          "나는 시공의 뱃사공……",
+          "여긴 어느 마계일까요?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/021D",
+      "protected_snapshot": {
+        "record_id": 541,
+        "raw_hex": "1d02110000000000000000000000000000000000000000008e9e8bf382cc936e82b5906c82c9986282b582a982af82e982b182c682c5000000000092ca8fed82cc83588365815b835782c682cd88d982c882e983588365815b835782f000975682d482b182c682aa82c582ab82dc82b78142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "時空の渡し人に話しかけることで",
+            "通常のステージとは異なるステージを",
+            "遊ぶことができます。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "시공의 뱃사공에게 말을 걸면",
+          "일반 스테이지와 다른 곳을",
+          "플레이할 수 있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/021E",
+      "protected_snapshot": {
+        "record_id": 542,
+        "raw_hex": "1e021100000000000000000000000000000000000000000082dc82bd8141826f826b8260827882728273826082738268826e826d874b000000000082728294828f82928285939982c5835f83458393838d815b836882b582bd8358836500815b835782e082b182b182a982e7975682d482b182c682aa82c582ab82dc82b7814200000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "また、ＰＬＡＹＳＴＡＴＩＯＮ⑫",
+            "Ｓｔｏｒｅ等でダウンロードしたステ",
+            "ージもここから遊ぶことができます。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "PLAYSTATION Store 등에서",
+          "다운로드한 스테이지도 여기서",
+          "플레이할 수 있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0226",
+      "protected_snapshot": {
+        "record_id": 550,
+        "raw_hex": "260204000000c9838a8376838c834389ae000000000000008c8a82f182c882a98141946082a282c482dd8163816300000000000000000000000000957c82aa82e782f182c6946082a282c482dd81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "リプレイ屋",
+          "lines": [
+            "穴んなか、覗いてみ……",
+            "怖がらんと覗いてみ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "리플레이 담당",
+        "lines": [
+          "구멍 속을 들여다봐……",
+          "겁먹지 말고 들여다봐…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0227",
+      "protected_snapshot": {
+        "record_id": 551,
+        "raw_hex": "270211000000000000000000000000000000000000000000838a8376838c83438366815b835e82aa91b68ddd82b782ea82ce814100000000000000838a8376838c834389ae82c5838a8376838c834382cc8966919c82f0000000000000008ca982e982b182c682aa82c582ab82dc82b78142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "リプレイデータが存在すれば、",
+            "リプレイ屋でリプレイの映像を",
+            "見ることができます。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "리플레이 데이터가 있다면",
+          "리플레이 담당에게서 영상을",
+          "볼 수 있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0228",
+      "protected_snapshot": {
+        "record_id": 552,
+        "raw_hex": "280211000000000000000000000000000000000000000000838a8376838c83438366815b835e82cd8141000000000000000000000000000000000083588365815b835782c982c48e80965382b582bd8fea8d8782e2000000000000000000834e838a834182b582bd82c682ab82c981410000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "リプレイデータは、",
+            "ステージにて死亡した場合や",
+            "クリアしたときに、"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "리플레이 데이터는",
+          "스테이지에서 죽거나",
+          "클리어했을 때"
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0229",
+      "protected_snapshot": {
+        "record_id": 553,
+        "raw_hex": "29021100000000000000000000000000000000000000000081a2837b835e839382f0899f82b782b182c682c500000000000000000000000000000095db91b682c582ab82dc82b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "△ボタンを押すことで",
+            "保存できます。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "△ 버튼을 누르면",
+          "저장할 수 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/022A",
+      "protected_snapshot": {
+        "record_id": 554,
+        "raw_hex": "2a021100000000000000000000000000000000000000000082bd82be82b58141838a8376838c83438366815b835e82cc95db91b682cd00000000008b92935f82c9838a8376838c834389ae82aa82a282e98ff391d482c582b582a90000008d7382a682c882a282cc82c5928d88d382b582c482ad82be82b382a281420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "ただし、リプレイデータの保存は",
+            "拠点にリプレイ屋がいる状態でしか",
+            "行えないので注意してください。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "단, 거점에 리플레이 담당이",
+          "있을 때만 저장할 수 있으니",
+          "주의하십시오."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0230",
+      "protected_snapshot": {
+        "record_id": 560,
+        "raw_hex": "300204000000ca83608385815b8367838a8341838b89ae0082a8914f82bd82bf82aa837e836283568387839382f082b182c882b782cc82c9000000954b977682c88fee95f182f08bb382a682c482e282e9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "チュートリアル屋",
+          "lines": [
+            "お前たちがミッションをこなすのに",
+            "必要な情報を教えてやる。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "튜토리얼 담당",
+        "lines": [
+          "임무에 필요한 정보를",
+          "가르쳐 주지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0231",
+      "protected_snapshot": {
+        "record_id": 561,
+        "raw_hex": "310203000000ca83608385815b8367838a8341838b89ae0082ed82a982e782c882a28e9682aa82a082c182bd82e70000000000000000000000000089bd82c582e08349838c82c982ab82ad82f182be82bc814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "チュートリアル屋",
+          "lines": [
+            "わからない事があったら",
+            "何でもオレにきくんだぞ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "튜토리얼 담당",
+        "lines": [
+          "모르는 게 있으면",
+          "뭐든 내게 물어봐라.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0232",
+      "protected_snapshot": {
+        "record_id": 562,
+        "raw_hex": "32021100000000000000000000000000000000000000000083608385815b8367838a8341838b89ae82c582cd8141000000000000000000000000008a658eed83608385815b8367838a8341838b8fee95f182cc8a6d944682e281410000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "チュートリアル屋では、",
+            "各種チュートリアル情報の確認や、",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "튜토리얼 담당에게서는",
+          "각종 튜토리얼 정보 확인과",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0233",
+      "protected_snapshot": {
+        "record_id": 563,
+        "raw_hex": "33021100000000000000000000000000000000000000000083608385815b8367838a8341838b83588365815b835782f000000000000000000000008dc493788376838c834382b782e982b182c682aa82c582ab82dc82b7814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "チュートリアルステージを",
+            "再度プレイすることができます。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "튜토리얼 스테이지를",
+          "다시 플레이할 수 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0234",
+      "protected_snapshot": {
+        "record_id": 564,
+        "raw_hex": "34021100000000000000000000000000000000000000000083608385815b8367838a8341838b83588365815b8357825182c982cd814100000000008b92935f82c995a1909491b68ddd82b782e9817796bc82e096b382ab8db0817800000082bd82bf82cc968297cd82aa9c669c7282c182c482a282dc82b782cc82c58141000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "チュートリアルステージ２には、",
+            "拠点に複数存在する『名も無き魂』",
+            "たちの魔力が彷徨っていますので、"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "튜토리얼 스테이지 2에는",
+          "거점의 여러 「이름 없는 영혼」의",
+          "마력이 떠돌고 있으니"
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0235",
+      "protected_snapshot": {
+        "record_id": 565,
+        "raw_hex": "35021100000000000000000000000000000000000000000088ea937882cd975682f182c582dd82e982c682e682a282c582b582e582a4814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "一度は遊んでみるとよいでしょう。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "한 번쯤 플레이해 보십시오.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0236",
+      "protected_snapshot": {
+        "record_id": 566,
+        "raw_hex": "36021100000000000000000000000000000000000000000083608385815b8367838a8341838b83588365815b835782c582cd0000000000000000008376838a836a815b82cc909482cd8cb882e882dc82b982f182cc82c50000000000000088c0905382b582c4975682f182c582ad82be82b382a281420000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "チュートリアルステージでは",
+            "プリニーの数は減りませんので",
+            "安心して遊んでください。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "튜토리얼 스테이지에서는",
+          "프리니 수가 줄지 않으니",
+          "안심하고 플레이하십시오."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/023A",
+      "protected_snapshot": {
+        "record_id": 570,
+        "raw_hex": "3a0203000000c8835a815b837589ae00000000000000000082dc82a282c78362835881490000000000000000000000000000000000000000000000835a815b837582cd8352835282c582b582a982c582ab82c882a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セーブ屋",
+          "lines": [
+            "まいどッス！",
+            "セーブはココでしかできないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세이브 담당",
+        "lines": [
+          "매번 고맙슴다!",
+          "세이브는 여기서만 가능함다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/023B",
+      "protected_snapshot": {
+        "record_id": 571,
+        "raw_hex": "3b0211000000000000000000000000000000000000000000835a815b837589ae82c9986282b582a982af82e982b182c682c581410000000000000090698d738ff391d482f095db91b682b782e982b182c682aa82c582ab82dc82b78142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "セーブ屋に話しかけることで、",
+            "進行状態を保存することができます。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "세이브 담당에게 말을 걸면",
+          "진행 상황을 저장할 수 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/023C",
+      "protected_snapshot": {
+        "record_id": 572,
+        "raw_hex": "3c02110000000000000000000000000000000000000000008aee967b934982c9835a815b837582cd82b182b182c582b582a900000000000000000082c582ab82dc82b982f1814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "基本的にセーブはここでしか",
+            "できません。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "기본적으로 세이브는 여기서만",
+          "할 수 있습니다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    }
+  ]
+}

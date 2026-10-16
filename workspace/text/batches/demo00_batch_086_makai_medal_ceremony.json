@@ -1,0 +1,1377 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_086_makai_medal_ceremony",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "729b6a47c560003f2b61cc0ee325c0bbdb56b7ff82bb486d1502b4b5a4a1d777",
+  "context": {
+    "scene": "사프란의 마계 훈장 수여식 도입과 촬영 뒷이야기",
+    "evidence": [
+      "정적 후보 28건 중 블록 로컬 실행 시작점 24건 증명; 02C4/02C5/02D0/02D1 소비 경로 검토 유지"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/02BC",
+      "protected_snapshot": {
+        "record_id": 700,
+        "raw_hex": "bc0201000000c8835d8393834a8381000000000000000000825281418251814182508141834c8385815b814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ゾンカメ",
+          "lines": [
+            "３、２、１、キュー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "존카메",
+        "lines": [
+          "3, 2, 1, 큐!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02BD",
+      "protected_snapshot": {
+        "record_id": 701,
+        "raw_hex": "bd0201000000c983548374838983938fec0000000000000082a882c182df82c582c68160814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "おっめでと～！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "축하해~!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02BE",
+      "protected_snapshot": {
+        "record_id": 702,
+        "raw_hex": "be0204000000c983548374838983938fec000000000000008ca98e96814196828a458c4d8fcd82f08ef6975e82b382ea82bd0000000000000000008376838a836a815b82b382f182c982dd82c882b382f1948f8ee882f0816081498149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "見事、魔界勲章を授与された",
+            "プリニーさんにみなさん拍手を～！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "훌륭히 마계 훈장을 받은",
+          "프리니 씨께 모두 박수~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02BF",
+      "protected_snapshot": {
+        "record_id": 703,
+        "raw_hex": "bf0204000000c983548374838983938fec000000000000008ef6975e82f082a282bd82b582dc82b782cd814196828a4582cc836783628376000000834183438368838b82b182c6835483748389839382c5815b83588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "授与をいたしますは、魔界のトップ",
+            "アイドルことサフランでース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "수여자는 마계의 톱 아이돌",
+          "사프란입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C0",
+      "protected_snapshot": {
+        "record_id": 704,
+        "raw_hex": "c00204000000c983548374838983938fec0000000000000096828a4582c582e093c195ca82c888cc8bc682f090ac82b5908b82b082bd906c00000082b582a996e182a682c882a282b782b282a28fdc8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "魔界でも特別な偉業を成し遂げた人",
+            "しか貰えないすごい賞……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "마계에서도 특별한 위업을 이룬",
+          "사람만 받는 대단한 상…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C1",
+      "protected_snapshot": {
+        "record_id": 705,
+        "raw_hex": "c10201000000c983548374838983938fec0000000000000082bb82ea82aa814196828a458c4d8fcd8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "それが、魔界勲章！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "그것이 마계 훈장!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C2",
+      "protected_snapshot": {
+        "record_id": 706,
+        "raw_hex": "c20203000000c983548374838983938fec000000000000008365838c837282cc914f82cc82dd82f182c882cd000000000000000000000000000000926d82c182c482a282e982e6836c8148814083458374818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "テレビの前のみんなは",
+            "知っているよネ？　ウフ￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "TV 앞의 모두는",
+          "알고 있지? 우후￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C3",
+      "protected_snapshot": {
+        "record_id": 707,
+        "raw_hex": "c30203000000c983548374838983938fec0000000000000082c582cd82c582cd8141000000000000000000000000000000000000000000000000008da189f182cc96828a458c4d8fcd82cd816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "ではでは、",
+            "今回の魔界勲章は……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "그럼 이번 마계 훈장은…….",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C4",
+      "protected_snapshot": {
+        "record_id": 708,
+        "raw_hex": "c40203000000c983548374838983938fec0000000000000082b782c182b2815b834381498149000000000000000000000000000000000000000000837a8393836791b88c6882b582bf82e182a4836c8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "すっごーイ！！",
+            "ホント尊敬しちゃうネ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "굉장해~!!",
+          "정말 존경해!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C5",
+      "protected_snapshot": {
+        "record_id": 709,
+        "raw_hex": "c50203000000c983548374838983938fec0000000000000082a6816082c182c6814182c882c982c882c9816381630000000000000000000000000082b182cc8fdc82cd8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "え～っと、なになに……",
+            "この賞は……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "어디 보자, 뭐라고……",
+          "이 상은…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C6",
+      "protected_snapshot": {
+        "record_id": 710,
+        "raw_hex": "c60204000000c983548374838983938fec000000000000008163816382a4815b82f18141835483748389839382cd836f834a82be82a982e700000093ef82b582a282b182c682ed82a982f182c882a282c8829f8160818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "……うーん、サフランはバカだから",
+            "難しいことわかんないなぁ～￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "……음, 사프란은 바보라서",
+          "어려운 건 모르겠어~￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C7",
+      "protected_snapshot": {
+        "record_id": 711,
+        "raw_hex": "c70204000000c983548374838983938fec000000000000008163816382bb82ea82b682e181418da189f182cc8ef6975e8eae82cc00000000000000976c8e7182cd82b182b182dc82c58149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "……それじゃ、今回の授与式の",
+            "様子はここまで！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "……그럼 이번 수여식은",
+          "여기까지!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C8",
+      "protected_snapshot": {
+        "record_id": 712,
+        "raw_hex": "c80203000000c983548374838983938fec0000000000000082dd82f182c882c1814900000000000000000000000000000000000000000000000000834f83628369815b8343814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "みんなっ！",
+            "グッナーイ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "모두!",
+          "굿 나이트!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02C9",
+      "protected_snapshot": {
+        "record_id": 713,
+        "raw_hex": "c90202000000c8835d8393834a838100000000000000000082cd82a28141826e826a8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ゾンカメ",
+          "lines": [
+            "はい、ＯＫ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "존카메",
+        "lines": [
+          "네, OK!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02CA",
+      "protected_snapshot": {
+        "record_id": 714,
+        "raw_hex": "ca0203000000c983548374838983938fec000000000000008163816382a0815b82be82e98141968889f1968889f10000000000000000000000000082e282c182c482e782f182cb815b82c2815b82cc8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "……あーだる、毎回毎回",
+            "やってらんねーつーの。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "아~ 귀찮아. 매번",
+          "못 해 먹겠네.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02CB",
+      "protected_snapshot": {
+        "record_id": 715,
+        "raw_hex": "cb0203000000c8835d8393834a838100000000000000000082dc82a082dc82a0835483748389839382bf82e182f18142000000000000000000000082a88e648e96814182a88e648e96818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ゾンカメ",
+          "lines": [
+            "まあまあサフランちゃん。",
+            "お仕事、お仕事￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "존카메",
+        "lines": [
+          "자자, 사프란.",
+          "일이잖아, 일￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02CC",
+      "protected_snapshot": {
+        "record_id": 716,
+        "raw_hex": "cc0203009bffc88376838a836a815b000000000000000000816381638142000000000000000000000000000000000000000000000000000000000082a282e282c882e082f18ca982bd8362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……。",
+            "いやなもん見たッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "…….",
+          "안 좋은 걸 봤슴다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02CD",
+      "protected_snapshot": {
+        "record_id": 717,
+        "raw_hex": "cd0204000000c8835d8393834a838100000000000000000082dc82c182c482dc82c182c48141835483748389839382bf82e182f18142000000000091bc82c982e082a082c182bd82c582b582e582a48142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ゾンカメ",
+          "lines": [
+            "まってまって、サフランちゃん。",
+            "他にもあったでしょう。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "존카메",
+        "lines": [
+          "잠깐, 사프란.",
+          "다른 것도 있었잖아.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02CE",
+      "protected_snapshot": {
+        "record_id": 718,
+        "raw_hex": "ce0204000000c983548374838983938fec000000000000008163816382a082ea81488163816382bb82a482be82c182af816381630000000000000082df82f182c782ad82b382a282c88341816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "……あれ？……そうだっけ……",
+            "めんどくさいなア……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "……어? 그랬던가……",
+          "귀찮네…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02CF",
+      "protected_snapshot": {
+        "record_id": 719,
+        "raw_hex": "cf0203000000c983548374838983938fec0000000000000082dc82a0814197aa8eae82c582e682a282e6836c81420000000000000000000000000082d982a282c181498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "まあ、略式でよいよネ。",
+            "ほいっ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "뭐, 약식으로 하지.",
+          "자!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D0",
+      "protected_snapshot": {
+        "record_id": 720,
+        "raw_hex": "d00201000000c983548374838983938fec00000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D1",
+      "protected_snapshot": {
+        "record_id": 721,
+        "raw_hex": "d10203000000c983548374838983938fec0000000000000082bb82ea82b682e182a0814182dd82f182c88149814900000000000000000000000000834f83628369815b8343814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "それじゃあ、みんな！！",
+            "グッナーイ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "그럼 모두!!",
+          "굿 나이트!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D2",
+      "protected_snapshot": {
+        "record_id": 722,
+        "raw_hex": "d20201000000c8835d8393834a838100000000000000000082cd82a28141826e826a8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ゾンカメ",
+          "lines": [
+            "はい、ＯＫ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "존카메",
+        "lines": [
+          "네, OK!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D3",
+      "protected_snapshot": {
+        "record_id": 723,
+        "raw_hex": "d30201000000c983548374838983938fec000000000000008163816382b282c982e582b282c982e5818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "……ごにょごにょ￥",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "……소곤소곤￥",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D4",
+      "protected_snapshot": {
+        "record_id": 724,
+        "raw_hex": "d4020300cb00c88376838a836a815b00000000000000000082dc814182dc82dc82dc82dc82dc82dc82dc0000000000000000000000000000000000837d835782c1835882a9814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ま、ままままままま",
+            "マジっスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저, 저저저저저저",
+          "진짜임까!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D5",
+      "protected_snapshot": {
+        "record_id": 725,
+        "raw_hex": "d50203000000c983548374838983938fec00000000000000834c8383836281498cbe82c182bf82e182c182bd818f00000000000000000000000000927082b882a982b582a282c181490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "キャッ！言っちゃった￥",
+            "恥ずかしいっ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "꺅! 말해 버렸다￥",
+          "부끄러워!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D6",
+      "protected_snapshot": {
+        "record_id": 726,
+        "raw_hex": "d60201000000c983548374838983938fec00000000000000834f83628369815b8343818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "グッナーイ￥",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "굿 나이트￥",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02D7",
+      "protected_snapshot": {
+        "record_id": 727,
+        "raw_hex": "d7020300cb00c88376838a836a815b00000000000000000096828a458c4d8fcd835283938376838a815b8367000000000000000000000000000000836283588149814982e282c182bd8362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "魔界勲章コンプリート",
+            "ッス！！やったッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "마계 훈장 전부 모았슴다!!",
+          "해냈슴다!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사프란·존카메 인명, 방송 말투와 전각 ￥ 표현은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

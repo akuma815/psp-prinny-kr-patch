@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "profile_id": "dialog-hancom-malangmalang-e2e-07d0-v1",
+  "source_font": {
+    "path_from_project": "../../Font/HancomMalangMalang-Regular.ttf",
+    "sha256": "f6682e2027b1a382d3e01546f7a7115cb26cc1245ded6b839686a069abc743b0",
+    "family": "Hancom MalangMalang",
+    "style": "Regular",
+    "license_status": "embedding permitted for game/device use; do not distribute the standalone TTF"
+  },
+  "target": {
+    "renderer": "Demo00 dialog and nameplate",
+    "cell_width": 20,
+    "cell_height": 14,
+    "bits_per_pixel": 4,
+    "nibble_order": "low-first",
+    "palette_levels": 8
+  },
+  "raster": {
+    "font_size": 13,
+    "horizontal_scale": 1.4,
+    "placement": "center"
+  },
+  "multi_poc": {
+    "gate_id": "POC-DIALOG-E2E-001",
+    "source_sequence": "プリニうわちこくッ",
+    "generated_sequence": "프리니우와지각했다",
+    "replacements": [
+      {"generated_character": "프", "temporary_replaced_character": "プ", "temporary_cp932_hex": "8376", "expected_dense_index": 533, "expected_glyph_id": 371},
+      {"generated_character": "리", "temporary_replaced_character": "リ", "temporary_cp932_hex": "838A", "expected_dense_index": 553, "expected_glyph_id": 390},
+      {"generated_character": "니", "temporary_replaced_character": "ニ", "temporary_cp932_hex": "836A", "expected_dense_index": 521, "expected_glyph_id": 359},
+      {"generated_character": "우", "temporary_replaced_character": "う", "temporary_cp932_hex": "82A4", "expected_dense_index": 387, "expected_glyph_id": 242},
+      {"generated_character": "와", "temporary_replaced_character": "わ", "temporary_cp932_hex": "82ED", "expected_dense_index": 460, "expected_glyph_id": 314},
+      {"generated_character": "지", "temporary_replaced_character": "ち", "temporary_cp932_hex": "82BF", "expected_dense_index": 414, "expected_glyph_id": 269},
+      {"generated_character": "각", "temporary_replaced_character": "こ", "temporary_cp932_hex": "82B1", "expected_dense_index": 400, "expected_glyph_id": 255},
+      {"generated_character": "했", "temporary_replaced_character": "く", "temporary_cp932_hex": "82AD", "expected_dense_index": 396, "expected_glyph_id": 251},
+      {"generated_character": "다", "temporary_replaced_character": "ッ", "temporary_cp932_hex": "8362", "expected_dense_index": 513, "expected_glyph_id": 351}
+    ],
+    "dialog": {
+      "source_sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+      "record_id": 2000,
+      "record_index": 291,
+      "record_offset": "0x9610"
+    },
+    "start_dat": {
+      "archive_sha256": "e2e9870cc4b62db0ee08ba1cbb1958bfdfa172a4df589288c01fde89c6befd41",
+      "entries": [
+        {"name": "font.txp", "sha256": "b8f7301307da33a8ef606b55d831bba1b67e4eafa1447084ab4e649d1df6c2d9", "data_start": "0x5339E0", "data_end_exclusive": "0x583E40", "span": 328800},
+        {"name": "Demo00.dat", "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d", "data_start": "0x7577D0", "data_end_exclusive": "0x78A270", "span": 207520}
+      ]
+    },
+    "system_dat": {
+      "archive_sha256": "facf0905f80479952d1a4926ca3530ff2740b8492bf39cb4ba1e2b2ee3339c4e",
+      "entry_name": "start.lzs",
+      "entry_sha256": "2242dee86aefd0a1ee91a9092ee9525986431027943a544622c5c5e50ab5a58c",
+      "entry_offset": "0x50000",
+      "entry_size": 3630771,
+      "entry_unknown": "0x394704B0",
+      "next_entry_offset": "0x3C6800",
+      "replacement_sha256": "a3502ac9282ce804328e6741fa916e5e413d9378fcfb9919b117c63d9a126e6c",
+      "replacement_start_dat_sha256": "3c717fb4420e66916f28c8416c4f3ccf195a20f440c59f4469cbbfda174473f8"
+    },
+    "iso": {
+      "archive_sha256": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
+      "archive_size": 500465664,
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM.DAT;1",
+      "target_offset": "0x1AA10000",
+      "target_size": 4127307,
+      "target_sha256": "facf0905f80479952d1a4926ca3530ff2740b8492bf39cb4ba1e2b2ee3339c4e",
+      "replacement_sha256": "f6ba3d4aa3d77c95da66c69efcf7c7d09acacc27c380ad8662e86d59769ed853"
+    }
+  }
+}

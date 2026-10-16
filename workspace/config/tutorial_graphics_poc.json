@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "gate_id": "POC-TUTORIAL-GRAPHICS-003",
+  "source": {
+    "archive_sha256": "8f7bbf57a836377e3cdc4be03857da6290e64fa5d85bcbc76ab40bc09130fa4f",
+    "entry_name": "anime12.dat",
+    "entry_index": 21,
+    "entry_offset": "0x115F800",
+    "entry_size": 465344,
+    "entry_sha256": "a324870222386433ba51928b012714db55a30af1a0e484d9bcba006882870a64",
+    "record_index": 0,
+    "record_offset": "0x10",
+    "record_size": 465328
+  },
+  "font": {
+    "family": "HancomMalangMalang",
+    "style": "Regular",
+    "size": 19,
+    "minimum_size": 10,
+    "stroke": 1
+  },
+  "palette_indices": {
+    "transparent": 0,
+    "outline_alpha": [1, 2, 3, 4],
+    "fill_alpha": [7, 9, 11, 13, 15]
+  },
+  "sprite_relocations": [],
+  "textures": [
+    {
+      "texture_index": 0,
+      "payload_sha256": "ed5541d9d59b33a83460536f113c1d92492bbcbedfbe19ce6f84f18a6e631cb7",
+      "geometry": [512, 512, 4, 1],
+      "blocks": [
+        {"id":"tutorial/common/close","source":"とじる","ko":"닫기","clear_bounds":[440,0,488,24],"draw_bounds":[440,0,488,24],"align":"center"},
+        {"id":"tutorial/menu/jump","source":"チュートリアル ジャンプ","ko":"튜토리얼 점프","clear_bounds":[0,168,512,192],"draw_bounds":[0,168,216,192],"align":"center"},
+        {"id":"tutorial/menu/grab","source":"チュートリアル つかまり","ko":"튜토리얼 매달리기","clear_bounds":[0,192,512,216],"draw_bounds":[0,192,208,216],"align":"center"},
+        {"id":"tutorial/menu/hip-attack","source":"チュートリアル ヒップアタック","ko":"튜토리얼 엉덩이 찍기","clear_bounds":[0,216,512,240],"draw_bounds":[0,216,264,240],"align":"center"},
+        {"id":"tutorial/menu/restart","source":"チュートリアル リスタートポイント","ko":"튜토리얼 재시작 지점","clear_bounds":[0,240,512,264],"draw_bounds":[0,240,296,264],"align":"center"},
+        {"id":"tutorial/menu/attack","source":"チュートリアル 攻撃","ko":"튜토리얼 공격","clear_bounds":[0,264,512,288],"draw_bounds":[0,264,184,288],"align":"center"},
+        {"id":"tutorial/menu/camera","source":"チュートリアル 画面スライド","ko":"튜토리얼 화면 이동","clear_bounds":[0,288,512,312],"draw_bounds":[0,288,248,312],"align":"center"},
+        {"id":"tutorial/menu/crouch","source":"チュートリアル しゃがみ","ko":"튜토리얼 웅크리기","clear_bounds":[0,312,512,336],"draw_bounds":[0,312,216,336],"align":"center"},
+        {"id":"tutorial/menu/stun","source":"チュートリアル 敵の気絶","ko":"튜토리얼 적 기절","clear_bounds":[0,336,512,360],"draw_bounds":[0,336,216,360],"align":"center"},
+        {"id":"tutorial/menu/carry-throw","source":"チュートリアル 持ち上げ・投げ","ko":"튜토리얼 들기·던지기","clear_bounds":[0,360,512,384],"draw_bounds":[0,360,264,384],"align":"center"},
+        {"id":"tutorial/menu/dash","source":"チュートリアル ダッシュ","ko":"튜토리얼 대시","clear_bounds":[0,384,512,408],"draw_bounds":[0,384,208,408],"align":"center"},
+        {"id":"tutorial/menu/boss-switch","source":"チュートリアル ボススイッチ","ko":"튜토리얼 보스 스위치","clear_bounds":[0,408,512,432],"draw_bounds":[0,408,248,432],"align":"center"},
+        {"id":"tutorial/menu/boss-battle","source":"チュートリアル ボス戦について","ko":"튜토리얼 보스전","clear_bounds":[0,432,512,456],"draw_bounds":[0,432,264,456],"align":"center"}
+      ]
+    },
+    {
+      "texture_index": 1,
+      "payload_sha256": "33a054b2b6c9bf446c53dce6775816ded46518b992ac6749aa226be1a8bf81e5",
+      "geometry": [512, 512, 4, 1],
+      "blocks": [
+        {"id":"tutorial/page1/00","source":"ボタンを押すと『ジャンプ』","ko":"버튼을 누르면 「점프」","clear_bounds":[0,0,512,24],"segments":[
+          {"text":"버튼을 누르면","draw_bounds":[161,1,292,23],"align":"left"},
+          {"text":"「","draw_bounds":[289,0,304,24],"align":"right","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"」","draw_bounds":[338,0,353,24],"align":"left","font_size":21,"minimum_font_size":19,"offset_y":-2}
+        ]},
+        {"id":"tutorial/page1/01","source":"空中でもう一度ボタンを押すと","ko":"공중에서 한 번 더 [버튼] 버튼을 누르면","clear_bounds":[0,24,512,48],"segments":[{"text":"공중에서 한 번 더","draw_bounds":[124,25,246,47],"align":"right"},{"text":"버튼을 누르면","draw_bounds":[268,25,389,47],"align":"left"}]},
+        {"id":"tutorial/page1/02","source":"『二段ジャンプ』","ko":"「2단 점프」","clear_bounds":[0,48,512,72],"segments":[{"text":"「","draw_bounds":[195,49,210,72],"align":"right"},{"text":"」","draw_bounds":[302,49,317,72],"align":"left"}]},
+        {"id":"tutorial/page1/03","source":"崖（地形のフチ）に向かって方向キーを","ko":"절벽(지형 끝)을 향해 방향키를","clear_bounds":[0,72,512,96],"draw_bounds":[104,73,408,95],"align":"center"},
+        {"id":"tutorial/page1/04","source":"押しっぱなしにすると『つかまり』","ko":"계속 누르면 「매달리기」","clear_bounds":[0,96,512,120],"segments":[{"text":"계속 누르면 「","draw_bounds":[103,97,293,119],"align":"right"},{"text":"」","draw_bounds":[386,97,401,119],"align":"left"}]},
+        {"id":"tutorial/page1/05","source":"ジャンプ中に","ko":"점프 중","clear_bounds":[0,120,512,144],"draw_bounds":[205,121,309,143],"align":"center"},
+        {"id":"tutorial/page1/06","source":"『方向キーの下＋ボタン』で","ko":"「방향키 아래＋[버튼] 버튼」으로","clear_bounds":[0,144,512,168],"segments":[{"text":"「방향키 아래＋","draw_bounds":[145,145,273,167],"align":"right"},{"text":"버튼」으로","draw_bounds":[293,145,382,167],"align":"left"}]},
+        {"id":"tutorial/page1/07","source":"『ヒップアタック』","ko":"「엉덩이 찍기」","clear_bounds":[0,168,512,192],"segments":[{"text":"「","draw_bounds":[187,169,202,191],"align":"right"},{"text":"」","draw_bounds":[311,169,326,191],"align":"left"}]},
+        {"id":"tutorial/page1/08","source":"リスタートスイッチは","ko":"재시작 스위치는","clear_bounds":[0,192,512,216],"draw_bounds":[172,193,343,215],"align":"center"},
+        {"id":"tutorial/page1/09","source":"ヒップアタックで発動！","ko":"엉덩이 찍기로 작동!","clear_bounds":[0,216,512,240],"draw_bounds":[163,217,346,239],"align":"center"},
+        {"id":"tutorial/page1/10","source":"『リスタートポイント』","ko":"「해당 지점에서 부활」","clear_bounds":[0,240,512,264],"segments":[{"text":"「","draw_bounds":[137,241,152,263],"align":"right"},{"text":"」","draw_bounds":[361,241,376,263],"align":"left"}]},
+        {"id":"tutorial/page1/11","source":"ボタンで『攻撃』","ko":"버튼으로 「베기 공격」","clear_bounds":[0,264,512,288],"segments":[
+          {"text":"버튼으로","draw_bounds":[182,265,262,287],"align":"left"},
+          {"text":"「","draw_bounds":[244,264,259,288],"align":"right","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"」","draw_bounds":[336,264,351,288],"align":"left","font_size":21,"minimum_font_size":19,"offset_y":-2}
+        ]},
+        {"id":"tutorial/page1/12","source":"空中でボタンを押すと『回転攻撃』","ko":"공중에서 [버튼] 버튼을 누르면 「프리니 연사」","clear_bounds":[0,288,512,312],"segments":[
+          {"text":"공중에서","draw_bounds":[91,289,146,311],"align":"right"},
+          {"text":"버튼을 누르면","draw_bounds":[168,289,298,311],"align":"left"},
+          {"text":"「","draw_bounds":[292,288,307,312],"align":"right","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"」","draw_bounds":[400,288,415,312],"align":"left","font_size":21,"minimum_font_size":19,"offset_y":-2}
+        ]},
+        {"id":"tutorial/page1/13","source":"ボタン＋方向キーの上で","ko":"버튼＋방향키 위로","clear_bounds":[0,312,512,336],"draw_bounds":[162,313,367,335],"align":"center"},
+        {"id":"tutorial/page1/14","source":"『画面を上下にスライド』","ko":"「화면 상하 이동」","clear_bounds":[0,336,512,360],"segments":[{"text":"「","draw_bounds":[162,337,177,359],"align":"right"},{"text":"」","draw_bounds":[336,337,351,359],"align":"left"}]},
+        {"id":"tutorial/page1/15","source":"方向キーの下で『しゃがみ』","ko":"방향키 아래로 「웅크리기」","clear_bounds":[0,360,512,384],"segments":[
+          {"text":"방향키 아래로","draw_bounds":[138,361,274,383],"align":"right"},
+          {"text":"「","draw_bounds":[275,360,290,384],"align":"right","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"」","draw_bounds":[359,360,374,384],"align":"left","font_size":21,"minimum_font_size":19,"offset_y":-2}
+        ]},
+        {"id":"tutorial/page1/16","source":"ヒップアタックを当てると『敵の気絶』し","ko":"엉덩이 찍기를 맞히면 「적 기절」","clear_bounds":[0,384,512,408],"segments":[
+          {"text":"엉덩이 찍기를 맞히면","draw_bounds":[97,385,308,407],"align":"right"},
+          {"text":"「","draw_bounds":[306,384,321,408],"align":"right","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"」","draw_bounds":[379,384,394,408],"align":"left","font_size":21,"minimum_font_size":19,"offset_y":-2}
+        ]},
+        {"id":"tutorial/page1/17","source":"コンボゲージが上昇。","ko":"콤보 게이지가 상승.","clear_bounds":[0,408,512,432],"draw_bounds":[172,409,334,431],"align":"center"},
+        {"id":"tutorial/page1/18","source":"気絶中は敵にさわってもOK！","ko":"기절한 적은 닿아도 OK!","clear_bounds":[0,432,512,456],"draw_bounds":[137,433,371,455],"align":"center"}
+      ]
+    },
+    {
+      "texture_index": 2,
+      "payload_sha256": "e213971503aae6ba03f07953ffc810028c318cbf371ce8b781ef2c4551b6ac0e",
+      "geometry": [512, 512, 4, 1],
+      "blocks": [
+        {"id":"tutorial/page2/00","source":"ボタンを押すと","ko":"버튼을 누르면","clear_bounds":[0,0,512,24],"draw_bounds":[204,1,324,23],"align":"center"},
+        {"id":"tutorial/page2/01","source":"『爆弾』『ククリ』『気絶中の敵』を","ko":"「폭탄」「쿠크리」「기절한 적」을","clear_bounds":[0,24,512,48],"draw_bounds":[117,24,395,47],"align":"center"},
+        {"id":"tutorial/page2/02","source":"『持ち上げ』『投げ』できる！","ko":"「들기」「던지기」 가능!","clear_bounds":[0,48,512,72],"segments":[
+          {"text":"「","draw_bounds":[122,48,137,72],"align":"right","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"」","draw_bounds":[172,48,187,72],"align":"left","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"「","draw_bounds":[229,48,244,72],"align":"right","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"」","draw_bounds":[305,48,320,72],"align":"left","font_size":21,"minimum_font_size":19,"offset_y":-2},
+          {"text":"가능!","draw_bounds":[320,49,395,71],"align":"left"}
+        ]},
+        {"id":"tutorial/page2/03","source":"ボタンを押し続けると、プリニーが高速回転！","ko":"버튼을 계속 누르면 프리니가 고속 회전!","clear_bounds":[0,72,512,96],"draw_bounds":[90,73,439,95],"align":"center"},
+        {"id":"tutorial/page2/04","source":"その状態で左右に方向キーをいれながら","ko":"그 상태로 좌우 방향키를 누르며","clear_bounds":[0,96,512,120],"draw_bounds":[105,97,411,119],"align":"center"},
+        {"id":"tutorial/page2/05","source":"ボタンをはなすと『ダッシュ』","ko":"버튼을 놓으면 「대시」","clear_bounds":[0,120,512,144],"segments":[
+          {"text":"버튼을 놓으면 「","draw_bounds":[156,121,312,143],"align":"right"},
+          {"text":"」","draw_bounds":[371,121,386,143],"align":"left"}
+        ]},
+        {"id":"tutorial/page2/06","source":"ステージの最後にあるボススイッチを","ko":"스테이지 끝의 보스 스위치를","clear_bounds":[0,144,512,168],"draw_bounds":[106,145,393,167],"align":"center"},
+        {"id":"tutorial/page2/07","source":"ヒップアタックすると『ボス戦』","ko":"엉덩이 찍기로 누르면 「보스전 이동」","clear_bounds":[0,168,512,192],"segments":[
+          {"text":"엉덩이 찍기로 누르면 「","draw_bounds":[91,169,279,191],"align":"right"},
+          {"text":"」","draw_bounds":[404,169,419,191],"align":"left"}
+        ]},
+        {"id":"tutorial/page2/08","source":"ボス戦に勝利するとステージクリア！","ko":"보스전에서 이기면 스테이지 클리어!","clear_bounds":[0,192,512,216],"draw_bounds":[106,193,389,215],"align":"center"},
+        {"id":"tutorial/page2/09","source":"体力ゲージの右に表示されている","ko":"체력 게이지 오른쪽의","clear_bounds":[0,216,512,240],"draw_bounds":[126,217,380,239],"align":"center"},
+        {"id":"tutorial/page2/10","source":"『ボススイッチ』を","ko":"「실드 카운터」를","clear_bounds":[0,240,512,264],"segments":[
+          {"text":"「","draw_bounds":[185,241,200,263],"align":"right"},
+          {"text":"」를","draw_bounds":[321,241,361,263],"align":"left"}
+        ]},
+        {"id":"tutorial/page2/11","source":"ヒップアタックを当てると爆発！","ko":"엉덩이 찍기로 누르면 폭발!","clear_bounds":[0,264,512,288],"draw_bounds":[124,265,373,287],"align":"center"},
+        {"id":"tutorial/page2/12","source":"気絶させると『ボスの防御力が大幅ダウン』","ko":"기절시키면 「보스 방어력 대폭 감소」","clear_bounds":[0,288,512,312],"segments":[
+          {"text":"기절시키면 「","draw_bounds":[89,289,212,311],"align":"right"},
+          {"text":"」","draw_bounds":[404,289,419,311],"align":"left"}
+        ]}
+      ]
+    },
+    {
+      "texture_index": 3,
+      "payload_sha256": "b4a09c0b58f51d2e8b0e2c4699bd97b110bf5a62902ccc303ca1f74e093b7864",
+      "geometry": [256, 512, 4, 1],
+      "blocks": [
+        {"id":"tutorial/label/jump","source":"ジャンプ","ko":"점프","clear_bounds":[0,0,256,24],"draw_bounds":[0,0,64,24],"align":"center","offset_x":4},
+        {"id":"tutorial/label/double-jump","source":"二段ジャンプ","ko":"2단 점프","clear_bounds":[0,24,256,48],"draw_bounds":[0,24,112,48],"align":"center"},
+        {"id":"tutorial/label/grab","source":"崖につかまる","ko":"매달리기","clear_bounds":[0,48,256,72],"draw_bounds":[0,48,112,72],"align":"center"},
+        {"id":"tutorial/label/hip-attack","source":"ヒップアタック","ko":"엉덩이 찍기","clear_bounds":[0,72,256,96],"draw_bounds":[0,72,128,96],"align":"center"},
+        {"id":"tutorial/label/revive","source":"死んでもそこから復活できる","ko":"해당 지점에서 부활","clear_bounds":[0,96,256,120],"draw_bounds":[0,96,224,120],"align":"center"},
+        {"id":"tutorial/label/slash","source":"斬り攻撃","ko":"베기 공격","clear_bounds":[0,120,256,144],"draw_bounds":[0,120,80,144],"align":"center","font_size":19,"minimum_font_size":19},
+        {"id":"tutorial/label/prinny-barrage","source":"プリニー連射","ko":"프리니 연사","clear_bounds":[0,144,256,168],"draw_bounds":[0,144,112,168],"align":"center","font_size":19,"minimum_font_size":19,"offset_x":4},
+        {"id":"tutorial/label/camera","source":"画面を上下にスライド","ko":"화면 상하 이동","clear_bounds":[0,168,256,192],"draw_bounds":[0,168,176,192],"align":"center"},
+        {"id":"tutorial/label/crouch","source":"しゃがむ","ko":"웅크리기","clear_bounds":[0,192,256,216],"draw_bounds":[0,192,80,216],"align":"center","font_size":19,"minimum_font_size":19,"offset_x":4},
+        {"id":"tutorial/label/stun","source":"敵が気絶","ko":"적 기절","clear_bounds":[0,216,256,240],"draw_bounds":[0,216,80,240],"align":"center","font_size":19,"minimum_font_size":19},
+        {"id":"tutorial/label/carry","source":"持ち上げ","ko":"들기","clear_bounds":[0,240,256,264],"draw_bounds":[0,240,80,264],"align":"center","font_size":19,"minimum_font_size":19},
+        {"id":"tutorial/label/throw","source":"投げ","ko":"던지기","clear_bounds":[0,264,256,288],"draw_bounds":[0,264,48,288],"align":"center","font_size":19,"minimum_font_size":19,"tracking":-3},
+        {"id":"tutorial/label/dash","source":"ダッシュ","ko":"대시","clear_bounds":[0,288,256,312],"draw_bounds":[0,288,80,312],"align":"center"},
+        {"id":"tutorial/label/boss-room","source":"ボスの部屋に移動","ko":"보스전 이동","clear_bounds":[0,312,256,336],"draw_bounds":[0,312,144,336],"align":"center"},
+        {"id":"tutorial/label/shield-counter","source":"シールドカウンター","ko":"실드 카운터","clear_bounds":[0,336,256,360],"draw_bounds":[0,336,160,360],"align":"center","offset_x":4},
+        {"id":"tutorial/label/boss-defense","source":"ボスの防御力が大幅ダウン","ko":"보스 방어력 대폭 감소","clear_bounds":[0,360,256,384],"draw_bounds":[0,360,208,384],"align":"center"}
+      ]
+    }
+  ]
+}

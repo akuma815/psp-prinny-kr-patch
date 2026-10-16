@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_003_escape_warning",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "74989b8606093f4073b13af0a836bfb0d976cee0a6cc7010d70b44f3a6d207bc",
+  "context": {
+    "scene": "도입부 후반: 프리니의 포기·도주 시도와 에트나의 디저트 회수 명령",
+    "evidence": [
+      "demo.nsf block 0x00000C37..0x00000F6F 내 logical offsets 0x00000D40..0x00000F3B의 연속 42 01 호출",
+      "BOOT dispatcher block-local stepping: target 7 offsets all proven, block completed 1/1",
+      "2026-07-18 사용자 승인: 문맥별 임다/슴다·임까/슴까 선택 및 세 문장 수정"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0BEA",
+      "protected_snapshot": {
+        "record_id": 3050,
+        "raw_hex": "ea0b0300c900c88376838a836a815b000000000000000000834783678369976c815b814282e282c182cf00000000000000000000000000000000008349838c82bd82bf82c982cd96b3979d836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様ー。やっぱ",
+            "オレたちには無理ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님~. 역시",
+          "저희한텐 무리임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "エトナ様의 존칭과 늘인 부름을 '에트나 님~'으로 표현. 오레타치를 상하 관계에 맞춰 '저희'로 번역한 초벌.",
+        "flags": [
+          "draft",
+          "expression_approval_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님~. 역시",
+          "저희한텐 무리임다.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "エトナ様의 존칭과 늘인 부름을 '에트나 님~'으로 표현하고, 오레타치를 상하 관계에 맞춰 '저희'로 번역. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BEC",
+      "protected_snapshot": {
+        "record_id": 3052,
+        "raw_hex": "ec0b02005b02c883478367836900000000000000000000008daa90ab82c582c882f182c682a982b582c8814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 603,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "根性でなんとかしな。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "근성으로 어떻게든 해.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "根性でなんとかしな의 짧고 강압적인 명령조를 유지한 초벌.",
+        "flags": [
+          "draft",
+          "meaning_review_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "근성으로 어떻게든 해.",
+          "",
+          ""
+        ],
+        "status": "complete",
+        "notes": "根性でなんとかしな의 짧고 강압적인 명령조를 유지. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BEE",
+      "protected_snapshot": {
+        "record_id": 3054,
+        "raw_hex": "ee0b0b00ce00c88376838a836a815b0000000000000000008163816382e282c182cf82e893a6965382b582a900000000000000000000000000000082c882a28362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 11,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……やっぱり逃亡しか",
+            "ないッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……역시 도망칠 수밖에",
+          "없임까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "逃亡しかない를 '도망칠 수밖에 없다'로 옮기고 승인 문체 ～임까를 적용한 초벌.",
+        "flags": [
+          "draft",
+          "meaning_review_required",
+          "speaker_style_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……역시 도망칠 수밖에",
+          "없슴까?",
+          ""
+        ],
+        "status": "complete",
+        "notes": "逃亡しかない를 '도망칠 수밖에 없다'로 옮기고 활용에 자연스러운 프리니 문체 '없슴까?'를 적용. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "speaker_style_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BF0",
+      "protected_snapshot": {
+        "record_id": 3056,
+        "raw_hex": "f00b03006002c883478367836900000000000000000000008163816395aa82a982c182c482e982c6000000000000000000000000000000000000008e7682a482af82c78163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "……分かってると",
+            "思うけど……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "……알고 있을 거라",
+          "생각하지만…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "뒤의 도주 경고를 예고하는 말줄임과 에트나의 반말을 유지한 초벌.",
+        "flags": [
+          "draft",
+          "meaning_review_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "……알고 있을 거라",
+          "생각하지만…….",
+          ""
+        ],
+        "status": "complete",
+        "notes": "뒤의 도주 경고를 예고하는 말줄임과 에트나의 반말을 유지. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BF2",
+      "protected_snapshot": {
+        "record_id": 3058,
+        "raw_hex": "f20b0400a2fdc8834783678369000000000000000000000082c782b382ad82b382c593a682b082e682a482c182bd82c182c400000000000000000082bb82a482cd96e289ae82aa82a882eb82b382c882a282a982e782cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "どさくさで逃げようったって",
+            "そうは問屋がおろさないからね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "어수선한 틈에 도망치려 해도",
+          "그렇게 호락호락 안 될 거야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "どさくさ를 '어수선한 틈', そうは問屋がおろさない를 자연스러운 관용 표현 '호락호락 안 되다'로 옮긴 초벌.",
+        "flags": [
+          "draft",
+          "expression_approval_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "어수선한 틈에 도망치려 해도",
+          "그렇게 쉽게 되진 않을 거야.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "どさくさ를 '어수선한 틈', そうは問屋がおろさない를 장면에 자연스러운 경고 '그렇게 쉽게 되진 않을 거야'로 번역. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BF4",
+      "protected_snapshot": {
+        "record_id": 3060,
+        "raw_hex": "f40b0300a2fdc8834783678369000000000000000000000097e182a6915396c582b582c482e083588343815b836382f000000000000000000000008e9d82c182c482ad82e982f182be82e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "例え全滅してもスイーツを",
+            "持ってくるんだよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "설령 전멸해도 디저트는",
+          "가져와야 해.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "승인 용어 スイーツ=디저트를 적용하고 전멸하더라도 임무를 완수하라는 강압을 유지한 초벌.",
+        "flags": [
+          "draft",
+          "meaning_review_required",
+          "term_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "설령 전멸해도 디저트는",
+          "가져와야 해.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "승인 용어 スイーツ=디저트를 적용하고 전멸하더라도 임무를 완수하라는 강압을 유지. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BF6",
+      "protected_snapshot": {
+        "record_id": 3062,
+        "raw_hex": "f60b0400cd00c88376838a836a815b000000000000000000816381638d7382ab89df82ac82bd83578387815b834e82be82c6904d82b682c400000082b182ea82a982e782e08bad82ad90b682ab82e98362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……行き過ぎたジョークだと信じて",
+            "これからも強く生きるッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……지나친 농담이라고 믿고",
+          "앞으로도 굳세게 살겠임다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "行き過ぎたジョーク와 強く生きる의 자조적인 대비를 유지하고 승인 문체 ～임다를 적용한 초벌.",
+        "flags": [
+          "draft",
+          "expression_approval_required",
+          "speaker_style_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……지나친 농담이라고 믿고",
+          "앞으로도 굳세게 살겠슴다…….",
+          ""
+        ],
+        "status": "complete",
+        "notes": "行き過ぎたジョーク와 強く生きる의 자조적인 대비를 유지하고 활용에 자연스러운 프리니 문체 '살겠슴다'를 적용. 2026-07-18 사용자 승인.",
+        "flags": [
+          "meaning_reviewed",
+          "user_approved",
+          "speaker_style_approved"
+        ]
+      }
+    }
+  ]
+}

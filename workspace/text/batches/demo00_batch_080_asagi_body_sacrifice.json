@@ -1,0 +1,1458 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_080_asagi_body_sacrifice",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "04a548b9606addf711a9e644464d35f680dbe47d63a6ae02068bce5ff1130cbf",
+  "context": {
+    "scene": "아사기의 몸매 수행과 에트나의 희생 각오 조언",
+    "evidence": [
+      "BOOT 디스패처 정적 참조 30/30, 선택 블록 통합 감사 포함"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/7724",
+      "protected_snapshot": {
+        "record_id": 30500,
+        "raw_hex": "24771000000000000000000000000000000000000000000090e69479814195aa82a982e882dc82b582bd81498e8482c991ab82e882c882a200000082cc82cd82ab82c182c6838083608380836082c882f182c582b78149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 16,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "先輩、分かりました！私に足りない",
+            "のはきっとムチムチなんです！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "선배, 알겠어요! 제게 부족한 건",
+          "분명 글래머 몸매예요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "화자 칸이 비어 있는 아사기 연속 대사와 몸매 메타 농담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7726",
+      "protected_snapshot": {
+        "record_id": 30502,
+        "raw_hex": "267704003301c883418354834d00000000000000000000008e8482aa838083608380836082c182c6836983438358836f8366834282c9000000000082c882ea82ce81418ee5906c8cf68ad488e182a282c882b582c582b782e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 307,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "私がムチムチっとナイスバディに",
+            "なれば、主人公間違いなしですよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "제가 육감적인 몸매가 되면",
+          "주인공은 틀림없어요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ムチムチ・ナイスバディ를 육감적인 몸매로 의역.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7728",
+      "protected_snapshot": {
+        "record_id": 30504,
+        "raw_hex": "2877030032ffc88376838a836a815b00000000000000000082a282c182bd82a282c782b182cc8351815b838082c50000000000000000000000000095d78bad82b582c482ab82bd8362835882a981638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いったいどこのゲームで",
+            "勉強してきたッスか……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "대체 어느 게임에서",
+          "공부하고 온 검까…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/772A",
+      "protected_snapshot": {
+        "record_id": 30506,
+        "raw_hex": "2a7704003201c883418354834d000000000000000000000082e082bf82eb82f18341834e8356838783938351815b838082c582b78149000000000082a88ee8967b82be82c182c482bf82e182f182c6906c8ad481490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 306,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "もちろんアクションゲームです！",
+            "お手本だってちゃんと人間！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "물론 액션 게임이에요!",
+          "본보기도 제대로 된 인간이고요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "액션 게임의 인간 주인공을 본보기로 든 메타 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/772C",
+      "protected_snapshot": {
+        "record_id": 30508,
+        "raw_hex": "2c7702003801c883418354834d000000000000000000000090e6947981418ca982c482c489ba82b382a282e681608149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 312,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "先輩、見てて下さいよ～！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "선배, 잘 보세요~!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "변신을 보여 주려는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/772E",
+      "protected_snapshot": {
+        "record_id": 30510,
+        "raw_hex": "2e7704003301c883418354834d000000000000000000000082b382c182ab834c836d835282f0904882d782bd82cc82c581410000000000000000008da182c982ab82c182c68b9091e589bb82b582dc82b782a982e78163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 307,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "さっきキノコを食べたので、",
+            "今にきっと巨大化しますから……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "아까 버섯을 먹었으니",
+          "곧 거대해질 거예요…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "버섯으로 거대화하는 액션 게임 패러디.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7730",
+      "protected_snapshot": {
+        "record_id": 30512,
+        "raw_hex": "307705003101c883418354834d00000000000000000000008bb982aa8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 305,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "胸が！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "가슴이!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "몸매 거대화를 기대하는 강조 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7732",
+      "protected_snapshot": {
+        "record_id": 30514,
+        "raw_hex": "3277020032ffc88376838a836a815b0000000000000000008163816382bb82ea906c8ad48362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……それ人間ッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……그게 인간임까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7734",
+      "protected_snapshot": {
+        "record_id": 30516,
+        "raw_hex": "347703003801c883418354834d000000000000000000000082b3814190e694798149000000000000000000000000000000000000000000000000008ee88d8782ed82b982a88ae882a282b582dc82b78149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 312,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "さ、先輩！",
+            "手合わせお願いします！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "서, 선배!",
+          "한판 부탁드려요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니에게 대련을 요청하는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7736",
+      "protected_snapshot": {
+        "record_id": 30518,
+        "raw_hex": "367704002f01c883418354834d000000000000000000000081638163838083608380836082d682cc96b282cd984982c68fc182a682bd82ed81420082c582e097ac8d7382e882cc8379835e8393835282e096b3979d8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 303,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "……ムチムチへの夢は露と消えたわ。",
+            "でも流行りのペタンコも無理……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "……글래머의 꿈은 물거품이 됐어.",
+          "하지만 유행하는 빈유도 무리…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ムチムチ와 ペタンコ 대비를 글래머와 빈유로 옮긴 몸매 농담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7738",
+      "protected_snapshot": {
+        "record_id": 30520,
+        "raw_hex": "387707002f01c883418354834d000000000000000000000082a082a0814182b182cc9286937294bc925b82c800000000000000000000000000000091cc8c5e82aa919e82a2816381638149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 303,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "ああ、この中途半端な",
+            "体型が憎い……！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "아아, 이 어중간한",
+          "몸매가 미워……!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "자신의 체형을 한탄하는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/773A",
+      "protected_snapshot": {
+        "record_id": 30522,
+        "raw_hex": "3a77070037ffc88376838a836a815b00000000000000000082ce82c182a982e0815b82f183628358814981490000000000000000000000000000008349838c82bd82bf82f08ca982e98362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ばっかもーんッス！！",
+            "オレたちを見るッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이 바보야-!!",
+          "우릴 보십쇼!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 아사기의 체형 집착을 꾸짖는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/773C",
+      "protected_snapshot": {
+        "record_id": 30524,
+        "raw_hex": "3c7701003601c883418354834d000000000000000000000082b9814190e6947981498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 310,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "せ、先輩！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "서, 선배!?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니의 일갈에 놀라는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/773E",
+      "protected_snapshot": {
+        "record_id": 30526,
+        "raw_hex": "3e77040035ffc88376838a836a815b00000000000000000082b782e782e882c682b582bd91ab8149964c969e82c88345834783588367814900000082c782a48362835882a9814182b182cc88a482e782b582a28e7082cd814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "すらりとした足！豊満なウエスト！",
+            "どうッスか、この愛らしい姿は！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "쭉 뻗은 다리! 풍만한 허리!",
+          "어떻슴까, 이 사랑스러운 모습!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7740",
+      "protected_snapshot": {
+        "record_id": 30528,
+        "raw_hex": "4077040035ffc88376838a836a815b0000000000000000008379835e8393835282aa82e082c482cd82e282b382ea82e98e9e91e382cd00000000008f4982ed82c182bd8362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ペタンコがもてはやされる時代は",
+            "終わったッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "빈유가 추앙받던 시대는",
+          "끝났슴다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "빈유 유행을 끝났다고 선언하는 몸매 농담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7742",
+      "protected_snapshot": {
+        "record_id": 30530,
+        "raw_hex": "4277020035ffc88376838a836a815b0000000000000000008e9e91e382cd82b882f182c782a48362835882e681498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "時代はずんどうッスよ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이젠 통짜 몸매 시대임다!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ずんどう를 통짜 몸매로 옮긴 체형 농담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7744",
+      "protected_snapshot": {
+        "record_id": 30532,
+        "raw_hex": "447702003001c883418354834d00000000000000000000008e9e91e382cd82b882f182c782a481638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 304,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "時代はずんどう……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "통짜 몸매 시대…….",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니의 통짜 몸매 논리를 되뇌는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7746",
+      "protected_snapshot": {
+        "record_id": 30534,
+        "raw_hex": "4677040035ffc88376838a836a815b00000000000000000082bb82a4836283588142834783678369976c82cc8e9e91e382cd00000000000000000082e082a482a882ed82c182bd83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そうッス。エトナ様の時代は",
+            "もうおわったッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그렇슴다. 에트나 님 시대는",
+          "이제 끝났슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "에트나의 체형을 암시하는 위험한 농담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7748",
+      "protected_snapshot": {
+        "record_id": 30536,
+        "raw_hex": "487703000000c8814881488148814800000000000000000082d6815b8141924e82cc8e9e91e382aa000000000000000000000000000000000000008f4982ed82c182bd82c182c481638163814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "へー、誰の時代が",
+            "終わったって……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "흐음, 누구 시대가",
+          "끝났다고……?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체를 숨긴 에트나가 끼어드는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/774A",
+      "protected_snapshot": {
+        "record_id": 30538,
+        "raw_hex": "4a770300ca00c88376838a836a815b00000000000000000083478141834783678369976c82c181498149000000000000000000000000000000000082c8814182c882c982e482a682b182b182c982c18149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エ、エトナ様っ！！",
+            "な、なにゆえここにっ！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에, 에트나 님!!",
+          "어, 어쩐 일로 여기까지!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/774C",
+      "protected_snapshot": {
+        "record_id": 30540,
+        "raw_hex": "4c770400a0fdc8834783678369000000000000000000000082bf82e582c182ad82e795b782a982b982c482e082e782c182bd82af82c7814100000083418393835e814182ba82f182ba82f18a6f8ce582aa91ab82e882c882a282ed8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ちょっくら聞かせてもらったけど、",
+            "アンタ、ぜんぜん覚悟が足りないわ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "잠깐 들어 봤는데,",
+          "너, 각오가 전혀 부족해.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/774E",
+      "protected_snapshot": {
+        "record_id": 30542,
+        "raw_hex": "4e7701003001c883418354834d00000000000000000000008a6f8ce58163816381480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 304,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "覚悟……？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "각오……?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "에트나가 말한 각오를 되묻는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7750",
+      "protected_snapshot": {
+        "record_id": 30544,
+        "raw_hex": "50770400a2fdc8834783678369000000000000000000000082bb82a4814189bd82a982f08b5d90b582c982b782e98a6f8ce5814200000000000000926d82c182c482e9814882b182cc8376838a836a815b82cd82cb815c815c81420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "そう、何かを犠牲にする覚悟。",
+            "知ってる？このプリニーはね――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그래, 뭔가를 희생할 각오.",
+          "알아? 이 프리니는 말이지…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7752",
+      "protected_snapshot": {
+        "record_id": 30546,
+        "raw_hex": "52770400a2fdc8834783678369000000000000000000000091e590d882c88382836d82f08eb882a482b182c682c5937b82e882f08d8282df8141008376838a836a834b815b827782d682c695cf906782b782e982cc82e6814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "大切なモノを失うことで怒りを高め、",
+            "プリニガーＸへと変身するのよ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "소중한 걸 잃어서 분노를 키우고",
+          "프리니거 X로 변신하는 거야!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "プリニガーＸ를 프리니거 X로 옮긴 변신 패러디.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7754",
+      "protected_snapshot": {
+        "record_id": 30548,
+        "raw_hex": "54770300ca00c88376838a836a815b00000000000000000082b182ea88c88fe389bd82f08eb882a682c681498148000000000000000000000000008345835c82cd835f838182c183588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "これ以上何を失えと！？",
+            "ウソはダメっス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "여기서 뭘 더 잃으라고요!?",
+          "거짓말은 안 됨다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7756",
+      "protected_snapshot": {
+        "record_id": 30550,
+        "raw_hex": "567708003a01c883418354834d0000000000000000000000836f834a82b182ad82c582cb82a582d7814982bb82c182be82e78bc88c7c000000000082e282ea82e982cc82cd88ab968282a989469288906c82ad82ea82a582be82d78149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "バカこくでねぇべ！そっだら曲芸",
+            "やれるのは悪魔か宇宙人くれぇだべ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "헛소리 말어! 그런 재주는",
+          "악마나 우주인쯤 돼야 혀!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "변신 농담에 반발하는 사투리 인격.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "dialect_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7758",
+      "protected_snapshot": {
+        "record_id": 30552,
+        "raw_hex": "58770400a0fdc883478367836900000000000000000000008ee5906c8cf682c9906c8ad482e088ab968282e08ad68c5782c882a282c182b582e50082a082f182bd82cd89bd82f08b5d90b582c982b582bd82c182c482cc814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "主人公に人間も悪魔も関係ないっしょ",
+            "あんたは何を犠牲にしたっての？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "주인공에 인간, 악마가",
+          "무슨 상관이야.",
+          "넌 뭘 희생했는데?"
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/775A",
+      "protected_snapshot": {
+        "record_id": 30554,
+        "raw_hex": "5a770400ce00c88376838a836a815b0000000000000000008163816389ba8d8e8fe382c58ee5906c8cf682f08c6f8cb182b582bd0000000000000088ab968282cc835a838a837482cd82d082c696a188e182a48362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……下克上で主人公を経験した",
+            "悪魔のセリフはひと味違うッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……하극상으로 주인공 해 본",
+          "악마의 말은 역시 다름다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/775C",
+      "protected_snapshot": {
+        "record_id": 30556,
+        "raw_hex": "5c7703003a01c883418354834d0000000000000000000000815c815c8b5d90b581480000000000000000000000000000000000000000000000000082bb82ea82c58ee5906c8cf682c982c882ea82e982cc814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "――犠牲？",
+            "それで主人公になれるの？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "……희생?",
+          "그러면 주인공이 될 수 있어?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "희생으로 주인공이 될 수 있는지 묻는 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/775E",
+      "protected_snapshot": {
+        "record_id": 30558,
+        "raw_hex": "5e7703003a01c883418354834d000000000000000000000091e590d882c88382836d8163816395cf906781638163814200000000000000000000008e8482cd816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "大切なモノ……変身……。",
+            "私は……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "소중한 것…… 변신…….",
+          "나는…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "희생과 변신을 연결해 결심하기 시작하는 독백.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

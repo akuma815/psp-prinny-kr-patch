@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_084a_hub_slot_fix",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "a3b9e9cdb5b97696146794f3a57a9a0c3a2856f9ec74675c21481ec619ea29fa",
+  "context": {
+    "scene": "거점 음악 담당 설명 슬롯 교정",
+    "evidence": [
+      "084 최초 병합에서 01FE·0200 첫 줄 35/34바이트 초과"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/01FE",
+      "protected_snapshot": {
+        "record_id": 510,
+        "raw_hex": "fe0104000000c889b98a7989ae000000000000000000000082e682a482e282ad906c82cc8e7082c996df82ea82dc82b582bd8163816300000000008e8482cd96828a4582cc89b98a7989ae814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "音楽屋",
+          "lines": [
+            "ようやく人の姿に戻れました……",
+            "私は魔界の音楽屋。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "음악 담당",
+        "lines": [
+          "드디어 사람 모습으로 돌아왔군요……",
+          "저는 마계의 음악 담당.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "음악 담당",
+        "lines": [
+          "드디어 사람으로 돌아왔군요……",
+          "저는 마계의 음악 담당.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0200",
+      "protected_snapshot": {
+        "record_id": 512,
+        "raw_hex": "00021100000000000000000000000000000000000000000089b98a7989ae82c582cd8141817796828a45838c8352815b8368817882c900000000008efb985e82b382ea82bd82618266826c82f08dc490b682b782e982b182c682aa00000082c582ab82dc82b7814200000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "音楽屋では、『魔界レコード』に",
+            "収録されたＢＧＭを再生することが",
+            "できます。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "음악 담당에게서는 「마계 레코드」에",
+          "수록된 BGM을 재생할 수",
+          "있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "음악 담당은 「마계 레코드」의",
+          "수록된 BGM을 재생할 수",
+          "있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    }
+  ]
+}

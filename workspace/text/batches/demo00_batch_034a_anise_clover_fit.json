@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_034a_anise_clover_fit",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "3a49adc67550799cb169797a589e22df529a95629354658fdd484388c2362f80",
+  "context": {
+    "scene": "아니스의 스위츠 남작 목격 대사 고정 슬롯 수정",
+    "evidence": [
+      "batch 034 projected line 35/34 bytes at demo00/2B4C",
+      "원문 보호 스냅샷 재검증 후 34바이트 이하로 축약"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2B4C",
+      "protected_snapshot": {
+        "record_id": 11084,
+        "raw_hex": "4c2b04002103c88341836a8358000000000000000000000082bb82a482a282a682ce83588343815b8363926a8edd82aa82b182cc95d382f000000082a482eb82c282a282c482bd82ed8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "そういえばスイーツ男爵がこの辺を",
+            "うろついてたわ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "그러고 보니 스위츠 남작이 이 근처를",
+          "돌아다니던데…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작이 근처를 배회했다는 아니스의 정보 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "스위츠 남작이 이 근처를",
+          "돌아다니던데…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작이 근처를 배회했다는 아니스의 정보 초벌. 배치 034의 35/34바이트 초과를 23/34바이트로 축약.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "fixed_slot_fit_corrected"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_002_intro_scarf",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "b9789d3681ffcc2b755ec0ff980a347ba206ab517f18c69412a5f85eeb5324b8",
+  "context": {
+    "scene": "도입부: 에트나가 프리니 부대에 머플러와 궁극의 디저트 임무를 설명하는 연속 대화",
+    "evidence": [
+      "demo.nsf logical offsets 0x00000A66..0x00000C02의 연속 42 01 호출",
+      "2026-07-18 사용자 승인: 에트나/디저트/라져임다, マフラー는 머플러 선택"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0BB8",
+      "protected_snapshot": {
+        "record_id": 3000,
+        "raw_hex": "b80b0400a2fdc8834783678369000000000000000000000082a282a2814882bb82cc837d83748389815b82cd90e291ce82c90000000000000000008a4f82b782f182b682e182c882a282ed82e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "いい？そのマフラーは絶対に",
+            "外すんじゃないわよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "알겠어? 그 목도리는 절대로",
+          "벗으면 안 돼.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "도입부 연속 호출 문맥 기준 초벌. マフラー=목도리, エトナ=에트나 후보는 용어 승인 대기.",
+        "flags": [
+          "draft",
+          "term_approval_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "알겠어? 그 머플러는 절대로",
+          "벗으면 안 돼.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "도입부 연속 호출 문맥과 원문 의미 재검토 완료. 2026-07-18 사용자 승인에 따라 マフラー=머플러, エトナ=에트나 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "term_approved",
+          "user_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BBA",
+      "protected_snapshot": {
+        "record_id": 3002,
+        "raw_hex": "ba0b0400a2fdc8834783678369000000000000000000000082bb82ea82c882a282c6814183418393835e82e782cd935d82f182be82be82af82c500949a94ad82b782e982f182be82a982f182cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "それないと、アンタらは転んだだけで",
+            "爆発するんだかんね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그거 없으면 너희는 넘어지기만 해도",
+          "폭발하니까 말이야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "앞 문장의 목도리를 받는 연속 설명. エトナ=에트나 후보 승인 대기.",
+        "flags": [
+          "draft",
+          "term_approval_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그거 없으면 너희는 넘어지기만 해도",
+          "폭발하니까 말이야.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "앞 문장의 머플러를 받는 연속 설명으로 원문 의미 재검토 완료. 2026-07-18 사용자 승인에 따라 エトナ=에트나 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "term_approved",
+          "user_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BBC",
+      "protected_snapshot": {
+        "record_id": 3004,
+        "raw_hex": "bc0b0300c900c88376838a836a815b00000000000000000082e782b682e183628358814200000000000000000000000000000000000000000000008e8082f182c582e097a382b382c882a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "らじゃッス。",
+            "死んでも離さないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "라져임다.",
+          "죽어도 안 놓겠임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "らじゃ의 희화화된 외래어 말투를 '라져'로 유지. 승인 문체 임다 적용; 표현 승인 대기.",
+        "flags": [
+          "draft",
+          "expression_approval_required",
+          "speaker_style_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "라져임다.",
+          "죽어도 안 놓겠임다.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "원문 의미 재검토 완료. 2026-07-18 사용자 승인에 따라 らじゃ의 익살스러운 외래어 느낌을 '라져', 프리니 말투를 '임다'로 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "expression_approved",
+          "speaker_style_approved",
+          "user_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BBE",
+      "protected_snapshot": {
+        "record_id": 3006,
+        "raw_hex": "be0b0400a2fdc88347836783690000000000000000000000836f815b834a81418e8082f182be82e78e9f82cc82e282c282c9000000000000000000936e82b782f182be82e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "バーカ、死んだら次のやつに",
+            "渡すんだよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "바보야, 죽으면 다음 녀석한테",
+          "넘기란 말이야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "에트나의 거친 반말 유지. エトナ=에트나 후보 승인 대기.",
+        "flags": [
+          "draft",
+          "term_approval_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "바보야, 죽으면 다음 녀석한테",
+          "넘기란 말이야.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "에트나의 거친 반말과 원문 의미 재검토 완료. 2026-07-18 사용자 승인에 따라 エトナ=에트나 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "term_approved",
+          "user_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BC0",
+      "protected_snapshot": {
+        "record_id": 3008,
+        "raw_hex": "c00b0400a3fdc8834783678369000000000000000000000083588343815b836382aa8f6f978882e982cc82aa90e682a9814100000000000000000083418393835e82e782aa915396c582b782e982cc82aa90e682a98163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -605,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "スイーツが出来るのが先か、",
+            "アンタらが全滅するのが先か……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "디저트가 먼저 완성될지,",
+          "너희가 먼저 전멸할지…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "スイーツ=디저트 후보. NIS America 공식 영문 소개의 'ultimate dessert'와 대조했으며 한국어 표기 승인 대기.",
+        "flags": [
+          "draft",
+          "term_approval_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "디저트가 먼저 완성될지,",
+          "너희가 먼저 전멸할지…….",
+          ""
+        ],
+        "status": "complete",
+        "notes": "원문 의미와 공식 영문 'ultimate dessert' 대조 완료. 2026-07-18 사용자 승인에 따라 スイーツ=디저트 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "term_approved",
+          "user_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0BC2",
+      "protected_snapshot": {
+        "record_id": 3010,
+        "raw_hex": "c20b0400ce00c88376838a836a815b000000000000000000816381638349838c82bd82bf82cc88d782cc837d83748389815b82c582c882a200000082b182c682cd94f18fed82c982e682ad95aa82a982c182bd83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……オレたちの為のマフラーでない",
+            "ことは非常によく分かったッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……우릴 위한 목도리가",
+          "아니란 건 아주 잘 알겠임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "マフラー=목도리 후보와 승인 문체 임다 적용. 의미·용어 승인 대기.",
+        "flags": [
+          "draft",
+          "term_approval_required",
+          "speaker_style_approved"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……우릴 위한 머플러가",
+          "아니란 건 아주 잘 알겠임다.",
+          ""
+        ],
+        "status": "complete",
+        "notes": "원문 의미 재검토 완료. 2026-07-18 사용자 선택에 따라 マフラー=머플러, 승인 문체 '임다' 적용.",
+        "flags": [
+          "meaning_reviewed",
+          "term_approved",
+          "speaker_style_approved",
+          "user_approved"
+        ]
+      }
+    }
+  ]
+}

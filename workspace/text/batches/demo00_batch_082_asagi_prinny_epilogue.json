@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_082_asagi_prinny_epilogue",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "9d285f9ce08b587a1a62e4c39fe35f4411f88a2f6adbc823d56fdf602f84ec78",
+  "context": {
+    "scene": "프리니가 된 아사기의 후일담",
+    "evidence": [
+      "BOOT 디스패처 정적 참조 1/1, demo00/77EE 정적 후보 없음, 선택 블록 통합 감사 포함"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/77EC",
+      "protected_snapshot": {
+        "record_id": 30700,
+        "raw_hex": "ec7703006209c883418354834d000000000000000000000082b182ea82c58e8482e08ee5906c8cf68163816381420000000000000000000000000081638163836283588148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "これで私も主人公……。",
+            "……ッス？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "이제 나도 주인공…….",
+          "……임까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니가 된 아사기가 프리니 어미를 처음 사용하는 후일담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/77EE",
+      "protected_snapshot": {
+        "record_id": 30702,
+        "raw_hex": "ee7704006109c883418354834d000000000000000000000082c682b182eb82c58e8482cc8ddf82c182c4814189bd82be82d781480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "ところで私の罪って、何だべ？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "그런데 내 죄가 뭔디?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "정적 소비 후보 없는 사투리 후일담과 프리니가 된 원인을 묻는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required",
+          "dialect_review_required"
+        ]
+      }
+    }
+  ]
+}

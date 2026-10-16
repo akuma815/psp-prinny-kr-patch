@@ -1,0 +1,844 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_059_darth_mauve",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "047f4ba2a79a177ecea07f87eff07da50d6598c26de4f0bcb9b5e0738f3014e5",
+  "context": {
+    "scene": "다스 모브의 디저트 바이킹 매복과 스위츠 남작 거래 폭로",
+    "evidence": [
+      "demo.nsf logical offsets 0x1D570..0x1DB84의 목표 호출 17/17; BOOT dispatcher 선택 블록 포함 통합 감사 6/6 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/335E",
+      "protected_snapshot": {
+        "record_id": 13150,
+        "raw_hex": "5e3303000907ca835f815b83588382815b8375815b00000082e682a7814282a8914f82e782a682e782ad8fe3939982c800000000000000000000008376838a836a815b91e082be82c182c482c881480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1801,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "よぉ。お前らえらく上等な",
+            "プリニー隊だってな？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "여어. 너희 꽤나 쓸 만한",
+          "프리니 부대라면서?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "상급 프리니 부대라는 소문을 확인하는 다스 모브의 첫 등장. 신규 고유명 표기는 최종 검토 대상으로 둔다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "proper_name_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3360",
+      "protected_snapshot": {
+        "record_id": 13152,
+        "raw_hex": "6033040031ffc88376838a836a815b00000000000000000082dc82dc82dc82dc82b382a983668355815b8367836f8343834c8393834f81498148008349838c82bd82bf82f0904882a48362835882a98149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ままままさかデザートバイキング！？",
+            "オレたちを食うッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "서서설마 디저트 바이킹!?",
+          "우릴 먹을 검까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트 바이킹의 등장에 겁먹어 먹힐지 묻는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3362",
+      "protected_snapshot": {
+        "record_id": 13154,
+        "raw_hex": "623303000a07ca835f815b83588382815b8375815b000000836f815b834a814282a8914f82e794e782be82af82c500000000000000000000000000904882a482c682b182cb82a582be82eb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1802,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "バーカ。お前ら皮だけで",
+            "食うとこねぇだろ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "바보냐. 너희는 가죽뿐이라",
+          "먹을 데도 없잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니는 가죽뿐이라 먹을 부분이 없다고 비웃는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3364",
+      "protected_snapshot": {
+        "record_id": 13156,
+        "raw_hex": "6433040035ffc88376838a836a815b00000000000000000082d982c18141836f8343834c8393834f82b682e182c882a28362835882a981420000008bc182a982b982c882a282c5977e82b582a283628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ほっ、バイキングじゃないッスか。",
+            "驚かせないで欲しいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "휴, 바이킹이 아니었슴까.",
+          "놀라게 하지 마십쇼.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "상대가 바이킹이 아니라고 오해해 안도하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3366",
+      "protected_snapshot": {
+        "record_id": 13158,
+        "raw_hex": "663303000907ca835f815b83588382815b8375815b00000082a282e2814183668355815b8367836f8343834c8393834f000000000000000000000082be82aa814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1801,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "いや、デザートバイキング",
+            "だが？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "아니, 디저트 바이킹",
+          "맞는데?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "デザートバイキング의 뷔페·바이킹 중의성을 이름 그대로 유지하는 반전 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "enemy_name_review",
+          "wordplay_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3368",
+      "protected_snapshot": {
+        "record_id": 13160,
+        "raw_hex": "6833020036ffc88376838a836a815b00000000000000000082c782d082e1815b83628358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どひゃーッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "으아악임다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "상대의 정체를 뒤늦게 깨닫고 비명을 지르는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/336A",
+      "protected_snapshot": {
+        "record_id": 13162,
+        "raw_hex": "6a330c000a07ca835f815b83588382815b8375815b00000082d382f181418c5a8b4d82cc8e9d82c182c482ab82bd8fee95f182e00000000000000082a082c482c982c882e782f182c88142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 12,
+          "reserved_3": 0,
+          "face_asset_signed": 1802,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "ふん、兄貴の持ってきた情報も",
+            "あてにならんな。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "흥, 형님이 가져온 정보도",
+          "믿을 게 못 되는군.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "兄貴를 형님으로 옮긴 관계 정보가 포함된 대사. 실제 인물 관계는 최종 검토 대상으로 둔다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "relationship_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/336C",
+      "protected_snapshot": {
+        "record_id": 13164,
+        "raw_hex": "6c330b000a07ca835f815b83588382815b8375815b00000082c782a482dd82c482e0000000000000000000000000000000000000000000000000008ee382bb82a482b682e182cb815b82a9816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 11,
+          "reserved_3": 0,
+          "face_asset_signed": 1802,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "どうみても",
+            "弱そうじゃねーか……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "아무리 봐도",
+          "약해 보이잖아…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 부대가 약해 보인다고 평가하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/336E",
+      "protected_snapshot": {
+        "record_id": 13166,
+        "raw_hex": "6e330c000907ca835f815b83588382815b8375815b00000082dc829f82a282a282a9814282c782ea82be82af82a282bd82c182c40000000000000091ab82e882cb82a582f182be81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 12,
+          "reserved_3": 0,
+          "face_asset_signed": 1801,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "まぁいいか。どれだけいたって",
+            "足りねぇんだ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "뭐, 됐나. 아무리 많아도",
+          "모자라니까.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "포획할 프리니는 아무리 많아도 모자란다고 판단하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3370",
+      "protected_snapshot": {
+        "record_id": 13168,
+        "raw_hex": "703304000907ca835f815b83588382815b8375815b0000008da182a982e782a8914f82e78adb82b282c695df8a6c82b782e982ba8149000000000082bb82b182f093ae82ad82c881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1801,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "今からお前ら丸ごと捕獲するぜ！",
+            "そこを動くな！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "지금부터 너희를 통째로 잡겠다!",
+          "거기서 꼼짝 마!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 전원을 포획하겠다고 위협하는 전투 전 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3372",
+      "protected_snapshot": {
+        "record_id": 13170,
+        "raw_hex": "7233030035ffc88376838a836a815b00000000000000000082b182ea82c583588343815b8363926a8edd82cc8fe982c900000000000000000000008d7382af82e983628358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "これでスイーツ男爵の城に",
+            "行けるッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이걸로 스위츠 남작의 성에",
+          "갈 수 있슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "적을 이용해 스위츠 남작의 성으로 갈 기회를 잡았다고 기뻐하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3374",
+      "protected_snapshot": {
+        "record_id": 13172,
+        "raw_hex": "743304000907ca835f815b83588382815b8375815b00000082d982a78141926a8edd82cc8f8a82c98d7382ad82cc82a982a281420000000000000082a482bf82cc82a893be88d382b382f182b682e182cb815b82a98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1801,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "ほぉ、男爵の所に行くのかい。",
+            "うちのお得意さんじゃねーか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "호오, 남작한테 가는 거냐.",
+          "우리 단골이잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스위츠 남작이 디저트 바이킹의 단골이라고 밝히는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3376",
+      "protected_snapshot": {
+        "record_id": 13174,
+        "raw_hex": "7633020032ffc88376838a836a815b00000000000000000082a893be88d3976c8362835882a981638163814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "お得意様ッスか……？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "단골임까……?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스위츠 남작이 단골이라는 말에 의문을 보이는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3378",
+      "protected_snapshot": {
+        "record_id": 13176,
+        "raw_hex": "783304000907ca835f815b83588382815b8375815b00000083668355815b8367836f8343834c8393834f82a982e78376838a836a815b82f0000000948382c182c482ad82ea82e982a8906c82e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1801,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "デザートバイキングからプリニーを",
+            "買ってくれるお人よ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "디저트 바이킹에게서 프리니를",
+          "사 주는 분이지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작과 디저트 바이킹 사이의 프리니 거래 관계를 밝히는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "relationship_review",
+          "enemy_name_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/337A",
+      "protected_snapshot": {
+        "record_id": 13178,
+        "raw_hex": "7a330c0035ffc88376838a836a815b00000000000000000082e082b582a982b582c481418349838c924282e08d828b8b82c50000000000000000008cd982c182c482e082e782a682e982f182b682e182c882a28362835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 12,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "もしかして、オレ達も高給で",
+            "雇ってもらえるんじゃないッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "혹시 우리도 고액 연봉으로",
+          "고용되는 거 아님까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 거래를 고액 고용으로 오해해 기대하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/337C",
+      "protected_snapshot": {
+        "record_id": 13180,
+        "raw_hex": "7c33030035ffc88376838a836a815b00000000000000000082bf82e582c182c682be82af82e282e98b4382aa0000000000000000000000000000008f6f82c482ab82bd8362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ちょっとだけやる気が",
+            "出てきたッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "조금 의욕이",
+          "생겼슴다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "고액 고용을 기대하며 의욕을 보이는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/337E",
+      "protected_snapshot": {
+        "record_id": 13182,
+        "raw_hex": "7e3304000907ca835f815b83588382815b8375815b000000834f83628374836283748163816382dc82b382c900000000000000000000000000000094f282f182c589ce82c982a282e989c482cc928e82be82c881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1801,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ダースモーブー",
+          "lines": [
+            "グッフッフ……まさに",
+            "飛んで火にいる夏の虫だな……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "다스 모브",
+        "lines": [
+          "크흐흐…… 그야말로",
+          "제 발로 불에 든 나방이군…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "飛んで火にいる夏の虫를 한국어의 불나방 이미지로 의역한 대사. 문화 표현은 최종 검토 대상으로 둔다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "culture_review_required"
+        ]
+      }
+    }
+  ]
+}

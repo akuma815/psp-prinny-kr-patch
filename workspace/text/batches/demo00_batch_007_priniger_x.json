@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_007_priniger_x",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "fc8f3795b2c47260f8dd52e4d32929075b66ae3d3ced713c4bafb37d641d4157",
+  "context": {
+    "scene": "도입부 전멸 호소: 에트나가 전설의 프리니거 X 개조를 제안하는 대화",
+    "evidence": [
+      "demo.nsf logical offsets 0x1A1A/0x1A47/0x1A74/0x1AED/0x1B40/0x1B83/0x1BE6",
+      "BOOT dispatcher block-local stepping: target 7/7 proven"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0CE4",
+      "protected_snapshot": {
+        "record_id": 3300,
+        "raw_hex": "e40c0300cc00c88376838a836a815b000000000000000000834783678369976c815b814900000000000000000000000000000000000000000000008349838c924282b782ae8e8082ca8362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様ー！",
+            "オレ達すぐ死ぬッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님~!",
+          "저희 금방 죽슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "쉽게 죽는 프리니 부대의 절박한 호소를 승인 존칭과 누적 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0CE6",
+      "protected_snapshot": {
+        "record_id": 3302,
+        "raw_hex": "e60c0300cc00c88376838a836a815b00000000000000000082c782f182c782f1909482aa00000000000000000000000000000000000000000000008cb882c182c482a282e9836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どんどん数が",
+            "減っているッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "수가 계속",
+          "줄고 있슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "부대 숫자가 계속 감소한다는 보고를 짧은 프리니 말투로 유지한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0CE8",
+      "protected_snapshot": {
+        "record_id": 3304,
+        "raw_hex": "e80c04005e02c8834783678369000000000000000000000083418393835e82bd82bf82cc8ee682e895bf82cd909482a282e982b182c6000000000082c882f182be82a982e78e8082f182c582c882f182da82c582b582e5814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "アンタたちの取り柄は数いること",
+            "なんだから死んでなんぼでしょ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "너희 장점은 머릿수뿐이니까",
+          "죽어야 제값이지.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "死んでなんぼ를 수가 많은 소모품 취급을 드러내는 '죽어야 제값'으로 의역한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0CEA",
+      "protected_snapshot": {
+        "record_id": 3306,
+        "raw_hex": "ea0c0300cc00c88376838a836a815b00000000000000000082b182cc82dc82dc82b682e10000000000000000000000000000000000000000000000915396c582b582c482b582dc82a48362835882e68149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "このままじゃ",
+            "全滅してしまうッスよ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이대로면",
+          "전멸하고 말겠슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "전멸 위기를 경고하는 원문의 강조와 프리니 활용형을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0CEC",
+      "protected_snapshot": {
+        "record_id": 3308,
+        "raw_hex": "ec0c0400a6fdc8834783678369000000000000000000000082b582e582a482aa82c882a282ed82cb815b814282bb82ea82b682e182a00000000000936090e082cc8376838a836a834b815b827782c989fc91a282b782e9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "しょうがないわねー。それじゃあ",
+            "伝説のプリニガーＸに改造する？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "어쩔 수 없네~. 그럼",
+          "전설의 프리니거 X로 개조할래?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "伝説のプリニガーＸ를 '전설의 프리니거 X'로 음역한 초벌. 시리즈 공식 표기 가능성을 포함해 최종 용어 검토 필요.",
+        "flags": ["draft", "deferred_final_human_review", "term_approval_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0CEE",
+      "protected_snapshot": {
+        "record_id": 3310,
+        "raw_hex": "ee0c0400a4fdc883478367836900000000000000000000008376838a836a834b815b827782c982c882ea82ce814194bc89698b76934982c9000000946e8ed4946e82cc82e682a482c993ad82af82e982af82c781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "プリニガーＸになれば、半永久的に",
+            "馬車馬のように働けるけど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "프리니거 X가 되면 반영구적으로",
+          "말처럼 부려 먹을 수 있는데.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "プリニガーＸ 표기를 앞 문장과 통일하고 馬車馬のように働ける를 가혹하게 부려 먹는다는 의미로 옮긴 초벌.",
+        "flags": ["draft", "deferred_final_human_review", "term_approval_required", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0CF0",
+      "protected_snapshot": {
+        "record_id": 3312,
+        "raw_hex": "f00c0200cd00c88376838a836a815b00000000000000000082a68141899397b682b582c482a882ad8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "え、遠慮しておくッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "사, 사양하겠슴다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "개조 제안을 겁먹고 완곡하게 거절하는 말투와 프리니 활용형을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

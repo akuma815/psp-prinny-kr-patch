@@ -1,0 +1,822 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_054_bakuchi_cyclops",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "02e1ba02816056ffe264360aff5c0fa7130318212baa34b6260a2b17c40373e8",
+  "context": {
+    "scene": "바쿠치의 사이클롭스 폭주와 100억 헬 변상·불가사리 아이템 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x197BC..0x1A0CE의 연속 18개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 18/18 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/316A",
+      "protected_snapshot": {
+        "record_id": 12650,
+        "raw_hex": "6a3104005af9c8836f834e8360815b00000000000000000082a682a682a281418e7e82dc82ea814183548343834e838d8376835881490000000000965c82ea82e982f182b682e182cb82a682bc814182bf82ad82b582e582a481490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "ええい、止まれ、サイクロプス！",
+            "暴れるんじゃねえぞ、ちくしょう！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "이봐, 멈춰, 사이클롭스!",
+          "날뛰지 마, 젠장!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭주한 사이클롭스를 멈추려 욕설 섞인 명령을 내리는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/316C",
+      "protected_snapshot": {
+        "record_id": 12652,
+        "raw_hex": "6c31030058f9c8836f834e8360815b0000000000000000008ed797b482c782e082df8141000000000000000000000000000000000000000000000089bd82aa836383628352837e82be8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "邪龍どもめ、",
+            "何がツッコミだ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "이 사악한 용들,",
+          "츳코미는 무슨!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "邪龍ども와 ツッコミ를 앞선 카르다몬·세사미 장면의 문화어에 연결한 초벌.",
+        "flags": ["draft", "deferred_review", "cultural_context_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/316E",
+      "protected_snapshot": {
+        "record_id": 12654,
+        "raw_hex": "6e31030058f9c8836f834e8360815b00000000000000000082a082cc92f6937882cc8343834a8354837d82c50000000000000000000000000000008f5282e893fc82ea82e282aa82c182c4814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "あの程度のイカサマで",
+            "蹴り入れやがって！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "그 정도 속임수에",
+          "발길질을 하다니!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "카지노 속임수 때문에 걷어차인 일을 불평하는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3170",
+      "protected_snapshot": {
+        "record_id": 12656,
+        "raw_hex": "70310300a606c8836f834e8360815b00000000000000000082a881418ee8914f82e782bf82e582a482c782a282a28142000000000000000000000082b182a282c282f08e7e82df82c482ad82ea81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "お、手前らちょうどいい。",
+            "こいつを止めてくれ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "오, 너희 마침 잘 왔다.",
+          "이 녀석을 막아 줘!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "도착한 프리니들에게 폭주 기계 제압을 부탁하는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3172",
+      "protected_snapshot": {
+        "record_id": 12658,
+        "raw_hex": "72310300a606c8836f834e8360815b0000000000000000008e7e82df82c482ad82ea82bd82e700000000000000000000000000000000000000000082c882f182c582e082e282e982ba8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "止めてくれたら",
+            "なんでもやるぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "막아 주면",
+          "뭐든 줄게!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사이클롭스를 멈추면 무엇이든 주겠다는 바쿠치의 거래 제안.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3174",
+      "protected_snapshot": {
+        "record_id": 12660,
+        "raw_hex": "743103000000c983548343834e838d837683580000000000837383738373837381638163904e93fc8ed294ad8ca9000000000000000000000000008163816394728f9c816394728f9c8163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サイクロプス",
+          "lines": [
+            "ピピピピ……侵入者発見",
+            "……排除…排除…。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사이클롭스",
+        "lines": [
+          "삐삐삐……침입자 발견",
+          "……배제…배제…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "기계형 사이클롭스의 탐지음과 단속적인 제거 명령.",
+        "flags": ["draft", "deferred_review", "mechanical_speech"]
+      }
+    },
+    {
+      "entry_id": "demo00/3176",
+      "protected_snapshot": {
+        "record_id": 12662,
+        "raw_hex": "7631030036ffc88376838a836a815b00000000000000000082b1814182b182ea82f0000000000000000000000000000000000000000000000000008e7e82df82e982f18362835882a98149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "こ、これを",
+            "止めるんッスか！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이, 이걸",
+          "막으란 검까!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "거대한 사이클롭스를 직접 막으라는 말에 놀라는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3178",
+      "protected_snapshot": {
+        "record_id": 12664,
+        "raw_hex": "783104005af9c8836f834e8360815b00000000000000000082b1814182b182a282c282e783548343834e838d8376835882f000000000000000000082d482c189f382b582e282aa82c182bd814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "こ、こいつらサイクロプスを",
+            "ぶっ壊しやがった！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "이, 이 녀석들 사이클롭스를",
+          "부숴 버렸어!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들이 사이클롭스를 파괴한 데 놀라는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/317A",
+      "protected_snapshot": {
+        "record_id": 12666,
+        "raw_hex": "7a31040035ffc88376838a836a815b0000000000000000008349838c9242814182e082b582a982b582c482a982c882e88bad82ad82c882c182c40082e982f182b682e182c882a28362835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレ達、もしかしてかなり強くなって",
+            "るんじゃないッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우리, 어쩌면 꽤 강해진 거",
+          "아님까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사이클롭스를 쓰러뜨린 뒤 자신감을 얻는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/317C",
+      "protected_snapshot": {
+        "record_id": 12668,
+        "raw_hex": "7c310300a706c8836f834e8360815b0000000000000000008349838c82cd8e7e82df82eb82c682a282c182bd82aa0000000000000000000000000082d482c189f382b982c682cd8cbe82c182c482cb82a6814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1703,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "オレは止めろといったが",
+            "ぶっ壊せとは言ってねえ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "난 멈추랬지",
+          "부수라고는 안 했어!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정지를 부탁했지 파괴를 부탁한 것은 아니라고 따지는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/317E",
+      "protected_snapshot": {
+        "record_id": 12670,
+        "raw_hex": "7e310300a806c8836f834e8360815b00000000000000000082ab82c182bf82e8814195d98f9e82b582c4000000000000000000000000000000000082e082e782a482ba8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "きっちり、弁償して",
+            "もらうぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "제대로 변상해",
+          "줘야겠다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "파괴된 사이클롭스의 값을 물리겠다는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3180",
+      "protected_snapshot": {
+        "record_id": 12672,
+        "raw_hex": "80310500a806c8836f834e8360815b0000000000000000008250824f824f89ad8377838b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "１００億ヘル！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "100억 헬!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "사이클롭스 변상액을 게임 통화 헬로 제시하는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "currency_term_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3182",
+      "protected_snapshot": {
+        "record_id": 12674,
+        "raw_hex": "8231030036ffc88376838a836a815b00000000000000000082bb814182bb82f182c88be08ca982bd82b182c682e00000000000000000000000000096b382a2836283588149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そ、そんな金見たことも",
+            "無いッス！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그런 돈은 본 적도",
+          "없슴다!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "100억 헬이라는 거액에 경악하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3184",
+      "protected_snapshot": {
+        "record_id": 12676,
+        "raw_hex": "84310400a506c8836f834e8360815b00000000000000000082bb82ea82b682e182a081418349838c976c82aa8352834c82c282a982c182c400000082e282e982a982e782b582c182a982e882c693ad82ad82f182be82c8816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "それじゃあ、オレ様がコキつかって",
+            "やるからしっかりと働くんだな……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "그럼 이 몸이 실컷 부려",
+          "먹을 테니 열심히 일해라…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "변상 대신 프리니들을 혹사시키겠다는 바쿠치 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3186",
+      "protected_snapshot": {
+        "record_id": 12678,
+        "raw_hex": "8631030033ffc88376838a836a815b00000000000000000082c8814182c882f182a982a282e282c800000000000000000000000000000000000000975c8ab4836283588163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、なんかいやな",
+            "予感ッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭔가 불길한",
+          "예감이 듬다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "강제 노역이 닥칠 것을 직감하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3188",
+      "protected_snapshot": {
+        "record_id": 12680,
+        "raw_hex": "88310100a606c8836f834e8360815b0000000000000000008163816382d682c181498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "……へっ！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "……엥!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 폭발에 놀라는 바쿠치의 짧은 반응.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/318A",
+      "protected_snapshot": {
+        "record_id": 12682,
+        "raw_hex": "8a31110000000000000000000000000000000000000000008376838a836a815b82cd8141949a959782c594f282f182c582ab82bd0000000000000081758a4382cc82a893798e5983718367836683698356817600000000000000000000008163816382f08ee882c982a282ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、爆風で飛んできた",
+            "「海のお土産ヒトデナシ」",
+            "……を手にいれた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 폭풍에 날아온",
+          "「바다 선물 불가사리놈」",
+          "……을 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "海のお土産ヒトデナシ의 불가사리(ヒトデ)와 인간말종(人でなし) 말장난을 '불가사리놈'으로 압축한 초벌.",
+        "flags": ["draft", "deferred_review", "item_name_review", "wordplay_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/318C",
+      "protected_snapshot": {
+        "record_id": 12684,
+        "raw_hex": "8c31040035ffc88376838a836a815b00000000000000000082af81418c8b89ca8349815b8389834382c1835881490000000000000000000000000082b182ea82c5825582c282bb82eb82c182bd83628358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "け、結果オーライっス！",
+            "これで６つそろったッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "겨, 결과만 좋으면 됨다!",
+          "이걸로 6개 모았슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭발 덕분에 재료를 얻은 결과를 긍정하고 여섯 개를 확인하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

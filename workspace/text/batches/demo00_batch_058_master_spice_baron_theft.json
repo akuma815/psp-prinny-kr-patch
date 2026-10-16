@@ -1,0 +1,1878 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_058_master_spice_baron_theft",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2a894dad72bd1ce8311614b03fc910121a69072c157fa53fef587a9b5c988443",
+  "context": {
+    "scene": "마스터 드 스파이스의 쿠킹 배틀과 궁극 디저트 완성·스위츠 남작의 도난",
+    "evidence": [
+      "demo.nsf logical offsets 0x1BE8E..0x1D407의 40개 목표 호출; demo00/3320 및 demo00/3322는 정적 호출 후보 없음",
+      "BOOT dispatcher block-local stepping: static targets 40/40 proven, selected blocks 2/2 completed; 2 entries retain consumer_review_required"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/32FA",
+      "protected_snapshot": {
+        "record_id": 13050,
+        "raw_hex": "fa3201001505c896a190e5906c000000000000000000000082d382de8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "ふむ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "흐음…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료를 살피며 생각에 잠긴 맛선인의 첫 반응.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32FC",
+      "protected_snapshot": {
+        "record_id": 13052,
+        "raw_hex": "fc3201001505c896a190e5906c000000000000000000000082de82a382a3816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "むぅぅ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "으으음…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료 감정을 이어 가는 맛선인의 신음.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32FE",
+      "protected_snapshot": {
+        "record_id": 13054,
+        "raw_hex": "fe3201001505c896a190e5906c000000000000000000000082ca82ca82ca816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "ぬぬぬ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "으으으…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료 감정이 절정에 이르는 맛선인의 신음.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3300",
+      "protected_snapshot": {
+        "record_id": 13056,
+        "raw_hex": "003305001605c896a190e5906c0000000000000000000000834a8362815b814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 1302,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "カッー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "카앗!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "맛선인이 기세를 내며 외치는 기합.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3302",
+      "protected_snapshot": {
+        "record_id": 13058,
+        "raw_hex": "023304001505c896a190e5906c000000000000000000000089e482b182bb81419356926e96828a4582cc82a082e782e482e900000000000000000091668dde82f0926d82e8907382ad82b582bd81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "我こそ、天地魔界のあらゆる",
+            "素材を知り尽くした……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "천지 마계의 모든",
+          "식재료를 통달한…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "온 마계의 재료를 안다고 자부하는 맛선인의 자기소개 전반.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3304",
+      "protected_snapshot": {
+        "record_id": 13060,
+        "raw_hex": "043304001505c896a190e5906c000000000000000000000096a190e5906c82b182c600000000000000000000000000000000000000000000000000837d8358835e815b814583688145835883708343835882c082e182a0814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "味仙人こと",
+            "マスター・ド・スパイスぢゃあ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "바로 맛선인,",
+          "마스터 드 스파이스다!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "味仙人과 マスター・ド・スパイス를 각각 호칭과 고유명으로 옮긴 자기소개 초벌.",
+        "flags": ["draft", "deferred_review", "proper_name_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3306",
+      "protected_snapshot": {
+        "record_id": 13062,
+        "raw_hex": "0633040032ffc88376838a836a815b00000000000000000082a282e2814182bb82ea82cd82b382c182ab82e095b782a282bd83628358814200000082cd82e282a282c682b182a88ae882a282b582dc82b7836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、それはさっきも聞いたッス。",
+            "はやいとこお願いしますッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아니, 그건 아까도 들었슴다.",
+          "빨리 부탁드림다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "반복 자기소개를 끊고 조리를 재촉하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3308",
+      "protected_snapshot": {
+        "record_id": 13064,
+        "raw_hex": "083303001505c896a190e5906c000000000000000000000082e282ea82e282ea81410000000000000000000000000000000000000000000000000082b982c182a982bf82c082e182cc82a4816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "やれやれ、",
+            "せっかちぢゃのう……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "허허, 참",
+          "성급하구나…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니의 재촉을 성급하다고 타이르는 맛선인의 노인 말투.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/330A",
+      "protected_snapshot": {
+        "record_id": 13066,
+        "raw_hex": "0a3301001505c896a190e5906c000000000000000000000082c782ea8163816381480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "どれ……？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "어디 보자……?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모인 재료를 본격적으로 살펴보는 맛선인 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/330C",
+      "protected_snapshot": {
+        "record_id": 13068,
+        "raw_hex": "0c33020032ffc88376838a836a815b00000000000000000082c7814182c782a48362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ど、どうッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어, 어떻슴까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료의 평가를 초조하게 묻는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/330E",
+      "protected_snapshot": {
+        "record_id": 13070,
+        "raw_hex": "0e3304001605c896a190e5906c000000000000000000000082c8814182c882f182c682c8814900000000000000000000000000000000000000000082b182e882e1829f916690b082e782b582a28dde97bf82c082e182a0814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1302,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "な、なんとな！",
+            "こりゃぁ素晴らしい材料ぢゃあ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "이, 이럴 수가!",
+          "정말 훌륭한 재료로구나!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료의 높은 품질에 놀라 감탄하는 맛선인 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3310",
+      "protected_snapshot": {
+        "record_id": 13072,
+        "raw_hex": "103304001505c896a190e5906c00000000000000000000008b868bc982cc83588343815b836382f08dec82ea82e982bc82a281490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "究極のスイーツを作れるぞい！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "궁극의 디저트를 만들 수 있겠구나!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "현재 재료로 궁극의 디저트를 만들 수 있다고 확언하는 맛선인 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3312",
+      "protected_snapshot": {
+        "record_id": 13074,
+        "raw_hex": "1233010035ffc88376838a836a815b00000000000000000082a882a8815b82c181498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "おおーっ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "오오!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "성공 가능성을 듣고 환호하는 프리니 반응.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3314",
+      "protected_snapshot": {
+        "record_id": 13076,
+        "raw_hex": "14330300a2fdc8834783678369000000000000000000000082c882c982e6814182a082c182b382e882b782ac82c40000000000000000000000000082c282dc82f182c882a282b682e182f1814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "なによ、あっさりすぎて",
+            "つまんないじゃん。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "뭐야, 너무 쉽게 끝나서",
+          "재미없잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들이 쉽게 성공한 상황을 재미없어하는 에트나 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3316",
+      "protected_snapshot": {
+        "record_id": 13078,
+        "raw_hex": "16330300a2fdc8834783678369000000000000000000000082e082c182c696b3979d93ef91e882c5000000000000000000000000000000000000008da282e782b982c482ad82f182c882ab82e181420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "もっと無理難題で",
+            "困らせてくんなきゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "좀 더 무리한 요구로",
+          "곤란하게 해 줘야지.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "맛선인이 더 어려운 조건을 내걸길 바라는 에트나의 가학적 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3318",
+      "protected_snapshot": {
+        "record_id": 13080,
+        "raw_hex": "18330200ce00c88376838a836a815b0000000000000000008163816382bb82ea82aa96da93498362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……それが目的ッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……그게 목적이었슴까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나의 진짜 목적이 자신들을 곤란하게 하는 것인지 묻는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/331A",
+      "protected_snapshot": {
+        "record_id": 13082,
+        "raw_hex": "1a3301001605c896a190e5906c000000000000000000000082bb82ea82a282c181490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1302,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "それいっ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "자, 간다!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "조리 로봇을 꺼내며 외치는 맛선인 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/331C",
+      "protected_snapshot": {
+        "record_id": 13084,
+        "raw_hex": "1c3304001505c896a190e5906c0000000000000000000000838f835682aa8dec82c182bd969c945c834e8362834c8393834f838d837b814100000097bf979d82cc93538b90906c82c082e1814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "ワシが作った万能クッキングロボ、",
+            "料理の鉄巨人ぢゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "내가 만든 만능 요리 로봇,",
+          "요리의 철거인이다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "料理の鉄巨人을 요리의 철인 패러디와 거대 로봇 이미지를 결합한 '요리의 철거인'으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "proper_name_review", "cultural_reference_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/331E",
+      "protected_snapshot": {
+        "record_id": 13086,
+        "raw_hex": "1e33020033ffc88376838a836a815b00000000000000000082c882ba82c995cf8c60838d837b83628367816381638148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なぜに変形ロボット……？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "왜 변신 로봇인 검까……?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "요리 기계가 변신 로봇인 점에 의문을 표하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3320",
+      "protected_snapshot": {
+        "record_id": 13088,
+        "raw_hex": "203305001605c896a190e5906c0000000000000000000000834a8362815b814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 1302,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "カッー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "카앗!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "인접 문맥상 조리 로봇 질문을 제지하는 맛선인의 기합. 정적 소비 호출 후보가 없어 최종 소비자 확인이 필요함.",
+        "flags": ["draft", "deferred_review", "consumer_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/3322",
+      "protected_snapshot": {
+        "record_id": 13090,
+        "raw_hex": "2233010036ffc88376838a836a815b00000000000000000082d082a182c1814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひぃっ！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히익!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "인접 문맥상 맛선인의 기합에 놀라는 프리니 반응. 정적 소비 호출 후보가 없어 최종 소비자 확인이 필요함.",
+        "flags": ["draft", "deferred_review", "consumer_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/3324",
+      "protected_snapshot": {
+        "record_id": 13092,
+        "raw_hex": "243304001505c896a190e5906c0000000000000000000000834f838b838182cc93b982cd899c905b82a282cc82c082e181420000000000000000008367815b8356838d82aa82a282e782ca91468df582f082b782e982c582c882a28149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "グルメの道は奥深いのぢゃ。",
+            "トーシロがいらぬ詮索をするでない！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "미식의 길은 심오한 법.",
+          "풋내기가 쓸데없이 캐묻지 마라!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "トーシロ를 미숙한 초보자를 낮춰 부르는 '풋내기'로 현지화한 맛선인의 꾸지람.",
+        "flags": ["draft", "deferred_review", "cultural_localization_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3326",
+      "protected_snapshot": {
+        "record_id": 13094,
+        "raw_hex": "263304001505c896a190e5906c0000000000000000000000838c8362836382b582a582a282ab82f182ae814900000000000000000000000000000082a282b48141834e8362834c8393834f836f83678160838b81418a4a8e6e81498149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "レッツしぇいきんぐ！",
+            "いざ、クッキングバト～ル、開始！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "렛츠 셰이킹!",
+          "자, 쿠킹 배틀~ 시작!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "영어 혼합 구호와 늘임표를 살린 요리 대결 개시 선언 초벌.",
+        "flags": ["draft", "deferred_review", "catchphrase_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3328",
+      "protected_snapshot": {
+        "record_id": 13096,
+        "raw_hex": "2833040034ffc88376838a836a815b000000000000000000834e8141834e8362834c8393834f836f8367838b815b8149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ク、クッキングバトルー！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "쿠, 쿠킹 배틀!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 요리 대결 선언에 놀라는 프리니 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/332A",
+      "protected_snapshot": {
+        "record_id": 13098,
+        "raw_hex": "2a330300a4fdc8834783678369000000000000000000000082b682e1814182a282c182bf82e500000000000000000000000000000000000000000082aa82f182ce82f182c8814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "じゃ、いっちょ",
+            "がんばんな。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그럼 한번",
+          "힘내 봐.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "요리 대결에 나서는 프리니들에게 무심하게 격려하는 에트나 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/332C",
+      "protected_snapshot": {
+        "record_id": 13100,
+        "raw_hex": "2c3304001505c896a190e5906c000000000000000000000082d982ea81418b868bc982cc83588343815b83638aae90ac82c082e18149814900000082d982c182d982c182d9814182c882a982c882a982cc8d8182e882c082e181420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "ほれ、究極のスイーツ完成ぢゃ！！",
+            "ほっほっほ、なかなかの香りぢゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "자, 궁극의 디저트 완성이다!!",
+          "허허허, 제법 좋은 향이구나.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트 완성을 선언하고 향을 평가하는 맛선인 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/332E",
+      "protected_snapshot": {
+        "record_id": 13102,
+        "raw_hex": "2e33030035ffc88376838a836a815b00000000000000000082b1814182b182ea82aa8163816381498148000000000000000000000000000000000082c282a282c982e282c182bd83628358816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "こ、これが……！？",
+            "ついにやったッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이, 이게……!?",
+          "드디어 해냈슴다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "완성된 궁극의 디저트를 보고 감격하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3330",
+      "protected_snapshot": {
+        "record_id": 13104,
+        "raw_hex": "30330f000000c8814881488148814800000000000000000083588343815b836382a082e982c682b18141000000000000000000000000000000000082c782b182c582e08e518fe381498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 15,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "スイーツあるとこ、",
+            "どこでも参上！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "디저트 있는 곳이면,",
+          "어디든 등장!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체를 감춘 스위츠 남작의 과장된 등장 구호.",
+        "flags": ["draft", "deferred_review", "speaker_identity_concealed"]
+      }
+    },
+    {
+      "entry_id": "demo00/3332",
+      "protected_snapshot": {
+        "record_id": 13106,
+        "raw_hex": "32330400d107c983588343815b8363926a8edd0000000000935689ba88ea82cc8ac396a1968289a482b182c683588343815b8363926a8edd00000082b182b182c982a082e882a982b582e7814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "天下一の甘味魔王ことスイーツ男爵",
+            "ここにありかしら？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "천하제일 감미마왕 스위츠 남작,",
+          "여기 등장했달까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "天下一の甘味魔王과 ここにありかしら？의 과장되고 여성적인 자칭을 살린 초벌.",
+        "flags": ["draft", "deferred_review", "title_rendering_review", "speaker_style_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3334",
+      "protected_snapshot": {
+        "record_id": 13108,
+        "raw_hex": "3433030032ffc88376838a836a815b00000000000000000082a282e281418b5e96e28c6082c595b782a982ea82c482e00000000000000000000000926d82e782cb815b8362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、疑問形で聞かれても",
+            "知らねーッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아니, 의문형으로 물어도",
+          "모름다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스스로 등장하고도 의문형을 쓰는 남작에게 어이없어하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3336",
+      "protected_snapshot": {
+        "record_id": 13110,
+        "raw_hex": "36330100d307c983588343815b8363926a8edd000000000082a082e782e282be81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 2003,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "あらやだ。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "어머나.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니의 반응을 흘려듣는 스위츠 남작의 여성적 감탄.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3338",
+      "protected_snapshot": {
+        "record_id": 13112,
+        "raw_hex": "383302002df8c983588343815b8363926a8edd000000000082dc82a0814197c782a28d8182e881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -2003,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "まあ、良い香り！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "정말 좋은 향기!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트 향에 감탄하는 스위츠 남작 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/333A",
+      "protected_snapshot": {
+        "record_id": 13114,
+        "raw_hex": "3a3304002df8c983588343815b8363926a8edd000000000082dc82b382a982c68e7682c182c482ab82bd82af82ea82c7000000000000000000000082c882a982c882a997c782b382bb82a482b682e182c882a282a982b582e781608149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -2003,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "まさかと思ってきたけれど",
+            "なかなか良さそうじゃないかしら～！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "설마 해서 와 봤는데",
+          "제법 좋아 보이잖아~!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "소문을 반신반의하다 완성품을 높이 평가하는 스위츠 남작 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/333C",
+      "protected_snapshot": {
+        "record_id": 13116,
+        "raw_hex": "3c330400d307c983588343815b8363926a8edd00000000008163816382d382d382d3814182b182cc8b868bc982cc83588343815b836382cd00000082a282bd82be82ad82ed814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2003,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "……ふふふ、この究極のスイーツは",
+            "いただくわ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "……후후후, 이 궁극의 디저트는",
+          "내가 가져갈게!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 빼앗겠다고 선언하는 스위츠 남작 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/333E",
+      "protected_snapshot": {
+        "record_id": 13118,
+        "raw_hex": "3e330400d207c983588343815b8363926a8edd0000000000977e82b582a982c182bd82e78e8482f092c782a28a7c82af82c400000000000000000082a282e782c182b582e182a281490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2002,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "欲しかったら私を追い掛けて",
+            "いらっしゃい！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "갖고 싶으면 날 쫓아",
+          "오렴!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 되찾고 싶다면 쫓아오라고 도발하는 남작 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3340",
+      "protected_snapshot": {
+        "record_id": 13120,
+        "raw_hex": "4033020032ffc88376838a836a815b000000000000000000837c834a815b839382c18358816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ポカーンっス……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "멍해졌슴다…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 도난에 넋이 나간 상태를 ポカーン의 의미로 옮김.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3342",
+      "protected_snapshot": {
+        "record_id": 13122,
+        "raw_hex": "423304001505c896a190e5906c000000000000000000000082d382de814282a082e882e1829f81418ac382a282e082cc82c996da82aa82c882a200834f838b838188ab9682814183588343815b8363926a8edd82c082e182c881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "ふむ。ありゃぁ、甘いものに目がない",
+            "グルメ悪魔、スイーツ男爵ぢゃな。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "흠. 저자는 단것에 사족 못 쓰는",
+          "미식 악마, 스위츠 남작이구나.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스위츠 남작이 단것을 매우 좋아하는 미식 악마라고 설명하는 맛선인 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3344",
+      "protected_snapshot": {
+        "record_id": 13124,
+        "raw_hex": "4433020037ffc88376838a836a815b00000000000000000083588343815b8363926a8edd816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "スイーツ男爵……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "스위츠 남작…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "도둑의 이름을 되뇌는 프리니 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3346",
+      "protected_snapshot": {
+        "record_id": 13126,
+        "raw_hex": "4633040034ffc88376838a836a815b00000000000000000082c682a282a482a981418349838c924282aa8dec82c182bd00000000000000000000008b868bc982cc83588343815b836382aa939082dc82ea82bd83628358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "というか、オレ達が作った",
+            "究極のスイーツが盗まれたッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그보다, 우리가 만든",
+          "궁극의 디저트를 도둑맞았슴다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 도난당한 사실을 뒤늦게 외치는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3348",
+      "protected_snapshot": {
+        "record_id": 13128,
+        "raw_hex": "483304001505c896a190e5906c000000000000000000000089d98e718dbb9499816983668355815b836783668355815b8367816a82cc00000000008cfc82b182a482c982a082e98fe982cc8ee582c082e1814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "菓子砂漠（デザートデザート）の",
+            "向こうにある城の主ぢゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "과자 사막(디저트 디저트)",
+          "너머 성의 주인이다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "菓子砂漠（デザートデザート）의 과자와 사막을 같은 영어 dessert/desert 발음으로 겹친 말장난을 병기한 초벌.",
+        "flags": ["draft", "deferred_review", "location_name_review", "wordplay_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/334A",
+      "protected_snapshot": {
+        "record_id": 13130,
+        "raw_hex": "4a33040033ffc88376838a836a815b0000000000000000008ee682e896df82b382c882a282c6000000000000000000000000000000000000000000834783678369976c82c9837583628e4582b382ea82e9836283588163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "取り戻さないと",
+            "エトナ様にブッ殺されるッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "되찾지 않으면",
+          "에트나 님께 죽임당함다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트를 되찾지 못하면 에트나에게 죽을 것이라 걱정하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/334C",
+      "protected_snapshot": {
+        "record_id": 13132,
+        "raw_hex": "4c3304001505c896a190e5906c00000000000000000000008dbb949982c982cd83668355815b8367836f8343834c8393834f82aa000000000000008f6f82e982e782b582a282a982e78b4382f082c282af82e982cc82c082e181420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "味仙人",
+          "lines": [
+            "砂漠にはデザートバイキングが",
+            "出るらしいから気をつけるのぢゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "맛선인",
+        "lines": [
+          "사막엔 디저트 바이킹이",
+          "나온다니 조심하거라.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "デザートバイキング의 디저트 뷔페와 바이킹 괴물 중의성을 그대로 음역한 경고 초벌.",
+        "flags": ["draft", "deferred_review", "enemy_name_review", "wordplay_review"]
+      }
+    }
+  ]
+}

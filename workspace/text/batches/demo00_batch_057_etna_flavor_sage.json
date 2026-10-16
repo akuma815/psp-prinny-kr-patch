@@ -1,0 +1,690 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_057_etna_flavor_sage",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2a894dad72bd1ce8311614b03fc910121a69072c157fa53fef587a9b5c988443",
+  "context": {
+    "scene": "재료 여섯 종류 완성과 에트나의 맛선인 의뢰·내장 협박",
+    "evidence": [
+      "demo.nsf logical offsets 0x1B3CD..0x1BC37의 연속 15개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 15/15 proven, selected blocks 1/1 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/32C8",
+      "protected_snapshot": {
+        "record_id": 13000,
+        "raw_hex": "c8320400a7fdc8834783678369000000000000000000000082d6815b81418dde97bf82bb82eb82c182bd82f182be8142000000000000000000000083418393835e82bd82bf88d38a4f82c682e282e982b682e182c882a2814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "へー、材料そろったんだ。",
+            "アンタたち意外とやるじゃない。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "헤에, 재료 다 모았네.",
+          "너희 의외로 제법이잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료를 모두 모은 프리니 부대를 의외라며 칭찬하는 에트나 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32CA",
+      "protected_snapshot": {
+        "record_id": 13002,
+        "raw_hex": "ca3204006500c98376838a836a815b91e000000000000000834783678369976c81638163814282c282a982ca8e9682f095b782ad8362835882aa008f5782df82bd8dde97bf82f082c782a482b782e882e182a282a282f1835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "エトナ様……。つかぬ事を聞くッスが",
+            "集めた材料をどうすりゃいいんスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "에트나 님……하나 여쭙겠슴다만",
+          "모은 재료로 뭘 해야 함까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모은 재료의 사용법을 조심스럽게 묻는 프리니 부대 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/32CC",
+      "protected_snapshot": {
+        "record_id": 13004,
+        "raw_hex": "cc320400a6fdc8834783678369000000000000000000000082cd829f814882bb82f182c882b182c60000000000000000000000000000000000000082a082bd82b582aa926d82e982ed82af82c882a282b682e182f18142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "はぁ？そんなこと",
+            "あたしが知るわけないじゃん。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "하아? 그런 걸",
+          "내가 알 리 없잖아.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료의 조리법을 자신이 알 리 없다고 무책임하게 답하는 에트나 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32CE",
+      "protected_snapshot": {
+        "record_id": 13006,
+        "raw_hex": "ce3202006700c98376838a836a815b91e00000000000000082dd82f182c8815b95aa82a982c182bd8362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "みんなー分かったッス！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "다들~ 알아냈슴다!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "조리 가능한 인물을 알아냈다고 동료들에게 보고하는 프리니 부대 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/32D0",
+      "protected_snapshot": {
+        "record_id": 13008,
+        "raw_hex": "d03204006700c98376838a836a815b91e00000000000000088c593e78e5282cc837d8358835e815b814583688145835883708343835882c182c40096a190e5906c82aa8dec82ea82e982bb82a48362835882e6815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "闇鍋山のマスター・ド・スパイスって",
+            "味仙人が作れるそうッスよー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "어둠전골산의 맛선인,",
+          "마스터 드 스파이스가 만들 수 있담다!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "闇鍋山과 味仙人, マスター・ド・スパイス를 고유 지명·호칭·인명으로 초벌한 대사.",
+        "flags": ["draft", "deferred_review", "proper_name_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/32D2",
+      "protected_snapshot": {
+        "record_id": 13010,
+        "raw_hex": "d232040099ffc98376838a836a815b91e00000000000000082e682ad82e282c182bd83628358814982b182ea82c582a88e64927582ab82a982e70093a682ea82e782ea82e983628358815b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -103,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "よくやったッス！これでお仕置きから",
+            "逃れられるッスー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "잘했슴다! 이걸로 벌에서",
+          "벗어날 수 있슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 완성해 에트나의 벌을 피할 수 있다고 기뻐하는 프리니 부대.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/32D4",
+      "protected_snapshot": {
+        "record_id": 13012,
+        "raw_hex": "d4320400a0fdc8834783678369000000000000000000000082d3815b82f1814196a190e5906c82cb82a5814282b782f182b282a2000000000000008b4393ef82b582a283578357834382c182c48345838f835482be82af82c781420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ふーん、味仙人ねぇ。すんごい",
+            "気難しいジジイってウワサだけど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "흐음, 맛선인이라. 엄청",
+          "까다로운 영감이란 소문인데.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "맛선인이 몹시 까다로운 노인이라는 소문을 전하는 에트나 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32D6",
+      "protected_snapshot": {
+        "record_id": 13014,
+        "raw_hex": "d63202006a00c98376838a836a815b91e0000000000000008b4393ef82b589ae8362835882a981638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "気難し屋ッスか……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "까다로운 분임까…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "맛선인의 성격을 걱정하는 프리니 부대 반응.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/32D8",
+      "protected_snapshot": {
+        "record_id": 13016,
+        "raw_hex": "d8320400a7fdc883478367836900000000000000000000008b4382c993fc82e782c882a291668dde82e082c182c482ab82bd82e78141000000000082d482bf82dc82af82e982c182c482b3814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "気に入らない素材もってきたら、",
+            "ぶちまけるってさ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "마음에 안 드는 재료를 가져오면,",
+          "쏟아 버린다더라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "마음에 들지 않는 재료를 가져온 경우의 소문을 일부러 모호하게 말하는 에트나 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32DA",
+      "protected_snapshot": {
+        "record_id": 13018,
+        "raw_hex": "da3203006a00c88376838a836a815b0000000000000000008163816382e082c182bd82a282c882a20000000000000000000000000000000000000082b182c682f082b782e98362835882cb816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……もったいない",
+            "ことをするッスね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……아까운",
+          "짓을 하시는군요…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료를 쏟는다고 오해해 아까워하는 프리니 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32DC",
+      "protected_snapshot": {
+        "record_id": 13020,
+        "raw_hex": "dc320300a3fdc883478367836900000000000000000000008e9d82c182c482ab82bd82e282c282cc00000000000000000000000000000000000000836e8389838f835e82f082cb81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -605,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "持ってきたやつの",
+            "ハラワタをね！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "가져온 녀석의",
+          "내장을 말이야!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "쏟는 대상이 재료가 아니라 가져온 자의 내장임을 밝히는 에트나의 잔혹한 농담.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32DE",
+      "protected_snapshot": {
+        "record_id": 13022,
+        "raw_hex": "de3202006600c88376838a836a815b00000000000000000082d0814182d082a182a182a1836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 102,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひ、ひぃぃぃッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히, 히이이이익!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "내장 협박을 듣고 공포에 질린 프리니 비명.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/32E0",
+      "protected_snapshot": {
+        "record_id": 13024,
+        "raw_hex": "e03204006a00c98376838a836a815b91e00000000000000082bb814182bb82ea82c582e082a282dc82cc8349838c82bd82bf82c900000000000000978a82ea82e982cc82cd82bb82cc90e5906c82be82af836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "そ、それでもいまのオレたちに",
+            "頼れるのはその仙人だけッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "그, 그래도 지금 우리가",
+          "기댈 건 그 선인뿐임다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "위험을 알아도 맛선인에게 의지할 수밖에 없다고 결론 내리는 프리니 부대.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/32E2",
+      "protected_snapshot": {
+        "record_id": 13026,
+        "raw_hex": "e23204006500c98376838a836a815b91e00000000000000096be93fa82cc92a982dc82c582c983588343815b836382f08dec82e982bd82df00000082c982cd8141939682bd82c182c482ad82be82af82eb83628358815b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー隊",
+          "lines": [
+            "明日の朝までにスイーツを作るため",
+            "には、当たってくだけろッスー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니 부대",
+        "lines": [
+          "내일 아침까지 디저트를 만들려면",
+          "일단 부딪쳐 보는 검다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "당たって砕けろ를 성공 여부와 무관하게 도전하자는 집단 결의로 자연스럽게 옮김.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/32E4",
+      "protected_snapshot": {
+        "record_id": 13028,
+        "raw_hex": "e4320300a4fdc8834783678369000000000000000000000082d382d3814182e682a482e282ad96ca949282ad00000000000000000000000000000082c882c182c482ab82bd82b682e182f181f400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ふふ、ようやく面白く",
+            "なってきたじゃん♪",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "후후, 드디어 재미있어",
+          "지기 시작했네♪",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들의 고생을 즐기며 흥미를 보이는 에트나 대사와 음표를 보존.",
+        "flags": ["draft", "deferred_review"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "profile_id": "dialog-hancom-malangmalang-poc-v1",
+  "source_font": {
+    "path_from_project": "../../Font/HancomMalangMalang-Regular.ttf",
+    "sha256": "f6682e2027b1a382d3e01546f7a7115cb26cc1245ded6b839686a069abc743b0",
+    "family": "Hancom MalangMalang",
+    "style": "Regular",
+    "license_status": "embedding permitted for game/device use; do not distribute the standalone TTF",
+    "license_evidence": {
+      "recorded_date": "2026-07-17",
+      "source": "user-provided Hancom font usage-scope table screenshot",
+      "permitted_scopes": [
+        "mobile, MP3, PMP, navigation, set-top box, and game-device embedding",
+        "font-file embedding service"
+      ],
+      "standalone_ttf_redistribution": "not established by the provided table; excluded from patch distribution"
+    }
+  },
+  "target": {
+    "renderer": "dialog",
+    "cell_width": 20,
+    "cell_height": 14,
+    "bits_per_pixel": 4,
+    "nibble_order": "low-first",
+    "palette_levels": 8
+  },
+  "raster": {
+    "font_size": 13,
+    "horizontal_scale": 1.4,
+    "placement": "center"
+  },
+  "poc": {
+    "gate_id": "POC-FONT-VIS-001",
+    "source_character": "가",
+    "temporary_replaced_character": "プ",
+    "temporary_cp932_hex": "8376",
+    "expected_dense_index": 533,
+    "expected_glyph_id": 371,
+    "start_dat": {
+      "archive_sha256": "e2e9870cc4b62db0ee08ba1cbb1958bfdfa172a4df589288c01fde89c6befd41",
+      "entry_name": "font.txp",
+      "entry_sha256": "b8f7301307da33a8ef606b55d831bba1b67e4eafa1447084ab4e649d1df6c2d9",
+      "data_start": "0x5339E0",
+      "data_end_exclusive": "0x583E40",
+      "span": 328800
+    },
+    "system_dat": {
+      "archive_sha256": "facf0905f80479952d1a4926ca3530ff2740b8492bf39cb4ba1e2b2ee3339c4e",
+      "entry_name": "start.lzs",
+      "entry_sha256": "2242dee86aefd0a1ee91a9092ee9525986431027943a544622c5c5e50ab5a58c",
+      "entry_offset": "0x50000",
+      "entry_size": 3630771,
+      "entry_unknown": "0x394704B0",
+      "next_entry_offset": "0x3C6800",
+      "replacement_sha256": "85431dca1d66ecca728fdc41522fc6b7b397201ccd27b657dcb2cb9dcb36fd2a",
+      "replacement_start_dat_sha256": "bf60516243264da1d221859e1315cbf8d5b2cf02c6bacbc0b209779e0c1c526e"
+    },
+    "iso": {
+      "archive_sha256": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
+      "archive_size": 500465664,
+      "target_path": "/PSP_GAME/USRDIR/SYSTEM.DAT;1",
+      "target_offset": "0x1AA10000",
+      "target_size": 4127307,
+      "target_sha256": "facf0905f80479952d1a4926ca3530ff2740b8492bf39cb4ba1e2b2ee3339c4e",
+      "replacement_sha256": "41c9fbb6049e74fb28d1f8e429146a053bfd2e5ffa86f8b17a3b52c000cf9892"
+    }
+  }
+}

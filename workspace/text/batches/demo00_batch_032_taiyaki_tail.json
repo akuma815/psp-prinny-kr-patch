@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_032_taiyaki_tail",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "dd1527e81c5480c84c6c6e14edda8c44ca88bad52185bd7778dfbc3fda7cef98",
+  "context": {
+    "scene": "모브 병사 공장의 붕어빵 꼬리 개발 실패와 팥 없는 꼬리 증거 인멸",
+    "evidence": [
+      "demo.nsf logical offsets 0xF024..0xF544의 연속 16개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 16/16 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/29FE",
+      "protected_snapshot": {
+        "record_id": 10750,
+        "raw_hex": "fe290400fe08c98382815b837595ba91e092b7000000000082c882ba82a482dc82ad82a282a982c882a283758149000000000000000000000000008c768e5a82c582cd82bf82e182f182c693fc82e98375815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2302,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵隊長",
+          "lines": [
+            "なぜうまくいかないブ！",
+            "計算ではちゃんと入るブー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 대장",
+        "lines": [
+          "왜 잘 안 들어가는 거다꿀!",
+          "계산상으론 제대로 들어간다꿀!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "モーブ兵隊長을 슬롯에 맞는 모브 대장으로 줄이고 기존 꿀 어미를 적용한 개발 실패 질책 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A00",
+      "protected_snapshot": {
+        "record_id": 10752,
+        "raw_hex": "002a030063f7c88382815b837595ba00000000000000000082bb82f182c882b182c68cbe82ed82ea82c482e00000000000000000000000000000008da282e9837581420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "そんなこと言われても",
+            "困るブ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "그렇게 말씀하셔도",
+          "곤란하다꿀.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "대장의 무리한 요구에 곤란해하는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A02",
+      "protected_snapshot": {
+        "record_id": 10754,
+        "raw_hex": "022a030063f7c88382815b837595ba00000000000000000083498343838982bd82bf8cbe82ed82ea82bd92ca82e882c900000000000000000000008a4a94ad82b582c482e982be82af82be8375815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "オイラたち言われた通りに",
+            "開発してるだけだブー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "저희는 시키신 대로",
+          "개발할 뿐이다꿀!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "명령받은 대로 개발할 뿐이라는 모브 병사의 항변 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A04",
+      "protected_snapshot": {
+        "record_id": 10756,
+        "raw_hex": "042a03009c08c88382815b837595ba0000000000000000008349837d8347814981490000000000000000000000000000000000000000000000000089bd82f08ca982c482e982f182be8375814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "オマエ！！",
+            "何を見てるんだブ！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "너!!",
+          "뭘 보는 거다꿀!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "숨어 보던 프리니를 발견한 모브 병사의 꿀 어미 외침 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A06",
+      "protected_snapshot": {
+        "record_id": 10758,
+        "raw_hex": "062a030037ffc88376838a836a815b00000000000000000082a282e2814189bd82f08dec82c182c482e9836283580000000000000000000000000082a982c8815b82c182c4814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いや、何を作ってるッス",
+            "かなーって。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아니, 뭘 만드는지",
+          "궁금해서 말임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "공장 개발품을 궁금해했을 뿐이라고 둘러대는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A08",
+      "protected_snapshot": {
+        "record_id": 10760,
+        "raw_hex": "082a01009d08c88382815b837595ba0000000000000000008163816382cd82c181490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "……はっ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "……헉!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "기업 비밀을 노린다는 오해로 이어지는 모브 병사의 깨달음 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A0A",
+      "protected_snapshot": {
+        "record_id": 10762,
+        "raw_hex": "0a2a03009908c88382815b837595ba0000000000000000008349837d834782b182cc8d488fea82cc000000000000000000000000000000000000008ae98bc694e996a782aa96da934982be82c883758149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "オマエこの工場の",
+            "企業秘密が目的だなブ！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "너, 이 공장의",
+          "기업 비밀이 목적이다꿀!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 산업 스파이로 의심하는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A0C",
+      "protected_snapshot": {
+        "record_id": 10764,
+        "raw_hex": "0c2a01009c08c88382815b837595ba0000000000000000008375815b8375815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "ブーブー！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "꿀꿀!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ブーブー를 직접적인 돼지 울음 꿀꿀로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A0E",
+      "protected_snapshot": {
+        "record_id": 10766,
+        "raw_hex": "0e2a02009c08c88382815b837595ba00000000000000000083588370834382be8375815b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "スパイだブー！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "스파이다꿀!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 스파이로 단정하는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A10",
+      "protected_snapshot": {
+        "record_id": 10768,
+        "raw_hex": "102a04009d08c88382815b837595ba00000000000000000082ad82c181418376838a836a815b82c9958982af82e982e682a482c582cd000000000082e282cd82e883568362837c82c982a082f182b182cd93fc82e782f18375815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "くっ、プリニーに負けるようでは",
+            "やはりシッポにあんこは入らんブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "큭, 프리니에게 질 정도라면",
+          "역시 꼬리에 팥은 못 넣는다꿀.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니에게 패한 결과를 붕어빵 꼬리의 팥 개발 실패와 연결하는 황당한 결론 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A12",
+      "protected_snapshot": {
+        "record_id": 10770,
+        "raw_hex": "122a020032ffc88376838a836a815b00000000000000000082bd82a282e282ab82cc98628362835882a9816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "たいやきの話ッスか……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "붕어빵 얘기임까…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "대화 주제가 붕어빵이었음을 뒤늦게 알아차리는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A14",
+      "protected_snapshot": {
+        "record_id": 10772,
+        "raw_hex": "142a04009d08c88382815b837595ba00000000000000000082b182ea82aa8ca982c282a982c182bd82e7926a8edd976c82c90000000000000000008eb682e782ea82e98375815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "これが見つかったら男爵様に",
+            "叱られるブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "이게 들키면 남작님께",
+          "혼난다꿀.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "실패작이 남작에게 발각될 것을 두려워하는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "referent_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A16",
+      "protected_snapshot": {
+        "record_id": 10774,
+        "raw_hex": "162a03009d08c88382815b837595ba000000000000000000918182ad82b182a282c282f0000000000000000000000000000000000000000000000082c882f182c682a982b782e98375815b816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "早くこいつを",
+            "なんとかするブー……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "빨리 이걸",
+          "어떻게든 해야 한다꿀…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "실패작을 서둘러 처리하려는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A18",
+      "protected_snapshot": {
+        "record_id": 10776,
+        "raw_hex": "182a03009908c88382815b837595ba00000000000000000082bb82a482be814100000000000000000000000000000000000000000000000000000082b182ea82cd8349837d834782c982e282e98375815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "そうだ、",
+            "これはオマエにやるブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "그렇지,",
+          "이건 너한테 주겠다꿀.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "실패작을 프리니에게 떠넘길 생각을 낸 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A1A",
+      "protected_snapshot": {
+        "record_id": 10778,
+        "raw_hex": "1a2a03009908c88382815b837595ba00000000000000000082bb82ea82e082c182c40000000000000000000000000000000000000000000000000082b382c182b382c68fc182a682e98375815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "それもって",
+            "さっさと消えるブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "그거 들고",
+          "썩 사라져라꿀.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "증거를 들고 사라지라고 명령하는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2A1C",
+      "protected_snapshot": {
+        "record_id": 10780,
+        "raw_hex": "1c2a110000000000000000000000000000000000000000008376838a836a815b82cd8fd88b92894296c582cc82bd82df82c9000000000000000000817582bd82a282e282ab82cc82b582c182db816983418393835296b382b5816a8176008163816382f0899f82b5957482af82e782ea82bd814900000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは証拠隠滅のために",
+            "「たいやきのしっぽ（アンコ無し）」",
+            "……を押し付けられた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 증거 인멸을 위해",
+          "「붕어빵 꼬리(팥 없음)」",
+          "……를 떠맡았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "たいやきのしっぽ（アンコ無し）를 붕어빵 꼬리(팥 없음)로 현지화한 실패작 획득 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "culture_review_required"]
+      }
+    }
+  ]
+}

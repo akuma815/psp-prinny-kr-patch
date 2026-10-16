@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_026_mauve_factory",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "dd77f635f2ae2e07053f93254366d6ecb351878ddc7d5387923ac2653c6b9117",
+  "context": {
+    "scene": "모브 병사의 공장에서 찢어진 골판지를 회수하고 궁극의 디저트 연구 희생을 듣는 장면",
+    "evidence": [
+      "demo.nsf logical offsets 0xC53E..0xC956의 연속 13개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 13/13 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/286E",
+      "protected_snapshot": {
+        "record_id": 10350,
+        "raw_hex": "6e28030037ffc88376838a836a815b00000000000000000082bf82ed836283588149000000000000000000000000000000000000000000000000009470956989f18efb82c9978882bd8362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ちわッス！",
+            "廃品回収に来たッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "안녕하심까!",
+          "폐품 수거하러 왔슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폐품 회수업자로 위장한 프리니의 인사를 기존 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2870",
+      "protected_snapshot": {
+        "record_id": 10352,
+        "raw_hex": "702803009908c88382815b837595ba00000000000000000082c882f182be8349837d834781480000000000000000000000000000000000000000008ca982c882ea82c882a28ae782be8375815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "なんだオマエ？",
+            "見なれない顔だブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "넌 뭐냐?",
+          "못 보던 얼굴이다꿀.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "モーブ兵은 모브 병사로 음역하고 돼지 울음 ブー를 한국어 어미 다꿀로 현지화한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2872",
+      "protected_snapshot": {
+        "record_id": 10354,
+        "raw_hex": "7228020033ffc88376838a836a815b00000000000000000082bb814182bb82a48362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そ、そうッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그렇슴까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "위장을 의심받아 당황하는 프리니의 반문 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2874",
+      "protected_snapshot": {
+        "record_id": 10356,
+        "raw_hex": "742804009c08c88382815b837595ba00000000000000000082b182cc8d488fea82cd814191bc82cc88ab968282cc8f6f93fc82e882cd000000000088ea90d88bd68e7e82be8375815b8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "この工場は、他の悪魔の出入りは",
+            "一切禁止だブー！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "이 공장은 다른 악마의 출입을",
+          "일절 금지한다꿀!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "공장의 외부 악마 출입 금지를 돼지 울음 어미 다꿀과 함께 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2876",
+      "protected_snapshot": {
+        "record_id": 10358,
+        "raw_hex": "7628020034ffc88376838a836a815b00000000000000000082b381418dec90ed8eb89473836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "さ、作戦失敗ッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "자, 작전 실패임다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "위장이 즉시 들통났음을 인정하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2878",
+      "protected_snapshot": {
+        "record_id": 10360,
+        "raw_hex": "782803009c08c88382815b837595ba00000000000000000082a082e282b582a282e282c282be8375815b814200000000000000000000000000000082c682c195df82dc82a682e98375815b814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "あやしいやつだブー。",
+            "とっ捕まえるブー！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "수상한 놈이다꿀.",
+          "붙잡아라꿀!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 수상히 여겨 체포하려는 외침을 돼지 울음 어미로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/287A",
+      "protected_snapshot": {
+        "record_id": 10362,
+        "raw_hex": "7a28110000000000000000000000000000000000000000008376838a836a815b82cd814182bb82b182e782c98e5582e782ce82c182c482a282bd008175946a82ea82bd9269837b815b838b817600000000000000000000000000000000008163816382f089f18efb82b582bd814995aa95ca836f83628360838a81490000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、そこらに散らばっていた",
+            "「破れた段ボール」",
+            "……を回収した！分別バッチリ！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 주변에 흩어져 있던",
+          "「찢어진 골판지」",
+          "……를 회수했다! 분리수거 완벽!"
+        ],
+        "status": "needs_human_review",
+        "notes": "破れた段ボール을 찢어진 골판지로 옮기고 分別バッチリ의 분리배출 농담을 분리수거 완벽으로 살린 획득 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/287C",
+      "protected_snapshot": {
+        "record_id": 10364,
+        "raw_hex": "7c2803009d08c88382815b837595ba00000000000000000082bb82f182c88353837e8141000000000000000000000000000000000000000000000089bd82c98e6782a482f182be8375815b814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "そんなゴミ、",
+            "何に使うんだブー？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "그런 쓰레기를",
+          "어디다 쓰냐꿀?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "골판지의 용도를 묻는 모브 병사의 돼지 울음 어미 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/287E",
+      "protected_snapshot": {
+        "record_id": 10366,
+        "raw_hex": "7e28030037ffc88376838a836a815b0000000000000000008b868bc982cc83588343815b836382f08dec82e988d782cc00000000000000000000008dde97bf8362835882e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "究極のスイーツを作る為の",
+            "材料ッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "궁극의 디저트를 만들",
+          "재료임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "골판지가 궁극의 디저트 재료라는 설명을 프리니 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2880",
+      "protected_snapshot": {
+        "record_id": 10368,
+        "raw_hex": "802804009908c88382815b837595ba000000000000000000816381638b868bc982cc83588343815b836382a98375815b814200000000000000000088c8914f82b182cc8d488fea82c582e08ca48b8682b582c482a282bd8375815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "……究極のスイーツかブー。",
+            "以前この工場でも研究していたブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "……궁극의 디저트냐꿀.",
+          "예전에 이 공장에서도 연구했다꿀.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "공장의 과거 연구 사실을 돼지 울음 어미와 함께 설명한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2882",
+      "protected_snapshot": {
+        "record_id": 10370,
+        "raw_hex": "822804009d08c88382815b837595ba00000000000000000082bb82cc9372928682c5814189e482aa8c5282cc91e594bc82cc95ba8e6d82aa0000008f7d904582b582bd82f182be8375815b816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "その途中で、我が軍の大半の兵士が",
+            "殉職したんだブー……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "그러던 중 우리 군 병사 대부분이",
+          "순직했다꿀…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "궁극의 디저트 연구 중 대규모 희생이 있었다는 진술을 돼지 울음 어미로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2884",
+      "protected_snapshot": {
+        "record_id": 10372,
+        "raw_hex": "8428030032ffc88376838a836a815b00000000000000000082bb814182bb82f182c88aeb8caf82c883588343815b8363000000000000000000000082be82c182bd82f18362835882a98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そ、そんな危険なスイーツ",
+            "だったんッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그렇게 위험한 디저트였슴까.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트의 위험성을 처음 깨닫고 놀라는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2886",
+      "protected_snapshot": {
+        "record_id": 10374,
+        "raw_hex": "8628030032ffc88376838a836a815b0000000000000000008349838c82bd82bf82e082e282df82bd82d982a482aa0000000000000000000000000082a282a282a982e08362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレたちもやめたほうが",
+            "いいかもッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우리도 그만두는 게",
+          "좋을지도 모르겠슴다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "임무 포기를 고민하는 프리니의 불안한 독백 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

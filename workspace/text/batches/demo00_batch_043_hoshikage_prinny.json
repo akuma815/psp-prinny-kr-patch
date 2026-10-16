@@ -1,0 +1,822 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_043_hoshikage_prinny",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "bb72eedd623aedfca3db51468d126733a3c9ad7390801b8287fcdc851930970f",
+  "context": {
+    "scene": "호시카게의 프리니 해부 집착과 용의 악취 나는 침 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x14288..0x14994의 연속 18개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 18/18 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2DB4",
+      "protected_snapshot": {
+        "record_id": 11700,
+        "raw_hex": "b42d01007d05c890af896500000000000000000000000000836e83408160834381490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ハァ～イ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "하~이!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 부대를 마주친 호시카게의 외국인풍 인사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DB6",
+      "protected_snapshot": {
+        "record_id": 11702,
+        "raw_hex": "b62d04007905c890af89650000000000000000000000000083588343815b836382f08b8182df82c496828a4582f08d7282b589f182e900000000008376838a836a815b91e082cd8349837d834782bd82bf836c815b8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1401,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "スイーツを求めて魔界を荒し回る",
+            "プリニー隊はオマエたちネー？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "디저트를 찾아 마계를 휩쓰는",
+          "프리니 부대가 너희 맞아~요?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 찾아다니는 주인공 부대를 확인하는 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DB8",
+      "protected_snapshot": {
+        "record_id": 11704,
+        "raw_hex": "b82d04003508c88e748fa00000000000000000000000000082d382de814282b582a982b582b182b182dc82c582ad82e982c682cd000000000000008376838a836a815b82aa82e6815b82e282e982cc82a4814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "ふむ。しかしここまでくるとは",
+            "プリニーがよーやるのう。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "흠. 하지만 여기까지 오다니",
+          "프리니치곤 제법이구나.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "여기까지 온 프리니 부대의 실력을 인정하는 사부 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DBA",
+      "protected_snapshot": {
+        "record_id": 11706,
+        "raw_hex": "ba2d04007a05c890af8965000000000000000000000000008376838a836a815b82cd8e8082ca82b182c682c68ca982c282af82bd82e8814900000082cc837583568368815b82c888ab968283668358836c815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "プリニーは死ぬことと見つけたり！",
+            "のブシドーな悪魔デスネー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "프리니의 길은 죽음에서 찾는다!",
+          "그런 무사도 악마군~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "葉隠의 유명 문구를 비튼 프리니·무사도 농담을 한국어 격언체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "culture_review_required", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DBC",
+      "protected_snapshot": {
+        "record_id": 11708,
+        "raw_hex": "bc2d030033ffc88376838a836a815b00000000000000000082a2814182a282a289c18cb882c882b182c600000000000000000000000000000000008cbe82ed82c882a282c5977e82b582a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "い、いい加減なこと",
+            "言わないで欲しいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저, 적당한 소리 좀",
+          "그만해 주셨으면 함다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "호시카게의 엉터리 무사도 해석을 제지하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DBE",
+      "protected_snapshot": {
+        "record_id": 11710,
+        "raw_hex": "be2d04007d05c890af896500000000000000000000000000958582c182bd8b8d82cc94e782c98ddf906c82cc8db082c882f182c4814100000000008ec082c995738b6782c5838f8372835483728366815b835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "腐った牛の皮に罪人の魂なんて、",
+            "実に不吉でワビサビデース！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "썩은 소가죽에 죄인의 영혼이라니,",
+          "불길하고 와비사비해~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니의 설정을 불길한 와비사비로 평가하는 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DC0",
+      "protected_snapshot": {
+        "record_id": 11712,
+        "raw_hex": "c02d03007c05c890af89650000000000000000000000000088ea937890d882e88d8f82f182c5928682f000000000000000000000000000000000008ca982bd82a982c182bd836683588388814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1404,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "一度切り刻んで中を",
+            "見たかったデスヨ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "한번 잘게 썰어서 속을",
+          "보고 싶었어~요!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 해부해 내부를 보고 싶다는 호시카게의 위험한 호기심 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DC2",
+      "protected_snapshot": {
+        "record_id": 11714,
+        "raw_hex": "c22d03007d05c890af8965000000000000000000000000008bad82a28376838a836a815b82c882e782ab82c182c60000000000000000000000000091cf82a682e782ea82e9836c815b8149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "強いプリニーならきっと",
+            "耐えられるネー！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "강한 프리니라면 분명",
+          "버틸 수 있어~요!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "강한 프리니라면 해부를 견딜 거라는 호시카게의 억지 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DC4",
+      "protected_snapshot": {
+        "record_id": 11716,
+        "raw_hex": "c42d020033ffc88376838a836a815b00000000000000000082f182c896f382cb815b8362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "んな訳ねーッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그럴 리 없슴다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "해부를 견딜 거라는 억지를 즉시 부정하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DC6",
+      "protected_snapshot": {
+        "record_id": 11718,
+        "raw_hex": "c62d04007a05c890af89650000000000000000000000000082a88e748fa08141838f835e835681418376838a836a815b90d882e88d8f82de82cc0092fa82df82ab82ea82c882a2836c8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "お師匠、ワタシ、プリニー切り刻むの",
+            "諦めきれないネ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "사부님, 전 프리니를 써는 걸",
+          "포기할 수 없어~요…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 해부를 포기하지 못하는 호시카게의 집착 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DC8",
+      "protected_snapshot": {
+        "record_id": 11720,
+        "raw_hex": "c82d04003608c88e748fa00000000000000000000000000082de82a3814182be82aa8dc58bdf82cd8376838c837e834182c282ab0000000000000082e782b582a282a982e78b438c7982c982cd948382a682f182bc8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2102,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "むぅ、だが最近はプレミアつき",
+            "らしいから気軽には買えんぞ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "음, 하지만 요즘은 웃돈까지",
+          "붙는다니 쉽게 못 사느니라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "최근 프리니에 프리미엄이 붙어 쉽게 살 수 없다는 사부 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DCA",
+      "protected_snapshot": {
+        "record_id": 11722,
+        "raw_hex": "ca2d040032ffc88376838a836a815b00000000000000000082c882f182a9814182c682c182c482e095a8919b82c8986282c900000000000000000082c882c182c482e98362835881638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なんか、とっても物騒な話に",
+            "なってるッス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어째 이야기가 엄청",
+          "살벌해지고 있슴다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신을 사고 해부하려는 대화가 살벌해졌다고 반응하는 프리니 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DCC",
+      "protected_snapshot": {
+        "record_id": 11724,
+        "raw_hex": "cc2d04007c05c890af89650000000000000000000000000082b682e1829f83528343836382f08ee882c9000000000000000000000000000000000093fc82ea82e982b582a982c882a2836c814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1404,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "じゃぁコイツを手に",
+            "入れるしかないネ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "그럼 이 녀석을 손에",
+          "넣을 수밖에 없겠네~요.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "구매 대신 눈앞의 프리니를 붙잡기로 한 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DCD",
+      "protected_snapshot": {
+        "record_id": 11725,
+        "raw_hex": "cd2d02007d05c890af89650000000000000000000000000082d9815b82e7834783548366815b83588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ほーらエサデース！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "자~ 먹이예~요!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 길들이려 먹이를 내미는 호시카게의 외국인풍 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DCE",
+      "protected_snapshot": {
+        "record_id": 11726,
+        "raw_hex": "ce2d03007c05c890af8965000000000000000000000000008bb082ad82c882a28141000000000000000000000000000000000000000000000000008bb082ad82c882a2836c816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1404,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "恐くない、",
+            "恐くないネ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "무섭지 않아,",
+          "무섭지 않아~요…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "먹이로 프리니를 안심시키는 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DD0",
+      "protected_snapshot": {
+        "record_id": 11728,
+        "raw_hex": "d02d110000000000000000000000000000000000000000008376838a836a815b82cd814190af896582c90000000000000000000000000000000000817597b382cc95858f4c955982a48278826e82638260827182648176000000000000008163816382c58961957482af82b382ea82bb82a482c982c882c182bd81490000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、星影に",
+            "「竜の腐臭漂うＹＯＤＡＲＥ」",
+            "……で餌付けされそうになった！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 호시카게에게",
+          "「용의 악취 나는 침」으로",
+          "……길들여질 뻔했다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "竜の腐臭漂うYODARE를 용의 악취 나는 침으로 옮긴 먹이 획득 상황문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DD2",
+      "protected_snapshot": {
+        "record_id": 11730,
+        "raw_hex": "d22d030034ffc88376838a836a815b0000000000000000008dde97bf83518362836782c1835881490000000000000000000000000000000000000082c682c182c682c693a682b082e983628358815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "材料ゲットっス！",
+            "とっとと逃げるッスー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "재료를 얻었슴다!",
+          "얼른 튀는 검다~!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "호시카게의 먹이를 챙긴 뒤 즉시 달아나는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DD4",
+      "protected_snapshot": {
+        "record_id": 11732,
+        "raw_hex": "d42d08007f05c890af89650000000000000000000000000082b1814182b182e791d282c28366815b83588149814900000000000000000000000000904882a293a682b082cd814191c582bf8ef18d9696e58366815b8362835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": 1407,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "こ、こら待つデース！！",
+            "食い逃げは、打ち首獄門デーッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "자, 잠깐 기다려~요!!",
+          "먹튀는 참수형이에~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "食い逃げ와 打ち首獄門의 과장된 처벌을 먹튀와 참수형으로 현지화한 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "culture_review_required", "tone_review_required"]
+      }
+    }
+  ]
+}

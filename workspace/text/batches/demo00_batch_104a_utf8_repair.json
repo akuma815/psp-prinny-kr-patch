@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_104a_utf8_repair",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "bd4755a11bf449ca900030026b17ce43f9a55af63e18b10ab93ffedc0eacf81c",
+  "context": {
+    "scene": "UTF-8 초벌 번역 교정",
+    "evidence": [
+      "PowerShell 파이프 문자 치환 발견 후 UTF-8 원문 복구"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/09C4",
+      "protected_snapshot": {
+        "record_id": 2500,
+        "raw_hex": "c40904006500c98376838a8b7882b382f10000000000000082c782a482e083588343815b8363926a8edd82c682a282a482cc82cd000000000000008ac3937d82cc82a082a282be82c582cd974c96bc82dd82bd82a28362835882cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ休さん",
+          "lines": [
+            "どうもスイーツ男爵というのは",
+            "甘党のあいだでは有名みたいッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "??? ?",
+        "lines": [
+          "??? ??? ?? ????",
+          "?? ??? ??? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리큐 씨",
+        "lines": [
+          "스위츠 남작은 단것 좋아하는",
+          "이들 사이에 유명한 모양임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09C6",
+      "protected_snapshot": {
+        "record_id": 2502,
+        "raw_hex": "c60904006500c98376838a8b7882b382f10000000000000082c582e08dbb949982cc8cfc82b182a482c98f5a82f182c582e982f182c581410000008cf097ac82cd82a082f182dc82e882c882a282f182be82bb82a48362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリ休さん",
+          "lines": [
+            "でも砂漠の向こうに住んでるんで、",
+            "交流はあんまりないんだそうッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "??? ?",
+        "lines": [
+          "??? ?? ??? ???",
+          "??? ?? ??? ??.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리큐 씨",
+        "lines": [
+          "하지만 사막 너머에 살아서",
+          "교류는 별로 없다고 함다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09C8",
+      "protected_snapshot": {
+        "record_id": 2504,
+        "raw_hex": "c809030037ffc88376838a836a815b00000000000000000082a282ed82e482e9814188f882ab82b182e082e882c182c4000000000000000000000082e282c28362835882a9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いわゆる、引きこもりって",
+            "やつッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "??? ??? ???",
+          "?? ??.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이른바 은둔형 외톨이",
+          "같은 검까.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09CA",
+      "protected_snapshot": {
+        "record_id": 2506,
+        "raw_hex": "ca0904006500c88376838a838a00000000000000000000008dbb949982cc8a4391af83668355815b8367836f8343834c8393834f8163816381420082c882f182a98e7c82bb82a482c896bc914f8362835882cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリリ",
+          "lines": [
+            "砂漠の海賊デザートバイキング……。",
+            "なんか旨そうな名前ッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?? ?? ??? ?????.",
+          "?? ??? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리리",
+        "lines": [
+          "사막 해적 디저트 바이킹…….",
+          "왠지 맛있는 이름임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09CC",
+      "protected_snapshot": {
+        "record_id": 2508,
+        "raw_hex": "cc09030037ffc88376838a836a815b000000000000000000904882a482cc82cd8d4482ab8362835882aa8141000000000000000000000000000000904882ed82ea82e982cc82cd8aa895d9836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "食うのは好きッスが、",
+            "食われるのは勘弁ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "?? ? ???",
+          "??? ? ????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "먹는 건 좋지만",
+          "먹히는 건 사양임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09CE",
+      "protected_snapshot": {
+        "record_id": 2510,
+        "raw_hex": "ce0904006a00c88376838a837d83930000000000000000008376838a836a815b82aa8cb882c182c482e982c182c48141000000000000000000000083668355815b8367836f8343834c8393834f82cc8e648bc682b682e1816381638148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリマン",
+          "lines": [
+            "プリニーが減ってるって、",
+            "デザートバイキングの仕業じゃ……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "???? ??? ?",
+          "??? ??? ? ??????",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리맨",
+        "lines": [
+          "프리니가 줄어든 게",
+          "디저트 바이킹 짓 아님까……?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09D0",
+      "protected_snapshot": {
+        "record_id": 2512,
+        "raw_hex": "d00904006a00c88376838a837d8393000000000000000000836f8343834c8393834f82c182c482a282a482ae82e782a28362835882a982e700000082c682f182c582e082c882a288ab937d82c882f18362835882a982cb816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリマン",
+          "lines": [
+            "バイキングっていうぐらいッスから",
+            "とんでもない悪党なんッスかね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "??????",
+          "??? ??????.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리맨",
+        "lines": [
+          "바이킹이라니",
+          "엄청난 악당임까…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/09D2",
+      "protected_snapshot": {
+        "record_id": 2514,
+        "raw_hex": "d209040033ffc88376838a836a815b00000000000000000081638163834981418349838c82f082a882c782a982b582c482e000000000000000000089bd82e082a282a282b182c682c882a28362835882e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……オ、オレをおどかしても",
+            "何もいいことないッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "???",
+        "lines": [
+          "???, ?? ???",
+          "?? ? ?? ???.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "?? ?? ?? ??. ??? ??????????? ?? ?? ?? ??.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……나, 나를 겁줘도",
+          "좋은 일 하나 없슴다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 대화 전량 초벌. 프리니 말투·고유명사·문맥은 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

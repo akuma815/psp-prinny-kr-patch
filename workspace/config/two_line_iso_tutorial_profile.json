@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "profile_id": "prinny-two-line-test-tutorial-20260719",
+  "poc": {
+    "iso": {
+      "archive_size": 500465664,
+      "archive_sha256": "dd77cbc9ed8d16d1b7d6b518f265440cd101b70c8aedd252b5d1baad28357395",
+      "target_path": "/PSP_GAME/USRDIR/ANIME.DAT;1",
+      "target_offset": "0x1AE00000",
+      "target_size": 27827616,
+      "target_sha256": "8f7bbf57a836377e3cdc4be03857da6290e64fa5d85bcbc76ab40bc09130fa4f",
+      "replacement_sha256": "9b487201baef12e15661f2c956109e1e1ea88fdd392cacc7be8490af276dd2f7"
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_014_modified_game",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "25a012f2fe4bb680532768ad22212f6a6f774536f81aaeace85f1446b30991c4",
+  "context": {
+    "scene": "도입부 프리니 충성 확인과 개조 게임 매각 지시",
+    "evidence": [
+      "demo.nsf logical offsets 0x3004/0x3064/0x30AA/0x30ED/0x3150/0x317D/0x31E0",
+      "BOOT dispatcher block-local stepping: target 7/7 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0E42",
+      "protected_snapshot": {
+        "record_id": 3650,
+        "raw_hex": "420e04006002c8834783678369000000000000000000000083418393835e82bd82bf82b3815b814182bf82e582c182c692b28e7182c900000000008fe682e882b782ac82c482c882a28148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "アンタたちさー、ちょっと調子に",
+            "乗りすぎてない？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "너희 말이야, 좀",
+          "너무 기고만장한 거 아냐?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "調子に乗りすぎる를 세력에 취해 지나치게 우쭐댄다는 뜻의 '기고만장하다'로 옮긴 초벌. 에트나 어조를 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "expression_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E44",
+      "protected_snapshot": {
+        "record_id": 3652,
+        "raw_hex": "440e0400cc00c88376838a836a815b00000000000000000082df82c182bb82a482e082c882a28362835881428349838c82bd82bf00000000000000834783678369976c82c9928990bd82f090be82c182c482e983628358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "めっそうもないッス。オレたち",
+            "エトナ様に忠誠を誓ってるッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "당치도 않슴다. 저희는",
+          "에트나 님께 충성을 맹세했슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "우쭐댄다는 의심을 부정하고 충성을 맹세하는 프리니의 답을 승인 존칭과 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E46",
+      "protected_snapshot": {
+        "record_id": 3654,
+        "raw_hex": "460e02006002c8834783678369000000000000000000000082c882e782a282a282f182be82af82c78142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ならいいんだけど。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그렇다면 됐지만.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "충성 맹세를 일단 받아들이는 에트나의 짧은 반응을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E48",
+      "protected_snapshot": {
+        "record_id": 3656,
+        "raw_hex": "480e04005a02c8834783678369000000000000000000000082bb82a482bb82a482b182cc8351815b838081418ac8925082b782ac82c4000000000082c282dc82f182c882a282ed8142948482c182c482ab82c481420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 602,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "そうそうこのゲーム、簡単すぎて",
+            "つまんないわ。売ってきて。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "그러고 보니 이 게임 너무 쉬워서",
+          "재미없네. 팔고 와.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "게임이 지나치게 쉬워 재미없으니 팔아 오라는 에트나의 변덕스러운 명령을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E4A",
+      "protected_snapshot": {
+        "record_id": 3658,
+        "raw_hex": "4a0e0400ce00c88376838a836a815b00000000000000000082bb82ea834783678369976c82aa89fc91a282f096bd97df82b582bd0000000000000082e282c283628358815b8142948482ea82c882a28362835881638163000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "それエトナ様が改造を命令した",
+            "やつッスー。売れないッス……",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그건 에트나 님이 개조하라고 한",
+          "게임임다~. 못 팜다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나가 개조를 명령한 게임이라 팔 수 없다는 프리니의 항변을 승인 존칭과 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E4C",
+      "protected_snapshot": {
+        "record_id": 3660,
+        "raw_hex": "4c0e02006002c8834783678369000000000000000000000082f1814882c882f182a98cbe82c182bd8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 608,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ん？なんか言った？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "응? 뭐라고 했어?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니의 항변을 위압적으로 되묻는 에트나의 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E4E",
+      "protected_snapshot": {
+        "record_id": 3662,
+        "raw_hex": "4e0e0200cc00c88376838a836a815b00000000000000000082a281418cbe82c182c482c882a283628358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "い、言ってないッス！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아, 아무 말도 안 했슴다!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "겁을 먹고 항변을 철회하는 프리니의 말을 문맥별 슴다 활용으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

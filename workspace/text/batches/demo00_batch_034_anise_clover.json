@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_034_anise_clover",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "a1c60015bfeef06a12f91af58fb39df4a1c4583f5db439889a2c3c5d2e3ff0fd",
+  "context": {
+    "scene": "아니스의 왕자 전생 재료 집착과 흉운의 클로버 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0xFB30..0x103AB의 연속 21개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 21/21 proven, selected blocks 3/3 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2B2A",
+      "protected_snapshot": {
+        "record_id": 11050,
+        "raw_hex": "2a2b03002103c88341836a8358000000000000000000000082cb82a582a882cb82aa82a2814200000000000000000000000000000000000000000082b182ea82a082bd82b582c98ff782c182c481638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "ねぇおねがい。",
+            "これあたしに譲って……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "있잖아, 부탁이야.",
+          "이거 나한테 양보해 줘…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "필요한 물건을 양보해 달라는 아니스의 부탁 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B2C",
+      "protected_snapshot": {
+        "record_id": 11052,
+        "raw_hex": "2c2b03002603c88341836a8358000000000000000000000082a082bd82b582c982cd82c782a482b582c482e0000000000000000000000000000000954b977682c882cc8163816383458374818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "あたしにはどうしても",
+            "必要なの……ウフ￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "내겐 꼭",
+          "필요하거든……후훗￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "웃음 제어 표기 ￥를 보존한 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review", "control_marker_preserved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B2E",
+      "protected_snapshot": {
+        "record_id": 11054,
+        "raw_hex": "2e2b030032ffc88376838a836a815b00000000000000000082b1814182b182ea82cd81418349838c82bd82bf82aa0000000000000000000000000090e682c98ca982c282af82bd83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "こ、これは、オレたちが",
+            "先に見つけたッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이, 이건 우리가",
+          "먼저 찾았슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "선점권을 주장하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B30",
+      "protected_snapshot": {
+        "record_id": 11056,
+        "raw_hex": "302b04002103c88341836a835800000000000000000000008376838a836a815b82c982b382ea82bd89a48e71976c82f0935d90b682b382b982e90093c195ca82c89682964082cc8dde97bf82c882cc82e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "プリニーにされた王子様を転生させる",
+            "特別な魔法の材料なのよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "프리니가 된 왕자님을 환생시킬",
+          "특별한 마법 재료야.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 된 왕자를 환생시킬 재료라는 아니스의 설명 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B32",
+      "protected_snapshot": {
+        "record_id": 11058,
+        "raw_hex": "322b030037ffc88376838a836a815b00000000000000000082d6815b814100000000000000000000000000000000000000000000000000000000008349838c82bd82bf82cc935d90b68362835882a98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "へー、",
+            "オレたちの転生ッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "오~",
+          "우리 환생 말임까.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "왕자 이야기를 자신들의 환생으로 오해하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B34",
+      "protected_snapshot": {
+        "record_id": 11060,
+        "raw_hex": "342b07002403c88341836a8358000000000000000000000083498381815b82b682e182cb82a682f182be82e6814900000000000000000000000000906c82cc986282ab82a282c482f182cc82a983628149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 804,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "オメーじゃねえんだよ！",
+            "人の話きいてんのかッ！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "너 말고!",
+          "남의 말 안 듣냐!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니의 오해에 발끈하는 아니스의 거친 반응 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B36",
+      "protected_snapshot": {
+        "record_id": 11062,
+        "raw_hex": "362b04002103c88341836a8358000000000000000000000082c182c482cc82cd81418fe7926b82c50000000000000000000000000000000000000082b182ea82a082bd82b582c982ad82be82b382a282c882c181420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "ってのは、冗談で",
+            "これあたしにくださいなっ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "라는 건 농담이고",
+          "이거 나한테 주지 않을래?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "거친 반응을 농담으로 돌리고 다시 부탁하는 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B38",
+      "protected_snapshot": {
+        "record_id": 11064,
+        "raw_hex": "382b01002603c88341836a83580000000000000000000000836a8352815b818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "ニコー￥",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "방긋￥",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "ニコー￥를 표정 지시로 보고 방긋￥으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "control_marker_preserved", "expression_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B3A",
+      "protected_snapshot": {
+        "record_id": 11066,
+        "raw_hex": "3a2b040032ffc88376838a836a815b00000000000000000082de82de96b3979d83628358814200000000000000000000000000000000000000000082b182c182bf82c982e08e968fee82aa82a082e98362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "むむ無理ッス。",
+            "こっちにも事情があるッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무무무리임다.",
+          "이쪽도 사정이 있슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "거절하며 자기 사정을 호소하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B3C",
+      "protected_snapshot": {
+        "record_id": 11068,
+        "raw_hex": "3c2b040032ffc88376838a836a815b000000000000000000834783678369976c82c90000000000000000000000000000000000000000000000000082d482c18e4582b382ea82e982ed82af82c982cd815c815c81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様に",
+            "ぶっ殺されるわけには――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님께",
+          "맞아 죽을 순――.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나에게 살해당할 수 없다는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B3E",
+      "protected_snapshot": {
+        "record_id": 11070,
+        "raw_hex": "3e2b07002403c88341836a8358000000000000000000000082be82c182bd82e78da182b782ae8341835e834382c9000000000000000000000000008e4582e782ea82e982a9814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 804,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "だったら今すぐアタイに",
+            "殺られるか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "그럼 지금 당장 나한테",
+          "죽어 볼래!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "즉시 자신에게 죽을지 위협하는 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B40",
+      "protected_snapshot": {
+        "record_id": 11072,
+        "raw_hex": "402b020036ffc88376838a836a815b00000000000000000082c8814182c882f183628358814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、なんッス！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 뭐임까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스의 돌변에 놀란 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B42",
+      "protected_snapshot": {
+        "record_id": 11074,
+        "raw_hex": "422b06002403c88341836a8358000000000000000000000082cd82e68af1897a82b382f182a9815b82a2814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 804,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "はよ寄越さんかーい！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "어서 내놔――!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "물건을 당장 내놓으라는 아니스의 폭발 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B44",
+      "protected_snapshot": {
+        "record_id": 11076,
+        "raw_hex": "442b03002603c88341836a8358000000000000000000000082a08163816382a082bd82b582c182bd82e7000000000000000000000000000000000096b2928682c982c882e982c68163816382c482d681f4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "あ……あたしったら",
+            "夢中になると……てへ♪",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "아……내가 또",
+          "정신 팔리면……헤헤♪",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "몰두하면 본성이 나오는 아니스의 머쓱한 반응 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B46",
+      "protected_snapshot": {
+        "record_id": 11078,
+        "raw_hex": "462b04002203c88341836a835800000000000000000000008dde97bf82aa96b382a282f182b682e18141935d90b682cd82a082ab82e782df82c40095cf89bb82cc9682964082c582b282dc82a982bb82a482a982b582e7816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 802,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "材料が無いんじゃ、転生はあきらめて",
+            "変化の魔法でごまかそうかしら……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "재료가 없으니 환생은 포기하고",
+          "변신 마법으로 속일까…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "환생 대신 변신 마법을 고려하는 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B48",
+      "protected_snapshot": {
+        "record_id": 11080,
+        "raw_hex": "482b03002203c88341836a8358000000000000000000000082a282c282e0834a8347838b82c900000000000000000000000000000000000000000082c882c182bf82e182a482f182be82af82c781638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 802,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "いつもカエルに",
+            "なっちゃうんだけど……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "늘 개구리가",
+          "되어 버리지만…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "변신 마법이 늘 개구리로 끝난다는 아니스의 단서 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B4A",
+      "protected_snapshot": {
+        "record_id": 11082,
+        "raw_hex": "4a2b110000000000000000000000000000000000000000008376838a836a815b82cd8341836a835882cc977e82b582aa82c182c482a282bd00000081758ba5895e82cc834e838d815b836f815b81760000000000000000000000000000008163816382f082a282bd82be82a282bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーはアニスの欲しがっていた",
+            "「凶運のクローバー」",
+            "……をいただいた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 아니스가 원하던",
+          "「흉운의 클로버」",
+          "……를 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "凶運のクローバー를 흉운의 클로버로 옮긴 아이템 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B4C",
+      "protected_snapshot": {
+        "record_id": 11084,
+        "raw_hex": "4c2b04002103c88341836a8358000000000000000000000082bb82a482a282a682ce83588343815b8363926a8edd82aa82b182cc95d382f000000082a482eb82c282a282c482bd82ed8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "そういえばスイーツ男爵がこの辺を",
+            "うろついてたわ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "그러고 보니 스위츠 남작이 이 근처를",
+          "돌아다니던데…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작이 근처를 배회했다는 아니스의 정보 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B4E",
+      "protected_snapshot": {
+        "record_id": 11086,
+        "raw_hex": "4e2b030037ffc88376838a836a815b00000000000000000083588343815b8363926a8edd81480000000000000000000000000000000000000000008ac382bb82a482c896bc914f8362835882cb815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "スイーツ男爵？",
+            "甘そうな名前ッスねー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "스위츠 남작?",
+          "달콤해 보이는 이름임다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작의 이름을 처음 듣는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B50",
+      "protected_snapshot": {
+        "record_id": 11088,
+        "raw_hex": "502b03002103c88341836a8358000000000000000000000082a889d98e7182cc8dde97bf82c582e0000000000000000000000000000000000000008f5782df82c482bd82cc82a982b582e782cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "お菓子の材料でも",
+            "集めてたのかしらね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "과자 재료라도",
+          "모으던 걸까.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "남작이 과자 재료를 모았을 가능성을 추측하는 아니스 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B52",
+      "protected_snapshot": {
+        "record_id": 11090,
+        "raw_hex": "522b040032ffc88376838a836a815b00000000000000000082dc82b382a982bb82a282c282e08b868bc982cc83588343815b836382f000000000008dec82e982c282e082e88362835882a982cb81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "まさかそいつも究極のスイーツを",
+            "作るつもりッスかね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "설마 그 녀석도 궁극의 디저트를",
+          "만들 생각일지도 모름다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스위츠 남작도 궁극의 디저트를 만들지 의심하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

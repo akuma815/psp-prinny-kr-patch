@@ -1,0 +1,1009 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_093_pickups_03ac_03bf",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "44feb2362d5c59b8c6dd25c440592727268207576211885b10c508d846ac7915",
+  "context": {
+    "scene": "시크릿 파일·마계 레코드·교섭권 획득 메시지 3",
+    "evidence": [
+      "03AC~03BF 20건 NSF 정적 후보 없음"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/03AC",
+      "protected_snapshot": {
+        "record_id": 940,
+        "raw_hex": "ac031100000000000000000000000000000000000000000081798367838d836283508393817a82cc000000000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【トロッケン】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【트로켄】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03AD",
+      "protected_snapshot": {
+        "record_id": 941,
+        "raw_hex": "ad03110000000000000000000000000000000000000000008179835f815b83588382815b8375815b817a82cc0000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【ダースモーブー】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【다스 모브】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03AE",
+      "protected_snapshot": {
+        "record_id": 942,
+        "raw_hex": "ae031100000000000000000000000000000000000000000081798e9e8bf382cc936e82b5906c817a82cc00000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【時空の渡し人】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【시공의 뱃사공】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03AF",
+      "protected_snapshot": {
+        "record_id": 943,
+        "raw_hex": "af03110000000000000000000000000000000000000000008179838a815b835683838393838d8393817a82cc0000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【リーシャンロン】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【리샹롱】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B0",
+      "protected_snapshot": {
+        "record_id": 944,
+        "raw_hex": "b00311000000000000000000000000000000000000000000817982618266826c82518257817a82cc0000000000000000000000000000000000000096828a45838c8352815b836882f08ee882c982a282ea82bd81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【ＢＧＭ２８】の",
+            "魔界レコードを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【BGM ２８】의",
+          "마계 레코드를 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B1",
+      "protected_snapshot": {
+        "record_id": 945,
+        "raw_hex": "b103110000000000000000000000000000000000000000008179834183438358834c838383938366815b817a82cc000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【アイスキャンデー】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【아이스바】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B2",
+      "protected_snapshot": {
+        "record_id": 946,
+        "raw_hex": "b20311000000000000000000000000000000000000000000817997bf979d82cc93538b90906c817a82cc00000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【料理の鉄巨人】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【요리의 철거인】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B3",
+      "protected_snapshot": {
+        "record_id": 947,
+        "raw_hex": "b3031100000000000000000000000000000000000000000081798381834f817a82cc000000000000000000000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【メグ】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【메그】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B4",
+      "protected_snapshot": {
+        "record_id": 948,
+        "raw_hex": "b40311000000000000000000000000000000000000000000817983588343815b8363926a8edd817a82cc00000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【スイーツ男爵】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【스위츠 남작】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B5",
+      "protected_snapshot": {
+        "record_id": 949,
+        "raw_hex": "b503110000000000000000000000000000000000000000008179968282cc92638cf08c94817a00000000000000000000000000000000000000000082f08ee882c982a282ea82bd81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【魔の団交券】",
+            "を手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【마의 단체교섭권】를",
+          "획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B6",
+      "protected_snapshot": {
+        "record_id": 950,
+        "raw_hex": "b60311000000000000000000000000000000000000000000817990af8965817a82cc000000000000000000000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【星影】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【호시카게】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B7",
+      "protected_snapshot": {
+        "record_id": 951,
+        "raw_hex": "b70311000000000000000000000000000000000000000000817983418354834d817a82cc00000000000000000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【アサギ】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【아사기】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B8",
+      "protected_snapshot": {
+        "record_id": 952,
+        "raw_hex": "b8031100000000000000000000000000000000000000000081798376838a836a815b817a82cc0000000000000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【プリニー】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【프리니】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03B9",
+      "protected_snapshot": {
+        "record_id": 953,
+        "raw_hex": "b903110000000000000000000000000000000000000000008179834783678369817a82cc00000000000000000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【エトナ】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【에트나】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03BA",
+      "protected_snapshot": {
+        "record_id": 954,
+        "raw_hex": "ba0311000000000000000000000000000000000000000000817982618266826c8252824f817a82cc0000000000000000000000000000000000000096828a45838c8352815b836882f08ee882c982a282ea82bd81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【ＢＧＭ３０】の",
+            "魔界レコードを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【BGM ３０】의",
+          "마계 레코드를 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03BB",
+      "protected_snapshot": {
+        "record_id": 955,
+        "raw_hex": "bb0311000000000000000000000000000000000000000000817996e993a682b089ae817a82cc0000000000000000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【夜逃げ屋】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【야반도주 담당】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03BC",
+      "protected_snapshot": {
+        "record_id": 956,
+        "raw_hex": "bc031100000000000000000000000000000000000000000081798376838a836a815b8389836e815b838b817a82cc000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【プリニーラハール】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【프리니 라하르】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03BD",
+      "protected_snapshot": {
+        "record_id": 957,
+        "raw_hex": "bd031100000000000000000000000000000000000000000081798376838a836a815b836f815b838b817a82cc0000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【プリニーバール】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【프리니 바알】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03BE",
+      "protected_snapshot": {
+        "record_id": 958,
+        "raw_hex": "be031100000000000000000000000000000000000000000081798376838a836a815b83418354834d817a82cc0000000000000000000000000000008356815b834e838c83628367837483408343838b82f08ee882c982a282ea82bd8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【プリニーアサギ】の",
+            "シークレットファイルを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【프리니 아사기】의",
+          "시크릿 파일을 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/03BF",
+      "protected_snapshot": {
+        "record_id": 959,
+        "raw_hex": "bf0311000000000000000000000000000000000000000000817982618266826c82518252817a82cc0000000000000000000000000000000000000096828a45838c8352815b836882f08ee882c982a282ea82bd81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "【ＢＧＭ２３】の",
+            "魔界レコードを手にいれた。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "【BGM ２３】의",
+          "마계 레코드를 획득했다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 대상 고유명과 목록 소비 경로는 최종 검토 대상. 정적 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    }
+  ]
+}

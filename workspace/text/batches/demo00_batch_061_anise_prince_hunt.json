@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_061_anise_prince_hunt",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "047f4ba2a79a177ecea07f87eff07da50d6598c26de4f0bcb9b5e0738f3014e5",
+  "context": {
+    "scene": "아니스의 프리니 왕자 수색법과 짝사랑 고백",
+    "evidence": [
+      "demo.nsf logical offsets 0x1DF77..0x1E1D8의 목표 호출 8/8; BOOT dispatcher 선택 블록 포함 통합 감사 6/6 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/33C2",
+      "protected_snapshot": {
+        "record_id": 13250,
+        "raw_hex": "c23304002603c88341836a8358000000000000000000000082a082bd82b595aa82a982c182bd82ed81418376838a836a815b82c982c882c182bd0089a48e71976c82f0925482b795fb9640818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "あたし分かったわ、プリニーになった",
+            "王子様を探す方法￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "나 알아냈어, 프리니가 된",
+          "왕자님을 찾는 방법￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니로 환생한 왕자를 찾을 방법을 알아냈다고 말하는 아니스 대사. 원문 ￥ 표기를 보존한다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied",
+          "control_marker_preserved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33C4",
+      "protected_snapshot": {
+        "record_id": 13252,
+        "raw_hex": "c43302002303c88341836a8358000000000000000000000082bb82ea82cd836c81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 803,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "それはネ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "그건 말이지…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "왕자 수색 방법을 뜸 들이며 소개하는 아니스 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33C6",
+      "protected_snapshot": {
+        "record_id": 13254,
+        "raw_hex": "c63308002403c88341836a8358000000000000000000000089a48e7188c88a4f82cc8376838a836a815b82f08a468e4582b582c90000000000000082b782e982b182c682b682e182a28149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": 804,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "王子以外のプリニーを皆殺しに",
+            "することじゃい！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "왕자 말고 다른 프리니를 모조리",
+          "죽이는 거야!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "왕자를 찾기 위해 다른 프리니를 모두 죽이겠다는 과격한 방법을 직설적으로 옮긴 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "tone_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33C8",
+      "protected_snapshot": {
+        "record_id": 13256,
+        "raw_hex": "c833030034ffc88376838a836a815b00000000000000000082bb82e082bb82e0814189a48e7182c182c4000000000000000000000000000000000082a282c182bd82a2924e82c882f18362835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そもそも、王子って",
+            "いったい誰なんッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그보다 왕자라는 게",
+          "대체 누구임까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스가 찾는 왕자의 정체부터 묻는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33CA",
+      "protected_snapshot": {
+        "record_id": 13258,
+        "raw_hex": "ca3304002103c88341836a8358000000000000000000000093f1967b82cc90478a6f82aa8367838c815b8368837d815b834e82cc0000000000000096828a4582cc8376838a8393835882e6814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 801,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "二本の触覚がトレードマークの",
+            "魔界のプリンスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "두 촉수가 트레이드마크인",
+          "마계의 프린스야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "두 촉수가 특징인 마계의 프린스라는 정체 단서를 보존한 대사. 대상 인물 표기는 최종 검토 대상으로 둔다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "identity_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33CC",
+      "protected_snapshot": {
+        "record_id": 13260,
+        "raw_hex": "cc3304002603c88341836a8358000000000000000000000082a082cc906c82cc8e7082f088ea96da8ca982bd82be82af82c50000000000000000008341836a835882cc836e815b836782cd8368834c8368834c82c882cc818f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "あの人の姿を一目見ただけで",
+            "アニスのハートはドキドキなの￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "그 사람을 한 번 보기만 해도",
+          "아니스의 심장은 두근두근￥",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "왕자를 보기만 해도 가슴이 뛴다는 아니스의 고백. 원문 ￥ 표기를 보존한다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied",
+          "control_marker_preserved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33CE",
+      "protected_snapshot": {
+        "record_id": 13262,
+        "raw_hex": "ce3302002203c88341836a8358000000000000000000000095d08e7682a282be82af82c7816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 802,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "片思いだけど……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "짝사랑이지만…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "왕자에 대한 마음이 짝사랑임을 덧붙이는 아니스 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/33D0",
+      "protected_snapshot": {
+        "record_id": 13264,
+        "raw_hex": "d033030031ffc88376838a836a815b000000000000000000835d835d835d815b82c183588163816381420000000000000000000000000000000000957c82b782ac83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ゾゾゾーっス……。",
+            "怖すぎッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "으스스함다…….",
+          "너무 무서움다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스의 집착과 과격한 수색법을 두려워하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

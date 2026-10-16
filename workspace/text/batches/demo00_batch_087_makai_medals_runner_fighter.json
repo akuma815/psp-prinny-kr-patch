@@ -1,0 +1,1205 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_087_makai_medals_runner_fighter",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "3b2963bfb6e7e5e3d72c24eb2d297e42123d011d13d470ae7558b11a1593bc68",
+  "context": {
+    "scene": "마계 훈장 목록 1: 러너·파이터·노미스·누적 도전",
+    "evidence": [
+      "60건 목록형 구간 중 02DA~02F1 24건은 NSF 정적 후보 없음"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/02DA",
+      "protected_snapshot": {
+        "record_id": 730,
+        "raw_hex": "da0204000000c983548374838983938fec0000000000000081758375838d83938359838983938369815b817600000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「ブロンズランナー」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「브론즈 러너」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02DB",
+      "protected_snapshot": {
+        "record_id": 731,
+        "raw_hex": "db021100000000000000000000000000000000000000000081758375838d83938359838983938369815b8176000000000000000000000000000000825283588365815b835788c88fe382c581418353815b838b8368835e8343838082f0008f6f82b582bde8e891ca935682c9975e82a682e782ea82e98c4d8fcd81420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「ブロンズランナー」",
+            "３ステージ以上で、ゴールドタイムを",
+            "出した韋駄天に与えられる勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「브론즈 러너」",
+          "3개 이상 스테이지에서 골드 타임을",
+          "낸 준족에게 주어지는 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02DC",
+      "protected_snapshot": {
+        "record_id": 732,
+        "raw_hex": "dc0204000000c983548374838983938fec0000000000000081758356838b836f815b838983938369815b817600000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「シルバーランナー」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「실버 러너」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02DD",
+      "protected_snapshot": {
+        "record_id": 733,
+        "raw_hex": "dd021100000000000000000000000000000000000000000081758356838b836f815b838983938369815b81760000000000000000000000000000008250824f83588365815b835788c88fe382c581418353815b838b8368835e834383800082f08f6f82b582bde8e891ca935682c9975e82a682e782ea82e98c4d8fcd8142000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「シルバーランナー」",
+            "１０ステージ以上で、ゴールドタイム",
+            "を出した韋駄天に与えられる勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「실버 러너」",
+          "10개 이상 스테이지에서 골드 타임을",
+          "낸 준족에게 주어지는 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02DE",
+      "protected_snapshot": {
+        "record_id": 734,
+        "raw_hex": "de0204000000c983548374838983938fec0000000000000081758353815b838b8368838983938369815b817600000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「ゴールドランナー」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「골드 러너」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02DF",
+      "protected_snapshot": {
+        "record_id": 735,
+        "raw_hex": "df021100000000000000000000000000000000000000000081758353815b838b8368838983938369815b81760000000000000000000000000000008251824f83588365815b835788c88fe382c581418353815b838b8368835e834383800082f08f6f82b582bde8e891ca935682c9975e82a682e782ea82e98c4d8fcd8142000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「ゴールドランナー」",
+            "２０ステージ以上で、ゴールドタイム",
+            "を出した韋駄天に与えられる勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「골드 러너」",
+          "20개 이상 스테이지에서 골드 타임을",
+          "낸 준족에게 주어지는 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E0",
+      "protected_snapshot": {
+        "record_id": 736,
+        "raw_hex": "e00204000000c983548374838983938fec0000000000000081758375838d83938359837483408343835e815b81760000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「ブロンズファイター」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「브론즈 파이터」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E1",
+      "protected_snapshot": {
+        "record_id": 737,
+        "raw_hex": "e1021100000000000000000000000000000000000000000081758375838d83938359837483408343835e815b8176000000000000000000000000008252824f83588365815b835788c88fe382c58141834e838a834183898393834e82720082f08f6f82b582bd90ed8e6d82cc8c4d8fcd8142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「ブロンズファイター」",
+            "３０ステージ以上で、クリアランクＳ",
+            "を出した戦士の勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「브론즈 파이터」",
+          "30개 이상 스테이지에서 클리어 랭크 S를",
+          "낸 전사의 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E2",
+      "protected_snapshot": {
+        "record_id": 738,
+        "raw_hex": "e20204000000c983548374838983938fec0000000000000081758356838b836f815b837483408343835e815b81760000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「シルバーファイター」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「실버 파이터」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E3",
+      "protected_snapshot": {
+        "record_id": 739,
+        "raw_hex": "e3021100000000000000000000000000000000000000000081758356838b836f815b837483408343835e815b8176000000000000000000000000008253824f83588365815b835788c88fe382c58141834e838a834183898393834e82720082f08f6f82b582bd90ed8e6d82cc8c4d8fcd8142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「シルバーファイター」",
+            "４０ステージ以上で、クリアランクＳ",
+            "を出した戦士の勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「실버 파이터」",
+          "40개 이상 스테이지에서 클리어 랭크 S를",
+          "낸 전사의 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E4",
+      "protected_snapshot": {
+        "record_id": 740,
+        "raw_hex": "e40204000000c983548374838983938fec0000000000000081758353815b838b8368837483408343835e815b81760000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「ゴールドファイター」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「골드 파이터」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E5",
+      "protected_snapshot": {
+        "record_id": 741,
+        "raw_hex": "e5021100000000000000000000000000000000000000000081758353815b838b8368837483408343835e815b8176000000000000000000000000008254824f83588365815b835788c88fe382c58141834e838a834183898393834e82720082f08f6f82b582bd90ed8e6d82cc8c4d8fcd8142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「ゴールドファイター」",
+            "５０ステージ以上で、クリアランクＳ",
+            "を出した戦士の勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「골드 파이터」",
+          "50개 이상 스테이지에서 클리어 랭크 S를",
+          "낸 전사의 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E6",
+      "protected_snapshot": {
+        "record_id": 742,
+        "raw_hex": "e60204000000c983548374838983938fec00000000000000817593ba82cc88ab96828176000000000000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「銅の悪魔」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「구리 악마」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E7",
+      "protected_snapshot": {
+        "record_id": 743,
+        "raw_hex": "e70211000000000000000000000000000000000000000000817593ba82cc88ab968281760000000000000000000000000000000000000000000000836d815b837e83588dc58d8290698d73909482aa825183588365815b8357000000000088c88fe382cc8ec097cd8ed282c9975e82a682e782ea82e98c4d8fcd81420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「銅の悪魔」",
+            "ノーミス最高進行数が２ステージ",
+            "以上の実力者に与えられる勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「구리 악마」",
+          "노 미스 최고 진행이 2스테이지",
+          "이상인 실력자에게 주는 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E8",
+      "protected_snapshot": {
+        "record_id": 744,
+        "raw_hex": "e80204000000c983548374838983938fec0000000000000081758be282cc9682905f8176000000000000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「銀の魔神」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「은빛 마신」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02E9",
+      "protected_snapshot": {
+        "record_id": 745,
+        "raw_hex": "e9021100000000000000000000000000000000000000000081758be282cc9682905f81760000000000000000000000000000000000000000000000836d815b837e83588dc58d8290698d73909482aa825283588365815b8357000000000088c88fe382cc8ec097cd8ed282c9975e82a682e782ea82e98c4d8fcd81420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「銀の魔神」",
+            "ノーミス最高進行数が３ステージ",
+            "以上の実力者に与えられる勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「은빛 마신」",
+          "노 미스 최고 진행이 3스테이지",
+          "이상인 실력자에게 주는 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02EA",
+      "protected_snapshot": {
+        "record_id": 746,
+        "raw_hex": "ea0204000000c983548374838983938fec0000000000000081758be082cc968289a48176000000000000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「金の魔王」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「황금 마왕」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02EB",
+      "protected_snapshot": {
+        "record_id": 747,
+        "raw_hex": "eb021100000000000000000000000000000000000000000081758be082cc968289a481760000000000000000000000000000000000000000000000836d815b837e83588dc58d8290698d73909482aa825383588365815b8357000000000088c88fe382cc8ec097cd8ed282c9975e82a682e782ea82e98c4d8fcd81420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「金の魔王」",
+            "ノーミス最高進行数が４ステージ",
+            "以上の実力者に与えられる勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「황금 마왕」",
+          "노 미스 최고 진행이 4스테이지",
+          "이상인 실력자에게 주는 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02EC",
+      "protected_snapshot": {
+        "record_id": 748,
+        "raw_hex": "ec0204000000c983548374838983938fec00000000000000817594928be282cc92b4968289a481760000000000000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「白銀の超魔王」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「백은의 초마왕」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02ED",
+      "protected_snapshot": {
+        "record_id": 749,
+        "raw_hex": "ed0211000000000000000000000000000000000000000000817594928be282cc92b4968289a4817600000000000000000000000000000000000000836d815b837e83588dc58d8290698d73909482aa825483588365815b8357000000000088c88fe382cc8ec097cd8ed282c9975e82a682e782ea82e98c4d8fcd81420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「白銀の超魔王」",
+            "ノーミス最高進行数が５ステージ",
+            "以上の実力者に与えられる勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「백은의 초마왕」",
+          "노 미스 최고 진행이 5스테이지",
+          "이상인 실력자에게 주는 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02EE",
+      "protected_snapshot": {
+        "record_id": 750,
+        "raw_hex": "ee0204000000c983548374838983938fec00000000000000817582b382b782aa82c98e8082c982b782ac82c58fdc8176000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「さすがに死にすぎで賞」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「너무 많이 죽었상」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02EF",
+      "protected_snapshot": {
+        "record_id": 751,
+        "raw_hex": "ef0211000000000000000000000000000000000000000000817582b382b782aa82c98e8082c982b782ac82c58fdc817600000000000000000000008376838a836a815b82f08250969c95438e4582b582c482b582dc82c182bd00000000008376838c83438384815b82c991a182e782ea82e996828a458c4d8fcd81420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「さすがに死にすぎで賞」",
+            "プリニーを１万匹殺してしまった",
+            "プレイヤーに贈られる魔界勲章。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「너무 많이 죽었상」",
+          "프리니 1만 마리를 죽인",
+          "플레이어에게 주는 마계 훈장."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F0",
+      "protected_snapshot": {
+        "record_id": 752,
+        "raw_hex": "f00204000000c983548374838983938fec00000000000000817583588343815b8363836e8393835e815b817600000000000000000000000000000082c5815b835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "サフラン嬢",
+          "lines": [
+            "「スイーツハンター」",
+            "でース！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사프란 양",
+        "lines": [
+          "「디저트 헌터」",
+          "입니다~!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/02F1",
+      "protected_snapshot": {
+        "record_id": 753,
+        "raw_hex": "f10211000000000000000000000000000000000000000000817583588343815b8363836e8393835e815b817600000000000000000000000000000083588343815b836382cc8ee693be909482aa97dd8c768250969c8cc282f0000000000092b482a682bd92b48ac3937d82c991a182e782ea82e98fdc8142000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "「スイーツハンター」",
+            "スイーツの取得数が累計１万個を",
+            "超えた超甘党に贈られる賞。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "「디저트 헌터」",
+          "디저트를 누적 1만 개 넘게 얻은",
+          "엄청난 단것 마니아에게 주는 상."
+        ],
+        "status": "needs_human_review",
+        "notes": "훈장명·달성 조건·말장난은 목록 전체 최종 검토 대상. 정적 소비 후보 없음.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required",
+          "consumer_review_required"
+        ]
+      }
+    }
+  ]
+}

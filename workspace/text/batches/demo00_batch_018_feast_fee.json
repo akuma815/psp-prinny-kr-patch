@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_018_feast_fee",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "92d65593f482de51db20860951d93469ca24fc441ccc57873ccfb6e2ea3e8372",
+  "context": {
+    "scene": "궁극의 디저트 시식 뒤 대연회 선언과 5000헬 회비 반전",
+    "evidence": [
+      "demo.nsf static logical offsets 0x2200F/0x2203C/0x22069/0x220B8/0x22117/0x221D9/0x22216/0x22451/0x224A4/0x225C8",
+      "BOOT dispatcher block-local stepping: static targets 10/10 proven, selected block 1/1 completed; demo00/0EF0 and 0EF4 have no static candidates and remain consumer-review-required"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0EEC",
+      "protected_snapshot": {
+        "record_id": 3820,
+        "raw_hex": "ec0e040096ffc88376838a836a815b0000000000000000008163816382dc814182dc82a096b38e96837e836283568387839382e0000000000000008f4982ed82c182c482e682a982c182bd836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……ま、まあ無事ミッションも",
+            "終わってよかったッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……뭐, 무사히 임무도",
+          "끝났으니 다행임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "결과물은 실패했지만 임무가 무사히 끝났다고 애써 위안하는 프리니의 말을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EEE",
+      "protected_snapshot": {
+        "record_id": 3822,
+        "raw_hex": "ee0e04006a00c88376838a836a815b0000000000000000008163816382bb82a48362835882cb81420000000000000000000000000000000000000082bb82ea82b682e182a08349838c924282c5904882a48362835882a9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 106,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……そうッスね。",
+            "それじゃあオレ達で食うッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……그렇슴다.",
+          "그럼 저희끼리 먹겠슴까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나가 거부한 디저트를 프리니들끼리 먹을지 제안하는 말을 문맥별 슴다·슴까 활용으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EF0",
+      "protected_snapshot": {
+        "record_id": 3824,
+        "raw_hex": "f00e04005902c8834783678369000000000000000000000082f181638163000000000000000000000000000000000000000000000000000000000082dc814182dc82a096a182cd82ed82e982ad82c882a282ed82cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "ん……",
+            "ま、まあ味はわるくないわね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "음……",
+          "뭐, 맛은 나쁘지 않네.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "냄새와 달리 맛은 나쁘지 않다고 인정하는 에트나의 반응. 정적 NSF 후보가 없어 최종 소비자 감사 대상이다.",
+        "flags": ["draft", "deferred_review", "consumer_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EF2",
+      "protected_snapshot": {
+        "record_id": 3826,
+        "raw_hex": "f20e01005902c88347836783690000000000000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "디저트를 다시 평가하는 에트나의 침묵을 보존한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EF4",
+      "protected_snapshot": {
+        "record_id": 3828,
+        "raw_hex": "f40e04005902c8834783678369000000000000000000000082e682b5814983418393835e82e782e00000000000000000000000000000000000000082aa82f182ce82c182bd82dd82bd82a282be82b58163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "よし！アンタらも",
+            "がんばったみたいだし……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "좋아! 너희도",
+          "열심히 한 것 같으니…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들의 노력을 인정하며 결정을 내리는 에트나의 대사. 정적 NSF 후보가 없어 최종 소비자 감사 대상이다.",
+        "flags": ["draft", "deferred_review", "consumer_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EF6",
+      "protected_snapshot": {
+        "record_id": 3830,
+        "raw_hex": "f60e0400a7fdc8834783678369000000000000000000000082dc82a0814183418393835e82e782e00000000000000000000000000000000000000082aa82f182ce82c182bd82dd82bd82a282be82b58163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "まあ、アンタらも",
+            "がんばったみたいだし……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "뭐, 너희도",
+          "열심히 한 것 같으니…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "대체 분기에서 프리니들의 노력을 인정하는 에트나의 완곡한 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EF8",
+      "protected_snapshot": {
+        "record_id": 3832,
+        "raw_hex": "f80e0200a4fdc883478367836900000000000000000000008da196e982cd93c195ca82c991e5898389ef82e681498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -604,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "今夜は特別に大宴会よ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "오늘 밤은 특별히 대연회야!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들의 노고를 치하하며 오늘 밤 대연회를 선언하는 에트나의 외침을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EFA",
+      "protected_snapshot": {
+        "record_id": 3834,
+        "raw_hex": "fa0e02006700c88376838a836a815b00000000000000000082dc814182dc82b68362835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ま、まじッスか！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저, 정말임까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "대연회 소식에 놀라 재확인하는 프리니의 말을 임까 활용으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EFC",
+      "protected_snapshot": {
+        "record_id": 3836,
+        "raw_hex": "fc0e02006700c88376838a836a815b00000000000000000082e2814182e282c182bd8362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "や、やったッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "해, 해냈슴다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "보상을 받게 됐다고 환호하는 프리니의 말을 문맥별 슴다 활용으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0EFE",
+      "protected_snapshot": {
+        "record_id": 3838,
+        "raw_hex": "fe0e0100a7fdc88347836783690000000000000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -601,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "회비를 밝히기 전 에트나의 의미심장한 침묵을 보존한 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F00",
+      "protected_snapshot": {
+        "record_id": 3840,
+        "raw_hex": "000f0400a3fdc8834783678369000000000000000000000082a0814189ef94ef82cd88ea906c0000000000000000000000000000000000000000008254824f824f824f8377838b82be82a982e782e682eb82b582ad8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -605,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "あ、会費は一人",
+            "５０００ヘルだからよろしく。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "아, 회비는 한 명당",
+          "5000헬이니까 잘 부탁해.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "연회 참가비가 1인당 5000ヘル이라는 반전을 통화명 '헬'로 음역한 초벌. 시리즈 통화 표기를 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F02",
+      "protected_snapshot": {
+        "record_id": 3842,
+        "raw_hex": "020f06006600c88376838a836a815b00000000000000000082c782d082e1815b83628358814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 102,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どひゃーッス！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뜨악임다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "비싼 회비를 듣고 경악하는 どひゃーッス를 프리니 문체의 짧은 감탄으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "expression_review_required"]
+      }
+    }
+  ]
+}

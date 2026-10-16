@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_050_turmeric_guard",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "8bffcb15a040f2f71979d296f617ab6debccc9a2d94748f7d174b78486253c0b",
+  "context": {
+    "scene": "터메릭의 공장 경비전과 모브 병사의 오인 사격·열혈 감씨 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x1785D..0x18155의 연속 16개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 16/16 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2FDA",
+      "protected_snapshot": {
+        "record_id": 12250,
+        "raw_hex": "da2f0500dd05c9835e815b8381838a8362834e000000000082c682a482c1814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "とうっ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "타앗!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "침입자 앞에 뛰어드는 터메릭의 기합.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FDC",
+      "protected_snapshot": {
+        "record_id": 12252,
+        "raw_hex": "dc2f0400dd05c9835e815b8381838a8362834e0000000000904e93fc8ed294ad8ca98149000000000000000000000000000000000000000000000082b182cc95738e8092b982cc835e815b8381838a8362834e81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "侵入者発見！",
+            "この不死鳥のターメリック……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "침입자 발견!",
+          "이 불사조 터메릭이…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신을 불사조라 칭하며 등장하는 터메릭의 자기소개.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FDE",
+      "protected_snapshot": {
+        "record_id": 12254,
+        "raw_hex": "de2f0400dd05c9835e815b8381838a8362834e00000000008cd982ed82ea82bd82a982e782c982cd00000000000000000000000000000000000000836c8359837e88ea954382c68cbe82a682c797658ecd82b982f182bc814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "雇われたからには",
+            "ネズミ一匹と言えど容赦せんぞ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "돈 받고 고용된 이상",
+          "쥐 한 마리도 봐주지 않겠다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "고용된 경호원으로서 작은 침입자도 용서하지 않겠다는 터메릭의 선언.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FE0",
+      "protected_snapshot": {
+        "record_id": 12256,
+        "raw_hex": "e02f030036ffc88376838a836a815b00000000000000000082d082a68160814981490000000000000000000000000000000000000000000000000082dd814182dd82c282a982c182bd8362835881608149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひえ～！！",
+            "み、みつかったッス～！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히익~!!",
+          "드, 들켰슴다~!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "터메릭에게 발각돼 놀라는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FE2",
+      "protected_snapshot": {
+        "record_id": 12258,
+        "raw_hex": "e22f030037ffc88376838a836a815b0000000000000000008163816382c182c482a896f191a982cc837b835890ed93ac000000000000000000000082c882f1835882af82c782cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……ってお約束のボス戦闘",
+            "なんスけどね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……뭐, 예정된 보스전이긴",
+          "함다만.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "お約束를 게임의 예정된 보스전이라는 메타 농담으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "meta_joke_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FE4",
+      "protected_snapshot": {
+        "record_id": 12260,
+        "raw_hex": "e42f0400dd05c9835e815b8381838a8362834e000000000083748374837481418349838c82cc954b8e458b5a82f08ca982c482e00000000000000082bb82f182c882b182c682f08cbe82c182c482e782ea82e982a982c8814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1501,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "フフフ、オレの必殺技を見ても",
+            "そんなことを言ってられるかな？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "후후후, 내 필살기를 보고도",
+          "그런 소릴 할 수 있을까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "필살기를 예고하며 자신만만하게 맞받아치는 터메릭 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FE6",
+      "protected_snapshot": {
+        "record_id": 12262,
+        "raw_hex": "e62f0700df05c9835e815b8381838a8362834e0000000000954b8e45814991e58e9f8cb38e6181498149000000000000000000000000000000000082c682ad82c68ca982e6814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 1503,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "必殺！大次元斬！！",
+            "とくと見よ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "필살! 대차원참!!",
+          "똑똑히 봐라!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "大次元斬을 기술명 '대차원참'으로 한자음 번역한 초벌.",
+        "flags": ["draft", "deferred_review", "skill_name_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FE8",
+      "protected_snapshot": {
+        "record_id": 12264,
+        "raw_hex": "e82f02009d08c88382815b837595ba00000000000000000097709053965f82aa82e282e782ea82bd8375815b81498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "用心棒がやられたブー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "경호원이 당했다꿀!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "터메릭의 패배를 알리는 모브 병사의 승인된 돼지 울음 어미.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FEA",
+      "protected_snapshot": {
+        "record_id": 12266,
+        "raw_hex": "ea2f04009d08c88382815b837595ba00000000000000000082a0814182a082a282c482cd8f8a91468376838a836a815b82be8375815b814981490082e282c182c482b582dc82a48375815b814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "あ、あいては所詮プリニーだブー！！",
+            "やってしまうブー！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "사, 상대는 고작 프리니다꿀!!",
+          "해치워 버려라꿀!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 얕보고 일제 공격을 명령하는 모브 병사 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FEC",
+      "protected_snapshot": {
+        "record_id": 12268,
+        "raw_hex": "ec2f0600de05c9835e815b8381838a8362834e000000000082ae82cd829f829f829f829f815b815b815b814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ぐはぁぁぁぁーーー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "크아아아아악!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모브 병사의 오인 사격에 맞는 터메릭의 비명.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FEE",
+      "protected_snapshot": {
+        "record_id": 12270,
+        "raw_hex": "ee2f0400de05c9835e815b8381838a8362834e00000000008163816382dc814191d282c481410000000000000000000000000000000000000000008349838c82c9939682bd82c182c482a282e982bc8163816381490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "……ま、待て、",
+            "オレに当たっているぞ……！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "……자, 잠깐,",
+          "나까지 맞고 있잖아……!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아군 사격이 자신에게도 맞는다고 항의하는 터메릭 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FF0",
+      "protected_snapshot": {
+        "record_id": 12272,
+        "raw_hex": "f02f02009c08c88382815b837595ba0000000000000000008c8282c48c8282c482be8375815b81498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "撃て撃てだブー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "쏴라, 쏴라꿀!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "피아를 가리지 않고 사격을 계속하는 모브 병사의 외침.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FF2",
+      "protected_snapshot": {
+        "record_id": 12274,
+        "raw_hex": "f22f0200e105c9835e815b8381838a8362834e000000000082bf82e582c1814191d282c4814991d282c182c481490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1505,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ちょっ、待て！待って！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "자, 잠깐! 기다려!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "오인 사격을 멈추려는 터메릭의 다급한 외침.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FF4",
+      "protected_snapshot": {
+        "record_id": 12276,
+        "raw_hex": "f42f0600de05c9835e815b8381838a8362834e00000000008163816382ae82cd829f829f829f829f829f814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "……ぐはぁぁぁぁぁ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "……크아아아악!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "집중 사격에 다시 쓰러지는 터메릭의 비명.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FF6",
+      "protected_snapshot": {
+        "record_id": 12278,
+        "raw_hex": "f62f110000000000000000000000000000000000000000008376838a836a815b82cd814194f282f182c582ab82bd000000000000000000000000008175944d8c8c8a6082cc8eed81760000000000000000000000000000000000000000008163816382f089d897ed82c98351836283678149000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、飛んできた",
+            "「熱血柿の種」",
+            "……を華麗にゲット！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 날아온",
+          "「열혈 감씨」",
+          "……를 멋지게 획득했다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "熱血柿の種를 과자와 감씨의 중의가 있는 아이템명 '열혈 감씨'로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "item_name_review", "wordplay_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2FF8",
+      "protected_snapshot": {
+        "record_id": 12280,
+        "raw_hex": "f82f040037ffc88376838a836a815b00000000000000000096e182a482e082cc82e082e782c182bd82e792b78b8f82cd96b397708362835881420082bb82ea82c582cd814182a890e682c98eb897e78362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "貰うものもらったら長居は無用ッス。",
+            "それでは、お先に失礼ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "받을 것도 받았으니 볼일 없슴다.",
+          "그럼 먼저 실례하겠슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아이템을 얻자 즉시 자리를 뜨는 프리니의 능청스러운 퇴장 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

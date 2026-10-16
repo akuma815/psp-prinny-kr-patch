@@ -1,0 +1,778 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_024_bakuchi_casino",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "0d6eb9e49924ca22c4d374c1de2bbf233cf72cf16e422946383c3699d3dbade8",
+  "context": {
+    "scene": "바쿠치 도박장의 상품인 속임수 주사위 획득과 에트나의 도청기 폭로",
+    "evidence": [
+      "demo.nsf logical offsets 0xB547..0xBACB의 연속 17개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 17/17 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/280A",
+      "protected_snapshot": {
+        "record_id": 10250,
+        "raw_hex": "0a280300a506c8836f834e8360815b00000000000000000082f181480000000000000000000000000000000000000000000000000000000000000089bd82be8349837d8347814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "ん？",
+            "何だオマエ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "응?",
+          "넌 뭐냐.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "バクチー를 도박을 뜻하는 バクチ와 연결되는 고유명 바쿠치로 음역한 초벌. 인명 표기는 최종 일괄 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/280C",
+      "protected_snapshot": {
+        "record_id": 10252,
+        "raw_hex": "0c28040037ffc88376838a836a815b0000000000000000008b868bc983588343815b836382cc8dde97bf82c981418c69956982f089f582ad0000008ff782c182c4977e82b582a283628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "究極スイーツの材料に、景品を快く",
+            "譲って欲しいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "궁극의 디저트 재료로 상품을",
+          "흔쾌히 넘겨주셨으면 함다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "경품을 자발적으로 양보하라는 뻔뻔한 부탁을 프리니식 높임말로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/280E",
+      "protected_snapshot": {
+        "record_id": 10254,
+        "raw_hex": "0e28020037ffc88376838a836a815b000000000000000000834783678369976c82cc96bd97df83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "エトナ様の命令ッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에트나 님의 명령임다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "명령을 방패로 내세우는 짧은 단언을 기존 프리니 문체에 맞춘 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2810",
+      "protected_snapshot": {
+        "record_id": 10256,
+        "raw_hex": "10280200a506c8836f834e8360815b0000000000000000008c69956982f0936e82b982be82c681480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "景品を渡せだと？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "상품을 내놓으라고?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "바쿠치 인명 결정에 연결되는 반문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2812",
+      "protected_snapshot": {
+        "record_id": 10258,
+        "raw_hex": "12280300a506c8836f834e8360815b00000000000000000082b182b182cd8b8382ad8e7182e096d982e90000000000000000000000000000000000836f834e8360815b976c82cc834a8357836d82be8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "ここは泣く子も黙る",
+            "バクチー様のカジノだ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "여긴 우는 아이도 울음을 그치는",
+          "바쿠치 님의 카지노다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "泣く子も黙る의 위압적 관용구를 자연스럽게 풀고 인명은 바쿠치로 음역한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2814",
+      "protected_snapshot": {
+        "record_id": 10260,
+        "raw_hex": "14280400a806c8836f834e8360815b0000000000000000008a4a935882cc83578383837d82b782e982c182c482f182c882e781638163000000000092c982a296da82dd82c482e082e782a482ba81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1704,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "開店のジャマするってんなら……",
+            "痛い目みてもらうぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "영업을 방해하겠다면……",
+          "따끔한 맛을 보여 주지!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "개점을 방해하면 혼내 주겠다는 위협을 자연스러운 한국어로 옮기고 인명 결정에 연결한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2816",
+      "protected_snapshot": {
+        "record_id": 10262,
+        "raw_hex": "1628110000000000000000000000000000000000000000008376838a836a815b82cd814182bb82b182c982a882a282c482a082e98c69956982cc00817582a282a982b382dc835f83438358817600000000000000000000000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、そこにおいてある景品の",
+            "「いかさまダイス」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 그곳에 놓여 있던 상품",
+          "「속임수 주사위」",
+          "……를 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "いかさまダイス를 기능이 드러나는 속임수 주사위로 옮긴 아이템 획득 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2818",
+      "protected_snapshot": {
+        "record_id": 10264,
+        "raw_hex": "18280300a606c8836f834e8360815b00000000000000000082b182f182c88382839382f082a082cc9682905f82c900000000000000000000000000904882ed82b982e982c182c482a98149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "こんなモンをあの魔神に",
+            "食わせるってか！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "이런 걸 그 마신에게",
+          "먹이겠다고!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "에트나에게 주사위를 먹인다는 계획에 놀라는 대사이며 바쿠치 인명 결정에 연결한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/281A",
+      "protected_snapshot": {
+        "record_id": 10266,
+        "raw_hex": "1a280300a506c8836f834e8360815b0000000000000000008349837d83478376838a836a815b82cc82ad82b982c90000000000000000000000000097458b4382a082f182c8834081490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "オマエプリニーのくせに",
+            "勇気あんなァ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "너 프리니 주제에",
+          "제법 용기가 있구나!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니가 에트나를 속이려는 배짱을 칭찬하는 대사이며 인명 결정에 연결한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/281C",
+      "protected_snapshot": {
+        "record_id": 10268,
+        "raw_hex": "1c28030037ffc88376838a836a815b00000000000000000082dc81418f8a914682cd91bd8fad8bad82a282be82af82cc0000000000000000000000838f834b837d837d96ba816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ま、所詮は多少強いだけの",
+            "ワガママ娘……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 결국 좀 강할 뿐인",
+          "제멋대로인 계집애…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나를 얕보는 ワガママ娘의 거친 뉘앙스를 제멋대로인 계집애로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/281E",
+      "protected_snapshot": {
+        "record_id": 10270,
+        "raw_hex": "1e28030037ffc88376838a836a815b000000000000000000934b939682c98dec82c182c482e082c782a482b9000000000000000000000000000000836f838c82e282b582c882a28362835882e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "適当に作ってもどうせ",
+            "バレやしないッスよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "대충 만들어도 어차피",
+          "들키지 않을 검다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "속임수가 들키지 않을 것이라는 안일함을 기존 프리니 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2820",
+      "protected_snapshot": {
+        "record_id": 10272,
+        "raw_hex": "20280300a506c8836f834e8360815b00000000000000000082a882a28349837d83478141837d83748389815b82c90000000000000000000000000082c882f182a982c282a282c482e982bc814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "おいオマエ、マフラーに",
+            "なんかついてるぞ？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "어이, 너 머플러에",
+          "뭔가 붙어 있다?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "승인 용어 マフラー→머플러를 유지하고 바쿠치 인명 결정에 연결한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2822",
+      "protected_snapshot": {
+        "record_id": 10274,
+        "raw_hex": "2228010037ffc88376838a836a815b000000000000000000837d83748389815b81480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "マフラー？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "머플러요?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "승인 용어 マフラー→머플러를 유지한 짧은 반문 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2824",
+      "protected_snapshot": {
+        "record_id": 10276,
+        "raw_hex": "24280200a606c8836f834e8360815b0000000000000000008163816382b182e882e18141939092ae8aed82be82c88142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1702,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "……こりゃ、盗聴器だな。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "……이건 도청기군.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "머플러의 장치를 도청기로 식별하는 대사이며 바쿠치 인명 결정에 연결한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2826",
+      "protected_snapshot": {
+        "record_id": 10278,
+        "raw_hex": "26280300a506c8836f834e8360815b00000000000000000081778ee682c182bd82e78352838d8358817882c182c4000000000000000000000000008f9182a282c482a082e982ba81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1701,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "バクチー",
+          "lines": [
+            "『取ったらコロス』って",
+            "書いてあるぜ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "바쿠치",
+        "lines": [
+          "『떼면 죽인다』라고",
+          "쓰여 있어.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "取ったら를 도청기를 떼는 행위로 명시하고 인명 결정에 연결한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2828",
+      "protected_snapshot": {
+        "record_id": 10280,
+        "raw_hex": "2828060036ffc88376838a836a815b00000000000000000082d082a182a182a181608362835881498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひぃぃぃ～ッス！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히이이이~임까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "겁에 질린 늘임 감탄과 의문형 ッス를 임까로 결합한 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/282A",
+      "protected_snapshot": {
+        "record_id": 10282,
+        "raw_hex": "2a28080031ffc88376838a836a815b000000000000000000816381638da182cc82cd82d982f182cc82a8928396da82c800000000000000000000008fe7926b8362835882e6814982a88ca993a682b583628358815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": -207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……今のはほんのお茶目な",
+            "冗談ッスよ！お見逃しッスー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……방금 건 그저 장난스러운",
+          "농담임다! 봐주십쇼~!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나를 속이려던 말을 장난으로 둘러대며 살려 달라는 프리니식 변명을 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

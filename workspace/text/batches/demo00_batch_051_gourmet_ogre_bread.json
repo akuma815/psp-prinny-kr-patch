@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_051_gourmet_ogre_bread",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "8bffcb15a040f2f71979d296f617ab6debccc9a2d94748f7d174b78486253c0b",
+  "context": {
+    "scene": "굶주린 미식 오거 격파와 배꼽빵(참깨맛) 재료 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x18258..0x185BC의 연속 7개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 7/7 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/30D4",
+      "protected_snapshot": {
+        "record_id": 12500,
+        "raw_hex": "d43004007307c9834f838b83818349815b834b000000000095a08cb88362835e8368815b814900000000000000000000000000000000000000000089bd834a81418349838c976c836a9048838f835a838b835983898149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1907,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "腹減ッタドー！",
+            "何カ、オレ様ニ食ワセルズラ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "배고프다구먼!",
+          "뭐든 이 몸에게 먹이라구먼!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "굶주린 미식 오거의 승인된 구먼체와 거친 명령조를 적용.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/30D6",
+      "protected_snapshot": {
+        "record_id": 12502,
+        "raw_hex": "d630040036ffc88376838a836a815b00000000000000000082c8814182c882f182a982a282c282e082e682e88ba5965c82c982c882c182c400000082a282e98b4382aa82b782e983628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、なんかいつもより凶暴になって",
+            "いる気がするッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭔가 평소보다 더 흉폭해진",
+          "느낌임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "평소보다 난폭한 미식 오거를 경계하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/30D8",
+      "protected_snapshot": {
+        "record_id": 12504,
+        "raw_hex": "d83006007307c9834f838b83818349815b834b000000000083818346836283568342815b815b815b8362814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 1907,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "メェッシィーーーッ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "바아아압!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "먹을 것을 요구하는 미식 오거의 길게 늘인 외침.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/30DA",
+      "protected_snapshot": {
+        "record_id": 12506,
+        "raw_hex": "da30030032ffc88376838a836a815b0000000000000000008f9f82c182bd82cc82cd97c782a28362835882af82c70000000000000000000000000082c8815b82f182e082c882a28362835882cb815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "勝ったのは良いッスけど",
+            "なーんもないッスねー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이긴 건 좋슴다만",
+          "아무것도 없슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "전투에서 이겼지만 전리품이 없어 실망하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/30DC",
+      "protected_snapshot": {
+        "record_id": 12508,
+        "raw_hex": "dc30110000000000000000000000000000000000000000008376838a836a815b82cd81418e6495fb82aa82c882a282cc82c5000000000000000000817582c582d782bb8370839381698353837d96a1816a817600000000000000000000008163816382f096b3979d82e282e882b182bb82ac8ee682c182bd814900000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、仕方がないので",
+            "「でべそパン（ゴマ味）」",
+            "……を無理やりこそぎ取った！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "어쩔 수 없이 프리니는",
+          "「배꼽빵(참깨맛)」",
+          "……을 억지로 긁어냈다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "でべそパン（ゴマ味）를 돌출 배꼽과 빵의 농담을 살린 '배꼽빵(참깨맛)'으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "item_name_review", "wordplay_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/30DE",
+      "protected_snapshot": {
+        "record_id": 12510,
+        "raw_hex": "de30010032ffc88376838a836a815b000000000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료를 억지로 떼어 낸 뒤 이어지는 프리니의 침묵.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/30E0",
+      "protected_snapshot": {
+        "record_id": 12512,
+        "raw_hex": "e030040035ffc88376838a836a815b00000000000000000082c6814182c682e882a082a682b800000000000000000000000000000000000000000082b182ea82c582558eed97de81418f5782dc82c182bd836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "と、とりあえず",
+            "これで６種類、集まったッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이, 일단 이걸로",
+          "6종류를 모았슴다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트 재료 여섯 종류를 모았다고 정리하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

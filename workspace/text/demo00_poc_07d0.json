@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "table_id": "demo00",
+  "role": "legacy_poc_build_input",
+  "superseded_by": "workspace/text/demo00_translation.json",
+  "source": {
+    "path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d"
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/07D0",
+      "record_id": 2000,
+      "record_index": 291,
+      "file_offset": "0x00009610",
+      "original_raw_hex": "d0070e000000c88376838a836a815b00000000000000000082a482ed815b814182bf82b182ad83628358815b81498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "source_speaker": "プリニー",
+      "source_lines": [
+        "うわー、ちこくッスー！！",
+        "",
+        ""
+      ],
+      "ko_speaker": "프리니",
+      "ko_lines": [
+        "우와、지각했다！！",
+        "",
+        ""
+      ],
+      "proxy_cp932_speaker": "プリニ",
+      "proxy_cp932_lines": [
+        "うわ、ちこくッ！！",
+        "",
+        ""
+      ],
+      "status": "poc_approved",
+      "notes": "Temporary CP932 proxy mapping for one-record E2E only; not production encoding."
+    }
+  ]
+}

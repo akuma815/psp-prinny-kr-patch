@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_021_gourmet_ogre",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "105b9c798713aabf6c33d1f98b03c8f477de196fb2fb7c29b3170f9688117c51",
+  "context": {
+    "scene": "미식 오거의 아침밥 태고의 고기를 빼앗아 디저트 재료로 확보",
+    "evidence": [
+      "demo.nsf logical offsets 0xA329/0xA37F/0xA3B7/0xA3E4/0xA4A5/0xA4D8/0xA5C2/0xA697/0xA6E7/0xA714/0xA769",
+      "BOOT dispatcher block-local stepping: target 11/11 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2774",
+      "protected_snapshot": {
+        "record_id": 10100,
+        "raw_hex": "742703007107c9834f838b83818349815b834b000000000082de82d3815b81428da192a982e088ea926982c600000000000000000000000000000094fc96a182bb82a482b882e781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1905,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "むふー。今朝も一段と",
+            "美味そうずら。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "후후~. 오늘 아침도 유난히",
+          "맛있어 보이는구먼.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "グルメオーガ를 미식 오거로 의역하고 ずら 어미를 구먼체로 현지화한 첫 초벌. 이름과 방언을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2776",
+      "protected_snapshot": {
+        "record_id": 10102,
+        "raw_hex": "762702006d07c9834f838b83818349815b834b000000000082a2815b82bd82be815b82ad82c7815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1901,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "いーただーくどー！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "잘 먹겠구먼~!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "늘인 いただくぞ와 미식 오거의 ずら계 방언을 구먼체로 옮긴 초벌. 캐릭터 문체 결정에 연결한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2778",
+      "protected_snapshot": {
+        "record_id": 10104,
+        "raw_hex": "7827040037ffc88376838a836a815b00000000000000000082a082cc8163816382a890488e96928682b782dc82c882a28362835882aa000000000082bb82cc90488dde82f08fad82b595aa82af82c4977e82b582a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あの……お食事中すまないッスが",
+            "その食材を少し分けて欲しいッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저기…… 식사 중에 죄송함다만",
+          "그 식재료를 조금 나눠 주심다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "식사 중인 상대에게 식재료를 나눠 달라고 정중히 부탁하는 프리니의 말을 좁은 슬롯에 맞춘 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/277A",
+      "protected_snapshot": {
+        "record_id": 10106,
+        "raw_hex": "7a2703007007c9834f838b83818349815b834b00000000008163816382de82de82de814182b382c482cd82a882c582cc000000000000000000000090488e9682f0915f82c182c482e982b882e781480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "……むむむ、さてはおでの",
+            "食事を狙ってるずら？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "……으음, 설마 내",
+          "식사를 노리는 거냐구먼?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "자신의 식사를 노린다고 오해하는 미식 오거의 대사를 구먼체로 옮긴 초벌. 이름과 방언 결정에 연결한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/277C",
+      "protected_snapshot": {
+        "record_id": 10108,
+        "raw_hex": "7c27040031ffc88376838a836a815b00000000000000000082a2814182a282e282e282c182cf82e8899397b682b582c682ad8362835800000000008aeb8caf836283588149935091de82a082e982cc82dd836283588149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "い、いややっぱり遠慮しとくッス",
+            "危険ッス！撤退あるのみッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아, 아뇨, 역시 사양하겠슴다.",
+          "위험함다! 후퇴만이 살길임다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "상대의 적의를 느끼고 요청을 철회하며 후퇴하려는 프리니의 다급한 말을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/277E",
+      "protected_snapshot": {
+        "record_id": 10110,
+        "raw_hex": "7e2704007007c9834f838b83818349815b834b000000000082a882c582cc82b282cd82f182f083578383837d82b782e98384836382cd000000000082b782e892d782b582c48374838a834a835082c982b582c482e282e982c781498149000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "おでのごはんをジャマするヤツは",
+            "すり潰してフリカケにしてやるど！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "내 밥을 방해하는 녀석은",
+          "갈아 버려 후리카케로 만들겠다!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "すり潰してフリカケにする 위협을 후리카케 문화어를 유지해 옮긴 초벌. 음식명 현지화와 미식 오거 문체를 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2780",
+      "protected_snapshot": {
+        "record_id": 10112,
+        "raw_hex": "802703006f07c9834f838b83818349815b834b000000000082de82ac82e382a481638163000000000000000000000000000000000000000000000092a982cd97cd82aa8f6f82c882a282b882e781638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1903,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "むぎゅう……",
+            "朝は力が出ないずら……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "으윽……",
+          "아침엔 힘이 안 나는구먼…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "패배 뒤 아침에는 힘이 나지 않는다는 미식 오거의 변명을 구먼체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2782",
+      "protected_snapshot": {
+        "record_id": 10114,
+        "raw_hex": "8227110000000000000000000000000000000000000000008376838a836a815b82cd8141834f838b83818349815b834b82cc92a990480000000000817591be8cc382cc93f7817600000000000000000000000000000000000000000000008163816382f0924482c182bd8149000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、グルメオーガの朝食",
+            "「太古の肉」",
+            "……を奪った！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 미식 오거의 아침밥",
+          "「태고의 고기」",
+          "……를 빼앗았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "획득 내레이션의 적 이름과 아이템 太古の肉을 미식 오거·태고의 고기로 옮긴 초벌. 두 고유명을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2784",
+      "protected_snapshot": {
+        "record_id": 10116,
+        "raw_hex": "8427040035ffc88376838a836a815b00000000000000000082b182ea82c58b868bc982cc83588343815b836382cc8dde97bf82aa0000000000000088ea82c28f5782dc82c182bd83628358814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "これで究極のスイーツの材料が",
+            "一つ集まったッス！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이걸로 궁극의 디저트 재료가",
+          "하나 모였슴다!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트 재료 하나를 확보했다는 진행 보고를 승인 용어와 프리니 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/2786",
+      "protected_snapshot": {
+        "record_id": 10118,
+        "raw_hex": "862704006e07c9834f838b83818349815b834b000000000082bb82ea82cd8da18345838f835482cc83588343815b836382b882e782a981638163008376838a836a815b82c882f182a982c98dec82ea82e982f182a982c7814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1902,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "それは今ウワサのスイーツずらか……",
+            "プリニーなんかに作れるんかど？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "그게 요즘 소문의 디저트냐……",
+          "프리니 따위가 만들 수 있겠냐구먼?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "화제의 디저트를 프리니가 만들 수 있겠냐고 의심하는 미식 오거의 대사를 구먼체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2788",
+      "protected_snapshot": {
+        "record_id": 10120,
+        "raw_hex": "8827030032ffc88376838a836a815b0000000000000000008349838c82bd82bf82e094f18fed82c98b5e96e282c9000000000000000000000000008ab482b682c482a282e9836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オレたちも非常に疑問に",
+            "感じているッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저희도 몹시 의문스럽게",
+          "생각하고 있슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신들도 궁극의 디저트 제작 가능성을 크게 의심한다는 프리니의 건조한 답을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

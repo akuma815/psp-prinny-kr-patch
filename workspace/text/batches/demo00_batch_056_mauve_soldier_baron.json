@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_056_mauve_soldier_baron",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2a894dad72bd1ce8311614b03fc910121a69072c157fa53fef587a9b5c988443",
+  "context": {
+    "scene": "모브 병사의 프리니 포획 명령과 스위츠 남작의 궁극 디저트 탐구·깜짝 상자 초콜릿 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x1AD7D..0x1B1BA의 연속 14개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 14/14 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/31CE",
+      "protected_snapshot": {
+        "record_id": 12750,
+        "raw_hex": "ce3104009908c88382815b837595ba0000000000000000008349837d8347814196828a4582cc82a082bf82b182bf82c58352835c8352835c00000093ae82a282c482a282e98376838a836a815b91e082be8375815b8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "オマエ、魔界のあちこちでコソコソ",
+            "動いているプリニー隊だブー？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "너, 마계 곳곳에서 몰래",
+          "움직이던 프리니 부대다꿀?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "마계 곳곳에서 활동한 프리니 부대인지 확인하는 모브 병사의 돼지 울음 어미.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31D0",
+      "protected_snapshot": {
+        "record_id": 12752,
+        "raw_hex": "d03104009a08c88382815b837595ba0000000000000000008376838a836a815b82f091e597ca82c995df82dc82a682eb82c682cc0000000000000096bd97df82aa8f6f82c482a282e98375815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "プリニーを大量に捕まえろとの",
+            "命令が出ているブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "프리니를 대량으로 잡으라는",
+          "명령이 내려왔다꿀.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스위츠 남작의 대량 포획 명령을 전달하는 모브 병사 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31D2",
+      "protected_snapshot": {
+        "record_id": 12754,
+        "raw_hex": "d23102009c08c88382815b837595ba00000000000000000082a982a982ea82c182be8375815b81498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "かかれっだブー！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "덮쳐라꿀!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 부대를 공격하라고 명령하는 모브 병사 외침.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31D4",
+      "protected_snapshot": {
+        "record_id": 12756,
+        "raw_hex": "d431030034ffc88376838a836a815b00000000000000000082a682a682c1814981480000000000000000000000000000000000000000000000000096e2939a96b397708362835882a98149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ええっ！？",
+            "問答無用ッスか！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "에엑!?",
+          "문답무용임까!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "설명 없이 공격받는 데 항의하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31D6",
+      "protected_snapshot": {
+        "record_id": 12758,
+        "raw_hex": "d63102009d08c88382815b837595ba000000000000000000958982af82bd8375815b8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "負けたブー……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "졌다꿀…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "전투에서 패배한 모브 병사의 짧은 탄식.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31D8",
+      "protected_snapshot": {
+        "record_id": 12760,
+        "raw_hex": "d83103009d08c88382815b837595ba00000000000000000082dc82bd8141926a8edd976c82c982a88e64927582ab0000000000000000000000000082b382ea82c482b582dc82a48375815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "また、男爵様にお仕置き",
+            "されてしまうブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "또 남작님께 벌을",
+          "받게 된다꿀.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "임무 실패로 스위츠 남작에게 벌받을 것을 두려워하는 모브 병사 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31DA",
+      "protected_snapshot": {
+        "record_id": 12762,
+        "raw_hex": "da31030037ffc88376838a836a815b00000000000000000081638163926a8edd82c182c4000000000000000000000000000000000000000000000083588343815b8363926a8edd8362835882a981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……男爵って",
+            "スイーツ男爵ッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……남작이라면",
+          "스위츠 남작임까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "앞서 들은 스위츠 남작을 가리키는지 확인하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31DC",
+      "protected_snapshot": {
+        "record_id": 12764,
+        "raw_hex": "dc3101009908c88382815b837595ba00000000000000000082bb82a482be8375815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "そうだブー。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "그렇다꿀.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "남작의 정체를 긍정하는 모브 병사 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31DE",
+      "protected_snapshot": {
+        "record_id": 12766,
+        "raw_hex": "de3104009908c88382815b837595ba000000000000000000926a8edd976c82cd81418b868bc982cc83588343815b836382f092548b8182b582c40082a882e782ea82e982cc82be8375815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "男爵様は、究極のスイーツを探求して",
+            "おられるのだブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "남작님은 궁극의 디저트를",
+          "탐구하고 계신다꿀.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스위츠 남작의 목적이 궁극의 디저트 탐구라고 밝히는 모브 병사 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31E0",
+      "protected_snapshot": {
+        "record_id": 12768,
+        "raw_hex": "e031040037ffc88376838a836a815b00000000000000000082c582e081418b868bc982cc83588343815b836382c68376838a836a815b82c600000082c882f182cc8ad68c5782aa82a082e98362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "でも、究極のスイーツとプリニーと",
+            "なんの関係があるッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "하지만 궁극의 디저트와 프리니가",
+          "무슨 상관임까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트와 프리니 포획의 관계를 묻는 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31E2",
+      "protected_snapshot": {
+        "record_id": 12770,
+        "raw_hex": "e23103009a08c88382815b837595ba000000000000000000837583718371837181638163814200000000000000000000000000000000000000000082bb82ea82cd81418ae98bc694e996a782be8375815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "ブヒヒヒ……。",
+            "それは、企業秘密だブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "꿀꿀꿀…….",
+          "그건 기업 비밀이다꿀.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 포획 목적을 기업 비밀이라 감추는 모브 병사 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31E4",
+      "protected_snapshot": {
+        "record_id": 12772,
+        "raw_hex": "e431110000000000000000000000000000000000000000008376838a836a815b82cd81418eb894738dec82cc000000000000000000000000000000817583728362834e838a94a083608387835281760000000000000000000000000000008163816382f0899f82b5957482af82e782ea82bd814900000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、失敗作の",
+            "「ビックリ箱チョコ」",
+            "……を押し付けられた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 실패작",
+          "「깜짝 상자 초콜릿」",
+          "……을 떠맡았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "ビックリ箱チョコ를 깜짝 상자와 초콜릿을 결합한 실패작 아이템명으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "item_name_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/31E6",
+      "protected_snapshot": {
+        "record_id": 12774,
+        "raw_hex": "e63103009908c88382815b837595ba00000000000000000082b182ea82e282e982a982e7000000000000000000000000000000000000000000000093f1937882c68bdf8af182e982c88375815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "これやるから",
+            "二度と近寄るなブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "이거 줄 테니",
+          "두 번 다시 오지 마라꿀.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "실패작을 떠넘기며 다시 오지 말라고 경고하는 모브 병사 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/31E8",
+      "protected_snapshot": {
+        "record_id": 12776,
+        "raw_hex": "e831040037ffc88376838a836a815b00000000000000000088c0905382b782e983628358814282b182f182c882a882c182a982c882a28f8a00000082c982cd8141978a82dc82ea82c482e093f1937882c6978882c882a2836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "安心するッス。こんなおっかない所",
+            "には、頼まれても二度と来ないッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "안심하십쇼. 이런 무서운 곳은",
+          "부탁받아도 두 번 다신 안 옴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "다시는 이 위험한 장소에 오지 않겠다고 받아치는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

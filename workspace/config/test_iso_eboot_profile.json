@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "profile_id": "prinny-test-iso-eboot-ui-20260719",
+  "poc": {
+    "iso": {
+      "archive_size": 500465664,
+      "archive_sha256": "6b297112d3d15946bfb27154ebb62e7fd4b4497f5eee231d161d72d40bd3f613",
+      "target_path": "/PSP_GAME/SYSDIR/EBOOT.BIN;1",
+      "target_offset": "0x10000",
+      "target_size": 1128384,
+      "target_sha256": "2c93b1da27f68195589ad0ab36d37d1eb964aa226882cbfcaae21822fe3e543f",
+      "replacement_sha256": "2c515cda59931eb072b4621d435914a37413957c1df2f21741fa41275f2eb128"
+    }
+  }
+}

@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_037_hoshikage_training",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "effcbbc24fc5967d77928d647d86a1f7543223fe0b94bbad3593639ba9490670",
+  "context": {
+    "scene": "호시카게와 사부의 단것 수행 및 스위츠 남작 정보",
+    "evidence": [
+      "demo.nsf logical offsets 0x11411..0x11ADB의 연속 21개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 21/21 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2BC0",
+      "protected_snapshot": {
+        "record_id": 11200,
+        "raw_hex": "c02b0300cbf7c88e748fa00000000000000000000000000083588343815b83638163816383668355815b8367816381630000000000000000000000e95c93aa816381638350815b834c8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -2101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "スイーツ……デザート……",
+            "饅頭……ケーキ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "디저트……후식……",
+          "만주……케이크…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "단것을 떠올리며 スイーツ・デザート・饅頭・ケーキ를 나열하는 사부의 혼잣말 초벌.",
+        "flags": ["draft", "deferred_review", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BC2",
+      "protected_snapshot": {
+        "record_id": 11202,
+        "raw_hex": "c22b01007b05c890af89650000000000000000000000000082b282ad82e8814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1403,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ごくり！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "꿀꺽!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "단것 이야기에 침을 삼키는 호시카게의 의성어 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BC4",
+      "protected_snapshot": {
+        "record_id": 11204,
+        "raw_hex": "c42b0300cbf7c88e748fa000000000000000000000000000816381638b868bc982cc83588343815b8363816381630000000000000000000000000083588343815b8363926a8edd81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -2101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "……究極のスイーツ……",
+            "スイーツ男爵……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "……궁극의 디저트……",
+          "스위츠 남작…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "궁극의 디저트와 스위츠 남작을 떠올리는 사부 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BC6",
+      "protected_snapshot": {
+        "record_id": 11206,
+        "raw_hex": "c62b01007b05c890af89650000000000000000000000000082b682e382e982e881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1403,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "じゅるり！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "주르륵!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "침이 흐르는 소리를 주르륵으로 옮긴 호시카게 의성어 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BC8",
+      "protected_snapshot": {
+        "record_id": 11208,
+        "raw_hex": "c82b02007a05c890af89650000000000000000000000000082de82de82de958982af82dc835a815b8393814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "むむむ負けまセーン。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "무무무, 지지 않아~요.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "단것의 유혹에 지지 않겠다는 호시카게의 외국인풍 다짐 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BCA",
+      "protected_snapshot": {
+        "record_id": 11210,
+        "raw_hex": "ca2b040037ffc88376838a836a815b00000000000000000082a082cc82a3814182bb82b182c9927582a282c482a082e982e082cc81410000000000977e82b582a282f18362835882af82c7814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あのぅ、そこに置いてあるもの、",
+            "欲しいんッスけど。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저기, 거기 놓인 거",
+          "갖고 싶슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "수행장에 놓인 물건을 달라는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BCC",
+      "protected_snapshot": {
+        "record_id": 11212,
+        "raw_hex": "cc2b0300cbf7c88e748fa00000000000000000000000000090af896582cd8f438d73928682be81420000000000000000000000000000000000000097a782bf8b8e82e982aa82e682a28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -2101,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "星影は修行中だ。",
+            "立ち去るがよい。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "호시카게는 수행 중이다.",
+          "물러가거라.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "호시카게가 수행 중이라며 프리니를 돌려보내는 사부 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BCE",
+      "protected_snapshot": {
+        "record_id": 11214,
+        "raw_hex": "ce2b03007a05c890af89650000000000000000000000000083438347815b83588149977e82b582aa82e8837d835a8393000000000000000000000096be93fa82dc82c582cd814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "イエース！欲しがりマセン",
+            "明日までは！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "예스! 욕심내지 않겠어~요",
+          "내일까지는!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "내일까지만 참겠다는 반전이 있는 호시카게의 외국인풍 수행 선언 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BD0",
+      "protected_snapshot": {
+        "record_id": 11216,
+        "raw_hex": "d02b020032ffc88376838a836a815b00000000000000000096be93fa82dc82c582c582a282a282f18362835882a98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "明日まででいいんッスか。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "내일까지면 되는 검까.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "수행 기간이 고작 내일까지인지 묻는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BD2",
+      "protected_snapshot": {
+        "record_id": 11218,
+        "raw_hex": "d22b04007c05c890af896500000000000000000000000000838f835e835682bd82ad82b382f191cf82a682c482e9836c815b81420000000000000082be82a982e78349837d834782e091cf82a6944582d482cc8366815b835881490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1404,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ワタシたくさん耐えてるネー。",
+            "だからオマエも耐え忍ぶのデース！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "난 아주 오래 참았어~요.",
+          "그러니 너도 참고 견뎌~요!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "자신도 참았으니 프리니도 인내하라는 호시카게의 외국인풍 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BD4",
+      "protected_snapshot": {
+        "record_id": 11220,
+        "raw_hex": "d42b030033ffc88376838a836a815b000000000000000000834981418349838c82bd82bf0000000000000000000000000000000000000000000000944582d182b682e182c882a28362835882e6815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "オ、オレたち",
+            "忍びじゃないッスよー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우, 우린",
+          "닌자가 아님다~!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "耐え忍ぶ의 忍ぶ를 닌자로 받아치는 프리니 말장난 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "wordplay_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BD6",
+      "protected_snapshot": {
+        "record_id": 11222,
+        "raw_hex": "d62b110000000000000000000000000000000000000000008376838a836a815b82cd814190af896582cc82a882e282c200000000000000000000008175969e95a082a882c982ac82e88176000000000000000000000000000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、星影のおやつ",
+            "「満腹おにぎり」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 호시카게의 간식",
+          "「포만 주먹밥」",
+          "……을 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "満腹おにぎり를 포만 주먹밥으로 옮긴 아이템 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BD8",
+      "protected_snapshot": {
+        "record_id": 11224,
+        "raw_hex": "d82b040037ffc88376838a836a815b00000000000000000082b382c182ab8cbe82c182c482bd83588343815b8363926a8edd82c182c4000000000089bd8ed28362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "さっき言ってたスイーツ男爵って",
+            "何者ッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아까 말한 스위츠 남작이",
+          "누구임까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "앞서 언급한 스위츠 남작의 정체를 묻는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BDA",
+      "protected_snapshot": {
+        "record_id": 11226,
+        "raw_hex": "da2b03007d05c890af89650000000000000000000000000082a282eb82f182c883588343815b836382f000000000000000000000000000000000008a4a94ad82b582c482e988ab9682836c815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "いろんなスイーツを",
+            "開発してる悪魔ネー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "여러 디저트를",
+          "개발하는 악마예~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "여러 디저트를 개발하는 악마라는 호시카게의 설명 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BDC",
+      "protected_snapshot": {
+        "record_id": 11228,
+        "raw_hex": "dc2b03007b05c890af89650000000000000000000000000082a082a081418e7682a28f6f82b582bd82be82af82c50000000000000000000000000082e682be82ea82be82e781608366815b835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1403,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "ああ、思い出しただけで",
+            "よだれだら～デース。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "아아, 생각만 해도",
+          "침이 줄줄 흘러~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작의 디저트를 떠올리며 침 흘리는 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BDE",
+      "protected_snapshot": {
+        "record_id": 11230,
+        "raw_hex": "de2b04003608c88e748fa00000000000000000000000000082b1814183528389899882a282bc814190af896581498149000000000000000000000082dc82be82dc82be8f438d7382aa91ab82e882c882a282e682a482be82c881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2102,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "こ、コラ汚いぞ、星影！！",
+            "まだまだ修行が足りないようだな。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "이, 이놈 더럽다, 호시카게!!",
+          "아직도 수행이 부족하구나.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "침 흘리는 호시카게를 꾸짖는 사부 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BE0",
+      "protected_snapshot": {
+        "record_id": 11232,
+        "raw_hex": "e02b040082fac890af8965000000000000000000000000008374837483938141834a8347838b82c995cf82a682e782ea82bd82dc82dc000000000096df82ea82c882a2906c82c98cbe82ed82ea82bd82ad82c882a28366835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1406,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "フフン、カエルに変えられたまま",
+            "戻れない人に言われたくないデス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "흥, 개구리로 변한 채",
+          "못 돌아오는 분께 듣기 싫어~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "개구리에서 돌아오지 못하는 사부의 약점을 찌르는 호시카게 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "relationship_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BE2",
+      "protected_snapshot": {
+        "record_id": 11234,
+        "raw_hex": "e22b03003708c88e748fa00000000000000000000000000082ae82ca82ca82ca81418e748fa082c98cfc82a982c182c4000000000000000000000082c882f182bd82e98cbe82a282ae82b3814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2103,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "師匠",
+          "lines": [
+            "ぐぬぬぬ、師匠に向かって",
+            "なんたる言いぐさ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "사부",
+        "lines": [
+          "으으으, 사부에게",
+          "무슨 말버릇이냐!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "제자의 무례에 분노하는 사부 대사 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BE4",
+      "protected_snapshot": {
+        "record_id": 11236,
+        "raw_hex": "e42b04007a05c890af89650000000000000000000000000082c682c982a982ad83588343815b8363926a8edd82cd000000000000000000000000008f9782cc8e7188ab968282c882e782be82ea82c582e0926d82c182c482e9836c8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1402,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "とにかくスイーツ男爵は",
+            "女の子悪魔ならだれでも知ってるネ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "아무튼 스위츠 남작은",
+          "여자 악마라면 누구나 알아~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "여자 악마라면 모두 아는 스위츠 남작이라는 호시카게 설명 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BE6",
+      "protected_snapshot": {
+        "record_id": 11238,
+        "raw_hex": "e62b04007d05c890af89650000000000000000000000000082c682eb82af82e983588343815b83638370836583428356834782cc0000000000000088ab9682836c815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1405,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "星影",
+          "lines": [
+            "とろけるスイーツパティシエの",
+            "悪魔ネー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "호시카게",
+        "lines": [
+          "입에서 녹는 디저트의",
+          "파티시에 악마예~요.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "とろけるスイーツパティシエ를 입에서 녹는 디저트의 파티시에 악마로 풀어 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_review_required", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2BE8",
+      "protected_snapshot": {
+        "record_id": 11240,
+        "raw_hex": "e82b040037ffc88376838a836a815b00000000000000000082e082b582a982b582c4814182bb82cc83588343815b8363926a8edd82c882e70000008b868bc982cc83588343815b836382c98fda82b582a282a982e08362835882cb8142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "もしかして、そのスイーツ男爵なら",
+            "究極のスイーツに詳しいかもッスね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그 스위츠 남작이라면",
+          "궁극의 디저트를 잘 알지도 모름다.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작이 궁극의 디저트에 밝을지 추측하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_review_required"]
+      }
+    }
+  ]
+}

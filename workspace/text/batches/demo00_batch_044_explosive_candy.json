@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_044_explosive_candy",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "bb72eedd623aedfca3db51468d126733a3c9ad7390801b8287fcdc851930970f",
+  "context": {
+    "scene": "모브 병사의 폭발 캔디 실험과 시제품 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x14B45..0x14F5C의 연속 11개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 11/11 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2DE6",
+      "protected_snapshot": {
+        "record_id": 11750,
+        "raw_hex": "e62d040062f7c88382815b837595ba00000000000000000082e282c182bd8375815b81498ec08cb190ac8cf782be8375815b81490000000000000082b182ea924e82a982c98e8e82b582bd82a283758163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -2206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "やったブー！実験成功だブー！",
+            "これ誰かに試したいブ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "해냈다꿀! 실험 성공이다꿀!",
+          "누군가에게 시험하고 싶다꿀…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭발 캔디 실험 성공을 기뻐하며 시험 대상을 찾는 모브 병사의 승인된 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DE8",
+      "protected_snapshot": {
+        "record_id": 11752,
+        "raw_hex": "e82d04009a08c88382815b837595ba00000000000000000083758371837183718163816381418a6c95a894ad8ca982be8375815b8142000000000082b582a982e08376838a836a815b82c682cd92bf82b582a28375815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "ブヒヒヒ……、獲物発見だブー。",
+            "しかもプリニーとは珍しいブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "꿀히히……, 먹잇감 발견이다꿀.",
+          "게다가 귀한 프리니다꿀.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니를 귀한 실험 대상으로 발견한 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DEA",
+      "protected_snapshot": {
+        "record_id": 11754,
+        "raw_hex": "ea2d04009a08c88382815b837595ba0000000000000000008b4d8f6482c88ec08cb191cc82f093a682b78ee882cd82c882a28375815b814200000082b182cc949a94ad82cc88d097cd81418e8e82b582c482e282e98375815b81490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "貴重な実験体を逃す手はないブー。",
+            "この爆発の威力、試してやるブー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "귀한 실험체를 놓칠 순 없다꿀.",
+          "폭발 위력을 시험해 주겠다꿀!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니에게 폭발 캔디의 위력을 시험하려는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DEC",
+      "protected_snapshot": {
+        "record_id": 11756,
+        "raw_hex": "ec2d020034ffc88376838a836a815b00000000000000000082c8814189bd8e968362835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、何事ッスか！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무, 무슨 일임까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑자기 공격받아 영문을 묻는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DEE",
+      "protected_snapshot": {
+        "record_id": 11758,
+        "raw_hex": "ee2d04009d08c88382815b837595ba00000000000000000083498343838982cd82b182cc834c838383938366834282f08e8e904882b582c400000082d982b582a982c182bd82be82af8375815b81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "オイラはこのキャンディを試食して",
+            "ほしかっただけブー……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "난 이 캔디를 시식해",
+          "줬으면 했을 뿐이다꿀…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "공격 목적이 캔디 시식 실험이었다고 밝히는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DF0",
+      "protected_snapshot": {
+        "record_id": 11760,
+        "raw_hex": "f02d040037ffc88376838a836a815b0000000000000000008ea995aa82c5904882c182c482dd82ea82ce82a282a28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "自分で食ってみればいいッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "직접 먹어 보면 됨다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "모브 병사에게 직접 시식하라고 되받는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DF2",
+      "protected_snapshot": {
+        "record_id": 11762,
+        "raw_hex": "f22d04009c08c88382815b837595ba000000000000000000836f834a8382836d82be8375815b814982bb82f182c897458b4382aa0000000000000082a082c182bd82e791bc906c82c58e8e82b382c882a28375815b8149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "バカモノだブー！そんな勇気が",
+            "あったら他人で試さないブー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "바보냐꿀! 그런 용기가 있었다면",
+          "남한테 시험하지 않는다꿀!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자기가 먹을 용기가 없으니 남에게 시험한다는 모브 병사의 뻔뻔한 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DF4",
+      "protected_snapshot": {
+        "record_id": 11764,
+        "raw_hex": "f42d04009d08c88382815b837595ba00000000000000000081638163924e82c582e082a282a28375815b814282b182ea82f0904882ed82b982c400949a94ad8bef8d8782f08bb382a682c482ad82ea8375815b81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "モーブ兵",
+          "lines": [
+            "……誰でもいいブー。これを食わせて",
+            "爆発具合を教えてくれブー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "모브 병사",
+        "lines": [
+          "……누구든 좋다꿀. 이걸 먹이고",
+          "얼마나 터지는지 알려 달라꿀.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "다른 대상에게 폭발 캔디를 먹여 결과를 알려 달라는 모브 병사의 꿀 어미 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DF6",
+      "protected_snapshot": {
+        "record_id": 11766,
+        "raw_hex": "f62d110000000000000000000000000000000000000000008376838a836a815b82cd81418e8e8dec956982cc0000000000000000000000000000008175949a94ad834c8383839383668342817600000000000000000000000000000000008163816382f08bb082e98bb082e98ee882c982a282ea82bd8142000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、試作品の",
+            "「爆発キャンディ」",
+            "……を恐る恐る手にいれた。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 시제품인",
+          "「폭발 캔디」를",
+          "……조심스레 손에 넣었다."
+        ],
+        "status": "needs_human_review",
+        "notes": "爆発キャンディ를 폭발 캔디로 옮긴 시제품 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DF8",
+      "protected_snapshot": {
+        "record_id": 11768,
+        "raw_hex": "f82d010032ffc88376838a836a815b000000000000000000816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "위험한 시제품을 받아 든 프리니의 침묵 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/2DFA",
+      "protected_snapshot": {
+        "record_id": 11770,
+        "raw_hex": "fa2d030035ffc88376838a836a815b0000000000000000008163816382dc814182dc82a095b782a982c882a982c182bd000000000000000000000082b182c682c982b582c682ad83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……ま、まあ聞かなかった",
+            "ことにしとくッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……모, 못 들은 걸로",
+          "하겠슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭발 결과를 알려 달라는 부탁을 못 들은 셈 치는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

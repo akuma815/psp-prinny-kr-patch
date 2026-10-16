@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_048a_bakuchi_casino_fit",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "93f208d26e844997b4e4490141510fb8631ef00d69b5f520fcdd955966c52d29",
+  "context": {
+    "scene": "바쿠치 빚 독촉 항변 대사 고정 슬롯 수정",
+    "evidence": [
+      "batch 048 projected line 35/34 bytes at demo00/2F80",
+      "원문 보호 스냅샷 재검증 후 34바이트 이하로 의미 보존 축약"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2F80",
+      "protected_snapshot": {
+        "record_id": 12160,
+        "raw_hex": "802f040031ffc88376838a836a815b00000000000000000082bb814182bb82f182c882cc92bc90da834783678369976c82c98cbe82a483628358008f9f8ee882c9935d904582b582bd82e7926e8d9682f08ca982e98362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そ、そんなの直接エトナ様に言うッス",
+            "勝手に転職したら地獄を見るッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그건 에트나 님께 직접 말하십쇼.",
+          "맘대로 이직하면 지옥을 봄다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "빚은 에트나에게 직접 요구하고 무단 이직은 위험하다고 항변하는 프리니 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그건 에트나 님께 따지십쇼.",
+          "맘대로 이직하면 지옥을 봄다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "빚은 에트나에게 직접 요구하고 무단 이직은 위험하다고 항변하는 프리니 초벌. 배치 048의 35/34바이트 초과를 의미 보존 축약.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied",
+          "fixed_slot_fit_corrected"
+        ]
+      }
+    }
+  ]
+}

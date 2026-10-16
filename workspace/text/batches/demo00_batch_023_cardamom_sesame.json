@@ -1,0 +1,514 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_023_cardamom_sesame",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "04ea411882fc76ede0e84ef9fdf279c84bd7e9cb061e39dd7b13078186f144d0",
+  "context": {
+    "scene": "카르다몬과 세사미의 만담 뒤 고급 생선 뼈를 디저트 재료로 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0xAF55/0xAFB5/0xAFFE/0xB050/0xB093/0xB13A/0xB268/0xB2A8/0xB388/0xB3D8/0xB41F",
+      "BOOT dispatcher block-local stepping: target 11/11 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/27D8",
+      "protected_snapshot": {
+        "record_id": 10200,
+        "raw_hex": "d8270400b3fbc9834a838b835f838283930000000000000082c8829f82c8829f814182a282c182d882f1904882a382c482dd82bd82a282c60000008e7682ed82d682f182a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "なぁなぁ、いっぺん食ぅてみたいと",
+            "思わへんか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "있잖아, 한 번쯤 먹어 보고 싶단",
+          "생각 안 드나?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "カルダモン을 카르다몬으로 음역하고 간사이 방언 질문을 자연스러운 구어로 옮긴 초벌. 이름과 방언을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27DA",
+      "protected_snapshot": {
+        "record_id": 10202,
+        "raw_hex": "da2704004cfbc8835a8354837e00000000000000000000008384835f82b182f182c892a982c182cf82e782a982e7927082b882a982b5818f00000082a082bd82b582f0904882a482e282c882f182c4818f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "ヤダこんな朝っぱらから恥ずかし￥",
+            "あたしを食うやなんて￥",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "싫어, 아침부터 부끄럽잖아￥",
+          "날 먹고 싶다니￥",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "セサミ를 세사미로 음역하고 食う의 중의적 오해를 유지했다. 원문 말미 전각 ￥는 제어 의미가 미확정이라 보존한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "control_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27DC",
+      "protected_snapshot": {
+        "record_id": 10204,
+        "raw_hex": "dc270500b0fbc9834a838b835f83828393000000000000008341837a82a9814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": -1104,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "アホか！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "바보냐!!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "세사미의 야한 오해에 즉시 태클을 거는 카르다몬의 외침을 옮긴 초벌. 이름·방언 결정에 연결한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27DE",
+      "protected_snapshot": {
+        "record_id": 10206,
+        "raw_hex": "de270400b3fbc9834a838b835f83828393000000000000008349837d83478d9c82ce82c182a982e282f182a9814282ed82b582aa904882a282bd0082a282f182cd81418b868bc982cc83588343815b836382e281420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "オマエ骨ばっかやんか。わしが食いた",
+            "いんは、究極のスイーツや。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "너야말로 바보냐. 뼈밖에 없는데",
+          "먹는 족족 다 새잖아.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "해골인 세사미에게 먹은 것이 모두 샌다고 지적하는 카르다몬의 만담을 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27E0",
+      "protected_snapshot": {
+        "record_id": 10208,
+        "raw_hex": "e02704004ffbc8835a8354837e000000000000000000000082a082f182bd82b182bb8341837a82a981428d9c82be82af82cc82a482bf82e782e200904882a382c482e982bb82ce82a982e7835f835f82e082ea82e282f1814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "あんたこそアホか。骨だけのうちらや",
+            "食ぅてるそばからダダもれやん。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "너야말로 바보냐. 우리처럼 뼈만",
+          "있으면 먹는 족족 다 새잖아.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "둘 다 해골이라 같은 문제가 있다는 세사미의 재반박을 옮긴 초벌. 이름·방언 결정에 연결한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27E2",
+      "protected_snapshot": {
+        "record_id": 10210,
+        "raw_hex": "e22704004d04c9834a838b835f838283930000000000000082d982a481418376838a836a815b82a9814282bf82e582a482c782a682a68142000000836383628352837e82cc97fb8f4b82c582e082b382b982c482e082e782a882a98142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "ほう、プリニーか。ちょうどええ。",
+            "ツッコミの練習でもさせてもらおか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "오, 프리니냐. 마침 잘 왔다.",
+          "츳코미 연습이나 시켜 주지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 만담의 태클 연습 상대로 삼는 카르다몬의 대사를 옮겼다. 츳코미 문화어와 이름·방언을 최종 검토한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27E4",
+      "protected_snapshot": {
+        "record_id": 10212,
+        "raw_hex": "e42703004d04c9834a838b835f83828393000000000000008376838a836a815b82cc834e835a82c90000000000000000000000000000000000000082a682a6836383628352837e82e282c182bd82c5815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "プリニーのクセに",
+            "ええツッコミやったでー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "프리니치고",
+          "제법 좋은 츳코미였데이~.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니의 태클을 칭찬하는 카르다몬의 간사이 방언을 데이체로 현지화한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27E6",
+      "protected_snapshot": {
+        "record_id": 10214,
+        "raw_hex": "e6270300b104c8835a8354837e000000000000000000000082b982e282c88340814200000000000000000000000000000000000000000000000000964a94fc82c98352838c82e282e982ed814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "せやなァ。",
+            "褒美にコレやるわ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "그러게 말이야.",
+          "상으로 이거 줄게.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니의 츳코미를 인정하고 포상을 건네는 세사미의 말을 옮긴 초벌. 이름·방언 결정에 연결한다.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27E8",
+      "protected_snapshot": {
+        "record_id": 10216,
+        "raw_hex": "e827110000000000000000000000000000000000000000008376838a836a815b82cd8141836383628352837e82cc82b2964a94fc82c9000000000081758d828b898b9b81698d9c82be82af816a81760000000000000000000000000000008163816382f0899f82b5957482af82e782ea82bd814900000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、ツッコミのご褒美に",
+            "「高級魚（骨だけ）」",
+            "……を押し付けられた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 츳코미 포상으로",
+          "「고급 생선(뼈만 남음)」",
+          "……을 떠맡았다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "高級魚（骨だけ）를 고급 생선(뼈만 남음)으로 옮기고 押し付けられた를 떠맡았다고 표현한 획득 내레이션 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/27EA",
+      "protected_snapshot": {
+        "record_id": 10218,
+        "raw_hex": "ea27040032ffc88376838a836a815b0000000000000000008163816382c682e882bd82c482c48b868bc982c891668dde82c982cd000000000000008ca982a682c882a28362835882af82c7816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……とりたてて究極な素材には",
+            "見えないッスけど……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……갓 잡은 궁극의 재료로는",
+          "안 보임다만…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "뼈만 남은 생선이 신선하고 궁극적인 재료로 보이지 않는다는 프리니의 의심을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/27EC",
+      "protected_snapshot": {
+        "record_id": 10220,
+        "raw_hex": "ec27040037ffc88376838a836a815b00000000000000000082dc82a08141825082c296da82cc8dde97bf82c982b582bf82e182c182c482e000000082a282a28362835882e682cb81420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "まあ、１つ目の材料にしちゃっても",
+            "いいッスよね。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 첫 번째 재료로",
+          "삼아도 괜찮겠슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "의심스러운 생선 뼈를 첫 번째 재료로 삼기로 하는 프리니의 체념을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

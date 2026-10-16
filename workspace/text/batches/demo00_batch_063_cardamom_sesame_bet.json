@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_063_cardamom_sesame_bet",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "047f4ba2a79a177ecea07f87eff07da50d6598c26de4f0bcb9b5e0738f3014e5",
+  "context": {
+    "scene": "궁극 디저트 완성 내기에서 손해 본 카다멈과 세서미",
+    "evidence": [
+      "demo.nsf logical offsets 0x1E57B..0x1E60B의 목표 호출 3/3; BOOT dispatcher 선택 블록 포함 통합 감사 6/6 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/3426",
+      "protected_snapshot": {
+        "record_id": 13350,
+        "raw_hex": "263404004d04c9834a838b835f83828393000000000000008ec082cd838f835682e7814182a082f182b382f182e782aa8b868bc982cc000000000083588343815b836382f08dec82ea82e982a9937182af82c682c182bd82f182e28142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "実はワシら、あんさんらが究極の",
+            "スイーツを作れるか賭けとったんや。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "실은 우리, 니들이 궁극의",
+          "디저트를 만들지 내기했데이.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들이 궁극의 디저트를 완성할지 내기했다는 카르다몬의 간사이풍 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied",
+          "term_approved"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3428",
+      "protected_snapshot": {
+        "record_id": 13352,
+        "raw_hex": "28340400b304c8835a8354837e000000000000000000000082af82c782c88340814182a082f182bd82e782cc82b982a282c591e591b982e281420082c782c882a282b582c482ad82ea82e9814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "けどなァ、あんたらのせいで大損や。",
+            "どないしてくれる！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "근데 너희 때문에 크게 잃었어.",
+          "어쩔 거야!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들 때문에 내기에서 크게 손해 봤다며 따지는 세사미 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/342A",
+      "protected_snapshot": {
+        "record_id": 13354,
+        "raw_hex": "2a34030036ffc88376838a836a815b00000000000000000082b58141926d82c182bd82b182c182bf82e1000000000000000000000000000000000082c882a28362835882e6815b81498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "し、知ったこっちゃ",
+            "ないッスよー！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "내, 내가 알 바",
+          "아님다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "도박 손실은 자기 알 바가 아니라고 거부하는 프리니 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "speaker_style_applied"
+        ]
+      }
+    }
+  ]
+}

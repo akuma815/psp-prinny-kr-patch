@@ -1,0 +1,602 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_029_poison_apple_liquor",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "26212b2a6075ee0354ee0203fe74ee0c29c9a85d7ad3477fedf5f30531db9d3a",
+  "context": {
+    "scene": "카르다몬과 세사미의 원재료 표시 부부싸움과 독사과 명주 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0xD7D5..0xDD4F의 연속 13개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 13/13 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2968",
+      "protected_snapshot": {
+        "record_id": 10600,
+        "raw_hex": "682903004d04c9834a838b835f838283930000000000000082c782c182a995ca82cc96828a4582c58b55919582aa0000000000000000000000000097ac8d7382c182c682e982e782b582a282aa81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "どっか別の魔界で偽装が",
+            "流行っとるらしいが……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "다른 마계에선 표시 위조가",
+          "유행한다 카던데…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "다른 마계에서 식품 표시 위조가 유행한다는 카르다몬의 간사이풍 발화를 기존 미확정 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/296A",
+      "protected_snapshot": {
+        "record_id": 10602,
+        "raw_hex": "6a2903005004c9834a838b835f8382839300000000000000904882a282e082f182cd82ab82c182bf82e800000000000000000000000000000000008cb497bf955c8ea682b982c882a082a982f182c58149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1104,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "食いもんはきっちり",
+            "原料表示せなあかんで！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "먹을 건 원재료를 제대로",
+          "표시해야 한데이!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "식품 원재료 표시 의무를 강조하는 카르다몬의 간사이풍 대사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/296C",
+      "protected_snapshot": {
+        "record_id": 10604,
+        "raw_hex": "6c2903004ffbc8835a8354837e000000000000000000000082c882f182e2958382bf82e182f18141000000000000000000000000000000000000008b7d82c982a682a68e7182c982c882c182c481420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "なんや父ちゃん、",
+            "急にええ子になって。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "왜 그래, 아빠.",
+          "갑자기 착한 척하고.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "부부 사이의 父ちゃん 호칭을 아빠로 유지하고 갑자기 선량해진 척한다고 빈정대는 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "relationship_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/296E",
+      "protected_snapshot": {
+        "record_id": 10606,
+        "raw_hex": "6e2904004d04c9834a838b835f838283930000000000000093c593fc82e882c48f9182a282c482a082e882e181410000000000000000000000000082ed82b482ed82b493c593fc82ea82f182c582e082a682a682e282eb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "毒入りて書いてありゃ、",
+            "わざわざ毒入れんでもええやろ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "독 들었다고 쓰여 있으면",
+          "굳이 독을 넣을 필요 없잖아.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "표시에 독이 있다고 쓰면 실제로 넣을 필요가 없다는 카르다몬의 궤변과 간사이풍 말투를 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2970",
+      "protected_snapshot": {
+        "record_id": 10608,
+        "raw_hex": "702902004d04c9834a838b835f83828393000000000000008163816382c482c882ed82af82c595ea82bf82e182f18142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "……てなわけで母ちゃん。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "……그런 고로, 엄마.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "부부 사이의 母ちゃん 호칭을 엄마로 유지해 다음 독주 선물로 이어지는 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "relationship_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2972",
+      "protected_snapshot": {
+        "record_id": 10610,
+        "raw_hex": "722903004e04c9834a838b835f838283930000000000000082bb82b182cc96bb8ef0818f957397b682cc8e968ccc82cd00000000000000000000008349837d834782c98376838c835b8393836782e28142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1102,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "そこの冥酒￥不慮の事故は",
+            "オマエにプレゼントや。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "그 명주￥불의의 사고는",
+          "당신에게 선물이야.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "冥酒￥不慮の事故를 명주￥불의의 사고로 옮기고 원문의 전각 ￥ 제어 문자를 같은 이름 경계에 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "control_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2974",
+      "protected_snapshot": {
+        "record_id": 10612,
+        "raw_hex": "742902004ffbc8835a8354837e000000000000000000000082a882a8814182a482dc82bb82a482e282c8829f815b8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -1201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "おお、うまそうやなぁー。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "오, 맛있어 보이네~.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "독주를 아직 의심하지 않고 반기는 세사미의 간사이풍 감탄 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2976",
+      "protected_snapshot": {
+        "record_id": 10614,
+        "raw_hex": "762904004efbc8835a8354837e000000000000000000000082b582a982e08cb497bf82aa93c5838a8393835382c48141000000000000000000000082b182e782db82c182ad82e890c082af82bb82a482e282c883408142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -1202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "しかも原料が毒リンゴて、",
+            "こらぽっくり逝けそうやなァ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "게다가 원료가 독사과라니,",
+          "한 방에 저세상 가겠네.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "독사과 원료라 단숨에 죽을 수 있겠다는 ぽっくり逝く의 죽음 농담을 자연스럽게 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required", "tone_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2978",
+      "protected_snapshot": {
+        "record_id": 10616,
+        "raw_hex": "782907004dfbc8835a8354837e0000000000000000000000815c815c82c182c481418352838983408149000000000000000000000000000000000082a082f182bd8341835e835682f08e4582b78b4382a9814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": -1203,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セサミ",
+          "lines": [
+            "――って、コラァ！",
+            "あんたアタシを殺す気か！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세사미",
+        "lines": [
+          "――잠깐, 이봐!",
+          "당신 나 죽일 셈이야!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "남편이 자신을 독살하려 한다는 사실을 깨달은 세사미의 격한 항의 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "relationship_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/297A",
+      "protected_snapshot": {
+        "record_id": 10618,
+        "raw_hex": "7a29030036ffc88376838a836a815b00000000000000000089bd814189bd82c181498148000000000000000000000000000000000000000000000089bd82aa8b4e82ab82c482e983628358815b81498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "何、何っ！？",
+            "何が起きてるッスー！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 뭐임까!?",
+          "무슨 일이 벌어진 검까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑작스러운 부부싸움에 끼어든 프리니의 당황을 기존 문체로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/297C",
+      "protected_snapshot": {
+        "record_id": 10620,
+        "raw_hex": "7c2904004d04c9834a838b835f8382839300000000000000838f835682e782cc9576957783518393834a82f082e682a400000000000000000000008e7e82df82c482ad82ea82bd814282b182ea82f082e282e982ed8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1101,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "カルダモン",
+          "lines": [
+            "ワシらの夫婦ゲンカをよう",
+            "止めてくれた。これをやるわ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "카르다몬",
+        "lines": [
+          "우리 부부싸움을 잘도",
+          "말려 줬네. 이거 가져가라.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "싸움을 말려 준 프리니에게 독주를 건네는 카르다몬의 간사이풍 감사 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "speaker_style_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/297E",
+      "protected_snapshot": {
+        "record_id": 10622,
+        "raw_hex": "7e29110000000000000000000000000000000000000000008376838a836a815b82cd88c38e4582c9836f83628360838a82c8000000000000000000817596bb8ef0818f957397b682cc8e968ccc81760000000000000000000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは暗殺にバッチリな",
+            "「冥酒￥不慮の事故」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 암살에 딱 좋은",
+          "「명주￥불의의 사고」",
+          "……를 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "독사과 술의 암살 용도를 명시한 획득문이며 원문 전각 ￥ 제어 문자를 아이템명 안에 보존한 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "control_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2980",
+      "protected_snapshot": {
+        "record_id": 10624,
+        "raw_hex": "8029040037ffc88376838a836a815b00000000000000000082a882bb82e782ad834783678369976c82cd8e4582b582c482e00000000000000000008e8082c882c882a28362835882aa899397b682c882ad82e082e782a4836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "おそらくエトナ様は殺しても",
+            "死なないッスが遠慮なくもらうッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아마 에트나 님은 죽여도",
+          "안 죽겠지만 사양 않고 받겠슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나는 죽여도 죽지 않을 것이라며 독주를 받는 프리니의 체념 섞인 농담 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

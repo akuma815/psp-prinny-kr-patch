@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_015_missed_heroics",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "dc0097bcf49a5337c10505f446fd9e2d42ff6f19682eb79bf93b604966b7e6d0",
+  "context": {
+    "scene": "도입부 에트나 이탈과 프리니의 활약 기회 상실",
+    "evidence": [
+      "demo.nsf logical offsets 0x32D4/0x3361",
+      "BOOT dispatcher block-local stepping: target 2/2 proven, selected block 1/1 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0E74",
+      "protected_snapshot": {
+        "record_id": 3700,
+        "raw_hex": "740e0300c900c88376838a836a815b00000000000000000082a082ea82c18141000000000000000000000000000000000000000000000000000000834783678369976c8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あれっ、",
+            "エトナ様？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어라,",
+          "에트나 님?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나가 자리를 뜬 것을 뒤늦게 알아차리는 프리니의 당황을 승인 존칭으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0E76",
+      "protected_snapshot": {
+        "record_id": 3702,
+        "raw_hex": "760e0400c900c88376838a836a815b00000000000000000082b982c182a982ad8349838c82bd82bf82cc97458e7082f08ca982b982c282af82e9008e9e82aa978882bd8362835882cc82c9816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "せっかくオレたちの勇姿を見せつける",
+            "時が来たッスのに……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "모처럼 저희의 용맹한 모습을",
+          "보여 줄 때가 왔는데…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신들의 용맹한 모습을 보여 줄 기회를 놓친 프리니의 아쉬움을 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

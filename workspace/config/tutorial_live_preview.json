@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "profile_id": "prinny-tutorial-live-v3-baseline",
+  "game_id": "ULJS00150",
+  "baseline": {
+    "iso": "work/production/Prinny_ULJS00150_KR_Demo00_Title_Tutorial_v3.iso",
+    "iso_sha256": "fc056c011f5376ca97c1c4a2c2adf0084798688bade30486b00406b24f22bfe6",
+    "archive_sha256": "74b7fa6be0cd1d6fa662f58bfcd911efff846a1cd22ae0e1d13cbc349a58339a"
+  },
+  "textures": [
+    {
+      "texture_index": 0,
+      "size": [512, 512],
+      "dumps": [
+        "0956db10671c58237d447ccc.png",
+        "0956db109d4e7fbf7d447ccc.png",
+        "0956db10a8d5f3987d447ccc.png",
+        "0956db10f9089a2f7d447ccc.png"
+      ]
+    },
+    {
+      "texture_index": 1,
+      "size": [512, 512],
+      "dumps": ["0958db109d4e7fbfb3a9c201.png"]
+    },
+    {
+      "texture_index": 2,
+      "size": [512, 512],
+      "dumps": ["095adb109d4e7fbfdab9bc3f.png"],
+      "palette_fallbacks": [
+        {
+          "texture_index": 0,
+          "dump": "0956db109d4e7fbf7d447ccc.png"
+        }
+      ]
+    },
+    {
+      "texture_index": 3,
+      "size": [256, 512],
+      "dumps": ["095cdb1092a862e2cb89d932.png"]
+    }
+  ]
+}

@@ -1,0 +1,1174 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_052_anise_forest_fight",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "8bffcb15a040f2f71979d296f617ab6debccc9a2d94748f7d174b78486253c0b",
+  "context": {
+    "scene": "아니스의 코골이로 시작된 나츠·메그의 숲 싸움과 씹다 만 껌 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0x186CA..0x1912B의 연속 26개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 26/26 proven, selected blocks 2/2 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/3106",
+      "protected_snapshot": {
+        "record_id": 12550,
+        "raw_hex": "06310f000000c88148814881488148000000000000000000834f834b83408340834083408340816381638142000000000000000000000000000000834f8353834883488348834883488348816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 15,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "？？？？",
+          "lines": [
+            "グガァァァァァ……。",
+            "グゴォォォォォォ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "????",
+        "lines": [
+          "크아아아아…….",
+          "크오오오오오…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "정체가 드러나기 전 숲에 울리는 아니스의 코골이를 괴수 울음처럼 옮김.",
+        "flags": ["draft", "deferred_review", "speaker_identity_concealed"]
+      }
+    },
+    {
+      "entry_id": "demo00/3108",
+      "protected_snapshot": {
+        "record_id": 12552,
+        "raw_hex": "0831030036ffc88376838a836a815b00000000000000000082e08141905882aa000000000000000000000000000000000000000000000000000000937b82c182c482a282e9836283588149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "も、森が",
+            "怒っているッス！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "수, 숲이",
+          "화났슴까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "괴성과 코골이를 숲의 분노로 오해하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/310A",
+      "protected_snapshot": {
+        "record_id": 12554,
+        "raw_hex": "0a3103000000c88341836a83580000000000000000000000834f834b83408340834083408340816381638142000000000000000000000000000000834f8353834883488348834883488348816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "グガァァァァァ……。",
+            "グゴォォォォォォ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "크아아아아…….",
+          "크오오오오오…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "화자가 아니스로 밝혀진 뒤 반복되는 괴수 같은 코골이.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/310C",
+      "protected_snapshot": {
+        "record_id": 12556,
+        "raw_hex": "0c31020036ffc88376838a836a815b00000000000000000082a2814183438372834c82c1835882a98149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "い、イビキっスか！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "코, 코 고는 소리였슴까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "괴성의 정체가 코골이였음을 깨닫는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/310E",
+      "protected_snapshot": {
+        "record_id": 12558,
+        "raw_hex": "0e3104002603c88341836a8358000000000000000000000081638163834f834b83408340834083408163816382de82c982e181420000000000000089a48e71976c8141918182ad82ad82bf82c382af82f0816381630000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "……グガァァァァ……むにゃ。",
+            "王子様、早くくちづけを……",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "……크아아아……음냐.",
+          "왕자님, 어서 입맞춤을……",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "잠결에 왕자와의 입맞춤을 꿈꾸는 아니스의 잠꼬대.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3110",
+      "protected_snapshot": {
+        "record_id": 12560,
+        "raw_hex": "103104002603c88341836a8358000000000000000000000082d982e78141904f82c982cd93c582f08e648d9e82dd8dcf82dd82e68163816300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 806,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "ほら、唇には毒を仕込み済みよ……",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "자, 입술엔 독도 발라 놨으니……",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "낭만적 잠꼬대에 독이 든 함정을 섞는 아니스의 엽기적 농담.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3112",
+      "protected_snapshot": {
+        "record_id": 12562,
+        "raw_hex": "1231020032ffc88376838a836a815b0000000000000000008163816382c882f182cce3a98362835882a9814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "……なんの罠ッスか。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "……무슨 함정임까.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스의 독 입맞춤 잠꼬대에 어이없어하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3114",
+      "protected_snapshot": {
+        "record_id": 12564,
+        "raw_hex": "143102000000c88341836a83580000000000000000000000835383488348834883488348834883488163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "ゴォォォォォォォ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "크오오오오오…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "잠꼬대 뒤 다시 이어지는 아니스의 코골이.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3116",
+      "protected_snapshot": {
+        "record_id": 12566,
+        "raw_hex": "1631030079fcc88369836300000000000000000000000000968894d3968894d382b182cc82a282d182ab81638163814900000000000000000000008e8482bd82bf82cc905882a982e78f6f82c48d7382af814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -903,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "毎晩毎晩このいびき……！",
+            "私たちの森から出て行け！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "매일 밤마다 이 코골이……!",
+          "우리 숲에서 나가!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스의 반복되는 코골이에 분노해 숲에서 나가라고 요구하는 나츠 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3118",
+      "protected_snapshot": {
+        "record_id": 12568,
+        "raw_hex": "1831060079fcc883698363000000000000000000000000008d95944c82cc8341836a8358836281498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": -903,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "黒猫のアニスッ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "검은 고양이 아니스!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스의 이명과 이름을 함께 외치는 나츠 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/311A",
+      "protected_snapshot": {
+        "record_id": 12570,
+        "raw_hex": "1a31020015fcc88381834f0000000000000000000000000088c096b08163816396578a51814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -1003,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "メグ",
+          "lines": [
+            "安眠……妨害！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "메그",
+        "lines": [
+          "숙면……방해!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "코골이 때문에 잠을 설쳤다고 단속적인 명사형으로 항의하는 메그 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/311C",
+      "protected_snapshot": {
+        "record_id": 12572,
+        "raw_hex": "1c3108002503c88341836a8358000000000000000000000082dc82bd81418ee8914f82e782a9814888c096b082f096578a5182b382ea82c400000082a282e982cc82cd82b182c182bf82be82ba81490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": 805,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "また、手前らか？安眠を妨害されて",
+            "いるのはこっちだぜ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "또 네놈들이냐? 숙면을",
+          "방해받은 건 이쪽이라고!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "오히려 자신이 피해자라고 거칠게 맞받아치는 아니스 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/311E",
+      "protected_snapshot": {
+        "record_id": 12574,
+        "raw_hex": "1e3103007bfcc883698363000000000000000000000000008da193fa82b182bb8141000000000000000000000000000000000000000000000000008f6f82c482c182c482e082e782a482e6816381638149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -901,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "今日こそ、",
+            "出てってもらうよ……！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "오늘이야말로",
+          "나가 줘야겠어……!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "이번에는 반드시 아니스를 내쫓겠다고 벼르는 나츠 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3120",
+      "protected_snapshot": {
+        "record_id": 12576,
+        "raw_hex": "2031010032ffc88376838a836a815b00000000000000000082a6814882a6814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "え？え？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "예? 예?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "갑자기 벌어진 싸움에 당황하는 프리니의 짧은 반응.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3122",
+      "protected_snapshot": {
+        "record_id": 12578,
+        "raw_hex": "223105002403c88341836a8358000000000000000000000082a282ad82ba814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 804,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "いくぜ！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "간다!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "나츠와 메그에게 달려드는 아니스의 전투 개시 외침.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3124",
+      "protected_snapshot": {
+        "record_id": 12580,
+        "raw_hex": "24310600000000000000000000000000000000000000000082a482a882a882a882a882a8814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "うおおおおお！！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "우오오오오!!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "화자 표기 없이 이어지는 전투 기합.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3126",
+      "protected_snapshot": {
+        "record_id": 12582,
+        "raw_hex": "2631040034ffc88376838a836a815b00000000000000000082c8814182c882f182a9926d82e782c882a28362835882af82c7000000000000000000906782cc8aeb8caf82f08ab482b682e9836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "な、なんか知らないッスけど",
+            "身の危険を感じるッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭔진 모르겠슴다만",
+          "신변의 위협을 느낌다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "상황을 모르면서도 자신이 위험하다고 직감하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3128",
+      "protected_snapshot": {
+        "record_id": 12584,
+        "raw_hex": "283104002503c88341836a83580000000000000000000000836e8341836e834181638163814200000000000000000000000000000000000000000082c882a982c882a982e282e982b682e182cb815b82a98141916f8e7182cc81420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 805,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アニス",
+          "lines": [
+            "ハアハア……。",
+            "なかなかやるじゃねーか、双子の。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아니스",
+        "lines": [
+          "헉헉…….",
+          "제법 하는데, 쌍둥이.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "숨을 고르며 나츠와 메그의 실력을 인정하는 아니스 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/312A",
+      "protected_snapshot": {
+        "record_id": 12586,
+        "raw_hex": "2a3104007afcc883698363000000000000000000000000008341835e835682e782cc8d558c8282ad82e782c182c490b682ab82c482e982c682cd0082a082f182bd82e082c882a982c882a982be82e68142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -902,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "アタシらの攻撃くらって生きてるとは",
+            "あんたもなかなかだよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "우리 공격을 맞고도 살아남다니",
+          "너도 제법이네.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아니스가 합동 공격을 버틴 점을 인정하는 나츠 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/312C",
+      "protected_snapshot": {
+        "record_id": 12588,
+        "raw_hex": "2c31030079fcc8836983630000000000000000000000000082be82af82c781418e9f82cd82b182a482cd000000000000000000000000000000000082a282a982c882a282a982e782cb8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -903,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "だけど、次はこうは",
+            "いかないからね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "하지만 다음엔 이렇게",
+          "안 끝날 거야…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "다음 공격은 더 강할 것이라 경고하는 나츠 대사.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/312E",
+      "protected_snapshot": {
+        "record_id": 12590,
+        "raw_hex": "2e31020079fcc883698363000000000000000000000000008a6f8ce582b582c482a882ab82c881490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -903,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ナツ",
+          "lines": [
+            "覚悟しておきな！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "나츠",
+        "lines": [
+          "각오해 둬!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "후속 공격을 예고하는 나츠의 짧은 경고.",
+        "flags": ["draft", "deferred_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3130",
+      "protected_snapshot": {
+        "record_id": 12592,
+        "raw_hex": "3031020034ffc88376838a836a815b00000000000000000082bf814182bf82e582c182c691d282c28362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ち、ちょっと待つッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "자, 잠깐 기다리십쇼.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "싸움의 표적이 자신에게 향한 것을 깨닫고 제지하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3132",
+      "protected_snapshot": {
+        "record_id": 12594,
+        "raw_hex": "3231030033ffc88376838a836a815b0000000000000000008da1814196be82e782a982c98349838c88ea906c82aa00000000000000000000000000915f82ed82ea82c482bd8362835882e682cb81480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "今、明らかにオレ一人が",
+            "狙われてたッスよね？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "지금 분명히 저만",
+          "노렸던 거 맞슴까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "합동 공격이 자신에게만 집중됐는지 확인하는 프리니 대사.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3134",
+      "protected_snapshot": {
+        "record_id": 12596,
+        "raw_hex": "3431030032ffc88376838a836a815b00000000000000000082a082ea8148000000000000000000000000000000000000000000000000000000000082a082ea815b81488362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あれ？",
+            "あれー？ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어라?",
+          "어라~? 임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "아무도 답하지 않자 상황을 이해하지 못하는 프리니의 반복 반응.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/3136",
+      "protected_snapshot": {
+        "record_id": 12598,
+        "raw_hex": "36311100000000000000000000000000000000000000000082b582a982bd82c882ad8376838a836a815b82cd8141978e82bf82c482bd00000000008175924e82a982cc82a982dd82a982af834b83808176000000000000000000000000008163816382f08ee882c993fc82ea82bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "しかたなくプリニーは、落ちてた",
+            "「誰かのかみかけガム」",
+            "……を手に入れた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 어쩔 수 없이",
+          "「누군가 씹다 만 껌」",
+          "……을 주웠다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "誰かのかみかけガム를 불쾌한 코미디 어조의 아이템명 '누군가 씹다 만 껌'으로 옮긴 초벌.",
+        "flags": ["draft", "deferred_review", "item_name_review"]
+      }
+    },
+    {
+      "entry_id": "demo00/3137",
+      "protected_snapshot": {
+        "record_id": 12599,
+        "raw_hex": "3731020032ffc88376838a836a815b00000000000000000082a082ea815b814883628358814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あれー？ッス！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어라~? 임까!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "이상한 아이템만 얻은 상황에 당황이 커진 프리니의 후속 반응.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

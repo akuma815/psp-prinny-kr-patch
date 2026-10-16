@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_033_gourmet_ogre_candy",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "a1c60015bfeef06a12f91af58fb39df4a1c4583f5db439889a2c3c5d2e3ff0fd",
+  "context": {
+    "scene": "미식 오거의 스위츠 남작 오해와 튜브 캔디 획득",
+    "evidence": [
+      "demo.nsf logical offsets 0xF68A..0xF973의 연속 8개 목표 호출",
+      "BOOT dispatcher block-local stepping: target 8/8 proven, selected blocks 1/1 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/2AF8",
+      "protected_snapshot": {
+        "record_id": 11000,
+        "raw_hex": "f82a020032ffc88376838a836a815b00000000000000000082bf814182bf82ed815b8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ち、ちわーッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아, 안녕하심까.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "미식 오거에게 조심스럽게 인사하는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2AFA",
+      "protected_snapshot": {
+        "record_id": 11002,
+        "raw_hex": "fa2a04006d07c9834f838b83818349815b834b00000000008376838a836a815b81638163814882b382c482cd82a882df82a581410000000000000083588343815b8363926a8edd82cc8376838a836a815b82b882e782c8814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1901,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "プリニー……？さてはおめぇ、",
+            "スイーツ男爵のプリニーずらな！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "프리니……? 보아하니 너,",
+          "스위츠 남작의 프리니구먼!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니를 스위츠 남작의 부하로 오해하는 미식 오거의 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2AFC",
+      "protected_snapshot": {
+        "record_id": 11004,
+        "raw_hex": "fc2a030032ffc88376838a836a815b00000000000000000082b7814182b782a2815b82c2926a8edd81480000000000000000000000000000000000924e8362835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "す、すいーつ男爵？",
+            "誰ッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "스, 스위츠 남작?",
+          "누구 말임까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "スイーツ男爵을 스위츠 남작으로 음역한 첫 장면 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2AFE",
+      "protected_snapshot": {
+        "record_id": 11006,
+        "raw_hex": "fe2a04007007c9834f838b83818349815b834b000000000082b282dc82a982b582c482e096b391ca82be82c78142000000000000000000000000008ac382a282e082cc8d4482ab82cc8ee5906c82c996bd97df82b382ea82bd82c88148000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1904,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "ごまかしても無駄だど。",
+            "甘いもの好きの主人に命令されたな？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "시치미 떼도 소용없구먼.",
+          "단것 좋아하는 주인이 시켰지?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니가 간식을 노린다고 단정하는 미식 오거의 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B00",
+      "protected_snapshot": {
+        "record_id": 11008,
+        "raw_hex": "002b05000000c9834f838b83818349815b834b000000000082a882c582cc82a882e282c282cd000000000000000000000000000000000000000000936e82b382f182c7815b814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "おでのおやつは",
+            "渡さんどー！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "내 간식은",
+          "못 넘기겠구먼~!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자기 간식을 지키려는 미식 오거의 구먼체 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B02",
+      "protected_snapshot": {
+        "record_id": 11010,
+        "raw_hex": "022b110000000000000000000000000000000000000000008376838a836a815b82cd834f838b83818349815b834b82cc82a882e282c200000000008175958282ab97d6834c8383839383668342815b8176000000000000000000000000008163816382f082a282bd82be82a282bd81490000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーはグルメオーガのおやつ",
+            "「浮き輪キャンディー」",
+            "……をいただいた！"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 미식 오거의 간식",
+          "「튜브 캔디」",
+          "……를 손에 넣었다!"
+        ],
+        "status": "needs_human_review",
+        "notes": "浮き輪キャンディー를 튜브 캔디로 현지화한 아이템 획득문 초벌.",
+        "flags": ["draft", "deferred_review", "term_review_required", "culture_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B04",
+      "protected_snapshot": {
+        "record_id": 11012,
+        "raw_hex": "042b030037ffc88376838a836a815b00000000000000000082e082e782a482e082cc82e082e782c182bd82e700000000000000000000000000000093a682b082e982aa8f9f82bf83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "もらうものもらったら",
+            "逃げるが勝ちッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "받을 것도 받았으니",
+          "도망치는 게 상책임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "물건을 챙긴 뒤 달아나려는 프리니 대사 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/2B06",
+      "protected_snapshot": {
+        "record_id": 11014,
+        "raw_hex": "062b05007207c9834f838b83818349815b834b000000000082a882c582cc82a882e282c2816081490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 1906,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "グルメオーガ",
+          "lines": [
+            "おでのおやつ～！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "미식 오거",
+        "lines": [
+          "내 간식~!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "간식을 빼앗긴 미식 오거의 절규 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    }
+  ]
+}

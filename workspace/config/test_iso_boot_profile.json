@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "profile_id": "prinny-test-iso-boot-ui-20260719",
+  "poc": {
+    "iso": {
+      "archive_size": 500465664,
+      "archive_sha256": "8b772e88b23f882ec5123cd489bc9e46521fa0701cf932a2628b353440dc770a",
+      "target_path": "/PSP_GAME/SYSDIR/BOOT.BIN;1",
+      "target_offset": "0x1DC30000",
+      "target_size": 1128036,
+      "target_sha256": "3220c559596cc9e91db868284157622406110faa5e8c044c3824c8a138088415",
+      "replacement_sha256": "f4459b4980b2018343b6323e6cf0ab76f96b96892b6eeebe9526498aaa6519c1"
+    }
+  }
+}

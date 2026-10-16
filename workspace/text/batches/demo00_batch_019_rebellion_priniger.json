@@ -1,0 +1,426 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_019_rebellion_priniger",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "99c2e5cfe8cb83a310ba75d52071e793ecbee14f8204daba904f22177305df8b",
+  "context": {
+    "scene": "프리니들의 반란 구호와 에트나의 프리니거 X 소환",
+    "evidence": [
+      "demo.nsf logical offsets 0x227DC/0x22832/0x22888/0x2293C/0x22A32/0x22A75/0x22AFC/0x22B3A/0x22BF5",
+      "BOOT dispatcher block-local stepping: target 9/9 proven, selected block 1/1 completed"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/0F0A",
+      "protected_snapshot": {
+        "record_id": 3850,
+        "raw_hex": "0a0f0400c900c88376838a836a815b00000000000000000088b390ad82f08f528e5582e782b783628358814981490000000000000000000000000093c68dd98ed282c990b38b6082cc935392c682f08362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "圧政を蹴散らすッス！！",
+            "独裁者に正義の鉄槌をッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "폭정을 걷어차 버림다!!",
+          "독재자에게 정의의 철퇴를 내림다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "폭정을 몰아내고 독재자를 응징하자는 프리니들의 반란 구호를 슴다체 동사형으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F0C",
+      "protected_snapshot": {
+        "record_id": 3852,
+        "raw_hex": "0c0f0300c900c88376838a836a815b00000000000000000089e482e782c98ea9975282f083628358814981490000000000000000000000000000008b8b97bf8fe382b082eb836283588149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "我らに自由をッス！！",
+            "給料上げろッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우리에게 자유를 달람다!!",
+          "월급 올려 줌다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자유와 임금 인상을 요구하는 프리니들의 구호를 캐릭터 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F0E",
+      "protected_snapshot": {
+        "record_id": 3854,
+        "raw_hex": "0e0f0300c900c88376838a836a815b0000000000000000008def8ee694bd91ce83628358814981490000000000000000000000000000000000000082a282a289c18cb882c982b582eb8362835881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "搾取反対ッス！！",
+            "いい加減にしろッス！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "착취 반대임다!!",
+          "작작하란 말임다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "착취에 반대하고 정도껏 하라고 외치는 반란 구호를 거친 프리니 말투로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F10",
+      "protected_snapshot": {
+        "record_id": 3856,
+        "raw_hex": "100f0400ce00c88376838a836a815b00000000000000000082a0814182a082ea814800000000000000000000000000000000000000000000000000834783678369976c82cd82c782b182d68362835882a9816381638148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あ、あれ？",
+            "エトナ様はどこへッスか……？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "어, 어라?",
+          "에트나 님은 어디 갔슴까……?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "반란 중 에트나가 사라진 사실을 깨닫고 당황하는 프리니의 질문을 승인 존칭과 문체로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "speaker_style_applied", "term_approved"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F12",
+      "protected_snapshot": {
+        "record_id": 3858,
+        "raw_hex": "120f0400a2fdc88347836783690000000000000000000000919b82aa82b582a282c68e7682c182c482dd82ea82ce814188c482cc92e88142000000966494bd82bd829f97c782a293788bb982b582c482f182b682e182f1814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "騒がしいと思ってみれば、案の定。",
+            "謀反たぁ良い度胸してんじゃん！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "시끄럽다 했더니 역시나.",
+          "반역이라니 배짱도 좋네!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "소란의 원인이 예상대로 반역이었음을 확인하고 프리니들의 배짱을 비꼬는 에트나의 반말을 유지한 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F14",
+      "protected_snapshot": {
+        "record_id": 3860,
+        "raw_hex": "140f0300a2fdc8834783678369000000000000000000000082b3829f8da182b182bb95cf906782e68149000000000000000000000000000000000082a282c582e681418376838a836a834b815b827782c1814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -606,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "さぁ今こそ変身よ！",
+            "いでよ、プリニガーＸっ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "자, 지금이야말로 변신!",
+          "나와라, 프리니거 X!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "프리니거 X를 소환하는 에트나의 외침. 고유명 최종 결정 전까지 기존 프리니거 X 검토 항목을 적용한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F16",
+      "protected_snapshot": {
+        "record_id": 3862,
+        "raw_hex": "160f0400ca00c88376838a836a815b00000000000000000082c58141936090e082cc8376838a836a834b815b827782c1814981480000000000000082c882ba82a282dc82b182b182c98149814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "で、伝説のプリニガーＸっ！？",
+            "なぜいまここに！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "저, 전설의 프리니거 X!?",
+          "왜 지금 여기에!?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "전설의 프리니거 X가 나타난 데 경악하는 프리니의 반응. 고유명 최종 결정 전까지 기존 검토 항목을 적용한다.",
+        "flags": ["draft", "deferred_review", "term_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F18",
+      "protected_snapshot": {
+        "record_id": 3864,
+        "raw_hex": "180f0700a1fdc8834783678369000000000000000000000082c482df82a682e7814100000000000000000000000000000000000000000000000000837583628352838d815b835881498149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": -607,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "エトナ",
+          "lines": [
+            "てめえら、",
+            "ブッコロース！！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "에트나",
+        "lines": [
+          "너희들,",
+          "다 죽여 버리겠어!!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "ブッコロース의 과장된 살해 위협을 에트나의 격한 반말로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review", "meaning_review_required"]
+      }
+    },
+    {
+      "entry_id": "demo00/0F1A",
+      "protected_snapshot": {
+        "record_id": 3866,
+        "raw_hex": "1a0f0200cf00c88376838a836a815b00000000000000000082d0814182d082a182a182a1815b815b82c1814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひ、ひぃぃぃーーっ！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히, 히이이익!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "에트나와 프리니거 X의 위협에 질린 프리니의 비명을 자연스러운 한국어 감탄으로 옮긴 누적 초벌.",
+        "flags": ["draft", "deferred_review"]
+      }
+    }
+  ]
+}

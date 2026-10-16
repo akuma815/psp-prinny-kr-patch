@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_070_turmeric_revenge",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "2ca04e1f0388cf1b7679d5df5ced3c834b922d55b04347701977de7a7afdf5a8",
+  "context": {
+    "scene": "터메릭의 스위츠 남작 복수 사연",
+    "evidence": [
+      "demo.nsf 목표 정적 참조 통합 38/38; BOOT dispatcher 선택 블록 7/7 완료"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/3584",
+      "protected_snapshot": {
+        "record_id": 13700,
+        "raw_hex": "84350200df05c9835e815b8381838a8362834e000000000091d282c491d282c491d282c4815b82a28149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1503,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "待て待て待てーい！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "잠깐잠깐잠깐-!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "난입하며 연달아 기다리라고 외치는 터메릭 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3586",
+      "protected_snapshot": {
+        "record_id": 13702,
+        "raw_hex": "86350300e005c9835e815b8381838a8362834e00000000008ff38bb582aa82e682ad88f982dd8d9e82df82f182aa8141000000000000000000000082b182b182a982e790e682cd8349838c82aa815c815c814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 1504,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "状況がよく飲み込めんが、",
+            "ここから先はオレが――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "상황은 잘 모르겠지만,",
+          "여기부터는 내가…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "상황을 파악하지 못한 채 자신이 나서려는 터메릭 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3588",
+      "protected_snapshot": {
+        "record_id": 13704,
+        "raw_hex": "88350200de05c9835e815b8381838a8362834e00000000008da182cc82cd89bd82be82c182bd82f182be816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 1502,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "今のは何だったんだ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "방금 건 뭐였지…….",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "말을 끊은 직후 벌어진 일을 이해하지 못하는 터메릭 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/358A",
+      "protected_snapshot": {
+        "record_id": 13706,
+        "raw_hex": "8a350400e005c9835e815b8381838a8362834e000000000082a282a282a982a8914f82e78ee882f08f6f82b782c8814997bc906582cc8b7782cc0083588343815b8363926a8edd82cd8349838c82aa937c815c815c8142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1504,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "いいかお前ら手を出すな！両親の仇の",
+            "スイーツ男爵はオレが倒――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "잘 들어, 너희는 나서지 마! 부모님의",
+          "원수 스위츠 남작은 내가…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "스위츠 남작을 부모의 원수라 부르는 관계·동기 정보. 후속 반전과 함께 검토한다.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "relationship_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/358C",
+      "protected_snapshot": {
+        "record_id": 13708,
+        "raw_hex": "8c350400e105c9835e815b8381838a8362834e000000000082ad82c181638163814282dc82be82dc82be829f82c18149000000000000000000000095738e8092b982cc835e815b8381838a8362834e82cd8e8082c882f182c181490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1505,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "くっ……。まだまだぁっ！",
+            "不死鳥のターメリックは死なんっ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "큭……. 아직 멀었다!",
+          "불사조 터메릭은 죽지 않아!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "不死鳥のターメリック을 불사조 터메릭이라는 이명으로 옮긴 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "epithet_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/358E",
+      "protected_snapshot": {
+        "record_id": 13710,
+        "raw_hex": "8e350100df05c9835e815b8381838a8362834e000000000082e682ad95b782af82c18149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 1503,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "よく聞けっ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "잘 들어라!",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "과거 사건을 설명하기 전에 주의를 끄는 터메릭 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3590",
+      "protected_snapshot": {
+        "record_id": 13712,
+        "raw_hex": "90350400df05c9835e815b8381838a8362834e00000000008250824f944e914f8384836382aa89bd82f082b582bd82cc82a90000000000000000008bb382a682c482e282e9814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1503,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "１０年前ヤツが何をしたのか",
+            "教えてやる！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "10년 전 녀석이 무슨 짓을 했는지",
+          "가르쳐 주마!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "10년 전 스위츠 남작의 행위를 밝히겠다고 선언하는 터메릭 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3592",
+      "protected_snapshot": {
+        "record_id": 13714,
+        "raw_hex": "92350400e005c9835e815b8381838a8362834e00000000008384836382cd8141904d82b682e782ea82f182b182c682c989e482aa89c682cc000000907c93d882c983708343836983628376838b82f093fc82ea815c815c814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 1504,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ターメリック",
+          "lines": [
+            "ヤツは、信じられんことに我が家の",
+            "酢豚にパイナップルを入れ――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "터메릭",
+        "lines": [
+          "녀석은 믿을 수 없게도 우리 집",
+          "탕수육에 파인애플을 넣고…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "탕수육에 파인애플을 넣은 일을 원한으로 과장하는 음식 문화 농담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "culture_review_required"
+        ]
+      }
+    }
+  ]
+}

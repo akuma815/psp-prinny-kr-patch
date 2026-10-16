@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "game": "Prinny - Ore ga Shujinkou de Iinsuka",
+  "disc_id": "ULJS00150",
+  "disc_version": "1.01",
+  "hash_algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "original/Prinny - Ore ga Shujinkou de Iinsuka (Japan, Korea).iso",
+      "size": 500465664,
+      "sha256": "af0d2873a96c5fe6f95b3fc2fb3e8702f98bba67e32f2f78c5c3d1bdaa8b9d03",
+      "role": "original_iso"
+    },
+    {
+      "path": "extracted/UMD_DATA.BIN",
+      "size": 48,
+      "sha256": "28df5362c1d944c656c6a5a9e1984ac35aca672361d2ca480b4eb3f540911943",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/ICON0.PNG",
+      "size": 20047,
+      "sha256": "ca390450828a54de45d785c7cbbc1d0030df2beedc52d95946b44ab4d01d3214",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/PARAM.SFO",
+      "size": 472,
+      "sha256": "49b595dfa6011b6232bc7667ba33203a0186f99926125ced457f0fae042636f5",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/PIC0.PNG",
+      "size": 60594,
+      "sha256": "febb6fb669039cbf8b398039772c2691fa185f77764db7c1a85e82197cb904a8",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/PIC1.PNG",
+      "size": 161365,
+      "sha256": "49d8bc27f00b98b2e31a0110b6a514806a5fb4f47bc56315c0c804734a6d4e3c",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/SYSDIR/BOOT.BIN",
+      "size": 1128036,
+      "sha256": "3220c559596cc9e91db868284157622406110faa5e8c044c3824c8a138088415",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/SYSDIR/EBOOT.BIN",
+      "size": 1128384,
+      "sha256": "2c93b1da27f68195589ad0ab36d37d1eb964aa226882cbfcaae21822fe3e543f",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/SYSDIR/UPDATE/DATA.BIN",
+      "size": 20544736,
+      "sha256": "0196282bdea5654ee7847574eeb3748421843b616412144b28bfebc5271f8332",
+      "role": "update_payload"
+    },
+    {
+      "path": "extracted/PSP_GAME/SYSDIR/UPDATE/EBOOT.BIN",
+      "size": 5216752,
+      "sha256": "63b79dfee959c3f9d0e3002871e0a551d2093d43861b849633b4c3689164dfdb",
+      "role": "update_payload"
+    },
+    {
+      "path": "extracted/PSP_GAME/SYSDIR/UPDATE/PARAM.SFO",
+      "size": 2080,
+      "sha256": "1036d9c1a14f4415a55d6e39a2b632127b4d388964ca608ac42956481bdb0259",
+      "role": "update_payload"
+    },
+    {
+      "path": "extracted/PSP_GAME/USRDIR/ANIME.DAT",
+      "size": 27827616,
+      "sha256": "8f7bbf57a836377e3cdc4be03857da6290e64fa5d85bcbc76ab40bc09130fa4f",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/USRDIR/BG.DAT",
+      "size": 20573200,
+      "sha256": "7e02f0490a0b4a2832041a83db5c01f8880831aa79764f537fce91edc5da1c02",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/USRDIR/SCRIPT.DAT",
+      "size": 843800,
+      "sha256": "5fce5d6ccb34093585204f1901c48a9dddb497ea4e162d4b1e839c350bff637c",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/USRDIR/SOUND.DAT",
+      "size": 179636225,
+      "sha256": "952ad31a8a032cf317fb178de0872921ca9c1994e9ea8916717953c95f0eab83",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/USRDIR/STAGE.DAT",
+      "size": 155647296,
+      "sha256": "09e373171069b3ff9402eef0fd4b86e1d21a3c1ea6597265038a305c8935f717",
+      "role": "extracted_baseline"
+    },
+    {
+      "path": "extracted/PSP_GAME/USRDIR/SYSTEM.DAT",
+      "size": 4127307,
+      "sha256": "facf0905f80479952d1a4926ca3530ff2740b8492bf39cb4ba1e2b2ee3339c4e",
+      "role": "extracted_baseline"
+    }
+  ]
+}

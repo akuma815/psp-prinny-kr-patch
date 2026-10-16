@@ -1,0 +1,1126 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_076_asagi_identity",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "8c2bb1bd3cbc61ea78d2cf33d9d6607775ac5b98919f0a7c13f212ebf56011d6",
+  "context": {
+    "scene": "아사기의 악마 정체성 혼란과 주역 입문서",
+    "evidence": [
+      "BOOT 디스패처 정적 참조 23/23, 선택 블록 통합 감사 포함"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/7594",
+      "protected_snapshot": {
+        "record_id": 30100,
+        "raw_hex": "9475020037ffc88376838a836a815b00000000000000000082c782a482b582bd8362835882a9815b8148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "どうしたッスかー？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "무슨 일임까-?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7596",
+      "protected_snapshot": {
+        "record_id": 30102,
+        "raw_hex": "967504003b01c883418354834d000000000000000000000082c882f182be82a981418341835e835682c882c282a982ea82bf82e182c182bd00000082dd82bd82a281638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 315,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "なんだか、アタシなつかれちゃった",
+            "みたい……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "왠지 얘들이 날",
+          "잘 따르는 것 같아…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "아사기 화자명과 친근한 독백.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/7598",
+      "protected_snapshot": {
+        "record_id": 30104,
+        "raw_hex": "987504003201c883418354834d000000000000000000000082b182cc8e7182bd82bf81418341835e835682aa8ee5906c8cf682cc000000000000008351815b838082c98f6f82bd82a282cc82a982c88148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 306,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "この子たち、アタシが主人公の",
+            "ゲームに出たいのかな？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "이 애들, 내가 주인공인",
+          "게임에 나오고 싶은 걸까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "자신의 게임 출연 희망으로 오해하는 메타 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/759A",
+      "protected_snapshot": {
+        "record_id": 30106,
+        "raw_hex": "9a75020037ffc88376838a836a815b00000000000000000082a282e282bb82ea82cd82c882a283628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "いやそれはないッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "아니, 그건 아님다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/759C",
+      "protected_snapshot": {
+        "record_id": 30108,
+        "raw_hex": "9c7504003701c883418354834d000000000000000000000082c582e0814182b382c182ab82a982e7000000000000000000000000000000000000008379838d8379838d82c882df82c482ad82e982b58163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 311,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "でも、さっきから",
+            "ペロペロなめてくるし……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "하지만 아까부터",
+          "자꾸 핥아 대고…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "마물들이 핥는 행동을 호감으로 오해하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/759E",
+      "protected_snapshot": {
+        "record_id": 30110,
+        "raw_hex": "9e7503003701c883418354834d000000000000000000000082b782c182b282ad814182c882c282a282c4000000000000000000000000000000000082a282e982f182be82af82ea82c78163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 311,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "すっごく、なついて",
+            "いるんだけれど……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "엄청 잘 따르고",
+          "있는 것 같은데…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "위험을 알아차리지 못한 아사기.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75A0",
+      "protected_snapshot": {
+        "record_id": 30112,
+        "raw_hex": "a075030032ffc88376838a836a815b00000000000000000082a082f182bd816381638142000000000000000000000000000000000000000000000082bb82ea904882d782e782ea82e9914f929b83628358814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "あんた……。",
+            "それ食べられる前兆ッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "당신…….",
+          "그거 먹힐 전조임다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75A2",
+      "protected_snapshot": {
+        "record_id": 30114,
+        "raw_hex": "a27501003b01c883418354834d0000000000000000000000815c815c82cd82a281480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 315,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "――はい？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "……네?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "먹힐 것이라는 말을 이해하지 못한 반응.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75A4",
+      "protected_snapshot": {
+        "record_id": 30116,
+        "raw_hex": "a47505003601c883418354834d000000000000000000000082ab82e1829f82c181498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 5,
+          "reserved_3": 0,
+          "face_asset_signed": 310,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "きゃぁっ！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "꺄악!?",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "마물에게 공격받은 비명.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75A6",
+      "protected_snapshot": {
+        "record_id": 30118,
+        "raw_hex": "a675020037ffc88376838a836a815b00000000000000000091e58fe495768362835882a9815b81480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "大丈夫ッスかー？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "괜찮슴까-?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75A8",
+      "protected_snapshot": {
+        "record_id": 30120,
+        "raw_hex": "a87506003a01c883418354834d00000000000000000000008163816382bf81418bdf82c382ad82c582cb82a682c18149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 6,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "……ち、近づくでねえっ！",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "……가, 가까이 오지 말어!",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "갑자기 드러나는 거친 사투리 인격.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "dialect_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75AA",
+      "protected_snapshot": {
+        "record_id": 30122,
+        "raw_hex": "aa7503003a01c883418354834d000000000000000000000082e282c182cf82e882b182b182cd96828a4582be81490000000000000000000000000082a882c182bb82eb82b582a28f8a82be814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "やっぱりここは魔界だ！",
+            "おっそろしい所だ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "역시 여긴 마계야!",
+          "무서운 곳이여!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "공포로 사투리 어조가 이어지는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "dialect_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75AC",
+      "protected_snapshot": {
+        "record_id": 30124,
+        "raw_hex": "ac7504002f01c883418354834d000000000000000000000082e082a482e282f182be8163816381420000000000000000000000000000000000000088ab968282c882f182c48163816396828a4582c882f182c4815c815c814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 303,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "もうやんだ……。",
+            "悪魔なんて……魔界なんて――。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "이젠 싫어…….",
+          "악마고…… 마계고…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "마계 생활에 질린 사투리 인격.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "dialect_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75AE",
+      "protected_snapshot": {
+        "record_id": 30126,
+        "raw_hex": "ae7507002f01c883418354834d000000000000000000000082e082a482a482f182b482e882be82d78149000000000000000000000000000000000082a882e782cd906c8ad482be82d782b3814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 7,
+          "reserved_3": 0,
+          "face_asset_signed": 303,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "もううんざりだべ！",
+            "おらは人間だべさ！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "이젠 지긋지긋혀!",
+          "난 인간이랑께!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "だべさ 계열 돌변 어조를 한국어 사투리로 임시 현지화.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "dialect_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75B0",
+      "protected_snapshot": {
+        "record_id": 30128,
+        "raw_hex": "b07508002f01c883418354834d000000000000000000000088ab968282c882f182b4926d82c182bd82b182c182bf82e1000000000000000000000082cb82a582d781498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 8,
+          "reserved_3": 0,
+          "face_asset_signed": 303,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "悪魔なんざ知ったこっちゃ",
+            "ねぇべ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "악마 따윈 알 게",
+          "뭐여!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "사투리 인격의 악마 부정.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "dialect_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75B2",
+      "protected_snapshot": {
+        "record_id": 30130,
+        "raw_hex": "b275020033ffc88376838a836a815b00000000000000000082c7814182c782a482b582bd8362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ど、どうしたッスか？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "왜, 왜 그럼까?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75B4",
+      "protected_snapshot": {
+        "record_id": 30132,
+        "raw_hex": "b47504003601c883418354834d0000000000000000000000815c815c82cd82c181428e84814189bd82a98cbe82c182bd814800000000000000000082bf82a982b282eb8e9e81588b4c89af82aa94f282d482cc81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 310,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "――はっ。私、何か言った？",
+            "ちかごろ時々記憶が飛ぶの……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "……헉. 나, 무슨 말 했어?",
+          "요즘 가끔 기억이 끊겨…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "인격 전환 뒤 기억이 비는 설정을 드러내는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75B6",
+      "protected_snapshot": {
+        "record_id": 30134,
+        "raw_hex": "b675040032ffc88376838a836a815b00000000000000000088ab968282aa82c782a482c682a98cbe82c182c482bd8362835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "悪魔がどうとか言ってたッス。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "악마가 어쩌고 했슴다.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75B8",
+      "protected_snapshot": {
+        "record_id": 30136,
+        "raw_hex": "b87503002d01c883418354834d000000000000000000000088ab96828163816381480000000000000000000000000000000000000000000000000082bb82a482be82ed8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 301,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "悪魔……？",
+            "そうだわ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "악마……?",
+          "그래…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "원래 인격으로 돌아와 악마 문제를 떠올리는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75BA",
+      "protected_snapshot": {
+        "record_id": 30138,
+        "raw_hex": "ba750300cbfec883418354834d000000000000000000000096828a4582c58ee5906c8cf682f082b782e982c882e78141000000000000000000000088ab968282cc82b182c682f0979d89f082b582c882ab82e181420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -309,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "魔界で主人公をするなら、",
+            "悪魔のことを理解しなきゃ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "마계에서 주인공이 되려면",
+          "악마를 이해해야 해.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "주인공이 되기 위해 악마를 이해하려는 메타 목표.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75BC",
+      "protected_snapshot": {
+        "record_id": 30140,
+        "raw_hex": "bc750400c6fec883418354834d000000000000000000000082b182cc89ef8ed0814196828a4582aa959191e482cc8351815b838082ce82c182a90082be82b5814188ab968282aa8dec82c182c482f182b682e182c882a282cc81420000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -314,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "アサギ",
+          "lines": [
+            "この会社、魔界が舞台のゲームばっか",
+            "だし、悪魔が作ってんじゃないの。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "아사기",
+        "lines": [
+          "이 회사, 마계 배경 게임뿐이고",
+          "악마가 만드는 거 아냐?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "제작사를 악마와 연결하는 메타 농담.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "meta_joke_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75BE",
+      "protected_snapshot": {
+        "record_id": 30142,
+        "raw_hex": "be75030032ffc88376838a836a815b00000000000000000082c882f182a98141837583638375836382a282c182c40000000000000000000000000082bd8362835882cb8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -206,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なんか、ブツブツいって",
+            "たッスね……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭔가 중얼중얼",
+          "말했슴다…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥에 따른 초벌.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/75C0",
+      "protected_snapshot": {
+        "record_id": 30144,
+        "raw_hex": "c075110000000000000000000000000000000000000000008376838a836a815b82cd8141836e83458363815b967b82e782b582ab000000000000008175834e835982c582e082c882ea82e98ee596f093fc96e581760000000000000000008163816382f08f4582c182bd8142000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "プリニーは、ハウツー本らしき",
+            "「クズでもなれる主役入門」",
+            "……を拾った。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "프리니는 사용서 같은",
+          "「쓰레기도 되는 주역 입문」을",
+          "……주웠다."
+        ],
+        "status": "needs_human_review",
+        "notes": "クズでもなれる主役入門을 쓰레기도 되는 주역 입문으로 옮긴 메타 아이템명.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    }
+  ]
+}

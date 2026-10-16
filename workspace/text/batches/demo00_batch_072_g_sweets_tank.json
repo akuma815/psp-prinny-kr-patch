@@ -1,0 +1,1304 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_072_g_sweets_tank",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "c08fd574cf883e9675a15442a7fe3b2173894ca9f611a9d0cb51daa0c1156a0a",
+  "context": {
+    "scene": "재료 탱크와 전설의 G 디저트 제조",
+    "evidence": [
+      "BOOT 디스패처 정적 참조 27/27, 선택 블록 감사 포함"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/361A",
+      "protected_snapshot": {
+        "record_id": 13850,
+        "raw_hex": "1a360200d107c983588343815b8363926a8edd000000000082e682ad978882bd82ed82cb814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "よく来たわね。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "잘 왔어.",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니 일행을 맞이하는 스위츠 남작.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/361C",
+      "protected_snapshot": {
+        "record_id": 13852,
+        "raw_hex": "1c36040037ffc88376838a836a815b00000000000000000082b182f182c782b182bb81418b868bc982cc83588343815b836382f00000000000000095d482b7836283588142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "こんどこそ、究極のスイーツを",
+            "返すッス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "이번에야말로 궁극의 디저트를",
+          "돌려주십쇼.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "궁극의 디저트를 다시 요구하는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/361E",
+      "protected_snapshot": {
+        "record_id": 13854,
+        "raw_hex": "1e360300d107c983588343815b8363926a8edd00000000008ec082cd82a082c882bd924282c900000000000000000000000000000000000000000090dc82e893fc82c182c4978a82dd82aa82a082e982cc814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "実はあなた達に",
+            "折り入って頼みがあるの。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "사실 너희에게",
+          "부탁할 일이 하나 있어.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "협력을 부탁하려는 스위츠 남작.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3620",
+      "protected_snapshot": {
+        "record_id": 13856,
+        "raw_hex": "20360400d107c983588343815b8363926a8edd00000000008b868bc982cc83588343815b836382f08fe389f182e9826683588343815b836382cc0090bb8dec82f08ee8936082c182c482d982b582a282cc82e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "究極のスイーツを上回るＧスイーツの",
+            "製作を手伝ってほしいのよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "궁극을 뛰어넘는 G 디저트",
+          "제작을 도와줬으면 해.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "Ｇスイーツ를 G 디저트로 통일한 제작 제안.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3622",
+      "protected_snapshot": {
+        "record_id": 13858,
+        "raw_hex": "2236040037ffc88376838a836a815b00000000000000000082bb82ea82c182c482a082f182bd82cc82a889d98e718dec82e882c9000000000000008349838c82bd82bf82f08cd982a482c182c482b182c68362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "それってあんたのお菓子作りに",
+            "オレたちを雇うってことッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그건 네 과자 만들기에",
+          "우릴 고용한다는 검까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "제안을 제과 작업 고용으로 이해하는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3624",
+      "protected_snapshot": {
+        "record_id": 13860,
+        "raw_hex": "2436040037ffc88376838a836a815b00000000000000000082bb82a48362835882a9814282c682a482c682a48349838c82bd82bf82cc8ec097cd0082f082ed82a982e9906c82aa82c582c482ab82bd8362835882a98142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そうッスか。とうとうオレたちの実力",
+            "をわかる人がでてきたッスか。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그렇슴까. 드디어 우리 실력을",
+          "알아보는 사람이 나왔슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "자신들의 실력을 인정받았다고 기뻐하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3626",
+      "protected_snapshot": {
+        "record_id": 13862,
+        "raw_hex": "2636040037ffc88376838a836a815b00000000000000000082dc82a081418ee8936082a481418ee8936082ed82c882a282cd0000000000000000008be082c68ff08c8f8e9f91e68362835882a982cb815b814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "まあ、手伝う、手伝わないは",
+            "金と条件次第ッスかねー。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "뭐, 돕고 말고는",
+          "돈과 조건에 달렸슴다.",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "협력 여부를 보수와 조건에 연결하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3628",
+      "protected_snapshot": {
+        "record_id": 13864,
+        "raw_hex": "2836040037ffc88376838a836a815b00000000000000000082bb82a482a282e28abd8c7d82cc94d38e6082cd82c782b18362835882a981420000008ca982a682c882a282e682a48362835882af82c78148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そういや歓迎の晩餐はどこッスか。",
+            "見えないようッスけど？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그러고 보니 환영 만찬은 어딤까.",
+          "안 보이는데 말임다?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "약속된 환영 만찬의 행방을 묻는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/362A",
+      "protected_snapshot": {
+        "record_id": 13866,
+        "raw_hex": "2a36040037ffc88376838a836a815b00000000000000000082bb82ea82c990e682c992878ad482aa978882c482a282e982e682a482c882b182c6008cbe82c182c482c882a982c182bd8362835882a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -201,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "それに先に仲間が来ているようなこと",
+            "言ってなかったッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그리고 동료들이 먼저 왔다고",
+          "말하지 않았슴까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "먼저 왔다는 동료들의 행방을 묻는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/362C",
+      "protected_snapshot": {
+        "record_id": 13868,
+        "raw_hex": "2c360400d107c983588343815b8363926a8edd000000000082a082e7814182a282e982b682e182c882a282cc81428ddf905b82ab8db082cc0000008d8182ce82b582a293f582a282f08ab482b682c882a282a982b582e7814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "あら、いるじゃないの。罪深き魂の",
+            "香ばしい匂いを感じないかしら？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "어머, 여기 있잖아.",
+          "죄 많은 영혼의 향긋한 냄새가",
+          "느껴지지 않니?"
+        ],
+        "status": "needs_review",
+        "notes": "재료 탱크 속 동료들의 영혼을 에둘러 가리키는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/362E",
+      "protected_snapshot": {
+        "record_id": 13870,
+        "raw_hex": "2e360300d107c983588343815b8363926a8edd0000000000815c815c82b182cc8dde97bf835e8393834e82cc000000000000000000000000000000928682a982e781638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "――この材料タンクの",
+            "中から……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "……이 재료 탱크",
+          "안에서…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "앞 대사의 답을 재료 탱크로 이어 밝히는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3630",
+      "protected_snapshot": {
+        "record_id": 13872,
+        "raw_hex": "30360400d107c983588343815b8363926a8edd00000000008ddf905b82ab8db082cd8bc98fe382cc83588343815b836382c982cd000000000000008c8782a982b982ca83478362835a8393835881420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "罪深き魂は極上のスイーツには",
+            "欠かせぬエッセンス。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "죄 많은 영혼은 최고급 디저트에",
+          "빠질 수 없는 에센스지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "エッセンス를 에센스로 옮긴 제과 비유.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3632",
+      "protected_snapshot": {
+        "record_id": 13874,
+        "raw_hex": "32360400d107c983588343815b8363926a8edd000000000082c282a282c98aae90ac82b782e982ed8149814900000000000000000000000000000082b182ea82b182bb82aa936090e082cc826683588343815b83638149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "ついに完成するわ！！",
+            "これこそが伝説のＧスイーツ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "드디어 완성이야!!",
+          "이것이 전설의 G 디저트!!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "전설의 G 디저트 완성을 선언하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3634",
+      "protected_snapshot": {
+        "record_id": 13876,
+        "raw_hex": "3436030031ffc88376838a836a815b00000000000000000082e0814182e082b582a982b582c481638163000000000000000000000000000000000082bb82cc928682cc8dde97bf82cd8163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -207,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "も、もしかして……",
+            "その中の材料は……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "서, 설마……",
+          "그 안의 재료는…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료 탱크의 내용물을 알아차리는 프리니.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3636",
+      "protected_snapshot": {
+        "record_id": 13878,
+        "raw_hex": "36360400d107c983588343815b8363926a8edd000000000082a882d982d982d98149814082b182cc928682c982cd96828a45928682cc00000000008376838a836a815b82aa8b6c82dc82c182c482a282e982cc82e68149814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "おほほほ！　この中には魔界中の",
+            "プリニーが詰まっているのよ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "오호호호! 이 안엔 마계의 모든",
+          "프리니가 들어 있어!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "탱크 안에 마계의 프리니들이 있음을 밝히는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3638",
+      "protected_snapshot": {
+        "record_id": 13880,
+        "raw_hex": "3836020036ffc88376838a836a815b00000000000000000082d0814182d082a282a182a182a1815b8362835881498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "ひ、ひいぃぃぃーッス！？",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "히, 히이이이-!?",
+          "",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "재료 탱크의 정체를 안 프리니의 비명.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/363A",
+      "protected_snapshot": {
+        "record_id": 13882,
+        "raw_hex": "3a360300d107c983588343815b8363926a8edd000000000091e5906c82b582ad8dc58ce382cc8dde97bf82c900000000000000000000000000000082c882e882c882b382a282c881498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "大人しく最後の材料に",
+            "なりなさいな！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "얌전히 마지막 재료가",
+          "되렴!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들을 마지막 재료로 삼으려는 위협.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/363C",
+      "protected_snapshot": {
+        "record_id": 13884,
+        "raw_hex": "3c360300d107c983588343815b8363926a8edd00000000008e8482cd936090e082cc826683588343815b836382f000000000000000000000000000904882d782bd82a282cc816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "私は伝説のＧスイーツを",
+            "食べたいの……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "난 전설의 G 디저트를",
+          "먹고 싶어…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "전설의 G 디저트 표기를 유지한 집착 대사.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/363E",
+      "protected_snapshot": {
+        "record_id": 13886,
+        "raw_hex": "3e360300d107c983588343815b8363926a8edd000000000082c782a482b582c482e000000000000000000000000000000000000000000000000000904882d782bd82a282cc82e682a7816082c181498149000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "どうしても",
+            "食べたいのよぉ～っ！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "어떻게든",
+          "먹고 싶단 말이야~!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "G 디저트를 향한 강한 집착.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3640",
+      "protected_snapshot": {
+        "record_id": 13888,
+        "raw_hex": "4036040033ffc88376838a836a815b00000000000000000082a881418349838c924282a982e782a982c182cf82e782c182bd8b868bc982cc00000083588343815b836382c582cd9573969e8362835882a9814981480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": -205,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "お、オレ達からかっぱらった究極の",
+            "スイーツでは不満ッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "우, 우리한테 훔친 궁극의",
+          "디저트로는 부족함까!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "훔친 궁극의 디저트로 만족하지 못하느냐는 반문.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3642",
+      "protected_snapshot": {
+        "record_id": 13890,
+        "raw_hex": "42360400d107c983588343815b8363926a8edd00000000008b868bc982cc8ac396a182c682cd814190688e5f82f08fa682df907382ad82b582bd008ddf905b82ab8db082cc96a182c882cc82e681420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "究極の甘味とは、辛酸を嘗め尽くした",
+            "罪深き魂の味なのよ。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "궁극의 단맛이란",
+          "온갖 고초를 겪은 죄 많은 영혼이",
+          "내는 맛이야."
+        ],
+        "status": "needs_human_review",
+        "notes": "辛酸を嘗め尽くした를 온갖 고초를 겪은으로 의역.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "idiom_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3644",
+      "protected_snapshot": {
+        "record_id": 13892,
+        "raw_hex": "4436030034ffc88376838a836a815b00000000000000000082bb814182bb82e082bb82e0814182bb82f182c882e082cc0000000000000000000000904882d782bd82b182c682a082e982f18362835882a9814800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -204,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "そ、そもそも、そんなもの",
+            "食べたことあるんッスか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "그, 그런 걸 대체",
+          "먹어 본 적은 있슴까?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "그런 영혼 맛을 실제로 경험했는지 묻는 반문.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3646",
+      "protected_snapshot": {
+        "record_id": 13894,
+        "raw_hex": "46360300d307c983588343815b8363926a8edd000000000082a082e982ed82af82c882a282b682e182c882a281420000000000000000000000000082c582e08cbe82a482c582b582e58163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2003,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "あるわけないじゃない。",
+            "でも言うでしょ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "있을 리 없잖아.",
+          "하지만 이런 말도 있지…….",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "먹어 본 적은 없지만 속담을 근거로 드는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/3648",
+      "protected_snapshot": {
+        "record_id": 13896,
+        "raw_hex": "48360300d207c983588343815b8363926a8edd000000000091bc906c82cc95738d4b82cd000000000000000000000000000000000000000000000096a882cc96a182c182c4814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2002,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "他人の不幸は",
+            "蜜の味って！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "남의 불행은",
+          "꿀맛이라고!",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "他人の不幸は蜜の味를 남의 불행은 꿀맛으로 현지화.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "idiom_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/364A",
+      "protected_snapshot": {
+        "record_id": 13898,
+        "raw_hex": "4a36030036ffc88376838a836a815b00000000000000000082c882f182c48daa90ab8bc882aa82c182bd00000000000000000000000000000000008d6c82a695fb8362835882a981498148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": -202,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "プリニー",
+          "lines": [
+            "なんて根性曲がった",
+            "考え方ッスか！？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "프리니",
+        "lines": [
+          "정말 심보가 뒤틀린",
+          "사고방식임다!?",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "스위츠 남작의 뒤틀린 논리를 비판하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/364C",
+      "protected_snapshot": {
+        "record_id": 13900,
+        "raw_hex": "4c360400d307c983588343815b8363926a8edd000000000082e082a491d282bf82ab82ea82c882a282ed814981490000000000000000000000000082d382d38163816382bf82e582c182c6918182a282af82c781638163814900000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 2003,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "もう待ちきれないわ！！",
+            "ふふ……ちょっと早いけど……！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "더는 못 기다리겠어!!",
+          "후후…… 조금 이르지만……!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "기계를 예정보다 일찍 가동하려는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/364E",
+      "protected_snapshot": {
+        "record_id": 13902,
+        "raw_hex": "4e360300d107c983588343815b8363926a8edd000000000082a082c682cd82a082c882bd82bd82bf82cc00000000000000000000000000000000008db082b382a693fc82ea82ea82ce8163816381490000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 2001,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "スイーツ男爵",
+          "lines": [
+            "あとはあなたたちの",
+            "魂さえ入れれば……！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "스위츠 남작",
+        "lines": [
+          "이제 너희의",
+          "영혼만 넣으면……!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "프리니들의 영혼을 마지막 재료로 요구하는 대사.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    }
+  ]
+}

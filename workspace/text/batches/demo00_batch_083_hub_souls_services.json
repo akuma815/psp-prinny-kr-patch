@@ -1,0 +1,942 @@
+{
+  "schema_version": 1,
+  "batch_id": "demo00_batch_083_hub_souls_services",
+  "table_id": "demo00/main",
+  "source_identity": {
+    "asset_path": "SYSTEM.DAT/start.lzs/start.dat/Demo00.dat",
+    "workspace_path": "work/system/start_assets/Demo00.dat",
+    "size": 207520,
+    "sha256": "5db04fe85175e01e14d9abfef5a2817c85c3987c4b76ba33bad39651df60b01d",
+    "consumer": "BOOT.BIN:0x08862F90"
+  },
+  "artifact_schema_version": 1,
+  "artifact_snapshot_sha256": "dc9359664bc62f10973292e8bb70173ec0895bc86d6b732085c475af4682d1f7",
+  "context": {
+    "scene": "거점의 이름 없는 영혼과 시설 첫 대화",
+    "evidence": [
+      "정적 참조 17건 중 실행 시작점 9건 증명; 01A4/01AF/01B8/01B9 정적 후보 없음, 나머지는 소비 경로 재검토 유지"
+    ]
+  },
+  "constraints": {
+    "speaker_payload_bytes": 16,
+    "line_payload_bytes": 34,
+    "hangul_projection_bytes_per_syllable": 2,
+    "production_encoding_approved": false,
+    "protected_fields_editable": false
+  },
+  "entries": [
+    {
+      "entry_id": "demo00/012C",
+      "protected_snapshot": {
+        "record_id": 300,
+        "raw_hex": "2c0103000000c8835a815b837589ae00000000000000000081638163835a815b837582b782e98362835882a98148000000000000000000000000008140819b82cd82a28140817e82a282a282a600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "セーブ屋",
+          "lines": [
+            "……セーブするッスか？",
+            "　○はい　×いいえ",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "세이브 담당",
+        "lines": [
+          "……세이브할 검까?",
+          "　○예　×아니요",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0140",
+      "protected_snapshot": {
+        "record_id": 320,
+        "raw_hex": "400103000000c996bc82e096b382ab8db00000000000000089cc8343837d835683878345816381630000000000000000000000000000000000000091748366837d83568387834581638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "名も無き魂",
+          "lines": [
+            "歌イマショウ……",
+            "奏デマショウ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "이름 없는 영혼",
+        "lines": [
+          "노래하겠슴다……",
+          "연주하겠슴다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0141",
+      "protected_snapshot": {
+        "record_id": 321,
+        "raw_hex": "410103000000c889b98a7989ae000000000000000000000082b382a08141917482c582dc82b582e582a4814900000000000000000000000000000096828a4582cc89cc90ba82f081638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "音楽屋",
+          "lines": [
+            "さあ、奏でましょう！",
+            "魔界の歌声を……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "음악 담당",
+        "lines": [
+          "자, 연주해 드리죠!",
+          "마계의 노래를…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0154",
+      "protected_snapshot": {
+        "record_id": 340,
+        "raw_hex": "540103000000c996bc82e096b382ab8db0000000000000008b4c985e816381638b4c985e83920000000000000000000000000000000000000000009574835083698350838c836f81638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "名も無き魂",
+          "lines": [
+            "記録……記録ヲ",
+            "付ケナケレバ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "이름 없는 영혼",
+        "lines": [
+          "기록…… 기록을",
+          "남겨야 함다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0155",
+      "protected_snapshot": {
+        "record_id": 341,
+        "raw_hex": "550104000000c88b4c985e89ae00000000000000000000008e8482cc8b4c985e82cd96828a4582cc8b4c89af81638163814200000000000000000089bd82cc8b4c985e82f082b2979782c982c882e882dc82b782a98148000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "記録屋",
+          "lines": [
+            "私の記録は魔界の記憶……。",
+            "何の記録をご覧になりますか？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "기록 담당",
+        "lines": [
+          "제 기록은 마계의 기억…….",
+          "어떤 기록을 보시겠습니까?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0168",
+      "protected_snapshot": {
+        "record_id": 360,
+        "raw_hex": "680102000000c996bc82e096b382ab8db000000000000000936e838b96828a45836e88ab9682835f8389835081638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 2,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "名も無き魂",
+          "lines": [
+            "渡ル魔界ハ悪魔ダラケ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "이름 없는 영혼",
+        "lines": [
+          "건너는 마계마다 악마뿐…….",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0169",
+      "protected_snapshot": {
+        "record_id": 361,
+        "raw_hex": "690104000000c983898362834c815b8bb38ef6000000000083898362834c815b8368815b838b82f08ca982c282af82c482ad82ea8142000000000094e991a082cc834183438365838082c68cf08ab782b582c482e282e982bc82a28142000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "ラッキー教授",
+          "lines": [
+            "ラッキードールを見つけてくれ。",
+            "秘蔵のアイテムと交換してやるぞい。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "라키 교수",
+        "lines": [
+          "라키 돌을 찾아 주게.",
+          "비장의 아이템과 바꿔 주지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/017C",
+      "protected_snapshot": {
+        "record_id": 380,
+        "raw_hex": "7c0104000000c996bc82e096b382ab8db0000000000000008382834581638c99835f8163816300000000000000000000000000000000000000000093a68351835e83438163816393a68351835e83438163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "名も無き魂",
+          "lines": [
+            "モウ…嫌ダ……",
+            "逃ゲタイ……逃ゲタイ……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "이름 없는 영혼",
+        "lines": [
+          "이젠… 싫슴다……",
+          "도망치고 싶슴다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/017D",
+      "protected_snapshot": {
+        "record_id": 381,
+        "raw_hex": "7d0103000000c896e993a682b089ae00000000000000000082b582c1814190ba82aa91e582ab82a28149000000000000000000000000000000000096e993a682b08163816382b782e982a982a281480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 200,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "夜逃げ屋",
+          "lines": [
+            "しっ、声が大きい！",
+            "夜逃げ……するかい？",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "야반도주 담당",
+        "lines": [
+          "쉿, 목소리가 커!",
+          "야반도주…… 할 텐가?",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/017E",
+      "protected_snapshot": {
+        "record_id": 382,
+        "raw_hex": "7e011100000000000000000000000000000000000000000096e993a682b082f082b782e982c68141000000000000000000000000000000000000008bad90a7934982c98351815b83808349815b836f815b82c9000000000000000000000082c882e882dc82b782cc82c5928d88d382b582c482ad82be82b382a281420000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "夜逃げをすると、",
+            "強制的にゲームオーバーに",
+            "なりますので注意してください。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "야반도주하면",
+          "강제로 게임 오버가 되니",
+          "주의해 주십시오."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/017F",
+      "protected_snapshot": {
+        "record_id": 383,
+        "raw_hex": "7f011100000000000000000000000000000000000000000081a68cbb8ddd82cc90698d738ff38bb582cd8eb882ed82ea82dc82b782aa81410000008a658eed8b4c985e82f088f882ab8c7082a282c58f8982df82a982e700000000000000975682d482b182c682aa82c582ab82dc82b78142000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "※現在の進行状況は失われますが、",
+            "各種記録を引き継いで初めから",
+            "遊ぶことができます。"
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "현재 진행은 사라지지만",
+          "각종 기록을 이어받아 처음부터",
+          "플레이할 수 있습니다."
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0190",
+      "protected_snapshot": {
+        "record_id": 400,
+        "raw_hex": "900103000000c996bc82e096b382ab8db0000000000000008e9e8bf3836d81418c848ad49597836e000000000000000000000000000000000000009053926e838883438382836d83668358816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "名も無き魂",
+          "lines": [
+            "時空ノ、隙間風ハ",
+            "心地ヨイモノデス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "이름 없는 영혼",
+        "lines": [
+          "시공의 틈새 바람은",
+          "참으로 상쾌함다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/0191",
+      "protected_snapshot": {
+        "record_id": 401,
+        "raw_hex": "910104000000c98e9e8bf382cc936e82b5906c00000000008e9e8bf38351815b836782f08a4a82ab82dc82b78163816381420000000000000000008d7382ab90e682f0914982f182c582ad82be82b382a2816381638142000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "時空の渡し人",
+          "lines": [
+            "時空ゲートを開きます……。",
+            "行き先を選んでください……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "시공의 뱃사공",
+        "lines": [
+          "시공 게이트를 열겠습니다…….",
+          "목적지를 선택해 주십시오…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01A4",
+      "protected_snapshot": {
+        "record_id": 420,
+        "raw_hex": "a40104000000ca834e838a834183588365815b835789ae008e9e8bf382cc936e82b5906c82c98b40945c82f088da8d7382b582dc82b7814200000090f20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "クリアステージ屋",
+          "lines": [
+            "時空の渡し人に機能を移行します。",
+            "泉",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "클리어 담당",
+        "lines": [
+          "기능을 시공의 뱃사공에게",
+          "넘깁니다.",
+          "샘"
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01AE",
+      "protected_snapshot": {
+        "record_id": 430,
+        "raw_hex": "ae0101000000c996bc82e096b382ab8db000000000000000836d835d8343836581638163814200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 1,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "名も無き魂",
+          "lines": [
+            "ノゾイテ……。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "이름 없는 영혼",
+        "lines": [
+          "들여다보시게…….",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01AF",
+      "protected_snapshot": {
+        "record_id": 431,
+        "raw_hex": "af0103000000c9838a8376838c834389ae00000000000000838a8376838c834389ae82c582b781420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "リプレイ屋",
+          "lines": [
+            "リプレイ屋です。",
+            "",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "리플레이 담당",
+        "lines": [
+          "리플레이 담당입니다.",
+          "",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01B8",
+      "protected_snapshot": {
+        "record_id": 440,
+        "raw_hex": "b80103000000c996bc82e096b382ab8db0000000000000008163816383608385815b8367838a8341838b8163836e8163000000000000000000000091e58e9683698382836d836683588163816381420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 3,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 201,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "名も無き魂",
+          "lines": [
+            "……チュートリアル…ハ…",
+            "大事ナモノデス……。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "이름 없는 영혼",
+        "lines": [
+          "……튜토리얼은…",
+          "중요한 것임다…….",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01B9",
+      "protected_snapshot": {
+        "record_id": 441,
+        "raw_hex": "b90104000000ca83608385815b8367838a8341838b89ae008351815b838082cc91808dec95fb964082aa95b782ab82bd82a282cc82a9814800000082c882f182c582e08bb382a682c482e282e981420000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 4,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 202,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "チュートリアル屋",
+          "lines": [
+            "ゲームの操作方法が聞きたいのか？",
+            "なんでも教えてやる。",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "튜토리얼 담당",
+        "lines": [
+          "조작법이 궁금한가?",
+          "뭐든 가르쳐 주지.",
+          ""
+        ],
+        "status": "needs_human_review",
+        "notes": "거점 시설명·고유명·말투는 최종 일괄 검토 대상.",
+        "flags": [
+          "draft",
+          "deferred_review",
+          "consumer_review_required",
+          "term_review_required"
+        ]
+      }
+    },
+    {
+      "entry_id": "demo00/01C2",
+      "protected_snapshot": {
+        "record_id": 450,
+        "raw_hex": "c2011100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008376838a836a815b82cd968297cd82cc8bca82f08e67977082b582bd814981490000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "controls": {
+          "layout_variant": 17,
+          "reserved_3": 0,
+          "face_asset_signed": 0,
+          "speaker_box_style": 0,
+          "tail_hex": "000000"
+        },
+        "source": {
+          "speaker": "",
+          "lines": [
+            "",
+            "プリニーは魔力の玉を使用した！！",
+            ""
+          ]
+        }
+      },
+      "base_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "",
+          ""
+        ],
+        "status": "untranslated",
+        "notes": "",
+        "flags": []
+      },
+      "proposed_translation": {
+        "speaker": "",
+        "lines": [
+          "",
+          "프리니는 마력의 구슬을 사용했다!!",
+          ""
+        ],
+        "status": "needs_review",
+        "notes": "장면 문맥 기반 초벌 번역.",
+        "flags": [
+          "draft",
+          "deferred_review"
+        ]
+      }
+    }
+  ]
+}
